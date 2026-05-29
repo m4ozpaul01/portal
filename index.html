@@ -431,9 +431,111 @@
       .star-rating { font-size: 16px; }
       .movie-actions { width: 100%; justify-content: flex-end; }
     }
+
+    /* ── Login Overlay ── */
+    .login-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: #0d1117;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      animation: fadeIn 0.3s ease;
+    }
+    .login-overlay.hidden {
+      display: none;
+    }
+    .login-box {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 40px 36px;
+      width: 340px;
+      max-width: 90%;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+    }
+    .login-box h1 {
+      font-size: 22px;
+      color: #f0f6fc;
+      text-align: center;
+      margin-bottom: 4px;
+    }
+    .login-box h1 span { color: #58a6ff; }
+    .login-box .sub {
+      text-align: center;
+      color: #484f58;
+      font-size: 12px;
+      margin-bottom: 28px;
+    }
+    .login-box label {
+      display: block;
+      font-size: 12px;
+      color: #8b949e;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+    .login-box input {
+      width: 100%;
+      padding: 10px 12px;
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      color: #c9d1d9;
+      font-size: 14px;
+      margin-bottom: 16px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .login-box input:focus {
+      border-color: #58a6ff;
+    }
+    .login-box .login-btn {
+      width: 100%;
+      padding: 10px;
+      background: #238636;
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .login-box .login-btn:hover {
+      background: #2ea043;
+    }
+    .login-box .login-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .login-error {
+      color: #f85149;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 12px;
+      display: none;
+    }
+    .login-error.show {
+      display: block;
+    }
   </style>
 </head>
 <body>
+
+<!-- ── Login Overlay ── -->
+<div class="login-overlay" id="loginOverlay">
+  <div class="login-box">
+    <h1>⬡ <span>PORTAL</span></h1>
+    <div class="sub">Sign in to enter</div>
+    <label for="loginUser">Username</label>
+    <input type="text" id="loginUser" placeholder="Enter username" autocomplete="off">
+    <label for="loginPass">Password</label>
+    <input type="password" id="loginPass" placeholder="Enter password">
+    <button class="login-btn" id="loginBtn" onclick="handleLogin()">Sign In</button>
+    <div class="login-error" id="loginError">Invalid credentials. Try again.</div>
+  </div>
+</div>
 
 <header>
   <h1>⬡ <span>PORTAL</span></h1>
@@ -448,6 +550,72 @@
 </div>
 
 <script>
+  // ══════════════════════════════════════════════════════════════════════
+  //  LOGIN GATE
+  // ══════════════════════════════════════════════════════════════════════
+
+  const LOGIN_USER = "m4oz";
+  const LOGIN_HASH = "b34447c239a3831f511359efb8f8f7fd528fc485e824ea4a23d9ff611d7e2245";
+  const SESSION_KEY = "portal_session";
+
+  async function sha256(str) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(str);
+    const hash = await crypto.subtle.digest("SHA-256", data);
+    return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+
+  async function checkLogin() {
+    const session = localStorage.getItem(SESSION_KEY);
+    if (session === "m4oz_authenticated") {
+      document.getElementById("loginOverlay").classList.add("hidden");
+      return true;
+    }
+    return false;
+  }
+
+  async function handleLogin() {
+    const user = document.getElementById("loginUser").value.trim();
+    const pass = document.getElementById("loginPass").value;
+    const btn = document.getElementById("loginBtn");
+    const err = document.getElementById("loginError");
+
+    if (!user || !pass) {
+      err.textContent = "Please enter both username and password.";
+      err.classList.add("show");
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = "Signing in...";
+
+    const passHash = await sha256(pass);
+
+    if (user === LOGIN_USER && passHash === LOGIN_HASH) {
+      localStorage.setItem(SESSION_KEY, "m4oz_authenticated");
+      document.getElementById("loginOverlay").classList.add("hidden");
+    } else {
+      err.textContent = "Invalid credentials. Try again.";
+      err.classList.add("show");
+      btn.disabled = false;
+      btn.textContent = "Sign In";
+      document.getElementById("loginPass").value = "";
+    }
+  }
+
+  // Enter key submits login
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("loginPass").addEventListener("keydown", function(e) {
+      if (e.key === "Enter") handleLogin();
+    });
+    document.getElementById("loginUser").addEventListener("keydown", function(e) {
+      if (e.key === "Enter") document.getElementById("loginPass").focus();
+    });
+  });
+
+  // Run login check immediately
+  checkLogin();
+
   // ══════════════════════════════════════════════════════════════════════
   //  PROJECTS — Kity adds a new entry here for each new project
   // ══════════════════════════════════════════════════════════════════════
