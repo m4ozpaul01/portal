@@ -528,6 +528,7 @@
   <div class="login-box">
     <h1>⬡ <span>PORTAL</span></h1>
     <div class="sub">Sign in to enter</div>
+    <div id="loginDayInfo" style="text-align:center;font-size:13px;color:#8b949e;margin-bottom:20px;"></div>
     <label for="loginUser">Username</label>
     <input type="text" id="loginUser" placeholder="Enter username" autocomplete="off">
     <label for="loginPass">Password</label>
@@ -1335,6 +1336,13 @@
   // ══════════════════════════════════════════════════════════════════════
   //  INIT
   // ══════════════════════════════════════════════════════════════════════
+
+  // Show current day on login screen
+  (function showLoginDay() {
+    const day = getLatestAvailableDay();
+    const el = document.getElementById("loginDayInfo");
+    if (el) el.textContent = "🎬 Day " + day + " movies waiting for you!";
+  })();
 
   renderTabs();
   renderContent();
