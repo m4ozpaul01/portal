@@ -3,8 +3,8 @@
     "username": "m4oz",
     "password_hash": "b34447c239a3831f511359efb8f8f7fd528fc485e824ea4a23d9ff611d7e2245"
   },
-  "kredyt": 8.32,
-  "tokens": 27733333,
+  "kredyt": 8.28,
+  "tokens": 27599999,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
@@ -21,9 +21,9 @@
       "status": "active",
       "description": "Upcoming celestial events \u2014 meteor showers, eclipses, planetary alignments, comets, and more",
       "display": "events",
-      "last_updated": "2026-06-05",
+      "last_updated": "2026-06-06",
       "notes": ""
     }
   ],
-  "last_updated": "2026-06-05"
+  "last_updated": "2026-06-06"
 }
