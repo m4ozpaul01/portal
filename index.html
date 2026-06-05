@@ -535,6 +535,10 @@
     </div>
     <div class="topbar-right">
       <div class="metric-badge">
+        <span class="label">Model</span>
+        <span class="value" id="model-value" style="font-size:12px;">—</span>
+      </div>
+      <div class="metric-badge">
         <span class="label">Kredyt</span>
         <span class="value kredyt" id="kredyt-value">0</span>
       </div>
@@ -628,8 +632,9 @@ function initPortal(config) {
   document.getElementById('dashboard').classList.add('active');
 
   // Set metrics
-  document.getElementById('kredyt-value').textContent = config.kredyt ?? 0;
-  document.getElementById('tokens-value').textContent = config.tokens ?? 0;
+  document.getElementById('kredyt-value').textContent = '$' + (config.kredyt ?? 0);
+  document.getElementById('tokens-value').textContent = (config.tokens ?? 0).toLocaleString();
+  document.getElementById('model-value').textContent = config.model || '—';
 
   // Build tabs
   buildTabs(config);
