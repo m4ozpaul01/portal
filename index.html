@@ -627,6 +627,69 @@
     margin-bottom: 8px;
   }
 
+  /* ─── TODAY'S EVENTS ON OVERVIEW ─── */
+  .today-events {
+    background: var(--bg-card);
+    border: 1px solid var(--border-active);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+
+  .today-events::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), transparent);
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+
+  .today-event-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .today-event-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .today-event-item .event-emoji {
+    font-size: 28px;
+    width: 40px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .today-event-item .event-info {
+    flex: 1;
+  }
+
+  .today-event-item .event-info .ev-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  .today-event-item .event-info .ev-desc {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+  }
+
+  .today-event-item .event-type-badge {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
   /* ─── RESPONSIVE ─── */
   @media (max-width: 768px) {
     .topbar { padding: 12px 16px; flex-wrap: wrap; gap: 8px; }
@@ -715,6 +778,12 @@
       <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 24px;">
         Status of all active missions and projects
       </p>
+
+      <div id="today-events" class="today-events" style="display:none;">
+        <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 12px; color: var(--accent);">🌠 Today's Events</h3>
+        <div id="today-events-list"></div>
+      </div>
+
       <div class="landing-grid" id="project-grid">
         <!-- Dynamically populated from config -->
       </div>
@@ -790,6 +859,9 @@ function initPortal(config) {
 
   // Build landing grid
   buildLanding(config);
+
+  // Load today's events for the overview
+  loadTodayEvents();
 
   // Footer
   document.getElementById('update-footer').textContent = 'Last updated: ' + (config.last_updated || '—');
@@ -1031,6 +1103,80 @@ function renderEvents(container, events, projectName) {
       </div>
     `;
   }).join('');
+}
+
+// ════════════════════════════════════════
+// TODAY'S EVENTS ON OVERVIEW
+// ════════════════════════════════════════
+
+async function loadTodayEvents() {
+  const container = document.getElementById('today-events');
+  const list = document.getElementById('today-events-list');
+  if (!container || !list) return;
+
+  try {
+    const resp = await fetch(EVENTS_URL);
+    const data = await resp.json();
+    const events = data.events || [];
+
+    const today = new Date().toISOString().split('T')[0];
+    const tookPart = getTookPartIds();
+
+    // Filter to events happening today, not taken part
+    const todayEvents = events.filter(e =>
+      e.date === today && !tookPart.includes(e.date + '-' + e.title)
+    );
+
+    if (todayEvents.length === 0) {
+      container.style.display = 'none';
+      return;
+    }
+
+    container.style.display = 'block';
+
+    function getEventEmoji(type) {
+      const map = {
+        'Meteor Shower': '☄️', 'Meteor': '☄️', 'Eclipse': '🌑',
+        'Planetary Event': '🪐', 'Planet': '🪐',
+        'Seasonal Event': '🌞', 'Comet': '☄️',
+      };
+      return map[type] || '🔭';
+    }
+
+    list.innerHTML = todayEvents.map(event => {
+      const emoji = getEventEmoji(event.type);
+      const eventId = event.date + '-' + event.title;
+      return `
+        <div class="today-event-item" id="today-${eventId.replace(/[^a-zA-Z0-9-]/g, '_')}">
+          <div class="event-emoji">${emoji}</div>
+          <div class="event-info">
+            <div class="ev-title">${event.title}</div>
+            <div class="ev-desc">${event.description}</div>
+          </div>
+          <span class="event-type-badge ${getTypeClass(event.type)}">${event.type}</span>
+          <button class="took-part-btn" style="font-size:12px;padding:6px 14px;margin:0;"
+            onclick="handleTookPartToday('${eventId.replace(/[^a-zA-Z0-9-]/g, '_')}', '${eventId}')">
+            ✅ Took Part
+          </button>
+        </div>
+      `;
+    }).join('');
+  } catch (err) {
+    container.style.display = 'none';
+  }
+}
+
+function handleTookPartToday(elementId, eventId) {
+  markTookPart(eventId);
+  const item = document.getElementById('today-' + elementId);
+  if (item) {
+    item.style.display = 'none';
+    // Re-check if any today events remain
+    const remaining = document.querySelectorAll('#today-events-list .today-event-item:not([style*="display: none"])');
+    if (remaining.length === 0) {
+      document.getElementById('today-events').style.display = 'none';
+    }
+  }
 }
 
 function handleTookPart(elementId, eventId) {
