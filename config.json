@@ -3,8 +3,8 @@
     "username": "m4oz",
     "password_hash": "b34447c239a3831f511359efb8f8f7fd528fc485e824ea4a23d9ff611d7e2245"
   },
-  "kredyt": 3.41,
-  "tokens": 11366666,
+  "kredyt": 3.37,
+  "tokens": 11233333,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
