@@ -478,6 +478,155 @@
   .status-card .status-value.yellow { color: var(--yellow); }
   .status-card .status-value.red { color: var(--red); }
 
+  /* ─── EVENT CARDS ─── */
+  .events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 8px;
+  }
+
+  .event-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-card:hover {
+    border-color: var(--border-active);
+  }
+
+  .event-card.done {
+    opacity: 0.3;
+    display: none;
+  }
+
+  .event-card .event-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .event-card .event-body {
+    padding: 24px;
+  }
+
+  .event-card .event-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+
+  .event-card .event-date {
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    padding: 4px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+  }
+
+  .event-card .event-type {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 4px 12px;
+    border-radius: 12px;
+  }
+
+  .event-type.Meteor { background: rgba(99,102,241,0.15); color: #818cf8; }
+  .event-type.Eclipse { background: rgba(239,68,68,0.15); color: #f87171; }
+  .event-type.Planetary { background: rgba(34,197,94,0.15); color: #4ade80; }
+  .event-type.Seasonal { background: rgba(234,179,8,0.15); color: #facc15; }
+  .event-type.Comet { background: rgba(168,85,247,0.15); color: #c084fc; }
+
+  .event-card .event-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .event-card .event-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .event-card .event-observe {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 14px 16px;
+    margin-bottom: 16px;
+  }
+
+  .event-card .event-observe-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent);
+    margin-bottom: 6px;
+  }
+
+  .event-card .event-observe-text {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  .event-card .took-part-btn {
+    padding: 10px 24px;
+    background: transparent;
+    border: 1px solid var(--green);
+    border-radius: var(--radius-sm);
+    color: var(--green);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.2s;
+    align-self: flex-start;
+  }
+
+  .event-card .took-part-btn:hover {
+    background: rgba(34,197,94,0.1);
+    transform: translateY(-1px);
+  }
+
+  .events-empty {
+    text-align: center;
+    padding: 64px 32px;
+    color: var(--text-muted);
+  }
+
+  .events-empty .icon {
+    font-size: 64px;
+    margin-bottom: 16px;
+  }
+
+  .events-empty h3 {
+    font-size: 18px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+  }
+
   /* ─── RESPONSIVE ─── */
   @media (max-width: 768px) {
     .topbar { padding: 12px 16px; flex-wrap: wrap; gap: 8px; }
@@ -677,6 +826,20 @@ function buildTabs(config) {
 }
 
 function buildProjectContent(project) {
+  if (project.name === 'natural events') {
+    return `
+      <div class="project-tab-header">
+        <h2>🔭 Natural Events</h2>
+        <p>${project.description || 'Upcoming celestial and natural events'}</p>
+      </div>
+      <div id="events-container-${project.name}" class="events-container">
+        <div style="text-align:center;padding:64px;color:var(--text-muted);">
+          <div style="font-size:48px;margin-bottom:16px;">🔭</div>
+          <p>Loading celestial events...</p>
+        </div>
+      </div>
+    `;
+  }
   const display = project.display || 'placeholder';
   let body = '';
 
@@ -753,7 +916,135 @@ function logout() {
 }
 
 // ════════════════════════════════════════
-// AUTO-LOGIN CHECK
+// NATURAL EVENTS
+// ════════════════════════════════════════
+
+const EVENTS_URL = 'events.json';
+const TOOK_PART_KEY = 'portal_took_part';
+
+function getTookPartIds() {
+  try {
+    return JSON.parse(localStorage.getItem(TOOK_PART_KEY) || '[]');
+  } catch { return []; }
+}
+
+function markTookPart(eventId) {
+  const ids = getTookPartIds();
+  if (!ids.includes(eventId)) {
+    ids.push(eventId);
+    localStorage.setItem(TOOK_PART_KEY, JSON.stringify(ids));
+  }
+}
+
+async function loadEvents(containerId, projectName) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  try {
+    const resp = await fetch(EVENTS_URL);
+    const data = await resp.json();
+    renderEvents(container, data.events || [], projectName);
+  } catch (err) {
+    container.innerHTML = `
+      <div class="events-empty">
+        <div class="icon">🔭</div>
+        <h3>Could not load events</h3>
+        <p>Events data not yet available. Research runs every Sunday.</p>
+      </div>
+    `;
+  }
+}
+
+function renderEvents(container, events, projectName) {
+  const tookPart = getTookPartIds();
+  const today = new Date().toISOString().split('T')[0];
+
+  // Filter past events and took-part events
+  const upcoming = events.filter(e => e.date >= today && !tookPart.includes(e.date + '-' + e.title));
+
+  if (upcoming.length === 0) {
+    container.innerHTML = `
+      <div class="events-empty">
+        <div class="icon">🌌</div>
+        <h3>No upcoming events</h3>
+        <p>All caught up! New events will appear after Sunday's research.</p>
+      </div>
+    `;
+    return;
+  }
+
+  // Sort by date (closest first)
+  upcoming.sort((a, b) => a.date.localeCompare(b.date));
+
+  // Get event emoji by type
+  function getEventEmoji(type) {
+    const map = {
+      'Meteor Shower': '☄️',
+      'Meteor': '☄️',
+      'Eclipse': '🌑',
+      'Planetary Event': '🪐',
+      'Planet': '🪐',
+      'Seasonal Event': '🌞',
+      'Comet': '☄️',
+    };
+    return map[type] || '🔭';
+  }
+
+  // Get CSS class for type badge
+  function getTypeClass(type) {
+    if (type.includes('Meteor')) return 'Meteor';
+    if (type.includes('Eclipse')) return 'Eclipse';
+    if (type.includes('Planet')) return 'Planetary';
+    if (type.includes('Seasonal')) return 'Seasonal';
+    if (type.includes('Comet')) return 'Comet';
+    return 'Planetary';
+  }
+
+  container.innerHTML = upcoming.map(event => {
+    const eventId = event.date + '-' + event.title;
+    const emoji = getEventEmoji(event.type);
+    const typeClass = getTypeClass(event.type);
+
+    return `
+      <div class="event-card" id="event-${eventId.replace(/[^a-zA-Z0-9-]/g, '_')}">
+        <div class="event-img">${emoji}</div>
+        <div class="event-body">
+          <div class="event-meta">
+            <span class="event-date">${event.date}</span>
+            <span class="event-type ${typeClass}">${event.type}</span>
+          </div>
+          <div class="event-title">${event.title}</div>
+          <div class="event-desc">${event.description}</div>
+          <div class="event-observe">
+            <div class="event-observe-label">🔭 How to Observe</div>
+            <div class="event-observe-text">${event.how_to_observe}</div>
+          </div>
+          <button class="took-part-btn" onclick="handleTookPart('${eventId.replace(/[^a-zA-Z0-9-]/g, '_')}', '${eventId}')">
+            ✅ I Took Part!
+          </button>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function handleTookPart(elementId, eventId) {
+  markTookPart(eventId);
+  const card = document.getElementById('event-' + elementId);
+  if (card) {
+    card.classList.add('done');
+    card.style.display = 'none';
+  }
+}
+
+// Trigger events loading when switching to natural events tab
+const origSwitchTab = switchTab;
+function switchTab(tabId) {
+  if (origSwitchTab) origSwitchTab(tabId);
+  if (tabId === 'project-natural events') {
+    loadEvents('events-container-natural events', 'natural events');
+  }
+}
 // ════════════════════════════════════════
 
 (async function() {

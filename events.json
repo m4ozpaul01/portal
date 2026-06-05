@@ -1,0 +1,118 @@
+{
+  "last_updated": "2026-06-05",
+  "research_date": "2026-06-05",
+  "events": [
+    {
+      "date": "2026-06-15",
+      "type": "Planetary Event",
+      "title": "Saturn at Opposition",
+      "description": "Saturn is closest to Earth. Rings are beautifully tilted for viewing.",
+      "how_to_observe": "Visible all night. Even a small telescope reveals Saturn's rings clearly.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-06-21",
+      "type": "Seasonal Event",
+      "title": "June Solstice - Longest Day",
+      "description": "Summer solstice. The longest day of the year in the Northern Hemisphere.",
+      "how_to_observe": "Notice the Sun at its highest arc across the sky.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-07-20",
+      "type": "Planetary Event",
+      "title": "Mars at Opposition",
+      "description": "Mars is closest to Earth. Surface details visible in telescopes.",
+      "how_to_observe": "Rises at sunset, visible all night. Telescopes reveal polar ice caps.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-08-12",
+      "type": "Meteor Shower",
+      "title": "Perseids Meteor Shower Peak",
+      "description": "Up to 100 meteors per hour. The most popular meteor shower of the year.",
+      "how_to_observe": "Best midnight to dawn. Look northeast. Warm summer nights - ideal viewing.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-08-12",
+      "type": "Eclipse",
+      "title": "Partial Solar Eclipse",
+      "description": "Partial solar eclipse visible from northern Europe, northern Asia, North America.",
+      "how_to_observe": "Use certified solar eclipse glasses. NEVER look directly at the Sun.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-08-28",
+      "type": "Eclipse",
+      "title": "Total Lunar Eclipse - Second Blood Moon",
+      "description": "Total lunar eclipse visible from Americas, Europe, Africa, Middle East.",
+      "how_to_observe": "Best viewed in dark skies. Red color most vivid 10+ minutes into totality.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-09-01",
+      "type": "Planetary Event",
+      "title": "Mercury at Greatest Elongation",
+      "description": "Mercury at its highest above the horizon after sunset.",
+      "how_to_observe": "Look west-northwest just after sunset. Low on horizon - needs clear view.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-09-23",
+      "type": "Seasonal Event",
+      "title": "September Equinox - Fall Begins",
+      "description": "Autumnal equinox. Day and night nearly equal. Fall begins.",
+      "how_to_observe": "No equipment needed.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-10-15",
+      "type": "Comet",
+      "title": "Comet C/2025 PANSTARRS",
+      "description": "Comet may become visible to the naked eye. Predicted magnitude 4-5.",
+      "how_to_observe": "Best in dark skies away from city lights. Binoculars recommended.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-10-21",
+      "type": "Meteor Shower",
+      "title": "Orionids Meteor Shower Peak",
+      "description": "Up to 20 meteors per hour. Debris from Halley's Comet.",
+      "how_to_observe": "Best after midnight. Look south-southeast.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-11-17",
+      "type": "Meteor Shower",
+      "title": "Leonids Meteor Shower Peak",
+      "description": "Up to 15 meteors per hour. Known for occasional meteor storms.",
+      "how_to_observe": "Best in early morning. Look east.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-12-13",
+      "type": "Meteor Shower",
+      "title": "Geminids Meteor Shower Peak",
+      "description": "Up to 150 meteors per hour. The year's best meteor shower.",
+      "how_to_observe": "Best from 10 PM onwards. Look east. Bright, slow-moving meteors.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-12-21",
+      "type": "Seasonal Event",
+      "title": "December Solstice - Shortest Day",
+      "description": "Winter solstice. The shortest day and longest night of the year.",
+      "how_to_observe": "Notice the Sun at its lowest arc across the sky.",
+      "image_url": ""
+    },
+    {
+      "date": "2026-12-21",
+      "type": "Planetary Event",
+      "title": "Great Conjunction - Jupiter & Saturn",
+      "description": "Jupiter and Saturn in extremely close approach. A rare 'double planet' visible to the naked eye.",
+      "how_to_observe": "Look southwest after sunset. Visible as two bright planets very close together.",
+      "image_url": ""
+    }
+  ]
+}

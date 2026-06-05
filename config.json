@@ -15,6 +15,14 @@
       "display": "status_card",
       "last_updated": "2026-06-05",
       "notes": ""
+    },
+    {
+      "name": "natural events",
+      "status": "active",
+      "description": "Upcoming celestial events — meteor showers, eclipses, planetary alignments, comets, and more",
+      "display": "events",
+      "last_updated": "2026-06-05",
+      "notes": ""
     }
   ],
   "last_updated": "2026-06-05"
