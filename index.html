@@ -902,6 +902,11 @@ function switchTab(tabId) {
   const tabContent = document.getElementById('tab-' + tabId);
   if (tabBtn) tabBtn.classList.add('active');
   if (tabContent) tabContent.classList.add('active');
+
+  // Load events when natural events tab opens
+  if (tabId === 'project-natural events') {
+    loadEvents('events-container-natural events', 'natural events');
+  }
 }
 
 // ════════════════════════════════════════
@@ -1037,14 +1042,6 @@ function handleTookPart(elementId, eventId) {
   }
 }
 
-// Trigger events loading when switching to natural events tab
-const origSwitchTab = switchTab;
-function switchTab(tabId) {
-  if (origSwitchTab) origSwitchTab(tabId);
-  if (tabId === 'project-natural events') {
-    loadEvents('events-container-natural events', 'natural events');
-  }
-}
 // ════════════════════════════════════════
 
 (async function() {
