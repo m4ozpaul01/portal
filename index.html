@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mission Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-primary: #0a0a0f;
+    --bg-secondary: #12121a;
+    --bg-card: rgba(255,255,255,0.04);
+    --bg-card-hover: rgba(255,255,255,0.07);
+    --border: rgba(255,255,255,0.08);
+    --border-active: rgba(99,102,241,0.5);
+    --text-primary: #e8e8ed;
+    --text-secondary: #94949e;
+    --text-muted: #5c5c66;
+    --accent: #6366f1;
+    --accent-glow: rgba(99,102,241,0.2);
+    --green: #22c55e;
+    --yellow: #eab308;
+    --red: #ef4444;
+    --tab-bg: rgba(255,255,255,0.03);
+    --tab-active: rgba(99,102,241,0.15);
+    --glass: rgba(255,255,255,0.03);
+    --glass-border: rgba(255,255,255,0.06);
+    --radius: 12px;
+    --radius-sm: 8px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ─── LOGIN OVERLAY ─── */
+  #login-overlay {
+    position: fixed; inset: 0;
+    background: var(--bg-primary);
+    display: flex;
+    align-items: center; justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    transition: opacity 0.5s ease;
+  }
+  #login-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .login-card {
+    background: var(--glass);
+    backdrop-filter: blur(24px);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 48px 40px;
+    width: 380px;
+    max-width: 90vw;
+    box-shadow: 0 24px 80px rgba(0,0,0,0.6);
+  }
+
+  .login-card h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    background: linear-gradient(135deg, #818cf8, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .login-card .subtitle {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+
+  .login-card .logo-icon {
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+
+  .input-group {
+    margin-bottom: 16px;
+  }
+
+  .input-group label {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 12px 16px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .input-group input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+  }
+
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background: var(--accent);
+    border: none;
+    border-radius: var(--radius-sm);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+    margin-top: 8px;
+  }
+
+  .login-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px var(--accent-glow);
+  }
+
+  .login-error {
+    color: var(--red);
+    font-size: 13px;
+    margin-top: 12px;
+    display: none;
+    text-align: center;
+  }
+
+  /* ─── DASHBOARD ─── */
+  #dashboard {
+    display: none;
+  }
+  #dashboard.active {
+    display: block;
+  }
+
+  /* Top bar */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-secondary);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .topbar-left .brand {
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #818cf8, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .topbar-left .brand-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .metric-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .metric-badge .label {
+    color: var(--text-secondary);
+    font-weight: 400;
+  }
+
+  .metric-badge .value {
+    color: var(--text-primary);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+  }
+
+  .metric-badge .value.kredyt {
+    color: var(--yellow);
+  }
+  .metric-badge .value.tokens {
+    color: var(--accent);
+  }
+
+  .logout-btn {
+    padding: 8px 16px;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .logout-btn:hover {
+    background: rgba(239,68,68,0.1);
+    border-color: var(--red);
+    color: var(--red);
+  }
+
+  /* Tab bar */
+  .tab-bar {
+    display: flex;
+    align-items: stretch;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    padding: 0 16px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .tab-bar::-webkit-scrollbar {
+    height: 3px;
+  }
+  .tab-bar::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 3px;
+  }
+
+  .tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.15s;
+    white-space: nowrap;
+    user-select: none;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: inherit;
+  }
+
+  .tab:hover {
+    color: var(--text-primary);
+    background: var(--tab-bg);
+  }
+
+  .tab.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+    background: var(--tab-active);
+  }
+
+  .tab .tab-icon {
+    font-size: 16px;
+  }
+
+  .tab .tab-status {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .tab .tab-status.active { background: var(--green); }
+  .tab .tab-status.paused { background: var(--yellow); }
+  .tab .tab-status.done { background: var(--text-muted); }
+
+  /* Content area */
+  .content-area {
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .tab-content {
+    display: none;
+    animation: fadeIn 0.25s ease;
+  }
+  .tab-content.active {
+    display: block;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ─── LANDING TAB ─── */
+  .landing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 8px;
+  }
+
+  .project-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .project-card:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--border-active);
+    transform: translateY(-2px);
+  }
+
+  .project-card .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .project-card .card-name {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .project-card .card-badge {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 12px;
+    text-transform: capitalize;
+  }
+
+  .card-badge.active {
+    background: rgba(34,197,94,0.12);
+    color: var(--green);
+  }
+  .card-badge.paused {
+    background: rgba(234,179,8,0.12);
+    color: var(--yellow);
+  }
+  .card-badge.done {
+    background: rgba(92,92,102,0.12);
+    color: var(--text-muted);
+  }
+
+  .project-card .card-desc {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  .project-card .card-meta {
+    margin-top: 16px;
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* ─── PROJECT TAB CONTENT ─── */
+  .project-tab-header {
+    margin-bottom: 24px;
+  }
+
+  .project-tab-header h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .project-tab-header p {
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+
+  .project-content-area {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 32px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-content-area .placeholder {
+    text-align: center;
+  }
+
+  .project-content-area .placeholder .icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  .project-content-area .placeholder h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+  }
+
+  .project-content-area .placeholder p {
+    color: var(--text-muted);
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.6;
+  }
+
+  /* ─── STATUS CARDS ─── */
+  .status-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+  }
+
+  .status-card .status-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .status-card .status-item:last-child {
+    border-bottom: none;
+  }
+
+  .status-card .status-label {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .status-card .status-value {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .status-card .status-value.green { color: var(--green); }
+  .status-card .status-value.yellow { color: var(--yellow); }
+  .status-card .status-value.red { color: var(--red); }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 768px) {
+    .topbar { padding: 12px 16px; flex-wrap: wrap; gap: 8px; }
+    .topbar-right { gap: 12px; }
+    .metric-badge { padding: 6px 12px; font-size: 12px; }
+    .content-area { padding: 16px; }
+    .landing-grid { grid-template-columns: 1fr; }
+    .tab { padding: 10px 14px; font-size: 12px; }
+    .login-card { padding: 32px 24px; }
+  }
+
+  /* ─── LAST UPDATED ─── */
+  .update-footer {
+    text-align: center;
+    padding: 32px;
+    margin-top: 48px;
+    color: var(--text-muted);
+    font-size: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ LOGIN OVERLAY ═══ -->
+<div id="login-overlay">
+  <div class="login-card">
+    <div class="logo-icon">🪐</div>
+    <h1>Mission Portal</h1>
+    <p class="subtitle">Authenticate to access command dashboard</p>
+    <form id="login-form" autocomplete="off">
+      <div class="input-group">
+        <label>Username</label>
+        <input type="text" id="login-user" value="m4oz" placeholder="username" autofocus>
+      </div>
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" id="login-pass" placeholder="••••••••">
+      </div>
+      <button type="submit" class="login-btn">Access Portal</button>
+      <div class="login-error" id="login-error">Invalid credentials. Try again.</div>
+    </form>
+  </div>
+</div>
+
+<!-- ═══ DASHBOARD ═══ -->
+<div id="dashboard">
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <span class="brand">🪐 Mission Portal</span>
+      <span class="brand-sub">| Command Dashboard</span>
+    </div>
+    <div class="topbar-right">
+      <div class="metric-badge">
+        <span class="label">Kredyt</span>
+        <span class="value kredyt" id="kredyt-value">0</span>
+      </div>
+      <div class="metric-badge">
+        <span class="label">Tokens</span>
+        <span class="value tokens" id="tokens-value">0</span>
+      </div>
+      <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+  </div>
+
+  <!-- Tab Bar -->
+  <div class="tab-bar" id="tab-bar">
+    <button class="tab active" data-tab="landing" onclick="switchTab('landing')">
+      <span class="tab-icon">📊</span> Overview
+    </button>
+  </div>
+
+  <!-- Content Area -->
+  <div class="content-area">
+
+    <!-- Landing Tab -->
+    <div class="tab-content active" id="tab-landing">
+      <h2 style="font-size: 22px; font-weight: 600; margin-bottom: 4px;">Project Overview</h2>
+      <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 24px;">
+        Status of all active missions and projects
+      </p>
+      <div class="landing-grid" id="project-grid">
+        <!-- Dynamically populated from config -->
+      </div>
+    </div>
+
+    <!-- Dynamic project tabs go here -->
+    <div id="dynamic-tabs"></div>
+
+    <!-- Footer -->
+    <div class="update-footer" id="update-footer">
+      Last updated: —
+    </div>
+  </div>
+</div>
+
+<script>
+// ════════════════════════════════════════
+// CONFIG
+// ════════════════════════════════════════
+
+const CONFIG_URL = 'config.json';
+const SESSION_KEY = 'portal_auth';
+
+// ════════════════════════════════════════
+// LOGIN
+// ════════════════════════════════════════
+
+async function hashPassword(password) {
+  const enc = new TextEncoder();
+  const buf = await crypto.subtle.digest('SHA-256', enc.encode(password));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+document.getElementById('login-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const user = document.getElementById('login-user').value.trim();
+  const pass = document.getElementById('login-pass').value;
+  const errorEl = document.getElementById('login-error');
+
+  try {
+    const resp = await fetch(CONFIG_URL);
+    const config = await resp.json();
+
+    const hash = await hashPassword(pass);
+    if (user === config.credentials.username && hash === config.credentials.password_hash) {
+      sessionStorage.setItem(SESSION_KEY, 'true');
+      errorEl.style.display = 'none';
+      initPortal(config);
+    } else {
+      errorEl.style.display = 'block';
+    }
+  } catch (err) {
+    errorEl.textContent = 'Failed to load portal config. Try again.';
+    errorEl.style.display = 'block';
+  }
+});
+
+// ════════════════════════════════════════
+// PORTAL INIT
+// ════════════════════════════════════════
+
+function initPortal(config) {
+  document.getElementById('login-overlay').classList.add('hidden');
+  document.getElementById('dashboard').classList.add('active');
+
+  // Set metrics
+  document.getElementById('kredyt-value').textContent = config.kredyt ?? 0;
+  document.getElementById('tokens-value').textContent = config.tokens ?? 0;
+
+  // Build tabs
+  buildTabs(config);
+
+  // Build landing grid
+  buildLanding(config);
+
+  // Footer
+  document.getElementById('update-footer').textContent = 'Last updated: ' + (config.last_updated || '—');
+}
+
+// ════════════════════════════════════════
+// TABS
+// ════════════════════════════════════════
+
+function buildTabs(config) {
+  const tabBar = document.getElementById('tab-bar');
+  const dynamicTabs = document.getElementById('dynamic-tabs');
+  dynamicTabs.innerHTML = '';
+
+  (config.projects || []).forEach(project => {
+    // Tab button
+    const btn = document.createElement('button');
+    btn.className = 'tab';
+    btn.dataset.tab = 'project-' + project.name;
+    btn.setAttribute('onclick', "switchTab('project-" + project.name + "')");
+    btn.innerHTML = `
+      <span class="tab-status ${project.status}"></span>
+      ${project.name}
+    `;
+    tabBar.appendChild(btn);
+
+    // Tab content
+    const content = document.createElement('div');
+    content.className = 'tab-content';
+    content.id = 'tab-project-' + project.name;
+    content.innerHTML = buildProjectContent(project);
+    dynamicTabs.appendChild(content);
+  });
+}
+
+function buildProjectContent(project) {
+  const display = project.display || 'placeholder';
+  let body = '';
+
+  if (display === 'placeholder' || display === 'status_card') {
+    body = `
+      <div class="project-content-area">
+        <div class="placeholder">
+          <div class="icon">🚀</div>
+          <h3>${project.name}</h3>
+          <p>${project.description || 'No description yet.'}</p>
+        </div>
+      </div>
+    `;
+  }
+
+  return `
+    <div class="project-tab-header">
+      <h2>📁 ${project.name}</h2>
+      <p>${project.description || ''}</p>
+    </div>
+    ${body}
+  `;
+}
+
+// ════════════════════════════════════════
+// LANDING PAGE
+// ════════════════════════════════════════
+
+function buildLanding(config) {
+  const grid = document.getElementById('project-grid');
+  grid.innerHTML = '';
+
+  (config.projects || []).forEach(project => {
+    const card = document.createElement('div');
+    card.className = 'project-card';
+    card.onclick = () => switchTab('project-' + project.name);
+    card.innerHTML = `
+      <div class="card-header">
+        <span class="card-name">📁 ${project.name}</span>
+        <span class="card-badge ${project.status}">${project.status}</span>
+      </div>
+      <div class="card-desc">${project.description || 'No description'}</div>
+      <div class="card-meta">${project.last_updated ? 'Updated: ' + project.last_updated : ''}</div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+// ════════════════════════════════════════
+// TAB SWITCHING
+// ════════════════════════════════════════
+
+function switchTab(tabId) {
+  // Deactivate all tabs
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+
+  // Activate target
+  const tabBtn = document.querySelector(`.tab[data-tab="${tabId}"]`);
+  const tabContent = document.getElementById('tab-' + tabId);
+  if (tabBtn) tabBtn.classList.add('active');
+  if (tabContent) tabContent.classList.add('active');
+}
+
+// ════════════════════════════════════════
+// LOGOUT
+// ════════════════════════════════════════
+
+function logout() {
+  sessionStorage.removeItem(SESSION_KEY);
+  document.getElementById('login-overlay').classList.remove('hidden');
+  document.getElementById('dashboard').classList.remove('active');
+  document.getElementById('login-pass').value = '';
+}
+
+// ════════════════════════════════════════
+// AUTO-LOGIN CHECK
+// ════════════════════════════════════════
+
+(async function() {
+  if (sessionStorage.getItem(SESSION_KEY) === 'true') {
+    try {
+      const resp = await fetch(CONFIG_URL);
+      const config = await resp.json();
+      initPortal(config);
+    } catch (_) {
+      // Config not loaded yet, user logs in manually
+    }
+  }
+})();
+</script>
+</body>
+</html>
