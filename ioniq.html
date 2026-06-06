@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hyundai Ioniq Hybrid vs Plug-in Hybrid</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #1a1a2e;
+    overflow-x: hidden;
+  }
+  
+  /* ─── NAVIGATION ─── */
+  .nav-bar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(255,255,255,0.9); backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding: 12px 24px;
+    display: flex; align-items: center; justify-content: space-between;
+    box-shadow: 0 1px 20px rgba(0,0,0,0.05);
+  }
+  .nav-bar .brand {
+    font-weight: 800; font-size: 18px;
+    background: linear-gradient(135deg, #002c5e, #00aad2);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .nav-dots { display: flex; gap: 8px; }
+  .nav-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: #ccc; cursor: pointer; transition: all 0.3s;
+    border: none;
+  }
+  .nav-dot.active { background: #00aad2; transform: scale(1.3); box-shadow: 0 0 10px rgba(0,170,210,0.4); }
+  
+  .nav-arrows { display: flex; gap: 12px; }
+  .nav-arrow {
+    background: #002c5e; color: white; border: none;
+    width: 40px; height: 40px; border-radius: 50%;
+    font-size: 18px; cursor: pointer; transition: all 0.3s;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .nav-arrow:hover { background: #00aad2; transform: scale(1.1); }
+  
+  /* ─── SLIDES ─── */
+  .slides-wrapper {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+  }
+  .slide {
+    display: none;
+    min-height: calc(100vh - 70px);
+    padding: 40px 5%;
+    animation: fadeSlide 0.6s ease;
+  }
+  .slide.active { display: block; }
+  
+  @keyframes fadeSlide {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ─── SLIDE 1: HERO ─── */
+  .slide-hero {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #002c5e 0%, #004e92 30%, #00aad2 70%, #00d4aa 100%);
+    color: white;
+    position: relative; overflow: hidden;
+  }
+  .slide-hero::before {
+    content: '';
+    position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(255,255,255,0.05) 0%, transparent 50%);
+    animation: heroGlow 8s ease-in-out infinite;
+  }
+  @keyframes heroGlow {
+    0%, 100% { transform: translate(0,0); }
+    50% { transform: translate(-20px, -20px); }
+  }
+  .slide-hero h1 {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 900;
+    text-shadow: 0 4px 30px rgba(0,0,0,0.3);
+    position: relative; z-index: 1;
+    margin-bottom: 16px;
+  }
+  .slide-hero .sub {
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    font-weight: 300;
+    opacity: 0.9;
+    position: relative; z-index: 1;
+    margin-bottom: 40px;
+  }
+  .slide-hero .years {
+    position: relative; z-index: 1;
+    font-size: 1.1rem; font-weight: 600;
+    background: rgba(255,255,255,0.15);
+    padding: 12px 32px; border-radius: 50px;
+    backdrop-filter: blur(10px);
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  .hero-badges {
+    display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;
+    position: relative; z-index: 1;
+  }
+  .hero-badge {
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    padding: 16px 28px; border-radius: 16px;
+    font-size: 0.95rem; font-weight: 600;
+    border: 1px solid rgba(255,255,255,0.15);
+    transition: all 0.3s;
+  }
+  .hero-badge:hover { transform: translateY(-5px); background: rgba(255,255,255,0.2); }
+  .hero-badge .icon { font-size: 28px; display: block; margin-bottom: 6px; }
+  
+  /* ─── SLIDE CONTENT ─── */
+  .slide-title {
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+    font-weight: 800;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, #002c5e, #00aad2);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .slide-subtitle {
+    font-size: 1.1rem; color: #555; margin-bottom: 32px;
+  }
+  
+  .two-col {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 30px;
+  }
+  @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+  
+  .card {
+    background: white; border-radius: 20px; padding: 28px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    transition: all 0.3s;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 20px 60px rgba(0,0,0,0.1); }
+  .card h3 {
+    font-size: 1.3rem; font-weight: 700; margin-bottom: 16px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .card .hybrid-color { color: #00aad2; }
+  .card .phev-color { color: #00d4aa; }
+  
+  .hybrid-bg { border-left: 4px solid #00aad2; }
+  .phev-bg { border-left: 4px solid #00d4aa; }
+  
+  /* ─── IMAGE GALLERY ─── */
+  .image-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px; margin: 20px 0;
+  }
+  .image-grid img {
+    width: 100%; height: 220px; object-fit: cover;
+    border-radius: 14px; transition: all 0.4s;
+    cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  }
+  .image-grid img:hover {
+    transform: scale(1.03); box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  }
+  .image-grid .img-label {
+    text-align: center; font-size: 0.8rem; color: #888; margin-top: 4px;
+    font-weight: 600;
+  }
+  
+  /* ─── SPEC TABLE ─── */
+  .spec-table {
+    width: 100%; border-collapse: collapse;
+    background: white; border-radius: 16px; overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    margin: 20px 0;
+  }
+  .spec-table th {
+    padding: 14px 18px; text-align: left; font-weight: 700;
+    font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .spec-table th:first-child { background: #f0f4f8; color: #555; }
+  .spec-table th:nth-child(2) { background: #e3f2fd; color: #00aad2; }
+  .spec-table th:nth-child(3) { background: #e0f7f0; color: #00d4aa; }
+  
+  .spec-table td { padding: 12px 18px; border-top: 1px solid #eee; font-size: 0.95rem; }
+  .spec-table tr:hover td { background: #fafafa; }
+  .spec-table td:first-child { font-weight: 600; color: #555; }
+  .spec-table .winner { font-weight: 700; color: #00aad2; }
+  .spec-table .winner-phev { font-weight: 700; color: #00d4aa; }
+  
+  /* ─── COMPARISON BARS ─── */
+  .compare-bar-wrap { margin: 12px 0; }
+  .compare-bar-label { display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 4px; }
+  .compare-bar-label span:first-child { font-weight: 600; }
+  .compare-bar {
+    height: 28px; border-radius: 14px; overflow: hidden;
+    display: flex; position: relative;
+    background: #f0f0f0;
+  }
+  .compare-bar .bar-hev {
+    height: 100%; background: linear-gradient(90deg, #00aad2, #0088aa);
+    transition: width 1.5s ease; border-radius: 14px 0 0 14px;
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-size: 0.75rem; font-weight: 700; min-width: fit-content; padding: 0 8px;
+  }
+  .compare-bar .bar-phev {
+    height: 100%; background: linear-gradient(90deg, #00d4aa, #00aa88);
+    transition: width 1.5s ease; border-radius: 0 14px 14px 0;
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-size: 0.75rem; font-weight: 700; min-width: fit-content; padding: 0 8px;
+  }
+  
+  /* ─── PROS / CONS ─── */
+  .pros-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 700px) { .pros-grid { grid-template-columns: 1fr; } }
+  .pros-list { list-style: none; }
+  .pros-list li {
+    padding: 10px 14px; margin-bottom: 8px;
+    border-radius: 10px; font-size: 0.95rem;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .pros-list li.hev { background: #e3f2fd; }
+  .pros-list li.phev { background: #e0f7f0; }
+  .pros-list li .check { font-size: 1.2rem; }
+  
+  /* ─── VERDICT ─── */
+  .verdict-box {
+    background: linear-gradient(135deg, #002c5e, #004e92);
+    color: white; border-radius: 20px; padding: 40px;
+    text-align: center; margin: 30px 0;
+  }
+  .verdict-box h2 { font-size: 2rem; margin-bottom: 16px; }
+  .verdict-box p { font-size: 1.1rem; line-height: 1.7; opacity: 0.9; max-width: 800px; margin: 0 auto; }
+  
+  /* ─── FOOTER ─── */
+  .slide-footer {
+    text-align: center; padding: 30px; color: #999; font-size: 0.85rem;
+  }
+  
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none; position: fixed; inset: 0; z-index: 2000;
+    background: rgba(0,0,0,0.92); backdrop-filter: blur(10px);
+    align-items: center; justify-content: center; cursor: pointer;
+  }
+  .lightbox.active { display: flex; }
+  .lightbox img { max-width: 90vw; max-height: 90vh; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+  .lightbox .close-lb {
+    position: absolute; top: 20px; right: 30px;
+    color: white; font-size: 36px; cursor: pointer;
+    width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;
+    border-radius: 50%; background: rgba(255,255,255,0.1);
+    transition: all 0.3s;
+  }
+  .lightbox .close-lb:hover { background: rgba(255,255,255,0.2); }
+  
+  /* ─── SCROLL INDICATOR ─── */
+  .scroll-hint {
+    position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%);
+    animation: bounce 2s infinite; z-index: 2;
+    color: white; font-size: 0.9rem; opacity: 0.7;
+    text-align: center;
+  }
+  .scroll-hint .arrow { font-size: 28px; display: block; }
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(10px); }
+  }
+
+  /* ─── TIMELINE ─── */
+  .timeline {
+    position: relative; padding-left: 30px; margin: 20px 0;
+  }
+  .timeline::before {
+    content: ''; position: absolute; left: 8px; top: 0; bottom: 0;
+    width: 3px; background: linear-gradient(180deg, #00aad2, #00d4aa);
+    border-radius: 3px;
+  }
+  .timeline-item {
+    position: relative; margin-bottom: 24px; padding-left: 20px;
+  }
+  .timeline-item::before {
+    content: ''; position: absolute; left: -26px; top: 4px;
+    width: 16px; height: 16px; border-radius: 50%;
+    background: #00aad2; border: 3px solid white;
+    box-shadow: 0 2px 10px rgba(0,170,210,0.3);
+  }
+  .timeline-item:nth-child(even)::before { background: #00d4aa; }
+  .timeline-item .year {
+    font-weight: 800; font-size: 1.1rem; color: #002c5e;
+  }
+  .timeline-item p { color: #555; font-size: 0.95rem; margin-top: 2px; }
+  
+  /* ─── MISC ─── */
+  .highlight-number {
+    font-size: 2.5rem; font-weight: 900;
+    background: linear-gradient(135deg, #00aad2, #00d4aa);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    line-height: 1;
+  }
+  .flex-center { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .gap-20 { gap: 20px; }
+  .mt-20 { margin-top: 20px; }
+  .mb-20 { margin-bottom: 20px; }
+  .text-center { text-align: center; }
+  .tag {
+    display: inline-block; padding: 4px 12px; border-radius: 20px;
+    font-size: 0.75rem; font-weight: 600;
+  }
+  .tag-hev { background: #e3f2fd; color: #00aad2; }
+  .tag-phev { background: #e0f7f0; color: #00d4aa; }
+  
+  /* Stats cards */
+  .stats-row {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px; margin: 20px 0;
+  }
+  .stat-card {
+    background: white; border-radius: 16px; padding: 20px;
+    text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.04);
+    transition: all 0.3s;
+  }
+  .stat-card:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
+  .stat-card .num { font-size: 1.8rem; font-weight: 800; color: #002c5e; }
+  .stat-card .label { font-size: 0.8rem; color: #888; font-weight: 600; margin-top: 4px; }
+  .stat-card .sub-label { font-size: 0.75rem; color: #aaa; }
+</style>
+</head>
+<body>
+
+<!-- ═══ LIGHTBOX ═══ -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="close-lb">&times;</span>
+  <img id="lb-img" src="" alt="Enlarged view">
+</div>
+
+<!-- ═══ NAV BAR ═══ -->
+<nav class="nav-bar">
+  <span class="brand">🚗 Hyundai Ioniq · HEV vs PHEV</span>
+  <div class="nav-dots" id="navDots"></div>
+  <div class="nav-arrows">
+    <button class="nav-arrow" onclick="prevSlide()">&larr;</button>
+    <button class="nav-arrow" onclick="nextSlide()">&rarr;</button>
+  </div>
+</nav>
+
+<!-- ═══ SLIDES ═══ -->
+<div class="slides-wrapper">
+
+<!-- ─── SLIDE 1: HERO ─── -->
+<div class="slide slide-hero active" data-slide="0">
+  <h1>Hyundai Ioniq</h1>
+  <div class="sub">Hybrid vs Plug-in Hybrid</div>
+  <div class="years">📅 2016 &ndash; 2022 &middot; Two legendary powertrains, one iconic shape</div>
+  <div class="hero-badges">
+    <div class="hero-badge"><span class="icon">🔋</span>HEV &middot; 1.56 kWh</div>
+    <div class="hero-badge"><span class="icon">⚡</span>PHEV &middot; 8.9 kWh</div>
+    <div class="hero-badge"><span class="icon">⛽</span>From 3.4 L/100km</div>
+    <div class="hero-badge"><span class="icon">🌿</span>From 26 g/km CO₂</div>
+  </div>
+  <div class="scroll-hint">
+    <span class="arrow">&darr;</span>
+    Scroll or use arrows
+  </div>
+</div>
+
+<!-- ─── SLIDE 2: TIMELINE ─── -->
+<div class="slide" data-slide="1">
+  <h2 class="slide-title">📜 A Brief History</h2>
+  <p class="slide-subtitle">The Ioniq was Hyundai&rsquo;s first dedicated eco-friendly model line</p>
+  
+  <div class="two-col">
+    <div class="card">
+      <h3>🚙 Ioniq Hybrid (HEV)</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="year">2016</div>
+          <p>Launched as a 2017 model. First dedicated hybrid from Hyundai with a 1.6L GDI Atkinson-cycle engine and 32 kW electric motor. Set new standards for aerodynamic efficiency (Cd 0.24).</p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2019</div>
+          <p>Facelift: redesigned bumpers, LED headlights, larger 10.25-inch navigation screen, digital instrument cluster option, new steering wheel.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2022</div>
+          <p>Production ends. The Ioniq nameplate transitions to the Ioniq 5 &amp; Ioniq 6 dedicated BEV lineup.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>🔌 Ioniq Plug-in Hybrid (PHEV)</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="year">2017</div>
+          <p>Introduced one year after the HEV. Same 1.6L engine but with a larger 44.5 kW electric motor and 8.9 kWh battery pack. Total system output: 165 PS.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2019</div>
+          <p>Facelift aligned with the HEV &mdash; updated styling, improved EV range (up to 63 km WLTP), Bluelink app with scheduled charging.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2022</div>
+          <p>Production ends alongside the HEV. Both models sold over 250,000 units combined worldwide.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── SLIDE 3: EXTERIOR DESIGN ─── -->
+<div class="slide" data-slide="2">
+  <h2 class="slide-title">🎨 Exterior Design</h2>
+  <p class="slide-subtitle">Sleek, aerodynamic, and nearly identical &mdash; spot the differences</p>
+  
+  <div class="two-col">
+    <div class="card hybrid-bg">
+      <h3><span class="hybrid-color">Hybrid (HEV)</span></h3>
+      <div class="image-grid">
+        <div>
+          <img src="https://www.netcarshow.com/Hyundai-Ioniq_Hybrid-2022-01.jpg" alt="HEV Front" onclick="openLightbox(this.src)" loading="lazy">
+          <div class="img-label">Front</div>
+        </div>
+        <div>
+          <img src="https://www.netcarshow.com/Hyundai-Ioniq_Hybrid-2022-02.jpg" alt="HEV Side" onclick="openLightbox(this.src)" loading="lazy">
+          <div class="img-label">Side profile</div>
+        </div>
+        <div>
+          <img src="https://www.netcarshow.com/Hyundai-Ioniq_Hybrid-2022-03.jpg" alt="HEV Rear" onclick="openLightbox(this.src)" loading="lazy">
+          <div class="img-label">Rear</div>
+        </div>
+        <div>
+          <img src="https://www.netcarshow.com/Hyundai-Ioniq_Hybrid-2022-04.jpg" alt="HEV Detail" onclick="openLightbox(this.src)" loading="lazy">
+          <div class="img-label">Detail</div>
+        </div>
+      </div>
+    </div>
+    <div class="card phev-bg">
+      <h3><span class="phev-color">Plug-in Hybrid (PHEV)</span></h3>
+      <div class="image-grid">
+        <div>
+          <img src="https://www.netcarshow.com/Hyundai-Ioniq_Plug-in_Hybrid-2020-1600-01.jpg" alt="PHEV Front" onclick="openLightbox(this.src)" loading="lazy">
+          <div class="img-label">Front</div>
+        </div>
+        <div>
+          <img src="https://www.netcarshow.com/Hyundai-Ioniq_Plug-in_Hybrid-2020-1600-02.jpg" alt="PHEV Side" onclick="openLightbox(this.src)" loading="lazy">
+          <div class="img-label">Side profile</div>
+        </div>
+        <div>
+          <img src="https://www.netcarshow.com/Hyundai-Ioniq_Plug-in_Hybrid-2020-1600-03.jpg" alt="PHEV Rear" onclick="openLightbox(this.src)" loading="lazy">
+          <div class="img-label">Rear</div>
+        </div>
+        <div>
+          <img src="https://www.netcarshow.com/Hyundai-Ioniq_Plug-in_Hybrid-2020-1600-05.jpg" alt="PHEV Interior" onclick="openLightbox(this.src)" loading="lazy">
+          <div class="img-label">Interior</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card mt-20" style="border-left: 4px solid #002c5e;">
+    <h3>🔍 Design Differences at a Glance</h3>
+    <div class="two-col" style="gap: 16px;">
+      <div>
+        <p style="font-size:0.95rem;color:#555;margin-bottom:8px;"><strong class="hybrid-color">HEV</strong> &middot; Standard grille, no charge port, conventional badging</p>
+        <p style="font-size:0.95rem;color:#555;margin-bottom:8px;"><strong class="phev-color">PHEV</strong> &middot; Active shutter grille, charge flap on driver&rsquo;s front wing, &ldquo;Plug-in&rdquo; badge, blue accents in lights</p>
+      </div>
+      <div>
+        <p style="font-size:0.95rem;color:#555;">Both share the same Cd <strong>0.24</strong> drag coefficient &mdash; one of the lowest of any production car</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── SLIDE 4: INTERIOR ─── -->
+<div class="slide" data-slide="3">
+  <h2 class="slide-title">🛋️ Interior &amp; Technology</h2>
+  <p class="slide-subtitle">Minimalist, tech-forward cabin with subtle differences</p>
+  
+  <div class="two-col">
+    <div class="card hybrid-bg">
+      <h3><span class="hybrid-color">Hybrid (HEV) Interior</span></h3>
+      <img src="https://www.netcarshow.com/Hyundai-Ioniq_Hybrid-2022-05.jpg" alt="HEV Interior" style="width:100%;height:250px;object-fit:cover;border-radius:12px;margin-bottom:12px;" onclick="openLightbox(this.src)">
+      <ul class="pros-list">
+        <li class="hev"><span class="check">✅</span> 7-inch touchscreen (10.25-inch after 2019 facelift)</li>
+        <li class="hev"><span class="check">✅</span> Wireless phone charger</li>
+        <li class="hev"><span class="check">✅</span> Apple CarPlay / Android Auto</li>
+        <li class="hev"><span class="check">✅</span> Button-type shift-by-wire (D, N, R, P)</li>
+        <li class="hev"><span class="check">✅</span> Heated front seats, smart cruise control</li>
+      </ul>
+    </div>
+    <div class="card phev-bg">
+      <h3><span class="phev-color">Plug-in Hybrid (PHEV) Interior</span></h3>
+      <img src="https://www.netcarshow.com/Hyundai-Ioniq_Plug-in_Hybrid-2020-1600-05.jpg" alt="PHEV Interior" style="width:100%;height:250px;object-fit:cover;border-radius:12px;margin-bottom:12px;" onclick="openLightbox(this.src)">
+      <ul class="pros-list">
+        <li class="phev"><span class="check">✅</span> All HEV features, plus:</li>
+        <li class="phev"><span class="check">⚡</span> EV-specific instrument cluster with range display</li>
+        <li class="phev"><span class="check">⚡</span> EV/HEV drive mode selector button</li>
+        <li class="phev"><span class="check">⚡</span> Bluelink app &mdash; scheduled charging</li>
+        <li class="phev"><span class="check">⚡</span> Charge status &amp; energy flow display</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="verdict-box mt-20" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
+    <h3 style="font-size:1.3rem;margin-bottom:12px;">💡 Key Interior Difference</h3>
+    <p>The PHEV adds an <strong>EV/HEV mode selector</strong> on the centre console. Press it to force all-electric driving and save the battery for city zones. The HEV cannot drive purely on electric for meaningful distances &mdash; the small 1.56 kWh battery only assists the engine.</p>
+  </div>
+</div>
+
+<!-- ─── SLIDE 5: SPECS COMPARISON ─── -->
+<div class="slide" data-slide="4">
+  <h2 class="slide-title">📊 Specifications Comparison</h2>
+  <p class="slide-subtitle">Side-by-side &mdash; the numbers that matter</p>
+  
+  <table class="spec-table">
+    <thead>
+      <tr>
+        <th>Specification</th>
+        <th>🔵 Ioniq Hybrid (HEV)</th>
+        <th>🟢 Ioniq Plug-in (PHEV)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Production years</td>
+        <td>2016 &ndash; 2022</td>
+        <td>2017 &ndash; 2022</td>
+      </tr>
+      <tr>
+        <td>Engine</td>
+        <td>1.6L 4-cyl GDI Atkinson</td>
+        <td>1.6L 4-cyl GDI Atkinson</td>
+      </tr>
+      <tr>
+        <td>Engine power</td>
+        <td>105 PS (77 kW)</td>
+        <td>105 PS (77 kW)</td>
+      </tr>
+      <tr>
+        <td>Engine torque</td>
+        <td>147 Nm</td>
+        <td>147 Nm</td>
+      </tr>
+      <tr>
+        <td>Electric motor</td>
+        <td>32 kW (43.5 PS)</td>
+        <td class="winner-phev">44.5 kW (60.5 PS)</td>
+      </tr>
+      <tr>
+        <td>Combined power</td>
+        <td>141 PS (104 kW)</td>
+        <td class="winner-phev">165 PS (121 kW)</td>
+      </tr>
+      <tr>
+        <td>Battery capacity</td>
+        <td>1.56 kWh</td>
+        <td class="winner-phev">8.9 kWh</td>
+      </tr>
+      <tr>
+        <td>Electric range (WLTP)</td>
+        <td>&sim;2 km (blended)</td>
+        <td class="winner-phev">52 &ndash; 63 km</td>
+      </tr>
+      <tr>
+        <td>Fuel consumption</td>
+        <td class="winner">3.4 &ndash; 3.9 L/100km</td>
+        <td class="winner-phev">1.1 &ndash; 1.5 L/100km*</td>
+      </tr>
+      <tr>
+        <td>CO₂ emissions</td>
+        <td>79 &ndash; 90 g/km</td>
+        <td class="winner-phev">26 &ndash; 34 g/km</td>
+      </tr>
+      <tr>
+        <td>0&ndash;100 km/h</td>
+        <td>10.8 &ndash; 11.1 s</td>
+        <td class="winner-phev">10.2 &ndash; 10.6 s</td>
+      </tr>
+      <tr>
+        <td>Top speed</td>
+        <td>185 km/h</td>
+        <td>185 km/h</td>
+      </tr>
+      <tr>
+        <td>Curb weight</td>
+        <td class="winner">1,410 &ndash; 1,440 kg</td>
+        <td>1,530 &ndash; 1,570 kg</td>
+      </tr>
+      <tr>
+        <td>Boot space (seats up)</td>
+        <td class="winner">455 litres</td>
+        <td>341 litres</td>
+      </tr>
+      <tr>
+        <td>Charging time</td>
+        <td>N/A (self-charging)</td>
+        <td>&sim;2h 15min (230V/10A)</td>
+      </tr>
+      <tr>
+        <td>Transmission</td>
+        <td>6-speed DCT</td>
+        <td>6-speed DCT</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.8rem;color:#999;text-align:center;">* PHEV figure assumes full battery charge. Real-world depends on charging frequency.</p>
+</div>
+
+<!-- ─── SLIDE 6: FUEL ECONOMY ─── -->
+<div class="slide" data-slide="5">
+  <h2 class="slide-title">⛽ Fuel Economy &amp; Efficiency</h2>
+  <p class="slide-subtitle">How far can you go on a tank? Who saves more at the pump?</p>
+  
+  <div class="two-col">
+    <div class="card">
+      <h3>🔵 HEV Fuel Consumption</h3>
+      <div class="stats-row">
+        <div class="stat-card"><div class="num">3.4</div><div class="label">L/100km</div><div class="sub-label">Best WLTP</div></div>
+        <div class="stat-card"><div class="num">3.9</div><div class="label">L/100km</div><div class="sub-label">Worst WLTP</div></div>
+        <div class="stat-card"><div class="num">79</div><div class="label">g/km CO₂</div><div class="sub-label">Best</div></div>
+        <div class="stat-card"><div class="num">90</div><div class="label">g/km CO₂</div><div class="sub-label">Worst</div></div>
+      </div>
+      <p style="color:#555;font-size:0.95rem;">The hybrid constantly optimizes between engine and electric motor. Regenerative braking captures energy, and the small battery assists during acceleration. No plug required &mdash; it self-charges as you drive.</p>
+    </div>
+    <div class="card">
+      <h3>🟢 PHEV Fuel Economy</h3>
+      <div class="stats-row">
+        <div class="stat-card"><div class="num">1.1</div><div class="label">L/100km</div><div class="sub-label">Combined*</div></div>
+        <div class="stat-card"><div class="num">1.5</div><div class="label">L/100km</div><div class="sub-label">Combined*</div></div>
+        <div class="stat-card"><div class="num">26</div><div class="label">g/km CO₂</div><div class="sub-label">Best</div></div>
+        <div class="stat-card"><div class="num">34</div><div class="label">g/km CO₂</div><div class="sub-label">Worst</div></div>
+      </div>
+      <p style="color:#555;font-size:0.95rem;">The PHEV can do your daily commute entirely on electricity (52&ndash;63 km WLTP). Plug in at home or work and you barely touch the petrol tank. Without charging, it behaves like the HEV but heavier.</p>
+    </div>
+  </div>
+  
+  <div class="card mt-20">
+    <h3>📏 Real-World Comparison</h3>
+    <p style="color:#555;margin-bottom:16px;">
+      In everyday driving &mdash; a 50 km daily commute, mixed city &amp; highway:
+    </p>
+    <div class="compare-bar-wrap">
+      <div class="compare-bar-label"><span>HEV fuel cost (50 km)</span><span>&sim;&euro;3.50 &middot; 1.9 L petrol</span></div>
+      <div class="compare-bar"><div class="bar-hev" style="width:70%;">HEV</div></div>
+    </div>
+    <div class="compare-bar-wrap">
+      <div class="compare-bar-label"><span>PHEV cost (50 km, charged)</span><span>&sim;&euro;0.70 &middot; 0.5 L + 6 kWh</span></div>
+      <div class="compare-bar"><div class="bar-phev" style="width:30%;">PHEV</div></div>
+    </div>
+    <div class="compare-bar-wrap">
+      <div class="compare-bar-label"><span>PHEV cost (50 km, not charged)</span><span>&sim;&euro;4.00 &middot; 2.2 L petrol</span></div>
+      <div class="compare-bar"><div class="bar-hev" style="width:80%;">PHEV (no charge)</div></div>
+    </div>
+    <p style="font-size:0.85rem;color:#888;margin-top:8px;">* PHEV is cheapest IF you charge regularly. Without charging, the extra weight makes it slightly thirstier than the HEV.</p>
+  </div>
+</div>
+
+<!-- ─── SLIDE 7: PERFORMANCE COMPARISON ─── -->
+<div class="slide" data-slide="6">
+  <h2 class="slide-title">⚡ Performance &amp; Driving</h2>
+  <p class="slide-subtitle">Power, acceleration, and the feel behind the wheel</p>
+  
+  <div class="two-col">
+    <div class="card hybrid-bg">
+      <h3><span class="hybrid-color">HEV Driving Experience</span></h3>
+      <ul class="pros-list">
+        <li class="hev"><span class="check">🚀</span> 0&ndash;100: 10.8&ndash;11.1 seconds</li>
+        <li class="hev"><span class="check">⚖️</span> Lighter: 1,410&ndash;1,440 kg</li>
+        <li class="hev"><span class="check">🔇</span> Seamless hybrid transitions &mdash; barely notice the engine cut in</li>
+        <li class="hev"><span class="check">🔄</span> Regenerative braking via paddle shifters</li>
+        <li class="hev"><span class="check">🛣️</span> Sport mode livens up the DCT</li>
+      </ul>
+    </div>
+    <div class="card phev-bg">
+      <h3><span class="phev-color">PHEV Driving Experience</span></h3>
+      <ul class="pros-list">
+        <li class="phev"><span class="check">🚀</span> 0&ndash;100: 10.2&ndash;10.6 seconds</li>
+        <li class="phev"><span class="check">⚖️</span> Heavier: 1,530&ndash;1,570 kg (+120 kg battery)</li>
+        <li class="phev"><span class="check">🔇</span> Genuinely silent in EV mode up to 120 km/h</li>
+        <li class="phev"><span class="check">⚡</span> Stronger electric punch off the line (44.5 kW motor)</li>
+        <li class="phev"><span class="check">🔋</span> EV button &mdash; force electric-only in city zones</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="card mt-20" style="background: #f8faff;">
+    <h3>📊 Power &amp; Torque Comparison</h3>
+    <div class="two-col">
+      <div>
+        <p style="font-weight:600;margin-bottom:8px;">Total System Power</p>
+        <div class="compare-bar-wrap">
+          <div class="compare-bar-label"><span>HEV</span><span>141 PS</span></div>
+          <div class="compare-bar"><div class="bar-hev" style="width:85%;">141 PS</div></div>
+        </div>
+        <div class="compare-bar-wrap">
+          <div class="compare-bar-label"><span class="phev-color">PHEV</span><span class="phev-color">165 PS</span></div>
+          <div class="compare-bar"><div class="bar-phev" style="width:100%;">165 PS</div></div>
+        </div>
+      </div>
+      <div>
+        <p style="font-weight:600;margin-bottom:8px;">Electric Motor Power</p>
+        <div class="compare-bar-wrap">
+          <div class="compare-bar-label"><span>HEV</span><span>32 kW</span></div>
+          <div class="compare-bar"><div class="bar-hev" style="width:72%;">32 kW</div></div>
+        </div>
+        <div class="compare-bar-wrap">
+          <div class="compare-bar-label"><span class="phev-color">PHEV</span><span class="phev-color">44.5 kW</span></div>
+          <div class="compare-bar"><div class="bar-phev" style="width:100%;">44.5 kW</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── SLIDE 8: PROS & CONS ─── -->
+<div class="slide" data-slide="7">
+  <h2 class="slide-title">✅ Pros &amp; Cons</h2>
+  <p class="slide-subtitle">Which one fits YOUR lifestyle?</p>
+  
+  <div class="pros-grid">
+    <div>
+      <div class="card hybrid-bg" style="height:100%;">
+        <h3><span class="hybrid-color">🔵 Ioniq Hybrid (HEV)</span></h3>
+        <p style="font-size:0.9rem;color:#00aad2;font-weight:600;margin-bottom:12px;">✅ PROS</p>
+        <ul class="pros-list">
+          <li class="hev"><span class="check">👍</span> No plug, no hassle &mdash; fill up and go</li>
+          <li class="hev"><span class="check">👍</span> Bigger boot: 455 litres</li>
+          <li class="hev"><span class="check">👍</span> Lighter = more agile handling</li>
+          <li class="hev"><span class="check">👍</span> Lower purchase price</li>
+          <li class="hev"><span class="check">👍</span> Still excellent 3.4 L/100km</li>
+          <li class="hev"><span class="check">👍</span> 8-year battery warranty</li>
+        </ul>
+        <p style="font-size:0.9rem;color:#e74c3c;font-weight:600;margin:12px 0 8px;">❌ CONS</p>
+        <ul class="pros-list">
+          <li class="hev" style="background:#fde8e8;"><span class="check">👎</span> No meaningful electric-only range</li>
+          <li class="hev" style="background:#fde8e8;"><span class="check">👎</span> Less powerful (141 PS)</li>
+          <li class="hev" style="background:#fde8e8;"><span class="check">👎</span> Higher CO₂ than PHEV</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="card phev-bg" style="height:100%;">
+        <h3><span class="phev-color">🟢 Ioniq Plug-in (PHEV)</span></h3>
+        <p style="font-size:0.9rem;color:#00d4aa;font-weight:600;margin-bottom:12px;">✅ PROS</p>
+        <ul class="pros-list">
+          <li class="phev"><span class="check">👍</span> 52&ndash;63 km EV range &mdash; commute on electricity</li>
+          <li class="phev"><span class="check">👍</span> 1.1 L/100km if charged regularly</li>
+          <li class="phev"><span class="check">👍</span> More powerful: 165 PS</li>
+          <li class="phev"><span class="check">👍</span> Faster 0&ndash;100: 10.2 s</li>
+          <li class="phev"><span class="check">👍</span> Lowest CO₂: 26 g/km</li>
+          <li class="phev"><span class="check">👍</span> Tax &amp; city incentives in many EU countries</li>
+        </ul>
+        <p style="font-size:0.9rem;color:#e74c3c;font-weight:600;margin:12px 0 8px;">❌ CONS</p>
+        <ul class="pros-list">
+          <li class="phev" style="background:#fde8e8;"><span class="check">👎</span> Smaller boot: 341 litres</li>
+          <li class="phev" style="background:#fde8e8;"><span class="check">👎</span> Heavier = less agile</li>
+          <li class="phev" style="background:#fde8e8;"><span class="check">👎</span> Need access to charging</li>
+          <li class="phev" style="background:#fde8e8;"><span class="check">👎</span> Higher purchase price</li>
+          <li class="phev" style="background:#fde8e8;"><span class="check">👎</span> 2h 15min charge time</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── SLIDE 9: VERDICT ─── -->
+<div class="slide" data-slide="8">
+  <h2 class="slide-title">🏆 The Verdict</h2>
+  <p class="slide-subtitle">Which Ioniq should you choose?</p>
+  
+  <div class="two-col">
+    <div class="card" style="text-align:center;">
+      <div style="font-size:64px;margin-bottom:12px;">🔵</div>
+      <h3 style="color:#00aad2;">Choose the HEV if&hellip;</h3>
+      <ul class="pros-list" style="text-align:left;margin-top:16px;">
+        <li class="hev"><span class="check">✅</span> You don&rsquo;t have easy access to charging</li>
+        <li class="hev"><span class="check">✅</span> You need maximum boot space</li>
+        <li class="hev"><span class="check">✅</span> You want the lowest upfront cost</li>
+        <li class="hev"><span class="check">✅</span> You drive mostly highway / long distances</li>
+        <li class="hev"><span class="check">✅</span> You want simplicity &mdash; just drive it</li>
+      </ul>
+    </div>
+    <div class="card" style="text-align:center;">
+      <div style="font-size:64px;margin-bottom:12px;">🟢</div>
+      <h3 style="color:#00d4aa;">Choose the PHEV if&hellip;</h3>
+      <ul class="pros-list" style="text-align:left;margin-top:16px;">
+        <li class="phev"><span class="check">✅</span> You can charge at home or work</li>
+        <li class="phev"><span class="check">✅</span> Your daily commute is under 50 km</li>
+        <li class="phev"><span class="check">✅</span> You want the lowest running costs</li>
+        <li class="phev"><span class="check">✅</span> You qualify for EV tax incentives</li>
+        <li class="phev"><span class="check">✅</span> You want that silent EV driving experience</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="verdict-box">
+    <h2>🏁 Final Word</h2>
+    <p>
+      Both the Ioniq Hybrid and Ioniq Plug-in Hybrid are exceptional cars that punch above their weight class.
+      The <strong>HEV</strong> is the practical, no-compromise choice &mdash; excellent fuel economy without any lifestyle changes.
+      The <strong>PHEV</strong> is for those who can plug in &mdash; offering genuine electric commuting with the
+      safety net of a petrol engine for longer trips. Neither is wrong &mdash; it depends on <em>your</em> driving.
+    </p>
+  </div>
+</div>
+
+<!-- ─── SLIDE 10: SOURCES ─── -->
+<div class="slide" data-slide="9">
+  <h2 class="slide-title">📚 Sources &amp; Further Reading</h2>
+  <p class="slide-subtitle">Data compiled from official Hyundai press materials and automotive databases</p>
+  
+  <div class="card" style="border-left: 4px solid #002c5e;">
+    <h3>🌐 References</h3>
+    <ul class="pros-list" style="margin-top:8px;">
+      <li style="background:#f0f4f8;padding:10px 14px;border-radius:10px;margin-bottom:6px;">
+        <span class="check">📄</span>
+        <a href="https://www.hyundai.com/worldwide/en/" target="_blank" style="color:#002c5e;font-weight:600;">Hyundai Worldwide Official Site</a>
+      </li>
+      <li style="background:#f0f4f8;padding:10px 14px;border-radius:10px;margin-bottom:6px;">
+        <span class="check">📄</span>
+        <a href="https://en.wikipedia.org/wiki/Hyundai_Ioniq" target="_blank" style="color:#002c5e;font-weight:600;">Wikipedia: Hyundai Ioniq</a>
+      </li>
+      <li style="background:#f0f4f8;padding:10px 14px;border-radius:10px;margin-bottom:6px;">
+        <span class="check">📄</span>
+        <a href="https://www.netcarshow.com/Hyundai/" target="_blank" style="color:#002c5e;font-weight:600;">NetCarShow &mdash; Hyundai Gallery</a>
+      </li>
+      <li style="background:#f0f4f8;padding:10px 14px;border-radius:10px;margin-bottom:6px;">
+        <span class="check">📄</span>
+        <a href="https://ev-database.org/car/1172/Hyundai-Ioniq-Plug-in-Hybrid" target="_blank" style="color:#002c5e;font-weight:600;">EV Database &mdash; Ioniq PHEV Specs</a>
+      </li>
+      <li style="background:#f0f4f8;padding:10px 14px;border-radius:10px;margin-bottom:6px;">
+        <span class="check">📄</span>
+        <a href="https://www.hyundainews.com/en-us/releases/2913" target="_blank" style="color:#002c5e;font-weight:600;">Hyundai News &mdash; Official Press Releases</a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="card mt-20" style="text-align:center;padding:20px;">
+    <p style="font-size:0.9rem;color:#888;">
+      All images sourced from Hyundai press gallery and NetCarShow. Specifications based on European WLTP standards.
+      Actual figures may vary by market, model year, and driving conditions.
+    </p>
+    <p style="font-size:0.85rem;color:#aaa;margin-top:8px;">
+      Presentation created June 2026 &middot; Data accurate as of production end (2022)
+    </p>
+  </div>
+  
+  <div class="slide-footer">
+    🚗 Hyundai Ioniq &mdash; HEV vs PHEV &middot; 2016&ndash;2022
+  </div>
+</div>
+
+</div><!-- end slides-wrapper -->
+
+<script>
+const slides = document.querySelectorAll('.slide');
+const dotsContainer = document.getElementById('navDots');
+let current = 0;
+let totalSlides = slides.length;
+
+// Create dots
+for (let i = 0; i < totalSlides; i++) {
+  const dot = document.createElement('button');
+  dot.className = 'nav-dot' + (i === 0 ? ' active' : '');
+  dot.onclick = () => goToSlide(i);
+  dotsContainer.appendChild(dot);
+}
+
+function goToSlide(idx) {
+  if (idx < 0) idx = 0;
+  if (idx >= totalSlides) idx = totalSlides - 1;
+  slides.forEach(s => s.classList.remove('active'));
+  slides[idx].classList.add('active');
+  document.querySelectorAll('.nav-dot').forEach((d, i) => d.classList.toggle('active', i === idx));
+  current = idx;
+  window.scrollTo({ top: 70, behavior: 'smooth' });
+}
+
+function nextSlide() { goToSlide(current + 1); }
+function prevSlide() { goToSlide(current - 1); }
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); nextSlide(); }
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); prevSlide(); }
+});
+
+// Lightbox
+function openLightbox(src) {
+  document.getElementById('lb-img').src = src;
+  document.getElementById('lightbox').classList.add('active');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+}
+
+// Touch swipe support
+let touchStartX = 0;
+document.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; });
+document.addEventListener('touchend', e => {
+  const diff = touchStartX - e.changedTouches[0].screenX;
+  if (Math.abs(diff) > 50) {
+    if (diff > 0) nextSlide(); else prevSlide();
+  }
+});
+</script>
+</body>
+</html>
