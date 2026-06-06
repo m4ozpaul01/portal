@@ -31,14 +31,6 @@
       "notes": ""
     },
     {
-      "name": "openui",
-      "status": "active",
-      "description": "A project for generating HTML components with LLMs",
-      "display": "placeholder",
-      "last_updated": "2026-06-06",
-      "notes": ""
-    },
-    {
       "name": "Frankfurt Events",
       "status": "active",
       "description": "Curated cultural and social events in Frankfurt am Main",

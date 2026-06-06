@@ -325,76 +325,7 @@
     to { opacity: 1; transform: translateY(0); }
   }
 
-  /* ─── LANDING TAB ─── */
-  .landing-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 16px;
-    margin-top: 8px;
-  }
-
-  .project-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 24px;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .project-card:hover {
-    background: var(--bg-card-hover);
-    border-color: var(--border-active);
-    transform: translateY(-2px);
-  }
-
-  .project-card .card-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 12px;
-  }
-
-  .project-card .card-name {
-    font-size: 16px;
-    font-weight: 600;
-  }
-
-  .project-card .card-badge {
-    font-size: 11px;
-    font-weight: 500;
-    padding: 3px 10px;
-    border-radius: 12px;
-    text-transform: capitalize;
-  }
-
-  .card-badge.active {
-    background: rgba(34,197,94,0.12);
-    color: var(--green);
-  }
-  .card-badge.paused {
-    background: rgba(234,179,8,0.12);
-    color: var(--yellow);
-  }
-  .card-badge.done {
-    background: rgba(92,92,102,0.12);
-    color: var(--text-muted);
-  }
-
-  .project-card .card-desc {
-    font-size: 13px;
-    color: var(--text-secondary);
-    line-height: 1.5;
-  }
-
-  .project-card .card-meta {
-    margin-top: 16px;
-    font-size: 11px;
-    color: var(--text-muted);
-    font-family: 'JetBrains Mono', monospace;
-  }
-
-  /* ─── PROJECT TAB CONTENT ─── */
+  /* ─── STATUS CARDS ─── */
   .project-tab-header {
     margin-bottom: 24px;
   }
@@ -554,6 +485,11 @@
   .event-type.Planetary { background: rgba(34,197,94,0.15); color: #4ade80; }
   .event-type.Seasonal { background: rgba(234,179,8,0.15); color: #facc15; }
   .event-type.Comet { background: rgba(168,85,247,0.15); color: #c084fc; }
+  .event-type-badge.Meteor { background: rgba(99,102,241,0.15); color: #818cf8; }
+  .event-type-badge.Eclipse { background: rgba(239,68,68,0.15); color: #f87171; }
+  .event-type-badge.Planetary { background: rgba(34,197,94,0.15); color: #4ade80; }
+  .event-type-badge.Seasonal { background: rgba(234,179,8,0.15); color: #facc15; }
+  .event-type-badge.Comet { background: rgba(168,85,247,0.15); color: #c084fc; }
 
   .event-card .event-title {
     font-size: 18px;
@@ -627,17 +563,42 @@
     margin-bottom: 8px;
   }
 
-  /* ─── TODAY'S EVENTS ON OVERVIEW ─── */
-  .today-events {
-    background: var(--bg-card);
-    border: 1px solid var(--border-active);
-    border-radius: var(--radius);
-    padding: 20px 24px;
-    margin-bottom: 24px;
-    position: relative;
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 768px) {
+    .topbar { padding: 12px 16px; flex-wrap: wrap; gap: 8px; }
+    .topbar-right { gap: 12px; }
+    .metric-badge { padding: 6px 12px; font-size: 12px; }
+    .content-area { padding: 16px; }
+    .tab { padding: 10px 14px; font-size: 12px; }
+    .login-card { padding: 32px 24px; }
   }
 
-  .today-events::before {
+  /* ─── OVERVIEW HIGHLIGHTS ─── */
+  .overview-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 8px;
+  }
+
+  .overview-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .overview-section:hover {
+    border-color: var(--border-active);
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+  }
+
+  .overview-section::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0;
@@ -646,59 +607,69 @@
     border-radius: var(--radius) var(--radius) 0 0;
   }
 
-  .today-event-item {
+  .overview-section .os-header {
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 12px 0;
-    border-bottom: 1px solid var(--border);
+    gap: 8px;
+    margin-bottom: 10px;
   }
 
-  .today-event-item:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
+  .overview-section .os-header .os-icon {
+    font-size: 16px;
   }
 
-  .today-event-item .event-emoji {
-    font-size: 28px;
-    width: 40px;
-    text-align: center;
-    flex-shrink: 0;
-  }
-
-  .today-event-item .event-info {
-    flex: 1;
-  }
-
-  .today-event-item .event-info .ev-title {
-    font-size: 14px;
+  .overview-section .os-header .os-tab-name {
+    font-size: 11px;
     font-weight: 600;
-    color: var(--text-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent);
   }
 
-  .today-event-item .event-info .ev-desc {
+  .overview-section .os-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .overview-section .os-meta {
     font-size: 13px;
     color: var(--text-secondary);
-    margin-top: 2px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
   }
 
-  .today-event-item .event-type-badge {
+  .overview-section .os-desc {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-top: 6px;
+  }
+
+  .overview-section .os-status-label {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .overview-section .os-status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+
+  .os-status-dot.active { background: var(--green); }
+  .os-status-dot.paused { background: var(--yellow); }
+  .os-status-dot.done { background: var(--text-muted); }
+
+  .event-type-badge {
     font-size: 11px;
     padding: 3px 10px;
     border-radius: 20px;
     font-weight: 500;
     flex-shrink: 0;
-  }
-
-  /* ─── RESPONSIVE ─── */
-  @media (max-width: 768px) {
-    .topbar { padding: 12px 16px; flex-wrap: wrap; gap: 8px; }
-    .topbar-right { gap: 12px; }
-    .metric-badge { padding: 6px 12px; font-size: 12px; }
-    .content-area { padding: 16px; }
-    .landing-grid { grid-template-columns: 1fr; }
-    .tab { padding: 10px 14px; font-size: 12px; }
-    .login-card { padding: 32px 24px; }
   }
 
   /* ─── LAST UPDATED ─── */
@@ -903,55 +874,6 @@
   margin-bottom: 18px;
 }
 
-/* ─── FRANKFURT NEXT EVENT ON DASHBOARD ─── */
-.next-frankfurt-event {
-  background: var(--bg-card);
-  border: 1px solid var(--border-active);
-  border-radius: var(--radius);
-  padding: 20px 24px;
-  margin-bottom: 24px;
-  cursor: pointer;
-  transition: all 0.2s;
-  position: relative;
-  overflow: hidden;
-}
-
-.next-frankfurt-event:hover {
-  background: var(--bg-card-hover);
-  transform: translateY(-2px);
-}
-
-.next-frankfurt-event::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent), #22c55e, transparent);
-  border-radius: var(--radius) var(--radius) 0 0;
-}
-
-.next-frankfurt-event .nfe-label {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: var(--accent);
-  margin-bottom: 8px;
-}
-
-.next-frankfurt-event .nfe-title {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 4px;
-}
-
-.next-frankfurt-event .nfe-meta {
-  font-size: 13px;
-  color: var(--text-secondary);
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
   .update-footer {
     text-align: center;
     padding: 32px;
@@ -1024,27 +946,17 @@
 
     <!-- Landing Tab -->
     <div class="tab-content active" id="tab-landing">
-      <h2 style="font-size: 22px; font-weight: 600; margin-bottom: 4px;">Project Overview</h2>
+      <h2 style="font-size: 22px; font-weight: 600; margin-bottom: 4px;">Next Up</h2>
       <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 24px;">
-        Status of all active missions and projects
+        One preview per tab — click any to dive deeper
       </p>
 
-      <div id="today-events" class="today-events" style="display:none;">
-        <h3 style="font-size: 16px; font-weight: 600; margin-bottom: 12px; color: var(--accent);">🌠 Today's Events</h3>
-        <div id="today-events-list"></div>
-      </div>
-
-      <div id="next-frankfurt-event" class="next-frankfurt-event" style="display:none;" onclick="switchTab('project-Frankfurt Events')">
-        <div class="nfe-label">🎪 Next Up in Frankfurt</div>
-        <div class="nfe-title" id="nfe-title">—</div>
-        <div class="nfe-meta">
-          <span id="nfe-date">—</span>
-          <span id="nfe-category">—</span>
+      <div class="overview-highlights" id="overview-highlights">
+        <!-- Dynamically populated: first upcoming item from each tab -->
+        <div style="text-align:center;padding:48px;color:var(--text-muted);">
+          <div style="font-size:32px;margin-bottom:12px;">🔄</div>
+          <p>Loading highlights...</p>
         </div>
-      </div>
-
-      <div class="landing-grid" id="project-grid">
-        <!-- Dynamically populated from config -->
       </div>
     </div>
 
@@ -1133,14 +1045,8 @@ function initPortal(config) {
   // Build tabs
   buildTabs(config);
 
-  // Build landing grid
-  buildLanding(config);
-
-  // Load today's events for the overview
-  loadTodayEvents();
-
-  // Load next Frankfurt event for the overview
-  loadNextFrankfurtEvent();
+  // Load highlights for Overview tab (first item from each tab)
+  loadOverviewHighlights(config);
 
   // Footer
   document.getElementById('update-footer').textContent = 'Last updated: ' + (config.last_updated || '—');
@@ -1231,26 +1137,144 @@ function buildProjectContent(project) {
 }
 
 // ════════════════════════════════════════
-// LANDING PAGE
+// HELPERS
 // ════════════════════════════════════════
 
-function buildLanding(config) {
-  const grid = document.getElementById('project-grid');
-  grid.innerHTML = '';
+function getEventEmoji(type) {
+  const map = {
+    'Meteor Shower': '☄️',
+    'Meteor': '☄️',
+    'Eclipse': '🌑',
+    'Planetary Event': '🪐',
+    'Planet': '🪐',
+    'Seasonal Event': '🌞',
+    'Comet': '☄️',
+  };
+  return map[type] || '🔭';
+}
 
+function getTypeClass(type) {
+  if (type.includes('Meteor')) return 'Meteor';
+  if (type.includes('Eclipse')) return 'Eclipse';
+  if (type.includes('Planet')) return 'Planetary';
+  if (type.includes('Seasonal')) return 'Seasonal';
+  if (type.includes('Comet')) return 'Comet';
+  return 'Planetary';
+}
+
+function getCategoryEmoji(category) {
+  const map = {
+    'Music & Opera': '🎵',
+    'Festival & Culture': '🎉',
+    'Literature & Arts': '📚',
+    'Art & Exhibitions': '🖼️',
+    'Food & Drink': '🍽️',
+    'Convention & Pop Culture': '🎮',
+    'Film & Cinema': '🎬',
+    'Seasonal & Markets': '🎄',
+    'Sports': '⚽',
+    'Nightlife & Social': '🌙',
+    'Family & Education': '👨‍👩‍👧‍👦',
+  };
+  return map[category] || '🎪';
+}
+
+function formatDate(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const options = { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' };
+  return d.toLocaleDateString('en-GB', options);
+}
+
+// ════════════════════════════════════════
+// LANDING PAGE — OVERVIEW HIGHLIGHTS
+// ════════════════════════════════════════
+
+async function loadOverviewHighlights(config) {
+  const container = document.getElementById('overview-highlights');
+  if (!container) return;
+
+  const today = new Date().toISOString().split('T')[0];
+
+  // Load celestial events
+  let celestialEvents = [];
+  try {
+    const resp = await fetch(EVENTS_URL);
+    const data = await resp.json();
+    const tookPart = getTookPartIds();
+    celestialEvents = (data.events || [])
+      .filter(e => e.date >= today && !tookPart.includes(e.date + '-' + e.title))
+      .sort((a, b) => a.date.localeCompare(b.date));
+  } catch {}
+
+  // Load Frankfurt events
+  let frankfurtEvents = [];
+  try {
+    const resp = await fetch(FRANKFURT_EVENTS_URL);
+    const data = await resp.json();
+    frankfurtEvents = (data.events || [])
+      .filter(e => e.date >= today)
+      .sort((a, b) => a.date.localeCompare(b.date));
+  } catch {}
+
+  // Tab icon & label mapping (add new tabs here when created)
+  const tabInfo = {
+    'natural events': { icon: '🔭', label: 'Sky Events' },
+    'Frankfurt Events': { icon: '🎪', label: 'Frankfurt Events' },
+  };
+
+  container.innerHTML = '';
+
+  // Render one section per project — first upcoming item from each tab
   (config.projects || []).forEach(project => {
-    const card = document.createElement('div');
-    card.className = 'project-card';
-    card.onclick = () => switchTab('project-' + project.name);
-    card.innerHTML = `
-      <div class="card-header">
-        <span class="card-name">📁 ${project.name}</span>
-        <span class="card-badge ${project.status}">${project.status}</span>
-      </div>
-      <div class="card-desc">${project.description || 'No description'}</div>
-      <div class="card-meta">${project.last_updated ? 'Updated: ' + project.last_updated : ''}</div>
-    `;
-    grid.appendChild(card);
+    const info = tabInfo[project.name] || { icon: '📁', label: project.name };
+    const section = document.createElement('div');
+    section.className = 'overview-section';
+    section.onclick = () => switchTab('project-' + project.name);
+
+    if (project.display === 'events' && celestialEvents.length > 0) {
+      const first = celestialEvents[0];
+      section.innerHTML = `
+        <div class="os-header">
+          <span class="os-icon">${info.icon}</span>
+          <span class="os-tab-name">${info.label}</span>
+        </div>
+        <div class="os-title">${getEventEmoji(first.type)} ${first.title}</div>
+        <div class="os-meta">
+          <span>📅 ${first.date}</span>
+          <span class="event-type-badge ${getTypeClass(first.type)}">${first.type}</span>
+        </div>
+        <div class="os-desc">${first.description}</div>
+      `;
+    } else if (project.display === 'frankfurt_events' && frankfurtEvents.length > 0) {
+      const first = frankfurtEvents[0];
+      section.innerHTML = `
+        <div class="os-header">
+          <span class="os-icon">${info.icon}</span>
+          <span class="os-tab-name">${info.label}</span>
+        </div>
+        <div class="os-title">${getCategoryEmoji(first.category)} ${first.title}</div>
+        <div class="os-meta">
+          <span>📅 ${formatDate(first.date)}</span>
+          <span>${first.category || 'Event'}</span>
+        </div>
+        <div class="os-desc">${first.description || ''}</div>
+      `;
+    } else {
+      // Default: project status card
+      const statusDot = project.status || 'active';
+      section.innerHTML = `
+        <div class="os-header">
+          <span class="os-icon">${info.icon}</span>
+          <span class="os-tab-name">${info.label}</span>
+        </div>
+        <div class="os-title" style="font-size:15px;color:var(--text-secondary);font-weight:500;">
+          <span class="os-status-dot ${statusDot}"></span>${project.name}
+        </div>
+        <div class="os-desc">${project.description || 'No description.'}</div>
+      `;
+    }
+
+    container.appendChild(section);
   });
 }
 
@@ -1350,30 +1374,6 @@ function renderEvents(container, events, projectName) {
   // Sort by date (closest first)
   upcoming.sort((a, b) => a.date.localeCompare(b.date));
 
-  // Get event emoji by type
-  function getEventEmoji(type) {
-    const map = {
-      'Meteor Shower': '☄️',
-      'Meteor': '☄️',
-      'Eclipse': '🌑',
-      'Planetary Event': '🪐',
-      'Planet': '🪐',
-      'Seasonal Event': '🌞',
-      'Comet': '☄️',
-    };
-    return map[type] || '🔭';
-  }
-
-  // Get CSS class for type badge
-  function getTypeClass(type) {
-    if (type.includes('Meteor')) return 'Meteor';
-    if (type.includes('Eclipse')) return 'Eclipse';
-    if (type.includes('Planet')) return 'Planetary';
-    if (type.includes('Seasonal')) return 'Seasonal';
-    if (type.includes('Comet')) return 'Comet';
-    return 'Planetary';
-  }
-
   container.innerHTML = upcoming.map(event => {
     const eventId = event.date + '-' + event.title;
     const emoji = getEventEmoji(event.type);
@@ -1400,89 +1400,6 @@ function renderEvents(container, events, projectName) {
       </div>
     `;
   }).join('');
-}
-
-// ════════════════════════════════════════
-// TODAY'S EVENTS ON OVERVIEW
-// ════════════════════════════════════════
-
-async function loadTodayEvents() {
-  const container = document.getElementById('today-events');
-  const list = document.getElementById('today-events-list');
-  if (!container || !list) return;
-
-  try {
-    const resp = await fetch(EVENTS_URL);
-    const data = await resp.json();
-    const events = data.events || [];
-
-    const today = new Date().toISOString().split('T')[0];
-    const tookPart = getTookPartIds();
-
-    // Filter to events happening today, not taken part
-    const todayEvents = events.filter(e =>
-      e.date === today && !tookPart.includes(e.date + '-' + e.title)
-    );
-
-    if (todayEvents.length === 0) {
-      container.style.display = 'none';
-      return;
-    }
-
-    container.style.display = 'block';
-
-    function getEventEmoji(type) {
-      const map = {
-        'Meteor Shower': '☄️', 'Meteor': '☄️', 'Eclipse': '🌑',
-        'Planetary Event': '🪐', 'Planet': '🪐',
-        'Seasonal Event': '🌞', 'Comet': '☄️',
-      };
-      return map[type] || '🔭';
-    }
-
-    list.innerHTML = todayEvents.map(event => {
-      const emoji = getEventEmoji(event.type);
-      const eventId = event.date + '-' + event.title;
-      return `
-        <div class="today-event-item" id="today-${eventId.replace(/[^a-zA-Z0-9-]/g, '_')}">
-          <div class="event-emoji">${emoji}</div>
-          <div class="event-info">
-            <div class="ev-title">${event.title}</div>
-            <div class="ev-desc">${event.description}</div>
-          </div>
-          <span class="event-type-badge ${getTypeClass(event.type)}">${event.type}</span>
-          <button class="took-part-btn" style="font-size:12px;padding:6px 14px;margin:0;"
-            onclick="handleTookPartToday('${eventId.replace(/[^a-zA-Z0-9-]/g, '_')}', '${eventId}')">
-            ✅ Took Part
-          </button>
-        </div>
-      `;
-    }).join('');
-  } catch (err) {
-    container.style.display = 'none';
-  }
-}
-
-function handleTookPartToday(elementId, eventId) {
-  markTookPart(eventId);
-  const item = document.getElementById('today-' + elementId);
-  if (item) {
-    item.style.display = 'none';
-    // Re-check if any today events remain
-    const remaining = document.querySelectorAll('#today-events-list .today-event-item:not([style*="display: none"])');
-    if (remaining.length === 0) {
-      document.getElementById('today-events').style.display = 'none';
-    }
-  }
-}
-
-function handleTookPart(elementId, eventId) {
-  markTookPart(eventId);
-  const card = document.getElementById('event-' + elementId);
-  if (card) {
-    card.classList.add('done');
-    card.style.display = 'none';
-  }
 }
 
 // ════════════════════════════════════════
@@ -1545,54 +1462,12 @@ function renderFrankfurtEventList(container, events) {
   window.__frankfurtEvents = upcoming;
 }
 
-function formatDate(dateStr) {
-  const d = new Date(dateStr + 'T00:00:00');
-  const options = { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' };
-  return d.toLocaleDateString('en-GB', options);
-}
-
-function getCategoryEmoji(category) {
-  const map = {
-    'Music & Opera': '🎵',
-    'Festival & Culture': '🎉',
-    'Literature & Arts': '📚',
-    'Art & Exhibitions': '🖼️',
-    'Food & Drink': '🍽️',
-    'Convention & Pop Culture': '🎮',
-    'Film & Cinema': '🎬',
-    'Seasonal & Markets': '🎄',
-    'Sports': '⚽',
-    'Nightlife & Social': '🌙',
-    'Family & Education': '👨‍👩‍👧‍👦',
-  };
-  return map[category] || '🎪';
-}
-
-async function loadNextFrankfurtEvent() {
-  const container = document.getElementById('next-frankfurt-event');
-  if (!container) return;
-
-  try {
-    const resp = await fetch(FRANKFURT_EVENTS_URL);
-    const data = await resp.json();
-    const events = data.events || [];
-    const today = new Date().toISOString().split('T')[0];
-    const upcoming = events.filter(e => e.date >= today);
-
-    if (upcoming.length === 0) {
-      container.style.display = 'none';
-      return;
-    }
-
-    upcoming.sort((a, b) => a.date.localeCompare(b.date));
-    const next = upcoming[0];
-
-    document.getElementById('nfe-title').textContent = getCategoryEmoji(next.category) + ' ' + next.title;
-    document.getElementById('nfe-date').textContent = '📅 ' + formatDate(next.date);
-    document.getElementById('nfe-category').textContent = next.category || 'Event';
-    container.style.display = 'block';
-  } catch (err) {
-    container.style.display = 'none';
+function handleTookPart(elementId, eventId) {
+  markTookPart(eventId);
+  const card = document.getElementById('event-' + elementId);
+  if (card) {
+    card.classList.add('done');
+    card.style.display = 'none';
   }
 }
 
