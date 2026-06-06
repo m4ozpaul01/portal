@@ -9,17 +9,17 @@
       "password_hash": "023d5c58e0dc649ba0d74b05fb16941037361ed79d4c9aae95174cec260d2da8"
     }
   ],
-  "kredyt": 8.03,
-  "tokens": 26766666,
+  "kredyt": 7.92,
+  "tokens": 26400000,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
     {
       "name": "natural events",
       "status": "active",
-      "description": "Upcoming celestial events — meteor showers, eclipses, planetary alignments, comets, and more",
+      "description": "Upcoming celestial events \u2014 meteor showers, eclipses, planetary alignments, comets, and more",
       "display": "events",
-      "last_updated": "2026-06-06",
+      "last_updated": "2026-06-07",
       "notes": ""
     },
     {
@@ -27,9 +27,17 @@
       "status": "active",
       "description": "Curated cultural and social events in Frankfurt am Main",
       "display": "frankfurt_events",
-      "last_updated": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "notes": ""
+    },
+    {
+      "name": "openui",
+      "status": "active",
+      "description": "A new project called openui",
+      "display": "placeholder",
+      "last_updated": "2026-06-07",
       "notes": ""
     }
   ],
-  "last_updated": "2026-06-06"
+  "last_updated": "2026-06-07"
 }
