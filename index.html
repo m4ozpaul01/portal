@@ -702,6 +702,256 @@
   }
 
   /* ─── LAST UPDATED ─── */
+
+/* ─── FRANKFURT EVENTS LIST ─── */
+.frankfurt-events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.frankfurt-event-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.frankfurt-event-item:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-active);
+  transform: translateX(4px);
+}
+
+.frankfurt-event-item .fe-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.frankfurt-event-item .fe-date {
+  font-size: 13px;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.frankfurt-event-item .fe-category {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: rgba(99,102,241,0.12);
+  color: #818cf8;
+  white-space: nowrap;
+}
+
+/* ─── FRANKFURT EVENT MODAL ─── */
+.event-modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(8px);
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.event-modal-overlay.active {
+  display: flex;
+}
+
+.event-modal {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  max-width: 640px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.5);
+  animation: modalIn 0.25s ease;
+}
+
+@keyframes modalIn {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.event-modal-header {
+  padding: 24px 28px 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.event-modal-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  flex: 1;
+}
+
+.event-modal-close {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: 18px;
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+
+.event-modal-close:hover {
+  background: rgba(239,68,68,0.1);
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.event-modal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0 28px;
+  margin-top: 12px;
+}
+
+.event-modal-meta .meta-tag {
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.event-modal-meta .meta-tag .tag-icon {
+  font-size: 14px;
+}
+
+.event-modal-body {
+  padding: 20px 28px 28px;
+}
+
+.event-modal-body .detail-section {
+  margin-bottom: 18px;
+}
+
+.event-modal-body .detail-section:last-child {
+  margin-bottom: 0;
+}
+
+.event-modal-body .detail-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+.event-modal-body .detail-text {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.event-modal-img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--bg-primary);
+  margin-bottom: 18px;
+  display: block;
+}
+
+.event-modal-img-placeholder {
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+}
+
+/* ─── FRANKFURT NEXT EVENT ON DASHBOARD ─── */
+.next-frankfurt-event {
+  background: var(--bg-card);
+  border: 1px solid var(--border-active);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.next-frankfurt-event:hover {
+  background: var(--bg-card-hover);
+  transform: translateY(-2px);
+}
+
+.next-frankfurt-event::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), #22c55e, transparent);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.next-frankfurt-event .nfe-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.next-frankfurt-event .nfe-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.next-frankfurt-event .nfe-meta {
+  font-size: 13px;
+  color: var(--text-secondary);
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
   .update-footer {
     text-align: center;
     padding: 32px;
@@ -784,6 +1034,15 @@
         <div id="today-events-list"></div>
       </div>
 
+      <div id="next-frankfurt-event" class="next-frankfurt-event" style="display:none;" onclick="switchTab('project-Frankfurt Events')">
+        <div class="nfe-label">🎪 Next Up in Frankfurt</div>
+        <div class="nfe-title" id="nfe-title">—</div>
+        <div class="nfe-meta">
+          <span id="nfe-date">—</span>
+          <span id="nfe-category">—</span>
+        </div>
+      </div>
+
       <div class="landing-grid" id="project-grid">
         <!-- Dynamically populated from config -->
       </div>
@@ -796,6 +1055,18 @@
     <div class="update-footer" id="update-footer">
       Last updated: —
     </div>
+  </div>
+</div>
+
+<!-- ═══ FRANKFURT EVENT MODAL ═══ -->
+<div class="event-modal-overlay" id="event-modal-overlay" onclick="closeFrankfurtModal(event)">
+  <div class="event-modal" onclick="event.stopPropagation()">
+    <div class="event-modal-header">
+      <h2 id="modal-title">—</h2>
+      <button class="event-modal-close" onclick="closeFrankfurtModal()">✕</button>
+    </div>
+    <div class="event-modal-meta" id="modal-meta"></div>
+    <div class="event-modal-body" id="modal-body"></div>
   </div>
 </div>
 
@@ -868,6 +1139,9 @@ function initPortal(config) {
   // Load today's events for the overview
   loadTodayEvents();
 
+  // Load next Frankfurt event for the overview
+  loadNextFrankfurtEvent();
+
   // Footer
   document.getElementById('update-footer').textContent = 'Last updated: ' + (config.last_updated || '—');
 }
@@ -913,6 +1187,21 @@ function buildProjectContent(project) {
         <div style="text-align:center;padding:64px;color:var(--text-muted);">
           <div style="font-size:48px;margin-bottom:16px;">🔭</div>
           <p>Loading celestial events...</p>
+        </div>
+      </div>
+    `;
+  }
+  if (project.display === 'frankfurt_events') {
+    return `
+      <div class="project-tab-header">
+        <h2>🎪 Frankfurt Events</h2>
+        <p>${project.description || 'Curated cultural and social events in Frankfurt'}</p>
+        <p style="font-size:12px;color:var(--text-muted);margin-top:4px;">🔍 Researched every Sunday · Click any event for details</p>
+      </div>
+      <div id="frankfurt-events-container" class="frankfurt-events-list">
+        <div style="text-align:center;padding:64px;color:var(--text-muted);">
+          <div style="font-size:48px;margin-bottom:16px;">🎪</div>
+          <p>Loading Frankfurt events...</p>
         </div>
       </div>
     `;
@@ -980,9 +1269,12 @@ function switchTab(tabId) {
   if (tabBtn) tabBtn.classList.add('active');
   if (tabContent) tabContent.classList.add('active');
 
-  // Load events when natural events tab opens
+  // Load events when natural events or Frankfurt events tab opens
   if (tabId === 'project-natural events') {
     loadEvents('events-container-natural events', 'natural events');
+  }
+  if (tabId === 'project-Frankfurt Events') {
+    loadFrankfurtEvents();
   }
 }
 
@@ -1192,6 +1484,187 @@ function handleTookPart(elementId, eventId) {
     card.style.display = 'none';
   }
 }
+
+// ════════════════════════════════════════
+// FRANKFURT EVENTS
+// ════════════════════════════════════════
+
+const FRANKFURT_EVENTS_URL = 'frankfurt_events.json?_=' + Date.now();
+
+async function loadFrankfurtEvents() {
+  const container = document.getElementById('frankfurt-events-container');
+  if (!container) return;
+
+  try {
+    const resp = await fetch(FRANKFURT_EVENTS_URL);
+    const data = await resp.json();
+    const events = data.events || [];
+    renderFrankfurtEventList(container, events);
+  } catch (err) {
+    container.innerHTML = `
+      <div class="events-empty">
+        <div class="icon">🎪</div>
+        <h3>Could not load events</h3>
+        <p>Events data not yet available. New research runs every Sunday at 3 AM.</p>
+      </div>
+    `;
+  }
+}
+
+function renderFrankfurtEventList(container, events) {
+  const today = new Date().toISOString().split('T')[0];
+
+  // Filter to only upcoming events
+  const upcoming = events.filter(e => e.date >= today);
+
+  if (upcoming.length === 0) {
+    container.innerHTML = `
+      <div class="events-empty">
+        <div class="icon">🎪</div>
+        <h3>No upcoming events</h3>
+        <p>New events will be researched every Sunday.</p>
+      </div>
+    `;
+    return;
+  }
+
+  // Sort by date (soonest first)
+  upcoming.sort((a, b) => a.date.localeCompare(b.date));
+
+  container.innerHTML = upcoming.map((event, index) => `
+    <div class="frankfurt-event-item" onclick="openFrankfurtModal(${index})" data-event-index="${index}">
+      <span class="fe-title">${event.title}</span>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="fe-category">${event.category || 'Event'}</span>
+        <span class="fe-date">${formatDate(event.date)}</span>
+      </div>
+    </div>
+  `).join('');
+
+  // Store events data for modal access
+  window.__frankfurtEvents = upcoming;
+}
+
+function formatDate(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const options = { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' };
+  return d.toLocaleDateString('en-GB', options);
+}
+
+function getCategoryEmoji(category) {
+  const map = {
+    'Music & Opera': '🎵',
+    'Festival & Culture': '🎉',
+    'Literature & Arts': '📚',
+    'Art & Exhibitions': '🖼️',
+    'Food & Drink': '🍽️',
+    'Convention & Pop Culture': '🎮',
+    'Film & Cinema': '🎬',
+    'Seasonal & Markets': '🎄',
+    'Sports': '⚽',
+    'Nightlife & Social': '🌙',
+    'Family & Education': '👨‍👩‍👧‍👦',
+  };
+  return map[category] || '🎪';
+}
+
+async function loadNextFrankfurtEvent() {
+  const container = document.getElementById('next-frankfurt-event');
+  if (!container) return;
+
+  try {
+    const resp = await fetch(FRANKFURT_EVENTS_URL);
+    const data = await resp.json();
+    const events = data.events || [];
+    const today = new Date().toISOString().split('T')[0];
+    const upcoming = events.filter(e => e.date >= today);
+
+    if (upcoming.length === 0) {
+      container.style.display = 'none';
+      return;
+    }
+
+    upcoming.sort((a, b) => a.date.localeCompare(b.date));
+    const next = upcoming[0];
+
+    document.getElementById('nfe-title').textContent = getCategoryEmoji(next.category) + ' ' + next.title;
+    document.getElementById('nfe-date').textContent = '📅 ' + formatDate(next.date);
+    document.getElementById('nfe-category').textContent = next.category || 'Event';
+    container.style.display = 'block';
+  } catch (err) {
+    container.style.display = 'none';
+  }
+}
+
+// ════════════════════════════════════════
+// FRANKFURT EVENT MODAL
+// ════════════════════════════════════════
+
+function openFrankfurtModal(index) {
+  const events = window.__frankfurtEvents;
+  if (!events || !events[index]) return;
+
+  const event = events[index];
+  const overlay = document.getElementById('event-modal-overlay');
+  const title = document.getElementById('modal-title');
+  const meta = document.getElementById('modal-meta');
+  const body = document.getElementById('modal-body');
+
+  title.textContent = getCategoryEmoji(event.category) + ' ' + event.title;
+
+  // Meta tags
+  meta.innerHTML = `
+    <span class="meta-tag"><span class="tag-icon">📅</span> ${formatDate(event.date)}</span>
+    ${event.time ? `<span class="meta-tag"><span class="tag-icon">⏰</span> ${event.time}</span>` : ''}
+    <span class="meta-tag"><span class="tag-icon">🏷️</span> ${event.category || 'Event'}</span>
+  `;
+
+  // Body content
+  let bodyHTML = '';
+
+  if (event.image_url) {
+    bodyHTML += `<img class="event-modal-img" src="${event.image_url}" alt="${event.title}" onerror="this.style.display='none'">`;
+  } else {
+    bodyHTML += `<div class="event-modal-img-placeholder">${getCategoryEmoji(event.category)}</div>`;
+  }
+
+  bodyHTML += `
+    <div class="detail-section">
+      <div class="detail-label">📖 Description</div>
+      <div class="detail-text">${event.description}</div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-label">📍 Location</div>
+      <div class="detail-text">${event.location}</div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-label">💰 Cost</div>
+      <div class="detail-text">${event.cost_per_person}</div>
+    </div>
+  `;
+
+  body.innerHTML = bodyHTML;
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeFrankfurtModal(event) {
+  if (event && event.target !== event.currentTarget) return;
+  const overlay = document.getElementById('event-modal-overlay');
+  overlay.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    const overlay = document.getElementById('event-modal-overlay');
+    if (overlay.classList.contains('active')) {
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  }
+});
 
 // ════════════════════════════════════════
 

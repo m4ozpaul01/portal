@@ -1,0 +1,176 @@
+{
+  "last_updated": "2026-06-06",
+  "research_date": "2026-06-06",
+  "events": [
+    {
+      "title": "Frankfurt Street Food Night Market",
+      "date": "2026-06-27",
+      "time": "17:00 - 23:00",
+      "description": "Monthly street food market at the old wholesale market hall (Kleinmarkthalle area). Over 40 food vendors, live cooking shows, craft beer, and live music. A paradise for food lovers.",
+      "cost_per_person": "Free entry (food €5-€12 per dish)",
+      "location": "Kleinmarkthalle area, Hasengasse, 60311 Frankfurt",
+      "image_url": "",
+      "category": "Food & Drink"
+    },
+    {
+      "title": "Senckenberg Museum: Dinosaur Exhibition",
+      "date": "2026-07-01",
+      "time": "09:00 - 17:00",
+      "description": "The Senckenberg Natural History Museum, one of Europe's largest natural history museums, features stunning dinosaur skeletons including the famous 'Tristan' T-Rex. Special summer exhibition on prehistoric marine life.",
+      "cost_per_person": "€10 - €14 (children €5)",
+      "location": "Senckenberg Naturmuseum, Senckenberganlage 25, 60325 Frankfurt",
+      "image_url": "",
+      "category": "Family & Education"
+    },
+    {
+      "title": "Schirn Kunsthalle: New Exhibition Opening",
+      "date": "2026-07-04",
+      "time": "10:00 - 19:00",
+      "description": "The Schirn Kunsthalle presents its latest contemporary art exhibition. One of Europe's most prestigious exhibition venues, known for groundbreaking shows spanning classical modernism to contemporary art.",
+      "cost_per_person": "€10 - €14",
+      "location": "Schirn Kunsthalle, Römerberg, 60311 Frankfurt",
+      "image_url": "",
+      "category": "Art & Exhibitions"
+    },
+    {
+      "title": "Palmengarten: Summer Night Concert Series",
+      "date": "2026-07-11",
+      "time": "19:00",
+      "description": "Open-air classical and pop concerts in the stunning Palmengarten botanical gardens. Bring a picnic and enjoy world-class music surrounded by exotic plants and flowers under the summer sky.",
+      "cost_per_person": "€18 - €35",
+      "location": "Palmengarten, Siesmayerstraße 61, 60323 Frankfurt",
+      "image_url": "",
+      "category": "Music & Opera"
+    },
+    {
+      "title": "Römerberg Summer Cinema",
+      "date": "2026-07-18",
+      "time": "21:30 (dusk)",
+      "description": "Open-air cinema on Frankfurt's historic Römerberg square. Watch classic and contemporary films under the stars with the medieval Römer buildings as your backdrop. Bring a blanket!",
+      "cost_per_person": "€8 - €12",
+      "location": "Römerberg, 60311 Frankfurt",
+      "image_url": "",
+      "category": "Film & Cinema"
+    },
+    {
+      "title": "Frankfurt Riverboat Party Cruise",
+      "date": "2026-07-19",
+      "time": "20:00 - 23:30",
+      "description": "A summer night party cruise on the Main River. DJ sets, cocktails, and panoramic views of Frankfurt's illuminated skyline from the water. A unique way to experience the city.",
+      "cost_per_person": "€18 - €25 (incl. one drink)",
+      "location": "Departs from Eiserner Steg, Mainkai, Frankfurt",
+      "image_url": "",
+      "category": "Nightlife & Social"
+    },
+    {
+      "title": "Nippon Conn",
+      "date": "2026-07-25",
+      "time": "09:00 - 20:00",
+      "description": "Germany's largest Japanese pop culture convention in Frankfurt. Anime screenings, cosplay competitions, manga artists, J-pop concerts, Japanese food market, and workshops on everything from calligraphy to voice acting.",
+      "cost_per_person": "€35 - €75 (weekend pass €85)",
+      "location": "Messe Frankfurt, Ludwig-Erhard-Anlage 1, 60327 Frankfurt",
+      "image_url": "",
+      "category": "Convention & Pop Culture"
+    },
+    {
+      "title": "Mainfest Frankfurt",
+      "date": "2026-08-01",
+      "time": "10:00 - 22:00",
+      "description": "Traditional summer festival along the Main River featuring live music, carnival rides, regional food specialties (Handkäse, Grüne Soße, Apfelwein), and a spectacular fireworks display over the river on Saturday evening.",
+      "cost_per_person": "Free entry (rides/food extra €3-€10)",
+      "location": "Mainkai, along Main River between Friedensbrücke and Untermainbrücke",
+      "image_url": "",
+      "category": "Festival & Culture"
+    },
+    {
+      "title": "Frankfurt Jazz Festival",
+      "date": "2026-08-05",
+      "time": "18:00 - 23:00",
+      "description": "International jazz musicians perform across multiple venues in Frankfurt. From intimate club sessions to open-air concerts along the Main. Features both established legends and emerging artists.",
+      "cost_per_person": "€15 - €45 (per concert)",
+      "location": "Various venues across Frankfurt (Jazzkeller, HR-Sendesaal, Mainufer)",
+      "image_url": "",
+      "category": "Music & Opera"
+    },
+    {
+      "title": "Apfelwein Festival",
+      "date": "2026-08-14",
+      "time": "12:00 - 22:00",
+      "description": "Celebrate Frankfurt's signature apple wine (Apfelwein) at this lively festival in Alt-Sachsenhausen. Sample dozens of local Apfelwein varieties, traditional Frankfurter cuisine, and live folk music.",
+      "cost_per_person": "Free entry (drinks/food €3-€8)",
+      "location": "Alt-Sachsenhausen, Frankfurt",
+      "image_url": "",
+      "category": "Food & Drink"
+    },
+    {
+      "title": "Eintracht Frankfurt: Bundesliga Home Match",
+      "date": "2026-08-23",
+      "time": "15:30",
+      "description": "Experience the electric atmosphere of a Bundesliga match at Deutsche Bank Park. Watch Eintracht Frankfurt take on a top-flight opponent in one of Germany's most passionate football stadiums.",
+      "cost_per_person": "€25 - €70",
+      "location": "Deutsche Bank Park, Mörfelder Landstraße 362, 60528 Frankfurt",
+      "image_url": "",
+      "category": "Sports"
+    },
+    {
+      "title": "Museumsuferfest",
+      "date": "2026-08-27",
+      "time": "11:00 - 23:00",
+      "description": "Frankfurt's biggest cultural festival along the Museumsufer riverbank. Over 30 museums open their doors with special exhibitions, live music, dance performances, and international food stalls along the Main River.",
+      "cost_per_person": "Free (museum entry fees vary €4-€12)",
+      "location": "Museumsufer, along both sides of Main River, Frankfurt",
+      "image_url": "",
+      "category": "Festival & Culture"
+    },
+    {
+      "title": "Frankfurt Goethe Museum: Special Exhibition",
+      "date": "2026-09-05",
+      "time": "10:00 - 18:00 (closed Mondays)",
+      "description": "The Goethe House museum presents a new special exhibition exploring the life and works of Johann Wolfgang von Goethe, Frankfurt's most famous son. Rare manuscripts, personal artifacts, and interactive installations.",
+      "cost_per_person": "€7 - €12",
+      "location": "Goethe-Haus, Großer Hirschgraben 23-25, 60311 Frankfurt",
+      "image_url": "",
+      "category": "Art & Exhibitions"
+    },
+    {
+      "title": "Oper Frankfurt: Der Fliegende Holländer",
+      "date": "2026-09-12",
+      "time": "19:30",
+      "description": "Wagner's dramatic opera 'The Flying Dutchman' performed by the renowned Frankfurt Opera ensemble. A haunting tale of a cursed sea captain and redemption through love.",
+      "cost_per_person": "€25 - €95",
+      "location": "Oper Frankfurt, Untermainanlage 11, 60311 Frankfurt",
+      "image_url": "",
+      "category": "Music & Opera"
+    },
+    {
+      "title": "Museumsufer: Nacht der Museen",
+      "date": "2026-09-19",
+      "time": "19:00 - 02:00",
+      "description": "The Night of Museums — over 40 museums across Frankfurt open their doors until 2 AM with a single ticket. Special guided tours, live performances, and late-night bar installations at each venue. Shuttle buses connect all locations.",
+      "cost_per_person": "€15 (one ticket for all museums)",
+      "location": "All participating museums across Frankfurt",
+      "image_url": "",
+      "category": "Festival & Culture"
+    },
+    {
+      "title": "Frankfurter Buchmesse 2026",
+      "date": "2026-10-14",
+      "time": "09:00 - 18:00",
+      "description": "One of the world's largest book fairs. Meet authors, publishers, and literary agents from around the globe. Special exhibits, readings, and panel discussions throughout the fairgrounds.",
+      "cost_per_person": "€25 (day pass), €60 (full event)",
+      "location": "Messe Frankfurt, Ludwig-Erhard-Anlage 1, 60327 Frankfurt",
+      "image_url": "",
+      "category": "Literature & Arts"
+    },
+    {
+      "title": "Frankfurt Christmas Market",
+      "date": "2026-11-25",
+      "time": "10:00 - 21:00",
+      "description": "One of Germany's oldest and most beautiful Christmas markets on the Römerberg. Over 200 stalls selling handcrafted gifts, Christmas decorations, mulled wine (Glühwein), roasted almonds, and traditional Frankfurter Bethmännchen.",
+      "cost_per_person": "Free entry",
+      "location": "Römerberg & Paulsplatz, 60311 Frankfurt",
+      "image_url": "",
+      "category": "Seasonal & Markets"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ set -e
 
 PORTAL_DIR="$HOME/Desktop/PROJECTS/portal"
 EVENTS_SRC="$HOME/Desktop/PROJECTS/natural events/events.json"
+FRANKFURT_SRC="$HOME/Desktop/PROJECTS/Frankfurt Events/frankfurt_events.json"
 
 cd "$PORTAL_DIR"
 
@@ -13,11 +14,17 @@ if [[ -f "$EVENTS_SRC" ]]; then
   echo "Synced celestial events"
 fi
 
+# Sync Frankfurt events if available
+if [[ -f "$FRANKFURT_SRC" ]]; then
+  cp "$FRANKFURT_SRC" "$PORTAL_DIR/frankfurt_events.json"
+  echo "Synced Frankfurt events"
+fi
+
 # Run the config updater
 python3 update_portal.py
 
 if [[ -n $(git status --porcelain) ]]; then
-  git add config.json events.json
+  git add config.json events.json frankfurt_events.json
   git commit -m "Portal auto-update — $(date +%Y-%m-%d\ %H:%M)"
   git push origin gh-pages
   echo "Pushed portal update to GitHub Pages"
