@@ -804,7 +804,7 @@
 // CONFIG
 // ════════════════════════════════════════
 
-const CONFIG_URL = 'config.json';
+const CONFIG_URL = 'config.json?_=' + Date.now();
 const SESSION_KEY = 'portal_auth';
 
 // ════════════════════════════════════════
@@ -1001,7 +1001,7 @@ function logout() {
 // NATURAL EVENTS
 // ════════════════════════════════════════
 
-const EVENTS_URL = 'events.json';
+const EVENTS_URL = 'events.json?_=' + Date.now();
 const TOOK_PART_KEY = 'portal_took_part';
 
 function getTookPartIds() {
