@@ -828,7 +828,12 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
     const config = await resp.json();
 
     const hash = await hashPassword(pass);
-    if (user === config.credentials.username && hash === config.credentials.password_hash) {
+
+    // Check against all registered users
+    const creds = Array.isArray(config.credentials) ? config.credentials : [config.credentials];
+    const match = creds.find(c => user === c.username && hash === c.password_hash);
+
+    if (match) {
       sessionStorage.setItem(SESSION_KEY, 'true');
       errorEl.style.display = 'none';
       initPortal(config);
