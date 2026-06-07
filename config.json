@@ -19,7 +19,7 @@
       "status": "active",
       "description": "Upcoming celestial events \u2014 meteor showers, eclipses, planetary alignments, comets, and more",
       "display": "events",
-      "last_updated": "2026-06-07",
+      "last_updated": "2026-06-08",
       "notes": ""
     },
     {
@@ -27,7 +27,7 @@
       "status": "active",
       "description": "Curated cultural and social events in Frankfurt am Main",
       "display": "frankfurt_events",
-      "last_updated": "2026-06-07",
+      "last_updated": "2026-06-08",
       "notes": ""
     },
     {
@@ -35,9 +35,9 @@
       "status": "active",
       "description": "A new project called openui",
       "display": "placeholder",
-      "last_updated": "2026-06-07",
+      "last_updated": "2026-06-08",
       "notes": ""
     }
   ],
-  "last_updated": "2026-06-07"
+  "last_updated": "2026-06-08"
 }
