@@ -883,6 +883,160 @@
     font-family: 'JetBrains Mono', monospace;
     border-top: 1px solid var(--border);
   }
+
+/* Hessen Events */
+.hessen-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 20px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.hessen-slider-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  min-width: 250px;
+}
+.hessen-slider-label {
+  font-size: 13px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  font-weight: 500;
+}
+.hessen-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  outline: none;
+  flex: 1;
+}
+.hessen-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+.hessen-slider-value {
+  font-size: 15px;
+  color: var(--accent);
+  font-weight: 600;
+  min-width: 45px;
+  text-align: right;
+  font-family: 'JetBrains Mono', monospace;
+}
+.hessen-event-count {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.hessen-event-item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.hessen-event-item:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-active);
+  transform: translateX(4px);
+}
+.hessen-event-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.hessen-event-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+.hessen-event-distance {
+  font-size: 12px;
+  color: var(--accent);
+  white-space: nowrap;
+  font-family: 'JetBrains Mono', monospace;
+  background: rgba(99,102,241,0.1);
+  padding: 2px 8px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.hessen-event-bottom {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+.hessen-event-city {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.hessen-event-category {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--accent-glow);
+  color: var(--accent);
+}
+.hessen-event-date-badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(34,197,94,0.1);
+  color: var(--green);
+}
+/* Hessen Modal extra fields */
+.detail-distance {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(99,102,241,0.1);
+  padding: 4px 12px;
+  border-radius: 6px;
+  color: var(--accent);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.maps-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: rgba(34,197,94,0.1);
+  border: 1px solid rgba(34,197,94,0.2);
+  border-radius: var(--radius-sm);
+  color: var(--green);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 8px;
+  transition: all 0.2s;
+}
+.maps-link:hover {
+  background: rgba(34,197,94,0.2);
+  border-color: var(--green);
+}
+
 </style>
 </head>
 <body>
@@ -980,7 +1134,19 @@
     <div class="event-modal-meta" id="modal-meta"></div>
     <div class="event-modal-body" id="modal-body"></div>
   </div>
+
+<!-- ═══ HESSEN EVENT MODAL ═══ -->
+<div class="event-modal-overlay" id="hessen-modal-overlay" onclick="closeHessenModal(event)">
+  <div class="event-modal" onclick="event.stopPropagation()">
+    <div class="event-modal-header">
+      <h2 id="hessen-modal-title">—</h2>
+      <button class="event-modal-close" onclick="closeHessenModal()">✕</button>
+    </div>
+    <div class="event-modal-meta" id="hessen-modal-meta"></div>
+    <div class="event-modal-body" id="hessen-modal-body"></div>
+  </div>
 </div>
+
 
 <script>
 // ════════════════════════════════════════
@@ -1097,6 +1263,30 @@ function buildProjectContent(project) {
       </div>
     `;
   }
+  if (project.display === 'hessen_events') {
+    return `
+      <div class="project-tab-header">
+        <h2>🌍 Hessen Events</h2>
+        <p>${project.description || 'Events across Hessen state — filtered by distance from Frankfurt'}</p>
+        <p style="font-size:12px;color:var(--text-muted);margin-top:4px;">🔍 Researched every Sunday · Drag slider to set max distance · Click for details + maps link</p>
+      </div>
+      <div class="hessen-controls">
+        <div class="hessen-slider-group">
+          <span class="hessen-slider-label">📍 Distance from Frankfurt:</span>
+          <input type="range" class="hessen-slider" id="hessen-distance-slider" min="0" max="300" value="300" step="5">
+          <span class="hessen-slider-value" id="hessen-slider-value">300 km</span>
+        </div>
+        <span class="hessen-event-count" id="hessen-event-count">Showing events</span>
+      </div>
+      <div id="hessen-events-container" class="frankfurt-events-list">
+        <div style="text-align:center;padding:64px;color:var(--text-muted);">
+          <div style="font-size:48px;margin-bottom:16px;">🌍</div>
+          <p>Loading Hessen events...</p>
+        </div>
+      </div>
+    `;
+  }
+
   if (project.display === 'frankfurt_events') {
     return `
       <div class="project-tab-header">
@@ -1208,6 +1398,7 @@ async function loadOverviewHighlights(config) {
 
   // Load Frankfurt events
   let frankfurtEvents = [];
+  let hessenEvents = [];
   try {
     const resp = await fetch(FRANKFURT_EVENTS_URL);
     const data = await resp.json();
@@ -1216,10 +1407,20 @@ async function loadOverviewHighlights(config) {
       .sort((a, b) => a.date.localeCompare(b.date));
   } catch {}
 
+  // Load Hessen events
+  try {
+    const resp = await fetch(HESSEN_EVENTS_URL);
+    const data = await resp.json();
+    hessenEvents = (data.events || [])
+      .filter(e => e.date >= today)
+      .sort((a, b) => a.date.localeCompare(b.date));
+  } catch {}
+
   // Tab icon & label mapping (add new tabs here when created)
   const tabInfo = {
     'natural events': { icon: '🔭', label: 'Sky Events' },
     'Frankfurt Events': { icon: '🎪', label: 'Frankfurt Events' },
+    'Hessen Events': { icon: '🌍', label: 'Hessen Events' },
   };
 
   container.innerHTML = '';
@@ -1244,6 +1445,20 @@ async function loadOverviewHighlights(config) {
           <span class="event-type-badge ${getTypeClass(first.type)}">${first.type}</span>
         </div>
         <div class="os-desc">${first.description}</div>
+      `;
+    } else if (project.display === 'hessen_events' && hessenEvents.length > 0) {
+      const first = hessenEvents[0];
+      section.innerHTML = `
+        <div class="os-header">
+          <span class="os-icon">${info.icon}</span>
+          <span class="os-tab-name">${info.label}</span>
+        </div>
+        <div class="os-title">${getCategoryEmoji(first.category)} ${first.title}</div>
+        <div class="os-meta">
+          <span>📅 ${formatDate(first.date)}</span>
+          <span>📍 ${first.distance_from_frankfurt_km || 0} km</span>
+        </div>
+        <div class="os-desc">${first.description || ''}</div>
       `;
     } else if (project.display === 'frankfurt_events' && frankfurtEvents.length > 0) {
       const first = frankfurtEvents[0];
@@ -1299,6 +1514,9 @@ function switchTab(tabId) {
   }
   if (tabId === 'project-Frankfurt Events') {
     loadFrankfurtEvents();
+  }
+  if (tabId === 'project-Hessen Events') {
+    loadHessenEvents();
   }
 }
 
@@ -1533,9 +1751,14 @@ function closeFrankfurtModal(event) {
 // Close modal on Escape key
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') {
-    const overlay = document.getElementById('event-modal-overlay');
-    if (overlay.classList.contains('active')) {
-      overlay.classList.remove('active');
+    const fModal = document.getElementById('event-modal-overlay');
+    if (fModal.classList.contains('active')) {
+      fModal.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    const hModal = document.getElementById('hessen-modal-overlay');
+    if (hModal && hModal.classList.contains('active')) {
+      hModal.classList.remove('active');
       document.body.style.overflow = '';
     }
   }
@@ -1554,6 +1777,171 @@ document.addEventListener('keydown', function(e) {
     }
   }
 })();
+
+// ════════════════════════════════════════
+// HESSEN EVENTS
+// ════════════════════════════════════════
+
+const HESSEN_EVENTS_URL = 'hessen_events.json?_=' + Date.now();
+
+async function loadHessenEvents() {
+  const container = document.getElementById('hessen-events-container');
+  if (!container) return;
+
+  try {
+    const resp = await fetch(HESSEN_EVENTS_URL);
+    const data = await resp.json();
+    const events = data.events || [];
+    window.__hessenEvents = events;
+    renderHessenEventList(container, events);
+    setupHessenSlider(events);
+  } catch (err) {
+    container.innerHTML = `
+      <div class="events-empty">
+        <div class="icon">🌍</div>
+        <h3>Could not load events</h3>
+        <p>Events data not yet available. New research runs every Sunday at 4 AM.</p>
+      </div>
+    `;
+  }
+}
+
+function setupHessenSlider(allEvents) {
+  const slider = document.getElementById('hessen-distance-slider');
+  const valueDisplay = document.getElementById('hessen-slider-value');
+  const container = document.getElementById('hessen-events-container');
+  if (!slider || !valueDisplay || !container) return;
+
+  const update = () => {
+    const maxDist = parseInt(slider.value);
+    valueDisplay.textContent = maxDist + ' km';
+    renderHessenEventList(container, allEvents, maxDist);
+  };
+
+  slider.addEventListener('input', update);
+}
+
+function renderHessenEventList(container, events, maxDistance) {
+  const today = new Date().toISOString().split('T')[0];
+
+  // Filter to upcoming events
+  let filtered = events.filter(e => e.date >= today);
+
+  // Filter by distance slider if set
+  if (typeof maxDistance === 'number' && maxDistance < 300) {
+    filtered = filtered.filter(e => (e.distance_from_frankfurt_km || 0) <= maxDistance);
+  }
+
+  // Sort by distance (closest first)
+  filtered.sort((a, b) => (a.distance_from_frankfurt_km || 0) - (b.distance_from_frankfurt_km || 0));
+
+  const countDisplay = document.getElementById('hessen-event-count');
+  if (countDisplay) {
+    countDisplay.textContent = filtered.length === 1 ? '1 event found' : filtered.length + ' events found';
+  }
+
+  // Store filtered events for modal access
+  window.__hessenFilteredEvents = filtered;
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div class="events-empty">
+        <div class="icon">🌍</div>
+        <h3>No events within range</h3>
+        <p>Try increasing the distance slider to find more events across Hessen.</p>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = filtered.map((event, index) => {
+    const dist = event.distance_from_frankfurt_km || 0;
+    const distText = dist < 1 ? '< 1 km' : dist.toFixed(0) + ' km from Frankfurt';
+
+    return `
+      <div class="hessen-event-item" onclick="openHessenModal(${index})">
+        <div class="hessen-event-top">
+          <span class="hessen-event-title">${getCategoryEmoji(event.category)} ${event.title}</span>
+          <span class="hessen-event-distance">📍 ${distText}</span>
+        </div>
+        <div class="hessen-event-bottom">
+          <span class="hessen-event-city">🏙️ ${event.city || ''}</span>
+          <span class="hessen-event-category">${event.category || 'Event'}</span>
+          <span class="hessen-event-date-badge">📅 ${formatDate(event.date)}</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function openHessenModal(index) {
+  const events = window.__hessenFilteredEvents || window.__hessenEvents;
+  if (!events || !events[index]) return;
+  const event = events[index];
+
+  const overlay = document.getElementById('hessen-modal-overlay');
+  const title = document.getElementById('hessen-modal-title');
+  const meta = document.getElementById('hessen-modal-meta');
+  const body = document.getElementById('hessen-modal-body');
+
+  title.textContent = getCategoryEmoji(event.category) + ' ' + event.title;
+
+  const dist = event.distance_from_frankfurt_km || 0;
+  const distText = dist < 1 ? '< 1 km' : dist.toFixed(0) + ' km';
+
+  meta.innerHTML = `
+    <span class="meta-tag"><span class="tag-icon">📅</span> ${formatDate(event.date)}</span>
+    ${event.time ? `<span class="meta-tag"><span class="tag-icon">⏰</span> ${event.time}</span>` : ''}
+    <span class="meta-tag"><span class="tag-icon">🏷️</span> ${event.category || 'Event'}</span>
+    <span class="meta-tag"><span class="tag-icon">🏙️</span> ${event.city || ''}</span>
+  `;
+
+  let bodyHTML = '';
+
+  bodyHTML += `<div class="detail-distance">📍 ${distText} from Frankfurt</div>`;
+
+  if (event.image_url) {
+    bodyHTML += `<img class="event-modal-img" src="${event.image_url}" alt="${event.title}" onerror="this.style.display='none'">`;
+  } else {
+    bodyHTML += `<div class="event-modal-img-placeholder">${getCategoryEmoji(event.category)}</div>`;
+  }
+
+  bodyHTML += `
+    <div class="detail-section">
+      <div class="detail-label">📖 Description</div>
+      <div class="detail-text">${event.description}</div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-label">📍 Location</div>
+      <div class="detail-text">${event.location}</div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-label">💰 Cost</div>
+      <div class="detail-text">${event.cost_per_person || 'Free'}</div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-label">📍 Distance from Frankfurt</div>
+      <div class="detail-text">${distText}</div>
+    </div>
+    <div class="detail-section">
+      <a href="${event.google_maps_link || '#'}" target="_blank" rel="noopener noreferrer" class="maps-link">
+        🗺️ Open in Google Maps
+      </a>
+    </div>
+  `;
+
+  body.innerHTML = bodyHTML;
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeHessenModal(event) {
+  if (event && event.target !== event.currentTarget) return;
+  const overlay = document.getElementById('hessen-modal-overlay');
+  overlay.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
 </script>
 </body>
 </html>

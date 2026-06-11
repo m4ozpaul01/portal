@@ -37,6 +37,14 @@
       "display": "placeholder",
       "last_updated": "2026-06-11",
       "notes": ""
+    },
+    {
+      "name": "Hessen Events",
+      "status": "active",
+      "description": "Cultural and social events across Hessen state — filtered by distance from Frankfurt",
+      "display": "hessen_events",
+      "last_updated": "2026-06-11",
+      "notes": ""
     }
   ],
   "last_updated": "2026-06-11"
