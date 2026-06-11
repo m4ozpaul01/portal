@@ -1667,7 +1667,7 @@ function renderFrankfurtEventList(container, events) {
   upcoming.sort((a, b) => a.date.localeCompare(b.date));
 
   container.innerHTML = upcoming.map((event, index) => `
-    <div class="frankfurt-event-item" onclick="openFrankfurtModal(${index})" data-event-index="${index}">
+    <div class="frankfurt-event-item" data-fe-idx="${index}">
       <span class="fe-title">${event.title}</span>
       <div style="display:flex;align-items:center;gap:10px;">
         <span class="fe-category">${event.category || 'Event'}</span>
@@ -1675,6 +1675,18 @@ function renderFrankfurtEventList(container, events) {
       </div>
     </div>
   `).join('');
+
+  // Event delegation for Frankfurt events
+  if (!container._feDelegation) {
+    container._feDelegation = true;
+    container.addEventListener('click', function(e) {
+      const item = e.target.closest('.frankfurt-event-item');
+      if (item) {
+        const idx = parseInt(item.dataset.feIdx);
+        if (!isNaN(idx)) openFrankfurtModal(idx);
+      }
+    });
+  }
 
   // Store events data for modal access
   window.__frankfurtEvents = upcoming;
@@ -1915,7 +1927,7 @@ function renderHessenEventList(container, events, maxDistance) {
     const distText = dist < 1 ? '< 1 km' : dist.toFixed(0) + ' km from Frankfurt';
 
     return `
-      <div class="hessen-event-item" onclick="openHessenModal(${index})" data-he-idx="${index}">
+      <div class="hessen-event-item" data-he-idx="${index}">
         <div class="hessen-event-top">
           <span class="hessen-event-title">${getCategoryEmoji(event.category)} ${escapeHtml(event.title)}</span>
           <span class="hessen-event-distance">📍 ${distText}</span>
@@ -1928,7 +1940,18 @@ function renderHessenEventList(container, events, maxDistance) {
       </div>
     `;
   }).join('');
-}
+
+  // Event delegation — reliable click handling even after re-renders
+  if (!container._hessenDelegation) {
+    container._hessenDelegation = true;
+    container.addEventListener('click', function(e) {
+      const item = e.target.closest('.hessen-event-item');
+      if (item) {
+        const idx = parseInt(item.dataset.heIdx);
+        if (!isNaN(idx)) openHessenModal(idx);
+      }
+    });
+  }
 
 // Simple HTML escape helper (shared between all event renderers)
 function escapeHtml(str) {
