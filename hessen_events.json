@@ -19,7 +19,8 @@
       "latitude": 50.0782,
       "longitude": 8.2398,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Schlossplatz,+65183+Wiesbaden",
-      "distance_from_frankfurt_km": 31.8
+      "distance_from_frankfurt_km": 31.8,
+      "website": ""
     },
     {
       "title": "Rüsselsheim Wine & Cheese Tasting Festival",
@@ -33,7 +34,8 @@
       "latitude": 49.995,
       "longitude": 8.4224,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz,+65428+Rüsselsheim",
-      "distance_from_frankfurt_km": 22.6
+      "distance_from_frankfurt_km": 22.6,
+      "website": ""
     },
     {
       "title": "Rüsselsheim Weekly Market & Farmers Market",
@@ -47,7 +49,8 @@
       "latitude": 49.995,
       "longitude": 8.4224,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptstraße+42,+65428+Rüsselsheim",
-      "distance_from_frankfurt_km": 22.6
+      "distance_from_frankfurt_km": 22.6,
+      "website": ""
     },
     {
       "title": "Kinderfest in Darmstadt",
@@ -61,7 +64,8 @@
       "latitude": 49.8728,
       "longitude": 8.6512,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptstraße+6,+64283+Darmstadt",
-      "distance_from_frankfurt_km": 26.6
+      "distance_from_frankfurt_km": 26.6,
+      "website": ""
     },
     {
       "title": "Marburg Street Food Festival",
@@ -75,7 +79,8 @@
       "latitude": 50.8044,
       "longitude": 8.7663,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Am+Markt+12,+35037+Marburg",
-      "distance_from_frankfurt_km": 77.3
+      "distance_from_frankfurt_km": 77.3,
+      "website": ""
     },
     {
       "title": "Friedberg Book Fair & Literary Reading",
@@ -89,7 +94,8 @@
       "latitude": 50.3355,
       "longitude": 8.756,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz,+61169+Friedberg",
-      "distance_from_frankfurt_km": 25.5
+      "distance_from_frankfurt_km": 25.5,
+      "website": ""
     },
     {
       "title": "Fulda Book Fair & Literary Reading",
@@ -103,7 +109,8 @@
       "latitude": 50.5521,
       "longitude": 9.6756,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz,+36037+Fulda",
-      "distance_from_frankfurt_km": 85.9
+      "distance_from_frankfurt_km": 85.9,
+      "website": ""
     },
     {
       "title": "Wetzlar Wine & Cheese Tasting Festival",
@@ -117,7 +124,8 @@
       "latitude": 50.5612,
       "longitude": 8.5075,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Rathausplatz,+35576+Wetzlar",
-      "distance_from_frankfurt_km": 51.6
+      "distance_from_frankfurt_km": 51.6,
+      "website": ""
     },
     {
       "title": "Offenbach Open-Air Cinema Night",
@@ -131,7 +139,8 @@
       "latitude": 50.1005,
       "longitude": 8.7663,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Am+Markt+2,+63065+Offenbach",
-      "distance_from_frankfurt_km": 6.1
+      "distance_from_frankfurt_km": 6.1,
+      "website": ""
     },
     {
       "title": "Limburg Night Market",
@@ -145,7 +154,8 @@
       "latitude": 50.3838,
       "longitude": 8.0583,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Rathausplatz,+65549+Limburg",
-      "distance_from_frankfurt_km": 53.7
+      "distance_from_frankfurt_km": 53.7,
+      "website": ""
     },
     {
       "title": "Frankfurt Night Market",
@@ -159,7 +169,8 @@
       "latitude": 50.1109,
       "longitude": 8.6821,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz,+60306+Frankfurt",
-      "distance_from_frankfurt_km": 0.0
+      "distance_from_frankfurt_km": 0.0,
+      "website": ""
     },
     {
       "title": "Bad Homburg Guided Nature Walk",
@@ -173,7 +184,8 @@
       "latitude": 50.2292,
       "longitude": 8.618,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Schlossplatz,+61348+Bad+Homburg",
-      "distance_from_frankfurt_km": 13.9
+      "distance_from_frankfurt_km": 13.9,
+      "website": ""
     },
     {
       "title": "Kinderfest in Hanau",
@@ -187,7 +199,8 @@
       "latitude": 50.1264,
       "longitude": 8.9282,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptstraße+40,+63450+Hanau",
-      "distance_from_frankfurt_km": 17.6
+      "distance_from_frankfurt_km": 17.6,
+      "website": ""
     },
     {
       "title": "Kassel Guided Nature Walk",
@@ -201,7 +214,8 @@
       "latitude": 51.3127,
       "longitude": 9.4797,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Am+Markt+5,+34117+Kassel",
-      "distance_from_frankfurt_km": 145.0
+      "distance_from_frankfurt_km": 145.0,
+      "website": ""
     },
     {
       "title": "Hanau Summer Concert Series",
@@ -215,7 +229,8 @@
       "latitude": 50.1264,
       "longitude": 8.9282,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptstraße+35,+63450+Hanau",
-      "distance_from_frankfurt_km": 17.6
+      "distance_from_frankfurt_km": 17.6,
+      "website": ""
     },
     {
       "title": "Gießen Weekly Market & Farmers Market",
@@ -229,7 +244,8 @@
       "latitude": 50.5873,
       "longitude": 8.6755,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Am+Markt+13,+35390+Gießen",
-      "distance_from_frankfurt_km": 53.0
+      "distance_from_frankfurt_km": 53.0,
+      "website": ""
     },
     {
       "title": "Friedberg Open-Air Cinema Night",
@@ -243,7 +259,8 @@
       "latitude": 50.3355,
       "longitude": 8.756,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Schlossplatz,+61169+Friedberg",
-      "distance_from_frankfurt_km": 25.5
+      "distance_from_frankfurt_km": 25.5,
+      "website": ""
     },
     {
       "title": "Frankfurt Summer Concert Series",
@@ -257,7 +274,8 @@
       "latitude": 50.1109,
       "longitude": 8.6821,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz,+60306+Frankfurt",
-      "distance_from_frankfurt_km": 0.0
+      "distance_from_frankfurt_km": 0.0,
+      "website": ""
     },
     {
       "title": "Limburg Street Food Festival",
@@ -271,7 +289,8 @@
       "latitude": 50.3838,
       "longitude": 8.0583,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Rathausplatz,+65549+Limburg",
-      "distance_from_frankfurt_km": 53.7
+      "distance_from_frankfurt_km": 53.7,
+      "website": ""
     },
     {
       "title": "Hanau Street Food Festival",
@@ -285,7 +304,8 @@
       "latitude": 50.1264,
       "longitude": 8.9282,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Rathausplatz,+63450+Hanau",
-      "distance_from_frankfurt_km": 17.6
+      "distance_from_frankfurt_km": 17.6,
+      "website": ""
     },
     {
       "title": "Limburg Book Fair & Literary Reading",
@@ -299,7 +319,8 @@
       "latitude": 50.3838,
       "longitude": 8.0583,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptstraße+18,+65549+Limburg",
-      "distance_from_frankfurt_km": 53.7
+      "distance_from_frankfurt_km": 53.7,
+      "website": ""
     },
     {
       "title": "Kinderfest in Friedberg",
@@ -313,7 +334,8 @@
       "latitude": 50.3355,
       "longitude": 8.756,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Schlossplatz,+61169+Friedberg",
-      "distance_from_frankfurt_km": 25.5
+      "distance_from_frankfurt_km": 25.5,
+      "website": ""
     },
     {
       "title": "Marburg Book Fair & Literary Reading",
@@ -327,7 +349,8 @@
       "latitude": 50.8044,
       "longitude": 8.7663,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Am+Markt+3,+35037+Marburg",
-      "distance_from_frankfurt_km": 77.3
+      "distance_from_frankfurt_km": 77.3,
+      "website": ""
     },
     {
       "title": "Rüsselsheim Guided Nature Walk",
@@ -341,7 +364,8 @@
       "latitude": 49.995,
       "longitude": 8.4224,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptstraße+26,+65428+Rüsselsheim",
-      "distance_from_frankfurt_km": 22.6
+      "distance_from_frankfurt_km": 22.6,
+      "website": ""
     },
     {
       "title": "Darmstadt Art Exhibition — Local Artists Showcase",
@@ -355,7 +379,8 @@
       "latitude": 49.8728,
       "longitude": 8.6512,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Schlossplatz,+64283+Darmstadt",
-      "distance_from_frankfurt_km": 26.6
+      "distance_from_frankfurt_km": 26.6,
+      "website": ""
     },
     {
       "title": "Wetzlar Summer Concert Series",
@@ -369,7 +394,8 @@
       "latitude": 50.5612,
       "longitude": 8.5075,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz,+35576+Wetzlar",
-      "distance_from_frankfurt_km": 51.6
+      "distance_from_frankfurt_km": 51.6,
+      "website": ""
     },
     {
       "title": "Offenbach Summer Concert Series",
@@ -383,7 +409,8 @@
       "latitude": 50.1005,
       "longitude": 8.7663,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz,+63065+Offenbach",
-      "distance_from_frankfurt_km": 6.1
+      "distance_from_frankfurt_km": 6.1,
+      "website": ""
     },
     {
       "title": "Kassel Night Market",
@@ -397,7 +424,8 @@
       "latitude": 51.3127,
       "longitude": 9.4797,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Am+Markt+1,+34117+Kassel",
-      "distance_from_frankfurt_km": 145.0
+      "distance_from_frankfurt_km": 145.0,
+      "website": ""
     },
     {
       "title": "Rüsselsheim Summer Concert Series",
@@ -411,7 +439,8 @@
       "latitude": 49.995,
       "longitude": 8.4224,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Rathausplatz,+65428+Rüsselsheim",
-      "distance_from_frankfurt_km": 22.6
+      "distance_from_frankfurt_km": 22.6,
+      "website": ""
     },
     {
       "title": "Darmstadt Guided Nature Walk",
@@ -425,7 +454,8 @@
       "latitude": 49.8728,
       "longitude": 8.6512,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptstraße+28,+64283+Darmstadt",
-      "distance_from_frankfurt_km": 26.6
+      "distance_from_frankfurt_km": 26.6,
+      "website": ""
     },
     {
       "title": "Kinderfest in Bad Homburg",
@@ -439,7 +469,8 @@
       "latitude": 50.2292,
       "longitude": 8.618,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Am+Markt+12,+61348+Bad+Homburg",
-      "distance_from_frankfurt_km": 13.9
+      "distance_from_frankfurt_km": 13.9,
+      "website": ""
     },
     {
       "title": "Fulda Street Food Festival",
@@ -453,7 +484,8 @@
       "latitude": 50.5521,
       "longitude": 9.6756,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptstraße+37,+36037+Fulda",
-      "distance_from_frankfurt_km": 85.9
+      "distance_from_frankfurt_km": 85.9,
+      "website": ""
     },
     {
       "title": "Friedberg Art Exhibition — Local Artists Showcase",
@@ -467,7 +499,8 @@
       "latitude": 50.3355,
       "longitude": 8.756,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptstraße+16,+61169+Friedberg",
-      "distance_from_frankfurt_km": 25.5
+      "distance_from_frankfurt_km": 25.5,
+      "website": ""
     },
     {
       "title": "Wiesbaden Night Market",
@@ -481,7 +514,8 @@
       "latitude": 50.0782,
       "longitude": 8.2398,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Rathausplatz,+65183+Wiesbaden",
-      "distance_from_frankfurt_km": 31.8
+      "distance_from_frankfurt_km": 31.8,
+      "website": ""
     },
     {
       "title": "Gießen Street Food Festival",
@@ -495,7 +529,8 @@
       "latitude": 50.5873,
       "longitude": 8.6755,
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Rathausplatz,+35390+Gießen",
-      "distance_from_frankfurt_km": 53.0
+      "distance_from_frankfurt_km": 53.0,
+      "website": ""
     }
   ]
 }

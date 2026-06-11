@@ -11,7 +11,8 @@
       "location": "Schaumainkai, Museumsufer, 60594 Frankfurt",
       "image_url": "",
       "category": "Markets & Shopping",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Cathedral Sunday Mass & Guided Tour",
@@ -22,7 +23,8 @@
       "location": "Mainzer Dom, Markt 10, 55116 Mainz",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Botanical Garden Open Day",
@@ -33,7 +35,8 @@
       "location": "Botanischer Garten Frankfurt, Siesmayerstraße 72, 60323 Frankfurt",
       "image_url": "",
       "category": "Sports & Outdoors",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Sunday Morning Market Breakfast at Marktfrühstück",
@@ -44,7 +47,8 @@
       "location": "Marktplatz am Dom, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Zoo Sunday Family Day",
@@ -55,7 +59,8 @@
       "location": "Frankfurt Zoo, Bernhard-Grzimek-Allee 1, 60316 Frankfurt",
       "image_url": "",
       "category": "Family & Education",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Free Walking Tour — Discover the Gutenberg City",
@@ -66,7 +71,8 @@
       "location": "Meet at Mainz Cathedral main entrance, Markt 10, 55116 Mainz",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt English Pub Quiz at O'Reilly's",
@@ -77,7 +83,8 @@
       "location": "O'Reilly's Irish Pub, Am Salzhaus 4, 60311 Frankfurt",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Städel Museum Regular Opening — Masterpieces from 700 Years",
@@ -88,7 +95,8 @@
       "location": "Städel Museum, Schaumainkai 63, 60596 Frankfurt",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Riverside Yoga — Monday Sunset Flow",
@@ -99,7 +107,8 @@
       "location": "Mainufer near Friedensbrücke, 60311 Frankfurt (meet at steps below the bridge)",
       "image_url": "",
       "category": "Sports & Outdoors",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Kleinmarkthalle Frankfurt — Tuesday Food Market Extravaganza",
@@ -110,7 +119,8 @@
       "location": "Kleinmarkthalle, Hasengasse 5-7, 60311 Frankfurt",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Wine Tasting at Weingut am Rhein",
@@ -121,7 +131,8 @@
       "location": "Weinguntrum, Rheinstraße 18, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Jazzkeller — Tuesday Night Jam Session",
@@ -132,7 +143,8 @@
       "location": "Jazzkeller Frankfurt, Kleine Bockenheimer Straße 18a, 60313 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Weekly Wine Tasting at Haus des Weines",
@@ -143,7 +155,8 @@
       "location": "Haus des Weines, Gutenbergplatz 5, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Open Mic Night at Brotfabrik",
@@ -154,7 +167,8 @@
       "location": "Brotfabrik, Bachstraße 2, 60487 Frankfurt",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz State Theatre — Evening Performance",
@@ -165,7 +179,8 @@
       "location": "Staatstheater Mainz, Gutenbergplatz 7, 55116 Mainz",
       "image_url": "",
       "category": "Theatre & Performing Arts",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Römerberg Evening Walking Tour — Frankfurt's Historic Heart",
@@ -176,7 +191,8 @@
       "location": "Meet at the Gerechtigkeitsbrunnen (Fountain of Justice), Römerberg, 60311 Frankfurt",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Running Group — Weekly City Park Run",
@@ -187,7 +203,8 @@
       "location": "Meet at Grüneburgpark entrance, Siesmayerstraße, 60323 Frankfurt",
       "image_url": "",
       "category": "Sports",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Museumsufer — Night Openings at Selected Museums",
@@ -198,7 +215,8 @@
       "location": "Various museums along Schaumainkai, 60594 Frankfurt",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Biergarten Evening — AmRhein with Live Music",
@@ -209,7 +227,8 @@
       "location": "AmRhein Biergarten, Rheinufer 1, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt International School Choir Summer Concert",
@@ -220,7 +239,8 @@
       "location": "Paulskirche, Paulsplatz 1, 60311 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Main River Sunset Cruise with DJ",
@@ -231,7 +251,8 @@
       "location": "Departs from Eiserner Steg, Mainkai, 60311 Frankfurt",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Friday Night Wine & Jazz at Haus des Weines",
@@ -242,7 +263,8 @@
       "location": "Haus des Weines, Gutenbergplatz 5, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Sachsenhausen Nightlife Walking Tour",
@@ -253,7 +275,8 @@
       "location": "Meet at Goetheplatz, entrance to Alt-Sachsenhausen, 60594 Frankfurt",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Schirn Kunsthalle — Current Exhibition",
@@ -264,7 +287,8 @@
       "location": "Schirn Kunsthalle, Römerberg, 60311 Frankfurt",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Karaoke Night at Deckenheim's Irish Pub",
@@ -275,7 +299,8 @@
       "location": "Deckenheim's Irish Pub, Augustinerstraße 27, 55116 Mainz",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Mainz Saturday Flea Market at Südring",
@@ -286,7 +311,8 @@
       "location": "Südring (near Hauptbahnhof Mainz), 55116 Mainz",
       "image_url": "",
       "category": "Markets & Shopping",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Farmers' Market at Konstablerwache",
@@ -297,7 +323,8 @@
       "location": "Konstablerwache, 60313 Frankfurt",
       "image_url": "",
       "category": "Markets & Shopping",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz 'Science in the Pub' — Meenzer Science-Schoppe",
@@ -308,7 +335,8 @@
       "location": "Kulturclub schon schön, Rheinallee 1C, 55116 Mainz",
       "image_url": "",
       "category": "Family & Education",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Eintracht Frankfurt Women's Team — Summer Friendly Match",
@@ -319,7 +347,8 @@
       "location": "Stadion am Brentanobad, Rödelheimer Parkweg 31, 60489 Frankfurt",
       "image_url": "",
       "category": "Sports",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Opera House Guided Tour",
@@ -330,7 +359,8 @@
       "location": "Alte Oper, Opernplatz 1, 60313 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Basket Club — Regional Basketball Match",
@@ -341,7 +371,8 @@
       "location": "Sporthalle am Gonsenheimer Wald, Am Großen Sand 10, 55122 Mainz",
       "image_url": "",
       "category": "Sports",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Photography Walk — Skyline & Architecture",
@@ -352,7 +383,8 @@
       "location": "Meet at Römerberg, Gerechtigkeitsbrunnen, 60311 Frankfurt",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Rhine Riverbank Summer Brunch & Flea Market",
@@ -363,7 +395,8 @@
       "location": "Rheinufer Mainz near Fischtorplatz, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Palmengarten — Summer Garden Concert",
@@ -374,7 +407,8 @@
       "location": "Palmengarten, Siesmayerstraße 61, 60323 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Gutenberg Museum — Printing Workshop for Families",
@@ -385,7 +419,8 @@
       "location": "Gutenberg Museum, Liebfrauenplatz 5, 55116 Mainz",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Mainz Children's Theatre — 'Pippi Langstrumpf'",
@@ -396,7 +431,8 @@
       "location": "Kinder- und Jugendtheater Mainz, Schillerplatz 3, 55116 Mainz",
       "image_url": "",
       "category": "Theatre & Performing Arts",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Monday Night Cinema — Original English Films at Cinestar",
@@ -407,7 +443,8 @@
       "location": "Cinestar Frankfurt am Main, Hessen-Center, 60528 Frankfurt",
       "image_url": "",
       "category": "Film & Cinema",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Historic City Hall Guided Tour",
@@ -418,7 +455,8 @@
       "location": "Mainzer Rathaus (Electoral Palace), Markt 1, 55116 Mainz",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Senckenberg Museum Frankfurt — Dinosaur Discovery Day",
@@ -429,7 +467,8 @@
       "location": "Senckenberg Naturmuseum, Senckenberganlage 25, 60325 Frankfurt",
       "image_url": "",
       "category": "Family & Education",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Culinary Walk — 'Eat the City' Food Tour",
@@ -440,7 +479,8 @@
       "location": "Meet at Mainz Cathedral main entrance, Markt 10, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Queer Cinema Night — Special Screening at Mal Seh'n Kino",
@@ -451,7 +491,8 @@
       "location": "Mal Seh'n Kino, Adolfstraße 17, 60486 Frankfurt",
       "image_url": "",
       "category": "Film & Cinema",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Opera: Wednesday Evening Recital",
@@ -462,7 +503,8 @@
       "location": "Oper Frankfurt, Untermainanlage 11, 60311 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Summer Garden Party at Botanical Garden",
@@ -473,7 +515,8 @@
       "location": "Botanischer Garten Mainz, Anselm-Franz-von-Bentzel-Weg 9, 55128 Mainz",
       "image_url": "",
       "category": "Sports & Outdoors",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Table Tennis Club — Open Training Night",
@@ -484,7 +527,8 @@
       "location": "TTV Frankfurt, Sporthalle August-Jaspert-Straße 1, 60431 Frankfurt",
       "image_url": "",
       "category": "Sports",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Wine Market on the Rhine",
@@ -495,7 +539,8 @@
       "location": "Rheinufer Mainz, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Maintower Observation Deck — Sunset Opening",
@@ -506,7 +551,8 @@
       "location": "Maintower, Neue Mainzer Straße 52-58, 60311 Frankfurt",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Comedy Club — English Stand-Up Open Mic",
@@ -517,7 +563,8 @@
       "location": "Orange Peel, Schifferstraße 20, 60594 Frankfurt",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Museumsuferfest Kick-Off — Friday Preview Evening",
@@ -528,7 +575,8 @@
       "location": "Museumsufer, Schaumainkai, 60594 Frankfurt",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Cathedral Summer Night Illumination",
@@ -539,7 +587,8 @@
       "location": "Mainzer Dom, Markt 10, 55116 Mainz",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Silent Book Club — Reading Night at Literaturhaus",
@@ -550,7 +599,8 @@
       "location": "Literaturhaus Frankfurt, Schöne Aussicht 2, 60322 Frankfurt",
       "image_url": "",
       "category": "Literature & Arts",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Opera: Summer Night Concert",
@@ -561,7 +611,8 @@
       "location": "Opernplatz, 60313 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Open-Air Cinema Premiere — Zollhafen Summer Series",
@@ -572,7 +623,8 @@
       "location": "Zollhafen Mainz, 55118 Mainz",
       "image_url": "",
       "category": "Film & Cinema",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Freßgass Food Festival — Summer Edition",
@@ -583,7 +635,8 @@
       "location": "Große Bockenheimer Straße / Kalbächer Gasse, 60313 Frankfurt",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Sunset Boat Cruise on the Rhine",
@@ -594,7 +647,8 @@
       "location": "Departs from KD Rheinkai, Brückenstraße 1, 55116 Mainz",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Street Art Tour — Exploring the Urban Canvas",
@@ -605,7 +659,8 @@
       "location": "Meet at Hauptbahnhof Frankfurt, main entrance, 60329 Frankfurt",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Stadtpark Summer Concert Series — Brass & Jazz",
@@ -616,7 +671,8 @@
       "location": "Stadtpark Mainz, Am Stadtpark 1, 55116 Mainz",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "International Museum Day at Frankfurt Museumsufer",
@@ -627,7 +683,8 @@
       "location": "Museumsufer, Schaumainkai, 60594 Frankfurt",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Yoga on the Rhine — Summer Solstice Sunrise Session",
@@ -638,7 +695,8 @@
       "location": "Rheinufer at Rheingoldhalle, Rheinstraße 66, 55116 Mainz",
       "image_url": "",
       "category": "Sports & Outdoors",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt English Theatre — Matinee Performance",
@@ -649,7 +707,8 @@
       "location": "English Theatre Frankfurt, Gallusanlage 7, 60329 Frankfurt",
       "image_url": "",
       "category": "Theatre & Performing Arts",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Wine Tasting at the Electoral Palace Cellar",
@@ -660,7 +719,8 @@
       "location": "Kurfürstliches Schloss Mainz (Electoral Palace), Georg-Forster-Straße 3, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Cycle Path Tour — Main River to Offenbach",
@@ -671,7 +731,8 @@
       "location": "Meet at Eiserner Steg, south bank, 60311 Frankfurt",
       "image_url": "",
       "category": "Sports & Outdoors",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Johannisnacht Festival",
@@ -682,7 +743,8 @@
       "location": "Mainz Old Town & Rhine banks, 55116 Mainz",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Street Food Night Market",
@@ -693,7 +755,8 @@
       "location": "Kleinmarkthalle area, Hasengasse, 60311 Frankfurt",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Eintracht Frankfurt Testspiel (Pre-Season Friendly)",
@@ -704,7 +767,8 @@
       "location": "Deutsche Bank Park, Mörfelder Landstraße 362, 60528 Frankfurt",
       "image_url": "",
       "category": "Sports",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Senckenberg Museum: Dinosaur & Prehistoric Life Exhibition",
@@ -715,7 +779,8 @@
       "location": "Senckenberg Naturmuseum, Senckenberganlage 25, 60325 Frankfurt",
       "image_url": "",
       "category": "Family & Education",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz State Museum: Permanent & Special Exhibitions",
@@ -726,7 +791,8 @@
       "location": "Landesmuseum Mainz, Große Bleiche 49-51, 55116 Mainz",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Kleinmarkthalle — Culinary Market Tour",
@@ -737,7 +803,8 @@
       "location": "Kleinmarkthalle, Hasengasse 5-7, 60311 Frankfurt",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Frühlingserwachen — City Garden Tour",
@@ -748,7 +815,8 @@
       "location": "Meet at Mainz Cathedral, 55116 Mainz",
       "image_url": "",
       "category": "Sports & Outdoors",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Schirn Kunsthalle: Summer Exhibition Opening",
@@ -759,7 +827,8 @@
       "location": "Schirn Kunsthalle, Römerberg, 60311 Frankfurt",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Summer Lights — Rhein in Flammen",
@@ -770,7 +839,8 @@
       "location": "Rheinufer Mainz, 55116 Mainz",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Art & Flea Market at Schaumainkai",
@@ -781,7 +851,8 @@
       "location": "Schaumainkai, Museumsufer, 60594 Frankfurt",
       "image_url": "",
       "category": "Markets & Shopping",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Gutenberg Museum Mainz — Printing Workshop",
@@ -792,7 +863,8 @@
       "location": "Gutenberg Museum, Liebfrauenplatz 5, 55116 Mainz",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Main River Kayak & SUP Sunset Tours",
@@ -803,7 +875,8 @@
       "location": "Meet at Gerbermühle, Gerbermühlstraße, 60594 Frankfurt",
       "image_url": "",
       "category": "Sports & Outdoors",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt City Golf — Urban Mini-Golf on Roof Terraces",
@@ -814,7 +887,8 @@
       "location": "Dachterrasse, various locations in Frankfurt",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Palmengarten: Summer Night Concert Series",
@@ -825,7 +899,8 @@
       "location": "Palmengarten, Siesmayerstraße 61, 60323 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Open-Air Kino Mainz — Summer Film Series",
@@ -836,7 +911,8 @@
       "location": "Zollhafen Mainz, 55118 Mainz",
       "image_url": "",
       "category": "Film & Cinema",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Mainz Market Breakfast — Wochenmarkt Frühstück",
@@ -847,7 +923,8 @@
       "location": "Marktplatz am Dom, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Mousonturm Frankfurt: Contemporary Performance Series",
@@ -858,7 +935,8 @@
       "location": "Künstlerhaus Mousonturm, Waldschmidtstraße 4, 60316 Frankfurt",
       "image_url": "",
       "category": "Theatre & Performing Arts",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Römerberg Summer Open-Air Cinema",
@@ -869,7 +947,8 @@
       "location": "Römerberg, 60311 Frankfurt",
       "image_url": "",
       "category": "Film & Cinema",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Riverboat Party Cruise",
@@ -880,7 +959,8 @@
       "location": "Departs from Eiserner Steg, Mainkai, Frankfurt",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Batschkapp Summer Concert Series",
@@ -891,7 +971,8 @@
       "location": "Batschkapp, Gwinnerstraße 5, 60388 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Kitchen Party — Underground Supper Club",
@@ -902,7 +983,8 @@
       "location": "Secret location in Frankfurt (revealed 24h before)",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Nippon Conn — Germany's Largest Japanese Pop Culture Convention",
@@ -913,7 +995,8 @@
       "location": "Messe Frankfurt, Ludwig-Erhard-Anlage 1, 60327 Frankfurt",
       "image_url": "",
       "category": "Convention & Pop Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Gibson Club Frankfurt: International DJ Night",
@@ -924,7 +1007,8 @@
       "location": "Gibson Club, Zeil 85, 60313 Frankfurt",
       "image_url": "",
       "category": "Nightlife & Social",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Wäldchestag — Forest Day Tradition",
@@ -935,7 +1019,8 @@
       "location": "Frankfurt Stadtwald (near Oberforsthaus), Frankfurt",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainfest Frankfurt",
@@ -946,7 +1031,8 @@
       "location": "Mainkai, along Main River between Friedensbrücke and Untermainbrücke, Frankfurt",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Jazz Festival",
@@ -957,7 +1043,8 @@
       "location": "Various venues across Frankfurt (Jazzkeller, HR-Sendesaal, Mainufer)",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Dippemess — Traditional Funfair",
@@ -968,7 +1055,8 @@
       "location": "Ratsweg, Frankfurt am Main",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Wine Market & Regional Food Fair",
@@ -979,7 +1067,8 @@
       "location": "Rheinufer Mainz, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Apfelwein Festival — Frankfurt's Signature Drink Celebration",
@@ -990,7 +1079,8 @@
       "location": "Alt-Sachsenhausen, Frankfurt (Paradiesgasse & Große Rittergasse)",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Summer Night Market on the Rhine",
@@ -1001,7 +1091,8 @@
       "location": "Rheinufer Mainz, near Fischtorplatz, 55116 Mainz",
       "image_url": "",
       "category": "Markets & Shopping",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Eintracht Frankfurt vs. Bundesliga Season Opener",
@@ -1012,7 +1103,8 @@
       "location": "Deutsche Bank Park, Mörfelder Landstraße 362, 60528 Frankfurt",
       "image_url": "",
       "category": "Sports",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Museumsuferfest — Frankfurt's Biggest Cultural Festival",
@@ -1023,7 +1115,8 @@
       "location": "Museumsufer, along both sides of Main River, Frankfurt",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Goethe Museum: Special Exhibition Opening",
@@ -1034,7 +1127,8 @@
       "location": "Goethe-Haus, Großer Hirschgraben 23-25, 60311 Frankfurt",
       "image_url": "",
       "category": "Art & Exhibitions",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Marathon Training Run — City Run Series",
@@ -1045,7 +1139,8 @@
       "location": "Start at Römer, Frankfurt (finish at Festhalle)",
       "image_url": "",
       "category": "Sports",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Theatre: New Season Opening",
@@ -1056,7 +1151,8 @@
       "location": "Staatstheater Mainz, Gutenbergplatz 7, 55116 Mainz",
       "image_url": "",
       "category": "Theatre & Performing Arts",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Oper Frankfurt: Der Fliegende Holländer",
@@ -1067,7 +1163,8 @@
       "location": "Oper Frankfurt, Untermainanlage 11, 60311 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt English Theatre: New Season Opening",
@@ -1078,7 +1175,8 @@
       "location": "English Theatre Frankfurt, Gallusanlage 7, 60329 Frankfurt",
       "image_url": "",
       "category": "Theatre & Performing Arts",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Nacht der Museen — Museumsufer Night",
@@ -1089,7 +1187,8 @@
       "location": "All participating museums across Frankfurt (Museumsufer, Innenstadt, Bockenheim)",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Opera: New Season Opening Gala",
@@ -1100,7 +1199,8 @@
       "location": "Oper Frankfurt, Untermainanlage 11, 60311 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Wine Autumn — Harvest Festival",
@@ -1111,7 +1211,8 @@
       "location": "Mainz Old Town & Rheinufer, 55116 Mainz",
       "image_url": "",
       "category": "Food & Drink",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurter Buchmesse — World's Largest Book Fair",
@@ -1122,7 +1223,8 @@
       "location": "Messe Frankfurt, Ludwig-Erhard-Anlage 1, 60327 Frankfurt",
       "image_url": "",
       "category": "Literature & Arts",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Marathon",
@@ -1133,7 +1235,8 @@
       "location": "Start/Finish: Festhalle Frankfurt, Ludwig-Erhard-Anlage, Frankfurt",
       "image_url": "",
       "category": "Sports",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Jazzkeller Frankfurt: November Jazz Series",
@@ -1144,7 +1247,8 @@
       "location": "Jazzkeller Frankfurt, Kleine Bockenheimer Straße 18a, 60313 Frankfurt",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Christmas Market on Römerberg",
@@ -1155,7 +1259,8 @@
       "location": "Römerberg & Paulsplatz, 60311 Frankfurt",
       "image_url": "",
       "category": "Seasonal & Markets",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Mainz Christmas Market",
@@ -1166,7 +1271,8 @@
       "location": "Domplatz & Marktplatz, 55116 Mainz",
       "image_url": "",
       "category": "Seasonal & Markets",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Mainz Carnival — Rosenmontag Parade",
@@ -1177,7 +1283,8 @@
       "location": "Mainz city centre (parade route along Große Bleiche, Schillerplatz, and around the Altstadt)",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Mainz"
+      "city": "Mainz",
+      "website": ""
     },
     {
       "title": "Frankfurt Ballet: The Nutcracker",
@@ -1188,7 +1295,8 @@
       "location": "Oper Frankfurt, Untermainanlage 11, 60311 Frankfurt",
       "image_url": "",
       "category": "Theatre & Performing Arts",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Jahrhunderthalle: Christmas Gala Concert",
@@ -1199,7 +1307,8 @@
       "location": "Jahrhunderthalle, Pfaffenwiese 301, 65929 Frankfurt am Main",
       "image_url": "",
       "category": "Music & Opera",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "Frankfurt Zoo: Winter Wonderland Light Trail",
@@ -1210,7 +1319,8 @@
       "location": "Frankfurt Zoo, Bernhard-Grzimek-Allee 1, 60316 Frankfurt",
       "image_url": "",
       "category": "Family & Education",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     },
     {
       "title": "New Year's Eve at Frankfurt Römer",
@@ -1221,7 +1331,8 @@
       "location": "Römerberg, 60311 Frankfurt",
       "image_url": "",
       "category": "Festival & Culture",
-      "city": "Frankfurt"
+      "city": "Frankfurt",
+      "website": ""
     }
   ]
 }
