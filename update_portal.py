@@ -38,10 +38,16 @@ def load_config():
         with open(CONFIG_PATH) as f:
             return json.load(f)
     return {
-        "credentials": {
-            "username": "m4oz",
-            "password_hash": "b34447c239a3831f511359efb8f8f7fd528fc485e824ea4a23d9ff611d7e2245"
-        },
+        "credentials": [
+            {
+                "username": "m4oz",
+                "password_hash": "b34447c239a3831f511359efb8f8f7fd528fc485e824ea4a23d9ff611d7e2245"
+            },
+            {
+                "username": "sweetie",
+                "password_hash": "023d5c58e0dc649ba0d74b05fb16941037361ed79d4c9aae95174cec260d2da8"
+            }
+        ],
         "kredyt": 0,
         "tokens": 0,
         "model": "deepseek-v4-flash",
@@ -52,6 +58,18 @@ def load_config():
 
 
 def save_config(config):
+    # CRITICAL: Never touch or overwrite credentials
+    # Credentials are set manually by the user and must be preserved
+    existing = {}
+    if os.path.exists(CONFIG_PATH):
+        try:
+            with open(CONFIG_PATH) as f:
+                existing = json.load(f)
+        except:
+            pass
+    # Restore credentials from existing config if they exist and config doesn't have them
+    if "credentials" in existing and ("credentials" not in config or not config["credentials"]):
+        config["credentials"] = existing["credentials"]
     with open(CONFIG_PATH, 'w') as f:
         json.dump(config, f, indent=2)
         f.write('\n')
