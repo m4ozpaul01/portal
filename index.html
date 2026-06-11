@@ -1135,18 +1135,17 @@
     <div class="event-modal-body" id="modal-body"></div>
   </div>
 
-<!-- ═══ HESSEN EVENT MODAL ═══ -->
-<div class="event-modal-overlay" id="hessen-modal-overlay" onclick="closeHessenModal(event)">
+<!-- ═══ FRANKFURT EVENT MODAL ═══ -->
+<div class="event-modal-overlay" id="event-modal-overlay" onclick="closeFrankfurtModal(event)">
   <div class="event-modal" onclick="event.stopPropagation()">
     <div class="event-modal-header">
-      <h2 id="hessen-modal-title">—</h2>
-      <button class="event-modal-close" onclick="closeHessenModal()">✕</button>
+      <h2 id="modal-title">—</h2>
+      <button class="event-modal-close" onclick="closeFrankfurtModal()">✕</button>
     </div>
-    <div class="event-modal-meta" id="hessen-modal-meta"></div>
-    <div class="event-modal-body" id="hessen-modal-body"></div>
+    <div class="event-modal-meta" id="modal-meta"></div>
+    <div class="event-modal-body" id="modal-body"></div>
   </div>
 </div>
-
 
 <script>
 // ════════════════════════════════════════
@@ -1704,6 +1703,8 @@ function openFrankfurtModal(index) {
   const meta = document.getElementById('modal-meta');
   const body = document.getElementById('modal-body');
 
+  if (!overlay || !title || !meta || !body) return;
+
   title.textContent = getCategoryEmoji(event.category) + ' ' + event.title;
 
   // Meta tags
@@ -1713,16 +1714,52 @@ function openFrankfurtModal(index) {
     <span class="meta-tag"><span class="tag-icon">🏷️</span> ${event.category || 'Event'}</span>
   `;
 
-  // Body content
-  let bodyHTML = '';
+  renderEventModalBody(body, event);
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function openHessenModal(index) {
+  const events = window.__hessenFilteredEvents || window.__hessenEvents;
+  if (!events || !events[index]) return;
+
+  const event = events[index];
+  const overlay = document.getElementById('event-modal-overlay');
+  const title = document.getElementById('modal-title');
+  const meta = document.getElementById('modal-meta');
+  const body = document.getElementById('modal-body');
+
+  if (!overlay || !title || !meta || !body) return;
+
+  title.textContent = getCategoryEmoji(event.category) + ' ' + event.title;
+
+  const dist = event.distance_from_frankfurt_km || 0;
+  const distText = dist < 1 ? '< 1 km' : dist.toFixed(0) + ' km';
+
+  meta.innerHTML = `
+    <span class="meta-tag"><span class="tag-icon">📅</span> ${formatDate(event.date)}</span>
+    ${event.time ? `<span class="meta-tag"><span class="tag-icon">⏰</span> ${event.time}</span>` : ''}
+    <span class="meta-tag"><span class="tag-icon">🏷️</span> ${event.category || 'Event'}</span>
+    <span class="meta-tag"><span class="tag-icon">🏙️</span> ${event.city || ''}</span>
+    <span class="meta-tag"><span class="tag-icon">📍</span> ${distText}</span>
+  `;
+
+  renderEventModalBody(body, event, distText);
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+// Shared modal body renderer — used by both Frankfurt and Hessen modals
+function renderEventModalBody(body, event, extraDist) {
+  let html = '';
 
   if (event.image_url) {
-    bodyHTML += `<img class="event-modal-img" src="${event.image_url}" alt="${event.title}" onerror="this.style.display='none'">`;
+    html += `<img class="event-modal-img" src="${event.image_url}" alt="${event.title}" onerror="this.style.display='none'">`;
   } else {
-    bodyHTML += `<div class="event-modal-img-placeholder">${getCategoryEmoji(event.category)}</div>`;
+    html += `<div class="event-modal-img-placeholder">${getCategoryEmoji(event.category)}</div>`;
   }
 
-  bodyHTML += `
+  html += `
     <div class="detail-section">
       <div class="detail-label">📖 Description</div>
       <div class="detail-text">${event.description}</div>
@@ -1733,33 +1770,43 @@ function openFrankfurtModal(index) {
     </div>
     <div class="detail-section">
       <div class="detail-label">💰 Cost</div>
-      <div class="detail-text">${event.cost_per_person}</div>
+      <div class="detail-text">${event.cost_per_person || 'Free'}</div>
     </div>
   `;
 
-  body.innerHTML = bodyHTML;
-  overlay.classList.add('active');
-  document.body.style.overflow = 'hidden';
+  // Add distance + maps link for Hessen events
+  if (extraDist) {
+    html += `
+      <div class="detail-section">
+        <div class="detail-label">📍 Distance from Frankfurt</div>
+        <div class="detail-text">${extraDist}</div>
+      </div>
+      <div class="detail-section">
+        <a href="${event.google_maps_link || '#'}" target="_blank" rel="noopener noreferrer" class="maps-link">
+          🗺️ Open in Google Maps
+        </a>
+      </div>
+    `;
+  }
+
+  body.innerHTML = html;
 }
 
 function closeFrankfurtModal(event) {
   if (event && event.target !== event.currentTarget) return;
   const overlay = document.getElementById('event-modal-overlay');
-  overlay.classList.remove('active');
-  document.body.style.overflow = '';
+  if (overlay) {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
 }
 
 // Close modal on Escape key
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') {
-    const fModal = document.getElementById('event-modal-overlay');
-    if (fModal.classList.contains('active')) {
-      fModal.classList.remove('active');
-      document.body.style.overflow = '';
-    }
-    const hModal = document.getElementById('hessen-modal-overlay');
-    if (hModal && hModal.classList.contains('active')) {
-      hModal.classList.remove('active');
+    const modal = document.getElementById('event-modal-overlay');
+    if (modal && modal.classList.contains('active')) {
+      modal.classList.remove('active');
       document.body.style.overflow = '';
     }
   }
@@ -1883,90 +1930,12 @@ function renderHessenEventList(container, events, maxDistance) {
   }).join('');
 }
 
-function openHessenModal(index) {
-  try {
-    const events = window.__hessenFilteredEvents || window.__hessenEvents;
-    if (!events || !events[index]) {
-      return;
-    }
-    const event = events[index];
-
-    const overlay = document.getElementById('hessen-modal-overlay');
-    const title = document.getElementById('hessen-modal-title');
-    const meta = document.getElementById('hessen-modal-meta');
-    const body = document.getElementById('hessen-modal-body');
-
-    if (!overlay || !title || !meta || !body) return;
-
-    title.textContent = getCategoryEmoji(event.category) + ' ' + event.title;
-
-    const dist = event.distance_from_frankfurt_km || 0;
-    const distText = dist < 1 ? '< 1 km' : dist.toFixed(0) + ' km';
-
-    meta.innerHTML = `
-      <span class="meta-tag"><span class="tag-icon">📅</span> ${formatDate(event.date)}</span>
-      ${event.time ? `<span class="meta-tag"><span class="tag-icon">⏰</span> ${escapeHtml(event.time)}</span>` : ''}
-      <span class="meta-tag"><span class="tag-icon">🏷️</span> ${event.category || 'Event'}</span>
-      <span class="meta-tag"><span class="tag-icon">🏙️</span> ${event.city || ''}</span>
-    `;
-
-    let bodyHTML = '';
-
-    bodyHTML += `<div class="detail-distance">📍 ${distText} from Frankfurt</div>`;
-
-    if (event.image_url) {
-      bodyHTML += `<img class="event-modal-img" src="${event.image_url}" alt="${event.title}" onerror="this.style.display='none'">`;
-    } else {
-      bodyHTML += `<div class="event-modal-img-placeholder">${getCategoryEmoji(event.category)}</div>`;
-    }
-
-    bodyHTML += `
-      <div class="detail-section">
-        <div class="detail-label">📖 Description</div>
-        <div class="detail-text">${escapeHtml(event.description)}</div>
-      </div>
-      <div class="detail-section">
-        <div class="detail-label">📍 Location</div>
-        <div class="detail-text">${escapeHtml(event.location)}</div>
-      </div>
-      <div class="detail-section">
-        <div class="detail-label">💰 Cost</div>
-        <div class="detail-text">${escapeHtml(event.cost_per_person || 'Free')}</div>
-      </div>
-      <div class="detail-section">
-        <div class="detail-label">📍 Distance from Frankfurt</div>
-        <div class="detail-text">${distText}</div>
-      </div>
-      <div class="detail-section">
-        <a href="${event.google_maps_link || '#'}" target="_blank" rel="noopener noreferrer" class="maps-link">
-          🗺️ Open in Google Maps
-        </a>
-      </div>
-    `;
-
-    body.innerHTML = bodyHTML;
-    overlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-  } catch (err) {
-    // silently fail — user can retry
-  }
-}
-
-function closeHessenModal(event) {
-  if (event && event.target !== event.currentTarget) return;
-  const overlay = document.getElementById('hessen-modal-overlay');
-  if (overlay) {
-    overlay.classList.remove('active');
-    document.body.style.overflow = '';
-  }
-}
-
-// Simple HTML escape helper
+// Simple HTML escape helper (shared between all event renderers)
 function escapeHtml(str) {
   if (!str) return '';
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
+  const d = document.createElement('div');
+  d.textContent = str;
+  return d.innerHTML;
 }
 
 </script>
