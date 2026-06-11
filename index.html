@@ -1784,15 +1784,35 @@ function renderEventModalBody(body, event, extraDist) {
       <div class="detail-label">💰 Cost</div>
       <div class="detail-text">${event.cost_per_person || 'Free'}</div>
     </div>
+    ${event.website ? `
+    <div class="detail-section">
+      <div class="detail-label">🌐 Official Website</div>
+      <div class="detail-text">
+        <a href="${event.website}" target="_blank" rel="noopener noreferrer" class="maps-link">
+          🌐 Visit Event Website
+        </a>
+      </div>
+    </div>
+    ` : ''}
   `;
 
-  // Add distance + maps link for Hessen events
+  // Add distance + maps link + website for Hessen events
   if (extraDist) {
     html += `
       <div class="detail-section">
         <div class="detail-label">📍 Distance from Frankfurt</div>
         <div class="detail-text">${extraDist}</div>
       </div>
+      ${event.website ? `
+      <div class="detail-section">
+        <div class="detail-label">🌐 Official Website</div>
+        <div class="detail-text">
+          <a href="${event.website}" target="_blank" rel="noopener noreferrer" class="maps-link">
+            🌐 Visit Event Website
+          </a>
+        </div>
+      </div>
+      ` : ''}
       <div class="detail-section">
         <a href="${event.google_maps_link || '#'}" target="_blank" rel="noopener noreferrer" class="maps-link">
           🗺️ Open in Google Maps
