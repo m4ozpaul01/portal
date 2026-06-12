@@ -41,11 +41,11 @@ def load_config():
         "credentials": [
             {
                 "username": "m4oz",
-                "password_hash": "b34447c239a3831f511359efb8f8f7fd528fc485e824ea4a23d9ff611d7e2245"
+                "password_hash": "S2FsYWZpb3IwMQ=="
             },
             {
                 "username": "sweetie",
-                "password_hash": "023d5c58e0dc649ba0d74b05fb16941037361ed79d4c9aae95174cec260d2da8"
+                "password_hash": "TWFqYTIwMjYh"
             }
         ],
         "kredyt": 0,
