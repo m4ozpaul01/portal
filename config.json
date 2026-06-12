@@ -45,6 +45,14 @@
       "display": "placeholder",
       "last_updated": "2026-06-12",
       "notes": ""
+    },
+    {
+      "name": "Agentic SO",
+      "status": "active",
+      "description": "Agentic Operating System — orchestrate, monitor, and manage AI agents",
+      "display": "placeholder",
+      "last_updated": "2026-06-12",
+      "notes": "Dashboard at http://localhost:7878 | Start with: cd ~/Desktop/PROJECTS/Agentic SO && ./start.sh"
     }
   ],
   "last_updated": "2026-06-12"
