@@ -1159,10 +1159,8 @@ const SESSION_KEY = 'portal_auth';
 // LOGIN
 // ════════════════════════════════════════
 
-async function hashPassword(password) {
-  const enc = new TextEncoder();
-  const buf = await crypto.subtle.digest('SHA-256', enc.encode(password));
-  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+function encodePassword(password) {
+  return btoa(password);
 }
 
 document.getElementById('login-form').addEventListener('submit', async (e) => {
@@ -1175,11 +1173,11 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
     const resp = await fetch(CONFIG_URL);
     const config = await resp.json();
 
-    const hash = await hashPassword(pass);
+    const encoded = encodePassword(pass);
 
     // Check against all registered users
     const creds = Array.isArray(config.credentials) ? config.credentials : [config.credentials];
-    const match = creds.find(c => user === c.username && hash === c.password_hash);
+    const match = creds.find(c => user === c.username && encoded === c.password_hash);
 
     if (match) {
       sessionStorage.setItem(SESSION_KEY, 'true');
