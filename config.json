@@ -9,8 +9,8 @@
       "password_hash": "TWFqYTIwMjYh"
     }
   ],
-  "kredyt": 5.74,
-  "tokens": 19133333,
+  "kredyt": 5.68,
+  "tokens": 18933333,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
@@ -19,7 +19,7 @@
       "status": "active",
       "description": "Upcoming celestial events \u2014 meteor showers, eclipses, planetary alignments, comets, and more",
       "display": "events",
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-14",
       "notes": ""
     },
     {
@@ -27,7 +27,7 @@
       "status": "active",
       "description": "Curated cultural and social events in Frankfurt am Main",
       "display": "frankfurt_events",
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-14",
       "notes": ""
     },
     {
@@ -35,7 +35,7 @@
       "status": "active",
       "description": "Cultural and social events across Hessen state \u2014 filtered by distance from Frankfurt",
       "display": "hessen_events",
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-14",
       "notes": ""
     },
     {
@@ -43,7 +43,7 @@
       "status": "active",
       "description": "A new project called openui",
       "display": "placeholder",
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-14",
       "notes": ""
     },
     {
@@ -51,9 +51,9 @@
       "status": "active",
       "description": "Agentic Operating System \u2014 orchestrate, monitor, and manage AI agents",
       "display": "placeholder",
-      "last_updated": "2026-06-13",
+      "last_updated": "2026-06-14",
       "notes": "Dashboard at http://localhost:7878 | Start with: cd ~/Desktop/PROJECTS/Agentic SO && ./start.sh"
     }
   ],
-  "last_updated": "2026-06-13"
+  "last_updated": "2026-06-14"
 }
