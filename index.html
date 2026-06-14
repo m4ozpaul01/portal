@@ -503,10 +503,10 @@ function switchTab(tabId) {
   const content = document.getElementById('tab-' + tabId);
   if (content) content.classList.add('active');
 
-  // Lazy load events on tab switch
-  if (tabId === 'project-natural events') loadCelestial();
-  if (tabId === 'project-Frankfurt Events') loadFrankfurt();
-  if (tabId === 'project-Hessen Events') loadHessen();
+  // Lazy load events on tab switch — use slugified IDs
+  if (tabId === 'project-natural-events') loadCelestial();
+  if (tabId === 'project-frankfurt-events') loadFrankfurt();
+  if (tabId === 'project-hessen-events') loadHessen();
 }
 
 // ════════════════════════════════════════════════════════
@@ -530,7 +530,7 @@ function getTookPart() { try { return JSON.parse(localStorage.getItem(TP_KEY) ||
 function markTook(id) { const a = getTookPart(); if (!a.includes(id)) { a.push(id); localStorage.setItem(TP_KEY, JSON.stringify(a)); } }
 
 async function loadCelestial() {
-  const container = document.getElementById('ev-project-natural events');
+  const container = document.getElementById('ev-project-natural-events');
   if (!container) return;
   try {
     const r = await fetch(EVENTS_URL);
