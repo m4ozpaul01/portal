@@ -636,7 +636,7 @@ function renderHessen(container, events, maxDist) {
   const today = new Date().toISOString().split('T')[0];
   let filtered = events.filter(e => e.date >= today);
   if (typeof maxDist === 'number') filtered = filtered.filter(e => (e.distance_from_frankfurt_km || 0) <= maxDist);
-  filtered.sort((a,b) => (a.distance_from_frankfurt_km||0) - (b.distance_from_frankfurt_km||0));
+  filtered.sort((a,b) => a.date.localeCompare(b.date));
   const count = document.getElementById('he-count');
   if (count) count.textContent = filtered.length + (filtered.length === 1 ? ' event found' : ' events found');
 
