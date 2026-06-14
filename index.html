@@ -282,6 +282,30 @@ body{
 .movie-empty-state .mico{font-size:64px;margin-bottom:16px}
 .movie-empty-state h3{font-size:18px;color:var(--text2);margin-bottom:8px}
 
+/* MUSIC TAB */
+.music-hero{background:linear-gradient(135deg,rgba(99,102,241,0.12),rgba(34,197,94,0.08));border:1px solid rgba(99,102,241,0.2);border-radius:16px;padding:32px;margin-bottom:24px;position:relative;overflow:hidden}
+.music-hero::before{content:'🎵';position:absolute;right:24px;bottom:-16px;font-size:120px;opacity:0.1}
+.music-hero-label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--accent);margin-bottom:8px}
+.music-hero-title{font-size:28px;font-weight:700;margin-bottom:4px;background:linear-gradient(135deg,#fff,#818cf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.music-hero-artist{font-size:16px;color:var(--text2);margin-bottom:4px}
+.music-hero-genre{font-size:13px;color:var(--text3);margin-bottom:12px}
+.music-hero-why{font-size:13px;color:var(--text2);font-style:italic;padding:8px 16px;background:rgba(255,255,255,0.04);border-radius:8px;border-left:3px solid var(--accent);margin-bottom:16px}
+.music-hero .star-row{justify-content:flex-start;padding:8px 0}
+.music-hero .star{font-size:32px}
+.music-hero .star-label{font-size:14px}
+.music-history h3{font-size:16px;font-weight:600;margin-bottom:12px;color:var(--text2);margin-top:24px}
+.music-history-item{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:6px;transition:all .15s}
+.music-history-item:hover{border-color:var(--border-active)}
+.music-history-item .mhi-title{font-size:14px;font-weight:500}
+.music-history-item .mhi-meta{display:flex;align-items:center;gap:12px;font-size:12px;color:var(--text2)}
+.music-history-item .mhi-date{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text3)}
+.music-history-item .mhi-artist{color:var(--text3);font-size:11px}
+.music-history-item .mhi-rating{color:var(--yellow);font-size:11px}
+.music-empty{text-align:center;padding:32px;color:var(--text3);font-size:14px}
+.music-empty-state{text-align:center;padding:64px 32px;color:var(--text3)}
+.music-empty-state .mico{font-size:64px;margin-bottom:16px}
+.music-empty-state h3{font-size:18px;color:var(--text2);margin-bottom:8px}
+
 .footer{text-align:center;padding:32px;margin-top:48px;color:var(--text3);font-size:12px;font-family:'JetBrains Mono',monospace;border-top:1px solid var(--border)}
 
 /* RESPONSIVE */
@@ -483,6 +507,11 @@ function buildProject(p) {
       '<div id="movies-suggestions" class="movies-grid"><div class="movie-empty-state"><div class="mico">🎬</div><h3>No suggestions yet</h3><p>New movie picks arrive every Tuesday, Thursday, and Saturday at 8 PM.</p></div></div>' +
       '<div class="movies-history" id="movies-history"><h3>📋 My Watch History</h3><div id="movies-history-list"><div class="history-empty">No movies chosen yet. Pick one from the suggestions above!</div></div></div>';
   }
+  if (p.display === 'music' || p.name === 'Music') {
+    return header +
+      '<div id="music-today"><div class="music-empty-state"><div class="mico">🎵</div><h3>Loading today\'s song...</h3><p>Checking the daily recommendation.</p></div></div>' +
+      '<div class="music-history" id="music-history"><h3>📋 My Song History</h3><div id="music-history-list"><div class="music-empty">No songs rated yet. Listen to today\'s pick and rate it!</div></div></div>';
+  }
 
   // Default placeholder
   return header +
@@ -515,7 +544,8 @@ async function buildOverview(config) {
     const label = p.name === 'natural events' ? '🔭 Sky Events' :
                   p.name === 'Frankfurt Events' ? '🎪 Frankfurt Events' :
                   p.name === 'Hessen Events' ? '🌍 Hessen Events' :
-                  p.name === 'Movies' ? '🎬 Movies' : '📁 ' + p.name;
+                  p.name === 'Movies' ? '🎬 Movies' :
+                  p.name === 'Music' ? '🎵 Music' : '📁 ' + p.name;
 
     // Celestial events
     if (p.name === 'natural events' && celestial.length > 0) {
@@ -558,6 +588,7 @@ function switchTab(tabId) {
   if (tabId === 'project-frankfurt-events') loadFrankfurt();
   if (tabId === 'project-hessen-events') loadHessen();
   if (tabId === 'project-movies') loadMovies();
+  if (tabId === 'project-music') loadMusic();
 }
 
 // ════════════════════════════════════════════════════════
@@ -781,6 +812,7 @@ function slug(s) { return (s + '').toLowerCase().replace(/[^a-z0-9]+/g,'-').repl
 // ════════════════════════════════════════════════════════
 
 const MOVIES_URL = 'movies.json?_=' + Date.now();
+const MUSIC_URL = 'music.json?_=' + Date.now();
 
 let _currentMovie = null; // currently open movie in modal
 
@@ -789,7 +821,7 @@ async function loadMovies() {
     const r = await fetch(MOVIES_URL);
     const d = await r.json();
     renderSuggestions(d.suggestions || []);
-    renderHistory(d.history || []);
+    renderHistory(getMovieHistory());
   } catch(_) {}
 }
 
@@ -940,6 +972,128 @@ function renderHistory(history) {
       '<div class="hi-meta">' +
         (h.my_rating > 0 ? '<span>' + '★'.repeat(Math.min(h.my_rating,10)) + ' ' + h.my_rating + '/10</span>' : '<span style="color:var(--text3)">Not rated</span>') +
         (h.chosen_date ? '<span class="hi-date">' + h.chosen_date + '</span>' : '') +
+      '</div></div>'
+  ).join('');
+}
+
+// ════════════════════════════════════════════════════════
+// MUSIC
+// ════════════════════════════════════════════════════════
+
+const MUSIC_KEY = 'music_history';
+
+function getMusicHistory() {
+  try { return JSON.parse(localStorage.getItem(MUSIC_KEY) || '[]'); }
+  catch { return []; }
+}
+
+function saveMusicRating(title, artist, rating) {
+  let history = getMusicHistory();
+  const idx = history.findIndex(h => h.title === title && h.artist === artist);
+  if (idx >= 0) {
+    history[idx].my_rating = rating;
+  } else {
+    history.push({ title: title, artist: artist, my_rating: rating, date: new Date().toISOString().split('T')[0] });
+  }
+  localStorage.setItem(MUSIC_KEY, JSON.stringify(history));
+}
+
+async function loadMusic() {
+  try {
+    const r = await fetch(MUSIC_URL);
+    const d = await r.json();
+    renderMusicToday(d.todays_pick);
+    renderMusicHistory();
+  } catch(_) {
+    const container = document.getElementById('music-today');
+    if (container) container.innerHTML = '<div class="music-empty-state"><div class="mico">🎵</div><h3>Could not load music data</h3><p>Music recommendations not yet available.</p></div>';
+  }
+}
+
+function renderMusicToday(pick) {
+  const container = document.getElementById('music-today');
+  if (!container) return;
+  if (!pick || !pick.title) {
+    container.innerHTML = '<div class="music-empty-state"><div class="mico">🎵</div><h3>No pick today</h3><p>Check back tomorrow for a new song recommendation!</p></div>';
+    return;
+  }
+
+  // Check if already rated
+  const history = getMusicHistory();
+  const existing = history.find(h => h.title === pick.title && h.artist === pick.artist);
+  const myRating = existing ? existing.my_rating : 0;
+
+  container.innerHTML =
+    '<div class="music-hero">' +
+      '<div class="music-hero-label">🎵 Song of the Day — ' + pick.picked_date + '</div>' +
+      '<div class="music-hero-title">' + escHtml(pick.title) + '</div>' +
+      '<div class="music-hero-artist">' + escHtml(pick.artist) + '</div>' +
+      '<div class="music-hero-genre">' + (pick.genre ? escHtml(pick.genre) : '') + (pick.year ? ' · ' + pick.year : '') + '</div>' +
+      (pick.why ? '<div class="music-hero-why">💡 ' + escHtml(pick.why) + '</div>' : '') +
+      '<div class="detail-section"><div class="detail-label">⭐ Rate This Song</div><div class="star-row" id="music-stars">' + renderMusicStars(myRating) + '</div></div>' +
+    '</div>';
+
+  // Set up star interaction
+  setTimeout(setupMusicStars, 50);
+}
+
+function renderMusicStars(rating) {
+  let html = '';
+  for (let i = 1; i <= 10; i++) {
+    html += '<span class="star ' + (i <= rating ? 'active' : '') + '" data-val="' + i + '">★</span>';
+  }
+  html += '<span class="star-label" id="music-star-label">' + (rating > 0 ? rating + '/10' : 'Click to rate') + '</span>';
+  return html;
+}
+
+function setupMusicStars() {
+  const row = document.getElementById('music-stars');
+  if (!row) return;
+  const stars = row.querySelectorAll('.star');
+  const label = document.getElementById('music-star-label');
+
+  stars.forEach(s => {
+    s.addEventListener('mouseenter', function() {
+      const val = parseInt(this.dataset.val);
+      stars.forEach(st => st.classList.toggle('hover', parseInt(st.dataset.val) <= val));
+    });
+    s.addEventListener('mouseleave', function() {
+      stars.forEach(st => st.classList.remove('hover'));
+    });
+    s.addEventListener('click', function() {
+      const val = parseInt(this.dataset.val);
+      stars.forEach(st => st.classList.toggle('active', parseInt(st.dataset.val) <= val));
+      if (label) label.textContent = val + '/10';
+      // Get current song from the hero
+      const hero = document.querySelector('.music-hero');
+      if (hero) {
+        const titleEl = hero.querySelector('.music-hero-title');
+        const artistEl = hero.querySelector('.music-hero-artist');
+        if (titleEl && artistEl) {
+          saveMusicRating(titleEl.textContent, artistEl.textContent, val);
+        }
+      }
+    });
+  });
+}
+
+function renderMusicHistory() {
+  const container = document.getElementById('music-history-list');
+  if (!container) return;
+  const history = getMusicHistory();
+  if (!history || history.length === 0) {
+    container.innerHTML = '<div class="music-empty">No songs rated yet. Listen to today\'s pick and rate it!</div>';
+    return;
+  }
+  container.innerHTML = history.slice().reverse().map(h =>
+    '<div class="music-history-item">' +
+      '<div>' +
+        '<div class="mhi-title">🎵 ' + escHtml(h.title) + '</div>' +
+        '<div class="mhi-artist">' + escHtml(h.artist || '') + '</div>' +
+      '</div>' +
+      '<div class="mhi-meta">' +
+        (h.my_rating > 0 ? '<span class="mhi-rating">' + '★ '.repeat(Math.min(h.my_rating, 10)).trim() + ' ' + h.my_rating + '/10</span>' : '<span style="color:var(--text3);font-size:11px">Not rated</span>') +
+        (h.date ? '<span class="mhi-date">' + h.date + '</span>' : '') +
       '</div></div>'
   ).join('');
 }

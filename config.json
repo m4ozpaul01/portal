@@ -17,7 +17,7 @@
     {
       "name": "natural events",
       "status": "active",
-      "description": "Upcoming celestial events \u2014 meteor showers, eclipses, planetary alignments, comets, and more",
+      "description": "Upcoming celestial events — meteor showers, eclipses, planetary alignments, comets, and more",
       "display": "events",
       "last_updated": "2026-06-14",
       "notes": ""
@@ -33,7 +33,7 @@
     {
       "name": "Hessen Events",
       "status": "active",
-      "description": "Cultural and social events across Hessen state \u2014 filtered by distance from Frankfurt",
+      "description": "Cultural and social events across Hessen state — filtered by distance from Frankfurt",
       "display": "hessen_events",
       "last_updated": "2026-06-14",
       "notes": ""
@@ -43,6 +43,14 @@
       "status": "active",
       "description": "Movie suggestions with rating system — 3 new picks every Tue, Thu, Sat",
       "display": "movies",
+      "last_updated": "2026-06-14",
+      "notes": ""
+    },
+    {
+      "name": "Music",
+      "status": "active",
+      "description": "Daily song recommendations with rating system — fresh pick every day with Spotify playlist sync",
+      "display": "music",
       "last_updated": "2026-06-14",
       "notes": ""
     }
