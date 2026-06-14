@@ -470,7 +470,7 @@ async function buildOverview(config) {
     // Celestial events
     if (p.name === 'natural events' && celestial.length > 0) {
       const e = celestial[0];
-      sec.innerHTML = '<div class="os-head"><span class="os-label">' + label + '</span></div><div class="os-title">' + emoji(e.type) + ' ' + escHtml(e.title || e.description) + '</div><div class="os-meta"><span>📅 ' + e.date + '</span><span class="ev-type ' + typeClass(e.type) + '">' + e.type + '</span></div>';
+      sec.innerHTML = '<div class="os-head"><span class="os-label">' + label + '</span></div><div class="os-title">' + emoji(e.type) + ' ' + e.type + '</div><div class="os-meta"><span>📅 ' + e.date + '</span><span class="ev-type ' + typeClass(e.type) + '">' + e.type + '</span></div>';
     }
     // Hessen events
     else if ((p.name === 'Hessen Events' || p.display === 'hessen_events') && hessen.length > 0) {
@@ -551,15 +551,15 @@ function renderCelestial(container, events) {
   }
   up.sort((a,b) => a.date.localeCompare(b.date));
   container.innerHTML = up.map(e => {
-    const eid = (e.date + '-' + (e.title||'')).replace(/[^a-zA-Z0-9-]/g,'_');
-    return '<div class="event-card' + (took.includes(e.date + '-' + (e.title||'')) ? ' done' : '') + '">' +
+    const eid = (e.date + '-' + (e.type||'')).replace(/[^a-zA-Z0-9-]/g,'_');
+    return '<div class="event-card' + (took.includes(e.date + '-' + (e.type||'')) ? ' done' : '') + '">' +
       '<div class="ev-img">' + emoji(e.type) + '</div>' +
       '<div class="ev-body">' +
         '<div class="ev-meta"><span class="ev-date">' + e.date + '</span><span class="ev-type ' + typeClass(e.type) + '">' + e.type + '</span></div>' +
-        '<div class="ev-title">' + (e.title || '') + '</div>' +
-        '<div class="ev-desc">' + escHtml(e.description || '') + '</div>' +
-        '<div class="ev-observe"><div class="ev-observe-label">🔭 How to Observe</div><div class="ev-observe-text">' + escHtml(e.how_to_observe || 'Check local sky conditions.') + '</div></div>' +
-        '<button class="took-part" onclick="handleTook(event,\'' + eid + '\',\'' + (e.date + '-' + (e.title||'')).replace(/'/g,"\\'") + '\')">✅ I Took Part!</button>' +
+        '<div class="ev-title">' + e.type + ' — ' + (e.description||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().substring(0,120) + '…</div>' +
+        '<div class="ev-desc">' + (e.description||'') + '</div>' +
+         '<div class="ev-observe"><div class="ev-observe-label">🔭 How to Observe</div><div class="ev-observe-text">' + escHtml(e.how_to_observe || 'Check local sky conditions.') + '</div></div>' +
+         '<button class="took-part" onclick="handleTook(event,\'' + eid + '\',\'' + (e.date + '-' + (e.type||'')).replace(/'/g,"\\'") + '\')">✅ I Took Part!</button>' +
       '</div></div>';
   }).join('');
 }
