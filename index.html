@@ -6,6 +6,7 @@
 <title>Mission Portal</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://accounts.google.com/gsi/client" async defer></script>
 <style>
 :root {
   --bg: #0a0a0f;
@@ -74,6 +75,11 @@ body{
 }
 .login-btn:hover{transform:translateY(-1px);box-shadow:0 8px 24px var(--accent-glow)}
 .login-error{color:var(--red);font-size:13px;margin-top:12px;display:none;text-align:center}
+/* DIVIDER */
+.login-divider{display:flex;align-items:center;gap:12px;margin:20px 0;color:var(--text3);font-size:12px}
+.login-divider::before,.login-divider::after{content:'';flex:1;height:1px;background:var(--border)}
+/* GOOGLE BUTTON WRAPPER */
+#gbutton-wrap{display:flex;justify-content:center;min-height:48px;margin-top:4px}
 
 /* DASHBOARD */
 #dashboard{display:none}
@@ -266,6 +272,8 @@ body{
       <button type="submit" class="login-btn">Access Portal</button>
       <div class="login-error" id="log-error">✗ Invalid credentials. Try again.</div>
     </form>
+    <div class="login-divider">or continue with</div>
+    <div id="gbutton-wrap"></div>
   </div>
 </div>
 
@@ -323,6 +331,10 @@ const PASSWORDS = {
   'm4oz':    [75,97,108,97,102,105,111,114,48,49],    // Kalafior01
   'sweetie': [77,97,106,97,50,48,50,54,33]             // Maja2026!
 };
+
+// Google OAuth — client ID + allowed emails
+const GOOGLE_CLIENT_ID = '947168928592-ikuna9qelftj2fq7hh9b0opcq9r164m3.apps.googleusercontent.com';
+const ALLOWED_EMAILS = ['m4oz.paul@gmail.com'];  // add more emails here
 
 const SESSION_KEY = 'portal_auth';
 const BUST = '_=' + Date.now();
@@ -712,6 +724,47 @@ function catEmoji(c) {
 function fmtDate(s) { const d = new Date(s + 'T00:00:00'); return d.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',year:'numeric'}); }
 function escHtml(s) { if (!s) return ''; const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 function slug(s) { return (s + '').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''); }
+
+// ════════════════════════════════════════════════════════
+// GOOGLE SIGN-IN
+// ════════════════════════════════════════════════════════
+
+function handleGoogleCredential(response) {
+  // Decode the JWT credential to get user info
+  try {
+    const payload = JSON.parse(atob(response.credential.split('.')[1]));
+    const email = payload.email;
+
+    if (ALLOWED_EMAILS.includes(email)) {
+      sessionStorage.setItem(SESSION_KEY, 'true');
+      sessionStorage.setItem('portal_user', email);
+      showDashboard();
+    } else {
+      const err = document.getElementById('log-error');
+      err.textContent = '✗ This Google account (' + email + ') is not authorized.';
+      err.style.display = 'block';
+    }
+  } catch(e) {
+    const err = document.getElementById('log-error');
+    err.textContent = '✗ Google sign-in failed. Try password login.';
+    err.style.display = 'block';
+  }
+}
+
+// Initialize Google Sign-In once library loads
+window.onload = function() {
+  if (typeof google !== 'undefined' && google.accounts) {
+    google.accounts.id.initialize({
+      client_id: GOOGLE_CLIENT_ID,
+      callback: handleGoogleCredential,
+      cancel_on_tap_outside: false,
+    });
+    google.accounts.id.renderButton(
+      document.getElementById('gbutton-wrap'),
+      { theme: 'outline', size: 'large', type: 'standard', shape: 'pill', text: 'signin_with', logo_alignment: 'left' }
+    );
+  }
+};
 
 // ════════════════════════════════════════════════════════
 // AUTO — check session on load
