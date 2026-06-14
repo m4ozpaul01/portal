@@ -650,7 +650,7 @@ function buildProject(p) {
           '<div class="tp-field"><label>💰 Budget (€)</label><input type="number" id="tp-budget" min="0" placeholder="e.g. 2000" /><span class="hint">Leave empty for cheapest options</span></div>' +
         '</div>' +
         '<div class="tp-field full"><label>📝 Notes & Preferences</label><textarea id="tp-notes" placeholder="e.g. I want to visit Sagrada Familia, prefer luxury hotels, love seafood..." /></div>' +
-        '<button class="tp-arrange" id="tp-arrange-btn" onclick="submitTrip()">🔍 Arrange My Trip</button>' +
+        '<button class="tp-arrange" id="tp-arrange-btn" type="button">🔍 Arrange My Trip</button>' +
       '</div>' +
       '<div class="tp-list" id="tp-list"><h3>📋 My Trips</h3><div id="tp-list-content"><div class="tp-empty-state"><div class="ico">🗺️</div><h3>No trips yet</h3><p>Fill in the form above and click Arrange My Trip to get started!</p></div></div></div>';
   }
@@ -1263,47 +1263,60 @@ function saveTripRequest(req) {
 }
 
 function submitTrip() {
-  const from = document.getElementById('tp-from');
-  const to = document.getElementById('tp-to');
-  const depart = document.getElementById('tp-depart');
-  const ret = document.getElementById('tp-return');
-  const people = document.getElementById('tp-people');
-  const budget = document.getElementById('tp-budget');
-  const notes = document.getElementById('tp-notes');
+  try {
+    const from = document.getElementById('tp-from');
+    const to = document.getElementById('tp-to');
+    const depart = document.getElementById('tp-depart');
+    const ret = document.getElementById('tp-return');
+    const people = document.getElementById('tp-people');
+    const budget = document.getElementById('tp-budget');
+    const notes = document.getElementById('tp-notes');
 
-  if (!from.value.trim() || !to.value.trim() || !depart.value || !ret.value) {
-    showFlash('✗ Please fill in departure, destination, and both dates!', 'info');
-    return;
+    if (!from || !to || !depart || !ret) {
+      showFlash('⚠️ Form not fully loaded. Try switching tabs and back.', 'info');
+      return;
+    }
+
+    if (!from.value.trim() || !to.value.trim() || !depart.value || !ret.value) {
+      showFlash('✗ Please fill in departure, destination, and both dates!', 'info');
+      return;
+    }
+
+    if (depart.value >= ret.value) {
+      showFlash('✗ Return date must be after departure date!', 'info');
+      return;
+    }
+
+    const req = {
+      id: 'tp-' + Date.now(),
+      from: from.value.trim(),
+      to: to.value.trim(),
+      departure_date: depart.value,
+      return_date: ret.value,
+      people: parseInt(people.value) || 1,
+      budget: budget.value ? parseFloat(budget.value) : null,
+      notes: notes.value.trim(),
+      status: 'pending',
+      submitted_at: new Date().toISOString(),
+      expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
+    };
+
+    saveTripRequest(req);
+    from.value = ''; to.value = ''; depart.value = ''; ret.value = '';
+    people.value = '1'; budget.value = ''; notes.value = '';
+
+    showFlash('✅ Trip request submitted! Now tell me the details and I\'ll research everything for you.', 'success');
+    loadTrips();
+  } catch(e) {
+    showFlash('✗ Something went wrong: ' + e.message, 'info');
   }
-
-  if (depart.value >= ret.value) {
-    showFlash('✗ Return date must be after departure date!', 'info');
-    return;
-  }
-
-  const req = {
-    id: 'tp-' + Date.now(),
-    from: from.value.trim(),
-    to: to.value.trim(),
-    departure_date: depart.value,
-    return_date: ret.value,
-    people: parseInt(people.value) || 1,
-    budget: budget.value ? parseFloat(budget.value) : null,
-    notes: notes.value.trim(),
-    status: 'pending',
-    submitted_at: new Date().toISOString(),
-    expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
-  };
-
-  saveTripRequest(req);
-  from.value = ''; to.value = ''; depart.value = ''; ret.value = '';
-  people.value = '1'; budget.value = ''; notes.value = '';
-
-  showFlash('✅ Trip request submitted! Tell me the details and I\'ll research everything for you.', 'success');
-  loadTrips();
 }
 
 async function loadTrips() {
+  // Bind the Arrange button
+  const btn = document.getElementById('tp-arrange-btn');
+  if (btn) btn.onclick = submitTrip;
+
   try {
     const r = await fetch(TRIPS_URL);
     const d = await r.json();
