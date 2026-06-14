@@ -1335,7 +1335,24 @@ async function loadTrips() {
   try {
     const r = await fetch(TRIPS_URL);
     const d = await r.json();
-    renderTripList(d.trips || []);
+    const serverTrips = d.trips || [];
+
+    // Auto-clean localStorage: remove pending entries that now have completed trips
+    // Match by route (from/to/dates) since browser IDs differ from server IDs
+    const pending = getTripRequests();
+    const completedRoutes = new Set(serverTrips.map(t => 
+      (t.request.from + '|' + t.request.to + '|' + t.request.departure_date).toLowerCase()
+    ));
+    const cleaned = pending.filter(r => {
+      if (r.status !== 'pending') return false;
+      const route = (r.from + '|' + r.to + '|' + r.departure_date).toLowerCase();
+      return !completedRoutes.has(route);
+    });
+    if (cleaned.length !== pending.length) {
+      localStorage.setItem(TP_REQ_KEY, JSON.stringify(cleaned));
+    }
+
+    renderTripList(serverTrips);
   } catch(_) {
     // Still show pending requests
     renderTripList([]);
