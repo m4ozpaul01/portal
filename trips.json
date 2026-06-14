@@ -12,245 +12,416 @@
         "people": 1,
         "budget": null,
         "notes": "Arhitecture and food",
-        "status": "complete"
+        "status": "complete",
+        "submitted_at": "2026-06-14T23:59:21"
       },
       "plan": {
-        "grand_total": 1250,
-        "currency": "EUR",
-        "budget_level": "budget-friendly (1 person)",
+        "summary": "A 10-day Barcelona trip focused on Gaudí's architecture and Catalan cuisine. 2026 is the UNESCO World Capital of Architecture — the perfect year to visit. Includes all major Gaudí works, Modernist landmarks, amazing food markets, a day trip to Montserrat, and the best sunset views in the city.",
+        "special_2026": "Barcelona is UNESCO World Capital of Architecture 2026 — 1,500+ events citywide for Gaudí's centenary!",
+        "phase1": {
+          "days": 8,
+          "percentage": 80
+        },
+        "phase2": {
+          "days": 2,
+          "percentage": 20
+        },
         "flights": {
-          "recommendation": "Ryanair / easyJet from Frankfurt (FRA) or Frankfurt-Hahn (HHN) to Barcelona (BCN)",
-          "estimated_cost": 120,
-          "tip": "Book 2-3 months ahead. Ryanair from HHN is cheapest (~€40-60 each way). Check Skyscanner/Google Flights. Pack light — only carry-on."
+          "total": 120,
+          "recommendation": "Ryanair / easyJet from Frankfurt (FRA) or Frankfurt-Hahn (HHN) to Barcelona (BCN). Book 2-3 months ahead — €40-60 each way on Skyscanner.",
+          "tip": "Pack light — carry-on only for Ryanair. Aerobús from airport: €5.90, every 5-10 min to Plaça Catalunya."
         },
-        "accommodation": {
-          "recommendation": "Hostel or budget hotel in El Raval or Eixample Esquerra",
-          "options": [
-            {
-              "name": "Generator Hostel Barcelona",
-              "area": "El Raval / Sant Antoni",
-              "price_per_night": "€25-35",
-              "vibe": "Social hostel, rooftop pool, walking distance to Ramblas",
-              "why": "Cheapest good option, central location"
-            },
-            {
-              "name": "Hostal Centric Barcelona",
-              "area": "Eixample Esquerra",
-              "price_per_night": "€40-55",
-              "vibe": "Budget private room, clean, quiet",
-              "why": "Good if you want privacy without hostel dorms"
-            },
-            {
-              "name": "TOC Hostel Barcelona",
-              "area": "El Born / Gothic Quarter",
-              "price_per_night": "€30-40",
-              "vibe": "Stylish hostel, bar, central",
-              "why": "Best location for architecture walks"
-            }
-          ],
-          "estimated_total": 350
-        },
+        "accommodations": [
+          {
+            "name": "Generator Hostel Barcelona",
+            "type": "hostel",
+            "rating": 8.0,
+            "address": "Sant Antoni / El Raval",
+            "price_per_night": 30,
+            "total": 300,
+            "description": "Social hostel, rooftop pool, central location. Cheapest good option.",
+            "alternatives": [
+              {
+                "name": "TOC Hostel Barcelona",
+                "type": "hostel",
+                "rating": 8.5,
+                "price_per_night": 35
+              },
+              {
+                "name": "Hostal Centric Barcelona",
+                "type": "private",
+                "rating": 8.5,
+                "price_per_night": 50
+              }
+            ]
+          }
+        ],
         "daily_itinerary": [
           {
             "day": 1,
             "date": "2026-08-12",
             "title": "Arrival + Gothic Quarter",
+            "phase": "explore",
+            "day_total": 15,
             "activities": [
-              "Arrive at BCN airport — take Aerobús (€5.90) to Plaça Catalunya (35 min)",
-              "Check in, drop bags",
-              "Afternoon: Walk through Gothic Quarter (Barri Gòtic) — narrow medieval streets, Plaça Reial, Barcelona Cathedral",
-              "Evening: Tapas crawl on Carrer de Blai — pintxos at €2-3 each. Try Bodega La Palma or La Tasqueta de Blai",
-              "Dinner: Can Culleretes (est. 1786!) — oldest restaurant in Barcelona, affordable set menu"
+              {
+                "time": "Arrival",
+                "activity": "Aerobús to Plaça Catalunya (€5.90, 35 min)",
+                "description": "Check in, drop bags",
+                "cost": 6
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Walk Gothic Quarter",
+                "description": "Plaça Reial, Barcelona Cathedral, narrow medieval streets",
+                "cost": 0
+              },
+              {
+                "time": "Evening",
+                "activity": "Tapas crawl on Carrer de Blai",
+                "description": "€2-3 pintxos each. Try Bodega La Palma or La Tasqueta",
+                "cost": 10
+              },
+              {
+                "time": "Dinner",
+                "activity": "Can Culleretes (est. 1786!)",
+                "description": "Oldest restaurant in Barcelona, affordable set menu ~€15",
+                "cost": 15
+              }
             ]
           },
           {
             "day": 2,
             "date": "2026-08-13",
-            "title": "Gaudí: Sagrada Família",
+            "title": "Sagrada Família",
+            "phase": "explore",
+            "day_total": 41,
             "activities": [
-              "Morning: **Sagrada Família** — pre-book tickets online (€26) for 9am, less crowded. ABSOLUTE MUST-SEE for architecture",
-              "Take the Passion Facade tower if you can — best views",
-              "Lunch: La Paradeta (Sagrada Família branch) — market-style seafood, pick your own, pay by weight",
-              "Afternoon: Walk through **Sant Pau Recinte Modernista** — former hospital, stunning Modernist architecture, €15, usually quiet",
-              "Evening: Dinner at El Quim de la Boqueria — inside La Boqueria market, best at lunch actually. For dinner try Bar del Pla in Born"
+              {
+                "time": "09:00",
+                "activity": "Sagrada Família",
+                "description": "PRE-BOOK tickets online (€26). Go early. Take Passion Façade tower for best views",
+                "cost": 26
+              },
+              {
+                "time": "Lunch",
+                "activity": "La Paradeta",
+                "description": "Market-style seafood near Sagrada, pick your own, pay by weight, €12-18",
+                "cost": 15
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Sant Pau Recinte Modernista",
+                "description": "Former hospital, stunning Modernist architecture (€15), usually quiet",
+                "cost": 15
+              },
+              {
+                "time": "Evening",
+                "activity": "Dinner at Bar del Pla (El Born)",
+                "description": "Excellent tapas, €25-35",
+                "cost": 30
+              }
             ]
           },
           {
             "day": 3,
             "date": "2026-08-14",
-            "title": "Gaudí: Park Güell + Gràcia",
+            "title": "Park Güell + Gràcia",
+            "phase": "explore",
+            "day_total": 28,
             "activities": [
-              "Morning: **Park Güell** — pre-book tickets (€10) for 10am. Gaudí's colorful park with incredible mosaic benches",
-              "Walk down through **Gràcia neighborhood** — bohemian vibe, less touristy, great little plazas",
-              "Lunch in Gràcia: La Pubilla or Can Xurrades — authentic Catalan, €12-15 menu del día",
-              "Afternoon: **Casa Vicens** (Gaudí's first house, €18) — colorful Moorish-inspired masterpiece, less crowded than Casa Batlló",
-              "Evening: Relax at Plaça de la Vila de Gràcia — great people-watching, cheap drinks at local bars"
+              {
+                "time": "10:00",
+                "activity": "Park Güell",
+                "description": "Gaudí's colorful mosaic park. PRE-BOOK (€10)",
+                "cost": 10
+              },
+              {
+                "time": "Walk",
+                "activity": "Gràcia neighborhood",
+                "description": "Bohemian vibe, great little plazas, less touristy",
+                "cost": 0
+              },
+              {
+                "time": "Lunch",
+                "activity": "La Pubilla (Gràcia)",
+                "description": "Authentic Catalan, €12-15 menu del día",
+                "cost": 14
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Casa Vicens",
+                "description": "Gaudí's first house, colorful Moorish-inspired (€18)",
+                "cost": 18
+              },
+              {
+                "time": "Evening",
+                "activity": "Relax at Plaça de la Vila de Gràcia",
+                "description": "Good people-watching, cheap local bars",
+                "cost": 0
+              }
             ]
           },
           {
             "day": 4,
             "date": "2026-08-15",
             "title": "Casa Batlló + Passeig de Gràcia",
+            "phase": "explore",
+            "day_total": 73,
             "activities": [
-              "Morning: **Casa Batlló** (€35-43 with audio guide) — the most magical Gaudí house. BOOK AHEAD. The blue-tiled atrium is breathtaking",
-              "Then walk Passeig de Gràcia — see **Casa Milà (La Pedrera)** from outside (€24 if you want to go up to the rooftop)",
-              "Lunch: La Rita (Carrer d'Aragó) — excellent €14 menu del día, 3 courses + drink",
-              "Afternoon: **Palau de la Música Catalana** — book a 1-hour guided tour (€20), stunning Modernist concert hall by Domènech i Montaner",
-              "Evening: Dinner at Cal Pep in El Born — legendary tapas, queue early (opens 7pm), €30-40 well spent"
+              {
+                "time": "09:00",
+                "activity": "Casa Batlló €35-43",
+                "description": "Magical Gaudí house, blue atrium. BOOK AHEAD.",
+                "cost": 40
+              },
+              {
+                "time": "Walk",
+                "activity": "Passeig de Gràcia",
+                "description": "See Casa Milà/La Pedrera facade (€24 for rooftop)",
+                "cost": 0
+              },
+              {
+                "time": "Lunch",
+                "activity": "La Rita (Carrer d'Aragó)",
+                "description": "Excellent €14 menu del día, 3 courses + drink",
+                "cost": 14
+              },
+              {
+                "time": "15:00",
+                "activity": "Palau de la Música Catalana",
+                "description": "Guided tour (€20). Stunning Modernist concert hall.",
+                "cost": 20
+              },
+              {
+                "time": "Evening",
+                "activity": "Cal Pep (El Born)",
+                "description": "Legendary tapas, queue before 7pm. €30-40",
+                "cost": 35
+              }
             ]
           },
           {
             "day": 5,
             "date": "2026-08-16",
             "title": "Montjuïc + Catalan Food",
+            "phase": "explore",
+            "day_total": 45,
             "activities": [
-              "Morning: **Montjuïc Castle** — take the cable car up (€12 each way), incredible views of the port and city",
-              "Walk down through **Joan Miró Foundation** (€13) — beautiful building, amazing art, peaceful garden",
-              "Lunch: **Mercat de la Llibertat** in Gràcia — local market, grab fresh food, much less touristy than Boqueria",
-              "Afternoon: CaixaForum (free entry with some cards) — former textile factory turned art center",
-              "Evening: **Spanish Cooking Class** (€40-50) — affordable ones at Barcelona Cooking or Cook & Taste. Learn paella and tapas!"
+              {
+                "time": "Morning",
+                "activity": "Montjuïc Castle",
+                "description": "Cable car up (€12). Incredible views of port and city",
+                "cost": 12
+              },
+              {
+                "time": "Walk down",
+                "activity": "Joan Miró Foundation €13",
+                "description": "Beautiful building, amazing art, peaceful garden",
+                "cost": 13
+              },
+              {
+                "time": "Lunch",
+                "activity": "Mercat de la Llibertat (Gràcia)",
+                "description": "Local market, fresh food, much less touristy than Boqueria",
+                "cost": 10
+              },
+              {
+                "time": "Evening",
+                "activity": "Spanish Cooking Class €40-50",
+                "description": "Barcelona Cooking or Cook & Taste. Learn paella!",
+                "cost": 45
+              }
             ]
           },
           {
             "day": 6,
             "date": "2026-08-17",
             "title": "El Born + Picasso + Barceloneta",
+            "phase": "explore",
+            "day_total": 35,
             "activities": [
-              "Morning: **Picasso Museum** (€12, free Thu evenings) — incredible collection of early Picasso, in beautiful Gothic palaces",
-              "Walk through **El Born** — Santa Maria del Mar church (free, breathtaking Gothic), El Born CCM (cultural center)",
-              "Lunch: Can Paixano (La Xampanyeria) — legendary cava bar, €2-3 sandwiches + cava, very local, chaotic and amazing",
-              "Afternoon: Walk to **Barceloneta beach** — grab a drink at a chiringuito (beach bar), swim if it's hot",
-              "Evening: Dinner at **Can Majó** (Barceloneta) — best paella in Barcelona, €20-25, book ahead"
+              {
+                "time": "Morning",
+                "activity": "Picasso Museum €12",
+                "description": "Incredible early Picasso in beautiful Gothic palaces",
+                "cost": 12
+              },
+              {
+                "time": "Walk",
+                "activity": "Santa Maria del Mar",
+                "description": "FREE. Breathtaking Gothic church in El Born",
+                "cost": 0
+              },
+              {
+                "time": "Lunch",
+                "activity": "Can Paixano (La Xampanyeria)",
+                "description": "Legendary cava bar. €2-3 sandwiches + cava. Very local!",
+                "cost": 5
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Barceloneta beach",
+                "description": "Swim, chiringuito drink, relax",
+                "cost": 0
+              },
+              {
+                "time": "Dinner",
+                "activity": "Can Majó (Barceloneta)",
+                "description": "Best paella in Barcelona, €20-25, book ahead",
+                "cost": 22
+              }
             ]
           },
           {
             "day": 7,
             "date": "2026-08-18",
             "title": "Day Trip: Montserrat",
+            "phase": "explore",
+            "day_total": 25,
             "activities": [
-              "Full day: **Montserrat Monastery** — take R5 train from Plaça d'Espanya (€25 round trip + cremallera/funicular)",
-              "See the Black Madonna (La Moreneta), explore the basilica",
-              "Hike to **Sant Jeroni** — highest peak, 2h walk, INCREDIBLE views of all Catalonia",
-              "Listen to the Escolania boys' choir (sings at 1pm Mon-Fri)",
-              "Bring your own picnic lunch — the monastery food is expensive and average",
-              "Back to Barcelona by 6-7pm",
-              "Evening: Light dinner — try **La Flauta** on Carrer d'Aribau, €15-20, amazing montaditos (small sandwiches)"
+              {
+                "time": "Full day",
+                "activity": "Montserrat Monastery",
+                "description": "R5 train from Plaça d'Espanya (€25 round trip). See Black Madonna, hike to Sant Jeroni peak",
+                "cost": 25
+              },
+              {
+                "time": "13:00",
+                "activity": "Escolania boys' choir",
+                "description": "Sings at 1pm Mon-Fri at the basilica. FREE",
+                "cost": 0
+              },
+              {
+                "time": "Lunch",
+                "activity": "Picnic at Montserrat",
+                "description": "Bring your own — monastery food is expensive",
+                "cost": 0
+              },
+              {
+                "time": "Evening",
+                "activity": "La Flauta (Carrer d'Aribau)",
+                "description": "Amazing montaditos, €15-20",
+                "cost": 17
+              }
             ]
           },
           {
             "day": 8,
             "date": "2026-08-19",
             "title": "Modernisme + Sant Antoni",
+            "phase": "explore",
+            "day_total": 15,
             "activities": [
-              "Morning: **Hospital de Sant Pau** — you walked past it on day 2, but this time do the full guided tour (€15). Unesco site, jaw-dropping",
-              "Then: **Recinte Modernista Sant Pau** gardens — free to wander the outdoor areas",
-              "Lunch: **Mercat de Sant Antoni** — recently renovated, amazing food hall, much cheaper than Boqueria. Try the jamón and cheese counter",
-              "Afternoon: Walk **Rambla del Raval** — less touristy version of La Rambla, see the famous Botero cat statue",
-              "Evening: Dinner at **El Nacional** (Passeig de Gràcia, 24) — stunning Modernist former garage turned food hall, 4 different restaurants inside, mid-range €25-35"
+              {
+                "time": "Morning",
+                "activity": "Full Hospital de Sant Pau tour €15",
+                "description": "UNESCO site, jaw-dropping guided tour",
+                "cost": 15
+              },
+              {
+                "time": "Lunch",
+                "activity": "Mercat de Sant Antoni",
+                "description": "Renovated food hall, much cheaper than Boqueria",
+                "cost": 10
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Rambla del Raval",
+                "description": "Less touristy than La Rambla. See the Botero cat statue",
+                "cost": 0
+              },
+              {
+                "time": "Dinner",
+                "activity": "El Nacional (Passeig de Gràcia 24)",
+                "description": "Stunning Modernist food hall, 4 restaurants, €25-35",
+                "cost": 30
+              }
             ]
           },
           {
             "day": 9,
             "date": "2026-08-20",
-            "title": "Last full day — Free + Farewell",
+            "title": "Free + Farewell",
+            "phase": "relax",
+            "day_total": 12,
             "activities": [
-              "Morning: Visit **Palau Güell** (€12) — Gaudí's early mansion for the Güell family, incredible rooftop with chimneys",
-              "Or revisit a favorite spot / do unfinished business",
-              "Lunch: **Market crawl** — hit Boqueria (touristy but worth it) for a last taste: El Pinotxo bar, jamón, fresh juice",
-              "Afternoon: **Free time** — shopping in El Born (boutiques), or **Museu Nacional d'Art de Catalunya** (MNAC, €12) on Montjuïc for Romanesque art collection (one of the best in the world)",
-              "Sunset: **Bunkers del Carmel** — free, best sunset view in Barcelona, take bus 119 up. Bring a drink and snacks",
-              "Farewell dinner: **Can Solé** in Barceloneta — traditional Catalan, family-run since 1905, €30-40"
+              {
+                "time": "Morning",
+                "activity": "Palau Güell €12",
+                "description": "Gaudí's early mansion, incredible rooftop chimneys",
+                "cost": 12
+              },
+              {
+                "time": "Lunch",
+                "activity": "Boqueria market crawl",
+                "description": "El Pinotxo bar, jamón, fresh juice (€10-15)",
+                "cost": 12
+              },
+              {
+                "time": "Sunset",
+                "activity": "Bunkers del Carmel",
+                "description": "FREE. Best sunset view in Barcelona. Bus 119. Bring drinks!",
+                "cost": 0
+              },
+              {
+                "time": "Farewell",
+                "activity": "Can Solé (Barceloneta)",
+                "description": "Traditional Catalan since 1905, €30-40",
+                "cost": 35
+              }
             ]
           },
           {
             "day": 10,
             "date": "2026-08-21",
             "title": "Departure",
+            "phase": "relax",
+            "day_total": 6,
             "activities": [
-              "Morning: Last walk, buy souvenirs at **Santa Caterina Market** (beautiful colorful roof, less crowded)",
-              "Aerobús back to BCN airport (€5.90, every 5-10 min)",
-              "Arrive at airport 2h before flight"
+              {
+                "time": "Morning",
+                "activity": "Santa Caterina Market",
+                "description": "Colorful roof, less crowded. Last souvenirs",
+                "cost": 0
+              },
+              {
+                "time": "Depart",
+                "activity": "Aerobús to BCN airport (€5.90)",
+                "description": "Arrive 2h before flight",
+                "cost": 6
+              }
             ]
           }
         ],
-        "food_highlights": [
-          {
-            "dish": "Paella",
-            "where": "Can Majó (Barceloneta) — best affordable paella",
-            "price": "€20-25"
-          },
-          {
-            "dish": "Tapas / Pintxos",
-            "where": "Carrer de Blai (district: Poble-sec)",
-            "price": "€2-4 per piece"
-          },
-          {
-            "dish": "Patatas Bravas",
-            "where": "Bar Tomàs (Sarrià) or L'Escudella (Born)",
-            "price": "€6-8"
-          },
-          {
-            "dish": "Pan con Tomate",
-            "where": "Literally everywhere, but best at Cal Pep",
-            "price": "€2-4"
-          },
-          {
-            "dish": "Catalan Cream (Crema Catalana)",
-            "where": "Can Culleretes",
-            "price": "€5-7"
-          },
-          {
-            "dish": "Cava + Montaditos",
-            "where": "Can Paixano (La Xampanyeria)",
-            "price": "€2-5"
-          },
-          {
-            "dish": "Menu del Día (3-course lunch)",
-            "where": "Most bars in Gràcia and Eixample — look for €12-15 menus",
-            "price": "€12-15"
-          }
-        ],
-        "architecture_must_see": [
-          "Sagrada Família (pre-book, €26)",
-          "Casa Batlló (pre-book, €35-43)",
-          "Park Güell (pre-book, €10)",
-          "Palau de la Música Catalana (tour €20)",
-          "Hospital de Sant Pau (€15)",
-          "Palau Güell (€12)",
-          "Casa Vicens (€18)",
-          "Santa Maria del Mar (free, Born)",
-          "Palau Reial / Plaça Reial (free, Gothic Quarter)",
-          "Recinte Modernista Sant Pau gardens (free outdoor)"
-        ],
-        "free_activities": [
-          "Bunkers del Carmel (sunset views)",
-          "Santa Maria del Mar church",
-          "Beach day at Barceloneta",
-          "Gothic Quarter walking tour (self-guided)",
-          "Rambla del Raval + Botero cat",
-          "Montjuïc gardens (free areas)",
-          "El Born CCM cultural center",
-          "La Boqueria market (walking is free, eating costs)"
-        ],
-        "transportation": {
-          "airport": "Aerobús (€5.90) or metro L9 Sud (€5.50) — both ~35 min to center",
-          "metro": "T-Casual card: 10 rides for €11.35 (single ride €2.55). Buy at any station",
-          "walking": "Barcelona is very walkable — most attractions are within 30 min walk",
-          "bike": "Bicing (€50/year) not for tourists. Rent a bike ~€10/day from shops in El Born"
+        "accommodation": {
+          "recommendation": "Generator Hostel Barcelona",
+          "options": [
+            {
+              "name": "Generator Hostel",
+              "price_per_night": "€25-35",
+              "why": "Cheapest, central, rooftop"
+            },
+            {
+              "name": "TOC Hostel",
+              "price_per_night": "€30-40",
+              "why": "Best location for architecture walks"
+            },
+            {
+              "name": "Hostal Centric",
+              "price_per_night": "€40-55",
+              "why": "Private room, quiet area"
+            }
+          ]
         },
-        "practical_tips": [
-          "August is HOT (30-35°C) and packed with tourists. Book Sagrada/Casa Batlló at least 1 week ahead",
-          "Siesta: many shops close 2-5pm, but attractions stay open. Use afternoon for indoor activities",
-          "Pickpockets: keep phone/wallet in front pockets or zipped bag. Avoid La Rambla at night alone",
-          "Language: Catalan first, Spanish second. 'Bon dia' and 'Gràcies' go a long way",
-          "Water: tap water is safe but tastes chlorinated. Carry a bottle and refill at public fountains",
-          "Tipping: not expected but appreciated. Round up or leave 5-10% for great service",
-          "Neighborhood safety: El Raval is fine during day, avoid dark side streets at night. El Born and Gràcia are very safe",
-          "Best free view: Bunkers del Carmel. Go at sunset. Bus 119 from Alfons X metro"
-        ]
+        "food_total": 200,
+        "attractions_total": 160,
+        "transport_local_total": 50,
+        "extras_total": 20,
+        "grand_total": 1250
       },
       "status": "complete",
-      "created_at": "2026-06-15 00:05:33.759112"
+      "created_at": "2026-06-15 00:02:04"
     },
     {
       "id": "tp-1781474852506",
@@ -263,157 +434,296 @@
         "people": 1,
         "budget": null,
         "notes": "architecture",
-        "status": "complete"
+        "status": "complete",
+        "submitted_at": "2026-06-15T00:07:32"
       },
       "plan": {
-        "grand_total": 650,
-        "currency": "EUR",
-        "budget_level": "budget-friendly (1 person)",
-        "special_2026": "Barcelona is the UNESCO World Capital of Architecture 2026 — 1,500+ events citywide celebrating Gaudí's centenary. Perfect timing!",
+        "summary": "Last-minute 5-day Barcelona trip (June 16-21) focused on architecture. 2026 is UNESCO World Capital of Architecture — the city is buzzing with Gaudí centenary events. Packed itinerary covering all major Gaudí works, Modernist landmarks, amazing food, and the best sunset views. Budget-friendly solo trip.",
+        "special_2026": "Barcelona is UNESCO World Capital of Architecture 2026! 1,500+ events for Gaudí's centenary.",
+        "phase1": {
+          "days": 5,
+          "percentage": 83
+        },
+        "phase2": {
+          "days": 1,
+          "percentage": 17
+        },
         "flights": {
-          "recommendation": "Ryanair from Frankfurt-Hahn (HHN) or easyJet from Frankfurt (FRA) to Barcelona (BCN)",
-          "estimated_cost": 80,
-          "tip": "Book NOW — last-minute flights ~€40-80 each way on Skyscanner/Kayak. Pack light (carry-on only for Ryanair). Aerobús from airport: €5.90, every 5-10 min."
+          "total": 80,
+          "recommendation": "Ryanair from Frankfurt-Hahn (HHN) or easyJet from Frankfurt (FRA) to Barcelona (BCN). Book NOW — last-minute €40-80 each way on Skyscanner/Kayak.",
+          "tip": "Pack carry-on only. Aerobús from BCN airport: €5.90 to Plaça Catalunya, every 5-10 min."
         },
-        "accommodation": {
-          "recommendation": "Hostel or budget hotel — Eixample or Gràcia for architecture lovers",
-          "options": [
-            {
-              "name": "TOC Hostel Barcelona",
-              "area": "El Born",
-              "price_per_night": "€30-40",
-              "why": "Best location for walking to Gothic Quarter and Born architecture"
-            },
-            {
-              "name": "Generator Hostel Barcelona",
-              "area": "Sant Antoni",
-              "price_per_night": "€25-35",
-              "why": "Cheapest, rooftop pool, close to Sant Antoni market"
-            },
-            {
-              "name": "Rodamon Hostel Barcelona",
-              "area": "Eixample Esquerra",
-              "price_per_night": "€28-38",
-              "why": "Quiet area, close to Casa Batlló and La Pedrera"
-            }
-          ],
-          "estimated_total": 175
-        },
+        "accommodations": [
+          {
+            "name": "TOC Hostel Barcelona",
+            "type": "hostel",
+            "rating": 8.5,
+            "address": "El Born",
+            "price_per_night": 35,
+            "total": 175,
+            "description": "Best location — walk to Gothic Quarter, Born, and Cathedral. Stylish, rooftop bar.",
+            "alternatives": [
+              {
+                "name": "Generator Hostel Barcelona",
+                "type": "hostel",
+                "rating": 8.0,
+                "price_per_night": 30
+              },
+              {
+                "name": "Rodamon Hostel Barcelona",
+                "type": "hostel",
+                "rating": 8.2,
+                "price_per_night": 32
+              }
+            ]
+          }
+        ],
         "daily_itinerary": [
           {
             "day": 1,
             "date": "2026-06-16",
-            "title": "Arrival + Gothic Quarter + 2026 Architecture Kickoff",
+            "title": "Arrival + Gothic Quarter",
+            "phase": "explore",
+            "day_total": 15,
             "activities": [
-              "Arrive BCN — Aerobús to Plaça Catalunya (€5.90, 35 min)",
-              "Check in, drop bags",
-              "⭐ 2026 SPECIAL: Check the UIA2026BCN program for free architecture events/installations happening this week",
-              "Afternoon: Gothic Quarter walk — Barcelona Cathedral, Plaça Reial, Roman temple ruins",
-              "Evening: Carrer de Blai tapas crawl — €2-3 pintxos each. Try La Tasqueta de Blai",
-              "Dinner: Can Culleretes (est. 1786!) — oldest restaurant in Barcelona. Set menu ~€15"
+              {
+                "time": "Arrival",
+                "activity": "Aerobús to Plaça Catalunya (€5.90)",
+                "description": "Check in, drop bags",
+                "cost": 6
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Gothic Quarter walk",
+                "description": "Barcelona Cathedral, Plaça Reial, Roman ruins",
+                "cost": 0
+              },
+              {
+                "time": "⭐ 2026",
+                "activity": "Check UIA2026BCN program for architecture events this week",
+                "description": "UNESCO World Capital of Architecture — free installations citywide",
+                "cost": 0
+              },
+              {
+                "time": "Evening",
+                "activity": "Carrer de Blai tapas crawl",
+                "description": "€2-3 pintxos. Try La Tasqueta de Blai",
+                "cost": 10
+              },
+              {
+                "time": "Dinner",
+                "activity": "Can Culleretes (est. 1786)",
+                "description": "Oldest restaurant. Set menu ~€15",
+                "cost": 15
+              }
             ]
           },
           {
             "day": 2,
             "date": "2026-06-17",
-            "title": "Gaudí: Sagrada Família + Sant Pau",
+            "title": "Sagrada Família + Sant Pau",
+            "phase": "explore",
+            "day_total": 56,
             "activities": [
-              "Morning: Sagrada Família — pre-book online NOW (€26), go 9am to beat crowds. 2026 is Gaudí centenary year, so it's busier than ever",
-              "Passion Façade tower if available — best city views",
-              "Lunch: La Paradeta (near Sagrada) — market-style seafood, pick your own, pay by weight, €12-18",
-              "Afternoon: Hospital de Sant Pau (€15) — UNESCO Modernist site, stunning pavilions, much quieter than Sagrada",
-              "Evening: Bar del Pla (El Born) — excellent tapas, €25-35"
+              {
+                "time": "09:00",
+                "activity": "Sagrada Família €26",
+                "description": "PRE-BOOK online! Go early. 2026 is Gaudí centenary — busy!",
+                "cost": 26
+              },
+              {
+                "time": "Lunch",
+                "activity": "La Paradeta",
+                "description": "Market-style seafood near Sagrada, €12-18",
+                "cost": 15
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Hospital de Sant Pau €15",
+                "description": "UNESCO Modernist. Stunning pavilions, quiet",
+                "cost": 15
+              },
+              {
+                "time": "Evening",
+                "activity": "Bar del Pla (El Born)",
+                "description": "Excellent tapas, €25-35",
+                "cost": 30
+              }
             ]
           },
           {
             "day": 3,
             "date": "2026-06-18",
             "title": "Casa Batlló + Palau de la Música",
+            "phase": "explore",
+            "day_total": 74,
             "activities": [
-              "Morning: Casa Batlló (€35-43) — Gaudí's most magical house. PRE-BOOK — the blue atrium is breathtaking",
-              "Walk Passeig de Gràcia — see Casa Milà/La Pedrera facade (€24 if you want rooftop)",
-              "Lunch: La Rita (Carrer d'Aragó) — €14 menu del día, 3 courses + drink",
-              "Afternoon: Palau de la Música Catalana — guided tour (€20), stunning Modernist concert hall by Domènech i Montaner",
-              "Evening: Cal Pep (El Born) — legendary tapas, queue before 7pm. €30-40"
+              {
+                "time": "09:00",
+                "activity": "Casa Batlló €35-43",
+                "description": "Magical Gaudí house. PRE-BOOK! Blue atrium is breathtaking",
+                "cost": 40
+              },
+              {
+                "time": "Walk",
+                "activity": "Passeig de Gràcia",
+                "description": "See Casa Milà/La Pedrera facade",
+                "cost": 0
+              },
+              {
+                "time": "Lunch",
+                "activity": "La Rita (Carrer d'Aragó)",
+                "description": "€14 menu del día, 3 courses + drink",
+                "cost": 14
+              },
+              {
+                "time": "15:00",
+                "activity": "Palau de la Música tour €20",
+                "description": "Stunning Modernist concert hall",
+                "cost": 20
+              },
+              {
+                "time": "Evening",
+                "activity": "Cal Pep (El Born)",
+                "description": "Legendary tapas, queue before 7pm. €30-40",
+                "cost": 35
+              }
             ]
           },
           {
             "day": 4,
             "date": "2026-06-19",
-            "title": "Park Güell + Gràcia + Picasso Museum",
+            "title": "Park Güell + Gràcia + Picasso",
+            "phase": "explore",
+            "day_total": 42,
             "activities": [
-              "Morning: Park Güell (€10, pre-book) — Gaudí's colorful park. Go early before the heat and crowds",
-              "Walk down through Gràcia neighborhood — bohemian squares, less touristy",
-              "Lunch: La Pubilla (Gràcia) — authentic Catalan, €12-15 menu del día",
-              "Afternoon: Picasso Museum (€12) — in beautiful Gothic palaces, incredible early Picasso",
-              "Then: Santa Maria del Mar (free) — breathtaking Gothic church in El Born",
-              "Evening: Can Paixano (La Xampanyeria) — legendary cava bar, €2 sandwiches + cava. Then Can Majó for paella (€20-25, Barceloneta)"
+              {
+                "time": "10:00",
+                "activity": "Park Güell €10",
+                "description": "Gaudí's colorful park. Book ahead!",
+                "cost": 10
+              },
+              {
+                "time": "Walk",
+                "activity": "Gràcia neighborhood",
+                "description": "Bohemian squares, less touristy",
+                "cost": 0
+              },
+              {
+                "time": "Lunch",
+                "activity": "La Pubilla (Gràcia)",
+                "description": "Authentic Catalan €12-15 menu del día",
+                "cost": 14
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Picasso Museum €12",
+                "description": "Early Picasso in Gothic palaces",
+                "cost": 12
+              },
+              {
+                "time": "Walk",
+                "activity": "Santa Maria del Mar",
+                "description": "FREE. Breathtaking Gothic church in Born",
+                "cost": 0
+              },
+              {
+                "time": "Dinner",
+                "activity": "Can Paixano + Can Majó",
+                "description": "Cava bar (€2) then best paella in Barceloneta (€20-25)",
+                "cost": 25
+              }
             ]
           },
           {
             "day": 5,
             "date": "2026-06-20",
-            "title": "Gaudí's First House + Montjuïc + Farewell",
+            "title": "Casa Vicens + Montjuïc + Farewell",
+            "phase": "explore",
+            "day_total": 48,
             "activities": [
-              "Morning: Casa Vicens (€18) — Gaudí's first house, colorful Moorish-inspired, quietest of his major works",
-              "Lunch: Mercat de Sant Antoni — renovated food hall, local vibe, much cheaper than Boqueria",
-              "Afternoon: Montjuïc — Joan Miró Foundation (€13) or MNAC (€12) for Romanesque art, or just the free gardens + castle",
-              "Sunset: Bunkers del Carmel (FREE) — best sunset view in Barcelona. Bus 119 from Alfons X metro. Bring drinks.",
-              "Farewell dinner: Can Solé (Barceloneta) — traditional Catalan since 1905, €30-40"
+              {
+                "time": "Morning",
+                "activity": "Casa Vicens €18",
+                "description": "Gaudí's first house. Colorful, quietest of his works",
+                "cost": 18
+              },
+              {
+                "time": "Lunch",
+                "activity": "Mercat de Sant Antoni",
+                "description": "Local food hall, cheap, great vibe",
+                "cost": 10
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Montjuïc",
+                "description": "Miró Foundation (€13) or MNAC (€12) or free gardens + castle",
+                "cost": 13
+              },
+              {
+                "time": "Sunset",
+                "activity": "Bunkers del Carmel",
+                "description": "FREE. Best view in Barcelona. Bus 119. Bring drinks!",
+                "cost": 0
+              },
+              {
+                "time": "Farewell",
+                "activity": "Can Solé (Barceloneta)",
+                "description": "Traditional Catalan since 1905, €30-40",
+                "cost": 35
+              }
             ]
           },
           {
             "day": 6,
             "date": "2026-06-21",
             "title": "Departure",
+            "phase": "relax",
+            "day_total": 6,
             "activities": [
-              "Morning: Last walk, grab jamón or souvenirs at Santa Caterina Market (colorful roof, less crowded)",
-              "Or quick visit to Palau Güell (€12, near Ramblas) — Gaudí's early mansion with incredible rooftop chimneys",
-              "Aerobús back to BCN (€5.90)",
-              "Arrive airport 2h before flight"
+              {
+                "time": "Morning",
+                "activity": "Palau Güell €12 or Santa Caterina Market",
+                "description": "Last walk. Colorful market roof, less crowded",
+                "cost": 6
+              },
+              {
+                "time": "Depart",
+                "activity": "Aerobús to BCN (€5.90)",
+                "description": "Arrive 2h before flight",
+                "cost": 6
+              }
             ]
           }
         ],
-        "architecture_highlights": [
-          "Sagrada Família (€26) — pre-book NOW",
-          "Casa Batlló (€35-43) — pre-book",
-          "Park Güell (€10) — pre-book",
-          "Hospital de Sant Pau (€15) — UNESCO, quiet",
-          "Palau de la Música Catalana (€20)",
-          "Casa Vicens (€18) — Gaudí's first",
-          "Picasso Museum (€12) — Gothic palaces",
-          "Santa Maria del Mar — FREE, Gothic masterpiece",
-          "Palau Güell (€12) — rooftop chimneys",
-          "Bunkers del Carmel — FREE, best view"
-        ],
-        "food_highlights_compact": [
-          "Tapas crawl: Carrer de Blai (€2-4/piece)",
-          "Cava + montaditos: Can Paixano (€2-5)",
-          "Paella: Can Majó, Barceloneta (€20-25)",
-          "Menu del día: La Rita (€14, 3 courses)",
-          "Best tapas: Cal Pep, El Born (€30-40)",
-          "Catalan: Can Culleretes (€15 set menu)",
-          "Market: Mercat de Sant Antoni (cheap lunch)"
-        ],
-        "budget_breakdown": {
-          "flights": "€80-120",
-          "accommodation_5_nights": "€150-200",
-          "food_per_day": "€25-35",
-          "attractions_total": "€100-120",
-          "local_transport": "€20",
-          "estimated_total": "€550-700"
+        "accommodation": {
+          "recommendation": "TOC Hostel Barcelona (El Born)",
+          "options": [
+            {
+              "name": "TOC Hostel",
+              "price_per_night": "€30-40",
+              "why": "Best location for architecture walks"
+            },
+            {
+              "name": "Generator Hostel",
+              "price_per_night": "€25-35",
+              "why": "Cheapest, rooftop pool"
+            },
+            {
+              "name": "Rodamon Hostel",
+              "price_per_night": "€28-38",
+              "why": "Quiet, close to Casa Batlló"
+            }
+          ]
         },
-        "last_minute_tips": [
-          "Book Sagrada Família + Casa Batlló online RIGHT NOW — June is busy and they sell out days ahead",
-          "June is 28-32°C — light clothes, sunscreen, hat, refillable water bottle",
-          "Pickpocket alert on Ramblas and metro — keep phone/wallet in front pockets",
-          "Midday heat (2-5pm) — use for museums, air-conditioned attractions, or siesta",
-          "T-Casual metro card: 10 rides for €11.35 (buy at any station)",
-          "FREE walking tours daily at 10am from Plaça Catalunya — good orientation on day 1"
-        ]
+        "food_total": 100,
+        "attractions_total": 135,
+        "transport_local_total": 20,
+        "extras_total": 10,
+        "grand_total": 650
       },
       "status": "complete",
-      "created_at": "2026-06-15 00:08:45.399612"
+      "created_at": "2026-06-15 00:07:32"
     }
   ]
 }
