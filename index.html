@@ -1308,7 +1308,7 @@ async function submitTrip() {
     // Try to send to local server for automated processing
     let serverOk = false;
     try {
-      const r = await fetch('http://localhost:43829/api/trip', {
+      const r = await fetch('https://trip.bluebell-imc.com/api/trip', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(req),
