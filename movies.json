@@ -1,0 +1,37 @@
+{
+  "last_updated": "2026-06-14",
+  "suggestions": [
+    {
+      "title": "Inception",
+      "year": 2010,
+      "genre": "Sci-Fi, Action, Thriller",
+      "description": "A thief who enters the dreams of others to steal secrets is tasked with planting an idea instead — an act of inception that could reshape reality itself.",
+      "imdb_rating": 8.8,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+      "director": "Christopher Nolan"
+    },
+    {
+      "title": "Parasite",
+      "year": 2019,
+      "genre": "Drama, Thriller, Comedy",
+      "description": "A poor family schemes their way into the lives of a wealthy household with unexpected and devastating consequences in this Palme d'Or winner.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=5xH0HfJHsaY",
+      "director": "Bong Joon-ho"
+    },
+    {
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "genre": "Action, Adventure, Sci-Fi",
+      "description": "In a post-apocalyptic wasteland, a drifter teams up with a fierce warrior to escape a tyrannical warlord in this visually stunning masterpiece.",
+      "imdb_rating": 8.1,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=hEJnMQG9ev8",
+      "director": "George Miller"
+    }
+  ],
+  "history": [],
+  "shown_titles": []
+}

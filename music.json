@@ -1,0 +1,446 @@
+{
+  "last_updated": "2026-06-14",
+  "todays_pick": {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "genre": "Rock",
+    "album": "Led Zeppelin IV",
+    "year": 1971,
+    "spotify_id": "",
+    "album_cover": "",
+    "preview_url": "",
+    "duration_ms": 0,
+    "picked_date": "2026-06-14",
+    "why": "A Rock track to start your day!"
+  },
+  "suggestions": [
+    {
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "genre": "Rock",
+      "album": "A Night at the Opera",
+      "year": 1975
+    },
+    {
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "genre": "Rock",
+      "album": "Hotel California",
+      "year": 1976
+    },
+    {
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "genre": "Rock",
+      "album": "Led Zeppelin IV",
+      "year": 1971
+    },
+    {
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "genre": "Pop",
+      "album": "Thriller",
+      "year": 1982
+    },
+    {
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "genre": "Alternative Rock",
+      "album": "Nevermind",
+      "year": 1991
+    },
+    {
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "genre": "Pop Rock",
+      "album": "Imagine",
+      "year": 1971
+    },
+    {
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "genre": "Pop Rock",
+      "album": "Purple Rain",
+      "year": 1984
+    },
+    {
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "genre": "Folk Rock",
+      "album": "Highway 61 Revisited",
+      "year": 1965
+    },
+    {
+      "title": "Comfortably Numb",
+      "artist": "Pink Floyd",
+      "genre": "Progressive Rock",
+      "album": "The Wall",
+      "year": 1979
+    },
+    {
+      "title": "Thunderstruck",
+      "artist": "AC/DC",
+      "genre": "Hard Rock",
+      "album": "The Razors Edge",
+      "year": 1990
+    },
+    {
+      "title": "Take On Me",
+      "artist": "a-ha",
+      "genre": "Synthpop",
+      "album": "Hunting High and Low",
+      "year": 1985
+    },
+    {
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "genre": "Rock",
+      "album": "Synchronicity",
+      "year": 1983
+    },
+    {
+      "title": "Sweet Child o' Mine",
+      "artist": "Guns N' Roses",
+      "genre": "Hard Rock",
+      "album": "Appetite for Destruction",
+      "year": 1987
+    },
+    {
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "genre": "Rock",
+      "album": "Slippery When Wet",
+      "year": 1986
+    },
+    {
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "genre": "Hard Rock",
+      "album": "Back in Black",
+      "year": 1980
+    },
+    {
+      "title": "Nothing Else Matters",
+      "artist": "Metallica",
+      "genre": "Heavy Metal",
+      "album": "Metallica (The Black Album)",
+      "year": 1991
+    },
+    {
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "genre": "Alternative Rock",
+      "album": "No Need to Argue",
+      "year": 1994
+    },
+    {
+      "title": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "genre": "Progressive Rock",
+      "album": "Wish You Were Here",
+      "year": 1975
+    },
+    {
+      "title": "Under Pressure",
+      "artist": "Queen & David Bowie",
+      "genre": "Rock",
+      "album": "Hot Space",
+      "year": 1981
+    },
+    {
+      "title": "Paint It Black",
+      "artist": "The Rolling Stones",
+      "genre": "Rock",
+      "album": "Aftermath",
+      "year": 1966
+    },
+    {
+      "title": "Creep",
+      "artist": "Radiohead",
+      "genre": "Alternative Rock",
+      "album": "Pablo Honey",
+      "year": 1992
+    },
+    {
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "genre": "Heavy Metal",
+      "album": "Metallica (The Black Album)",
+      "year": 1991
+    },
+    {
+      "title": "Hurt",
+      "artist": "Johnny Cash",
+      "genre": "Country Rock",
+      "album": "American IV: The Man Comes Around",
+      "year": 2002
+    },
+    {
+      "title": "Knockin' on Heaven's Door",
+      "artist": "Bob Dylan",
+      "genre": "Folk Rock",
+      "album": "Pat Garrett & Billy the Kid",
+      "year": 1973
+    },
+    {
+      "title": "Bitter Sweet Symphony",
+      "artist": "The Verve",
+      "genre": "Alternative Rock",
+      "album": "Urban Hymns",
+      "year": 1997
+    },
+    {
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "genre": "Britpop",
+      "album": "(What's the Story) Morning Glory?",
+      "year": 1995
+    },
+    {
+      "title": "November Rain",
+      "artist": "Guns N' Roses",
+      "genre": "Hard Rock",
+      "album": "Use Your Illusion I",
+      "year": 1991
+    },
+    {
+      "title": "One",
+      "artist": "Metallica",
+      "genre": "Thrash Metal",
+      "album": "...And Justice for All",
+      "year": 1988
+    },
+    {
+      "title": "The Unforgiven",
+      "artist": "Metallica",
+      "genre": "Heavy Metal",
+      "album": "Metallica (The Black Album)",
+      "year": 1991
+    },
+    {
+      "title": "Dream On",
+      "artist": "Aerosmith",
+      "genre": "Hard Rock",
+      "album": "Aerosmith",
+      "year": 1973
+    },
+    {
+      "title": "Heroes",
+      "artist": "David Bowie",
+      "genre": "Art Rock",
+      "album": "Heroes",
+      "year": 1977
+    },
+    {
+      "title": "Time",
+      "artist": "Pink Floyd",
+      "genre": "Progressive Rock",
+      "album": "The Dark Side of the Moon",
+      "year": 1973
+    },
+    {
+      "title": "Sultans of Swing",
+      "artist": "Dire Straits",
+      "genre": "Rock",
+      "album": "Dire Straits",
+      "year": 1978
+    },
+    {
+      "title": "Africa",
+      "artist": "Toto",
+      "genre": "Rock",
+      "album": "Toto IV",
+      "year": 1982
+    },
+    {
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "genre": "Rock",
+      "album": "Escape",
+      "year": 1981
+    },
+    {
+      "title": "The Sound of Silence",
+      "artist": "Simon & Garfunkel",
+      "genre": "Folk Rock",
+      "album": "Wednesday Morning, 3 A.M.",
+      "year": 1964
+    },
+    {
+      "title": "Hallelujah",
+      "artist": "Leonard Cohen",
+      "genre": "Folk",
+      "album": "Various Positions",
+      "year": 1984
+    },
+    {
+      "title": "Californication",
+      "artist": "Red Hot Chili Peppers",
+      "genre": "Alternative Rock",
+      "album": "Californication",
+      "year": 1999
+    },
+    {
+      "title": "Scar Tissue",
+      "artist": "Red Hot Chili Peppers",
+      "genre": "Alternative Rock",
+      "album": "Californication",
+      "year": 1999
+    },
+    {
+      "title": "Otherside",
+      "artist": "Red Hot Chili Peppers",
+      "genre": "Alternative Rock",
+      "album": "Californication",
+      "year": 1999
+    },
+    {
+      "title": "Starlight",
+      "artist": "Muse",
+      "genre": "Alternative Rock",
+      "album": "Black Holes and Revelations",
+      "year": 2006
+    },
+    {
+      "title": "Plug In Baby",
+      "artist": "Muse",
+      "genre": "Alternative Rock",
+      "album": "Origin of Symmetry",
+      "year": 2001
+    },
+    {
+      "title": "Uprising",
+      "artist": "Muse",
+      "genre": "Alternative Rock",
+      "album": "The Resistance",
+      "year": 2009
+    },
+    {
+      "title": "Schism",
+      "artist": "Tool",
+      "genre": "Progressive Metal",
+      "album": "Lateralus",
+      "year": 2001
+    },
+    {
+      "title": "The Pot",
+      "artist": "Tool",
+      "genre": "Progressive Metal",
+      "album": "10,000 Days",
+      "year": 2006
+    },
+    {
+      "title": "Everlong",
+      "artist": "Foo Fighters",
+      "genre": "Alternative Rock",
+      "album": "The Colour and the Shape",
+      "year": 1997
+    },
+    {
+      "title": "Learn to Fly",
+      "artist": "Foo Fighters",
+      "genre": "Alternative Rock",
+      "album": "There Is Nothing Left to Lose",
+      "year": 1999
+    },
+    {
+      "title": "The Pretender",
+      "artist": "Foo Fighters",
+      "genre": "Alternative Rock",
+      "album": "Echoes, Silence, Patience & Grace",
+      "year": 2007
+    },
+    {
+      "title": "Chop Suey!",
+      "artist": "System of a Down",
+      "genre": "Alternative Metal",
+      "album": "Toxicity",
+      "year": 2001
+    },
+    {
+      "title": "Toxicity",
+      "artist": "System of a Down",
+      "genre": "Alternative Metal",
+      "album": "Toxicity",
+      "year": 2001
+    },
+    {
+      "title": "Bring Me to Life",
+      "artist": "Evanescence",
+      "genre": "Alternative Metal",
+      "album": "Fallen",
+      "year": 2003
+    },
+    {
+      "title": "My Immortal",
+      "artist": "Evanescence",
+      "genre": "Alternative Metal",
+      "album": "Fallen",
+      "year": 2003
+    },
+    {
+      "title": "Numb",
+      "artist": "Linkin Park",
+      "genre": "Nu Metal",
+      "album": "Meteora",
+      "year": 2003
+    },
+    {
+      "title": "In the End",
+      "artist": "Linkin Park",
+      "genre": "Nu Metal",
+      "album": "Hybrid Theory",
+      "year": 2000
+    },
+    {
+      "title": "Crawling",
+      "artist": "Linkin Park",
+      "genre": "Nu Metal",
+      "album": "Hybrid Theory",
+      "year": 2000
+    },
+    {
+      "title": "Boulevard of Broken Dreams",
+      "artist": "Green Day",
+      "genre": "Punk Rock",
+      "album": "American Idiot",
+      "year": 2004
+    },
+    {
+      "title": "21 Guns",
+      "artist": "Green Day",
+      "genre": "Punk Rock",
+      "album": "21st Century Breakdown",
+      "year": 2009
+    },
+    {
+      "title": "Welcome to the Jungle",
+      "artist": "Guns N' Roses",
+      "genre": "Hard Rock",
+      "album": "Appetite for Destruction",
+      "year": 1987
+    },
+    {
+      "title": "Paradise City",
+      "artist": "Guns N' Roses",
+      "genre": "Hard Rock",
+      "album": "Appetite for Destruction",
+      "year": 1987
+    },
+    {
+      "title": "Through the Fire and Flames",
+      "artist": "DragonForce",
+      "genre": "Power Metal",
+      "album": "Inhuman Rampage",
+      "year": 2005
+    },
+    {
+      "title": "The Final Countdown",
+      "artist": "Europe",
+      "genre": "Glam Metal",
+      "album": "The Final Countdown",
+      "year": 1986
+    }
+  ],
+  "ratings": {}
+}
