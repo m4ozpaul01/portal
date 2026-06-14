@@ -293,6 +293,10 @@ body{
 .music-hero .star-row{justify-content:flex-start;padding:8px 0}
 .music-hero .star{font-size:32px}
 .music-hero .star-label{font-size:14px}
+.music-play-btn{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);border-radius:20px;color:var(--green);font-size:12px;font-weight:600;font-family:inherit;cursor:pointer;transition:all .2s;text-decoration:none;margin-top:6px}
+.music-play-btn:hover{background:rgba(34,197,94,0.2);transform:translateY(-1px);box-shadow:0 4px 12px rgba(34,197,94,0.15)}
+.music-play-btn-sm{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.2);border-radius:12px;color:var(--green);font-size:10px;cursor:pointer;transition:all .2s;text-decoration:none;margin-left:6px}
+.music-play-btn-sm:hover{background:rgba(34,197,94,0.2)}
 .music-history h3{font-size:16px;font-weight:600;margin-bottom:12px;color:var(--text2);margin-top:24px}
 .music-history-item{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:6px;transition:all .15s}
 .music-history-item:hover{border-color:var(--border-active)}
@@ -1170,6 +1174,7 @@ function renderMusicToday(pick) {
       '<div class="music-hero-title">' + escHtml(pick.title) + '</div>' +
       '<div class="music-hero-artist">' + escHtml(pick.artist) + '</div>' +
       '<div class="music-hero-genre">' + (pick.genre ? escHtml(pick.genre) : '') + (pick.year ? ' · ' + pick.year : '') + '</div>' +
+      '<a class="music-play-btn" href="https://www.youtube.com/results?search_query=' + encodeURIComponent(pick.title + ' ' + pick.artist) + '" target="_blank" rel="noopener">▶ Listen on YouTube</a>' +
       (pick.why ? '<div class="music-hero-why">💡 ' + escHtml(pick.why) + '</div>' : '') +
       '<div class="detail-section"><div class="detail-label">⭐ Rate This Song</div><div class="star-row" id="music-stars">' + renderMusicStars(myRating) + '</div></div>' +
     '</div>';
@@ -1230,7 +1235,8 @@ function renderMusicHistory() {
     '<div class="music-history-item">' +
       '<div>' +
         '<div class="mhi-title">🎵 ' + escHtml(h.title) + '</div>' +
-        '<div class="mhi-artist">' + escHtml(h.artist || '') + '</div>' +
+        '<div class="mhi-artist">' + escHtml(h.artist || '') +
+        ' <a class="music-play-btn-sm" href="https://www.youtube.com/results?search_query=' + encodeURIComponent(h.title + ' ' + (h.artist || '')) + '" target="_blank" rel="noopener">▶ Sample</a></div>' +
       '</div>' +
       '<div class="mhi-meta">' +
         (h.my_rating > 0 ? '<span class="mhi-rating">' + '★ '.repeat(Math.min(h.my_rating, 10)).trim() + ' ' + h.my_rating + '/10</span>' : '<span style="color:var(--text3);font-size:11px">Not rated</span>') +
