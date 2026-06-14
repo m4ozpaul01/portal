@@ -306,7 +306,117 @@ body{
 .music-empty-state .mico{font-size:64px;margin-bottom:16px}
 .music-empty-state h3{font-size:18px;color:var(--text2);margin-bottom:8px}
 
-.footer{text-align:center;padding:32px;margin-top:48px;color:var(--text3);font-size:12px;font-family:'JetBrains Mono',monospace;border-top:1px solid var(--border)}
+/* TRIP PLANNER */
+.tp-form{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;margin-bottom:24px}
+.tp-form h3{font-size:18px;font-weight:600;margin-bottom:20px;color:var(--text)}
+.tp-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:600px){.tp-form-grid{grid-template-columns:1fr}}
+.tp-field{display:flex;flex-direction:column;gap:4px}
+.tp-field.full{grid-column:1/-1}
+.tp-field label{font-size:12px;font-weight:500;color:var(--text2);text-transform:uppercase;letter-spacing:.5px}
+.tp-field input,.tp-field textarea,.tp-field select{padding:10px 14px;background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:14px;font-family:inherit;outline:none;transition:border-color .2s}
+.tp-field input:focus,.tp-field textarea:focus,.tp-field select:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-glow)}
+.tp-field textarea{min-height:80px;resize:vertical}
+.tp-field .hint{font-size:11px;color:var(--text3);font-style:italic}
+.tp-arrange{width:100%;padding:14px;background:linear-gradient(135deg,#6366f1,#22c55e);border:none;border-radius:var(--radius-sm);color:#fff;font-size:16px;font-weight:700;font-family:inherit;cursor:pointer;transition:all .3s;margin-top:16px;letter-spacing:.3px}
+.tp-arrange:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(99,102,241,0.3)}
+.tp-arrange:disabled{opacity:0.4;cursor:not-allowed;transform:none}
+/* Trip list */
+.tp-list h3{font-size:16px;font-weight:600;margin-bottom:12px;color:var(--text2);margin-top:24px}
+.tp-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;cursor:pointer;transition:all .2s;margin-bottom:8px}
+.tp-card:hover{border-color:var(--accent);transform:translateX(4px)}
+.tp-card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.tp-card-title{font-size:16px;font-weight:600}
+.tp-card-title .from{color:var(--text2);font-weight:400}
+.tp-card-title .arrow{color:var(--text3);margin:0 8px}
+.tp-card-meta{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--text2)}
+.tp-card-meta span{display:flex;align-items:center;gap:4px}
+.tp-card-status{padding:3px 10px;border-radius:10px;font-size:11px;font-weight:600;text-transform:uppercase}
+.tp-card-status.pending{background:rgba(234,179,8,0.15);color:var(--yellow)}
+.tp-card-status.complete{background:rgba(34,197,94,0.15);color:var(--green)}
+.tp-card-status.in_progress{background:rgba(99,102,241,0.15);color:var(--accent)}
+.tp-card-price{font-size:20px;font-weight:700;font-family:'JetBrains Mono',monospace;color:var(--green)}
+.tp-card-budget{font-size:12px;color:var(--text3)}
+/* Trip detail modal */
+.tp-detail-section{margin-bottom:20px}
+.tp-detail-section h4{font-size:14px;font-weight:600;color:var(--text2);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px}
+.tp-detail-section h4 .cost{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:400;color:var(--green);margin-left:auto}
+.tp-flight-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:14px;margin-bottom:8px}
+.tp-flight-card .route{font-size:15px;font-weight:600;display:flex;align-items:center;gap:8px}
+.tp-flight-card .route .stop-info{font-size:11px;font-weight:400;color:var(--text3);background:var(--card-hover);padding:2px 8px;border-radius:6px}
+.tp-flight-card .details{font-size:12px;color:var(--text2);margin-top:4px;display:flex;gap:12px;flex-wrap:wrap}
+.tp-flight-card .price{font-size:16px;font-weight:700;font-family:'JetBrains Mono',monospace;color:var(--green);margin-top:4px}
+.tp-flight-card .booking-link{display:inline-block;margin-top:6px;font-size:12px;color:var(--accent);text-decoration:none}
+.tp-flight-card .booking-link:hover{text-decoration:underline}
+/* Stay options */
+.tp-stay-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:14px;margin-bottom:8px}
+.tp-stay-card .name{font-size:14px;font-weight:600;display:flex;align-items:center;gap:6px}
+.tp-stay-card .name .tag{font-size:10px;padding:2px 6px;border-radius:4px;background:var(--accent-glow);color:var(--accent);text-transform:uppercase}
+.tp-stay-card .details{font-size:12px;color:var(--text2);margin-top:4px}
+.tp-stay-card .price{font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;color:var(--yellow);margin-top:4px}
+.tp-stay-card .booking-link{font-size:12px;color:var(--accent);text-decoration:none;display:inline-block;margin-top:4px}
+.tp-stay-card .booking-link:hover{text-decoration:underline}
+.tp-stay-alt{margin-top:8px;padding:10px 14px;background:var(--bg2);border-radius:var(--radius-sm)}
+.tp-stay-alt-title{font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;margin-bottom:6px}
+.tp-stay-alt-item{padding:6px 0;border-bottom:1px solid var(--border)}.tp-stay-alt-item:last-child{border:none}
+.tp-stay-alt-item .name{font-size:13px;font-weight:500}
+.tp-stay-alt-item .meta{font-size:11px;color:var(--text3);display:flex;gap:12px}
+/* Daily itinerary */
+.tp-day-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px;margin-bottom:8px}
+.tp-day-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.tp-day-header .day{font-size:14px;font-weight:600}
+.tp-day-header .phase{font-size:11px;padding:2px 8px;border-radius:6px;text-transform:uppercase;font-weight:600}
+.tp-day-header .phase.explore{background:rgba(99,102,241,0.15);color:var(--accent)}
+.tp-day-header .phase.relax{background:rgba(34,197,94,0.15);color:var(--green)}
+.tp-day-header .day-total{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--yellow);font-weight:600}
+.tp-activity{display:flex;align-items:flex-start;gap:10px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.04);font-size:13px}
+.tp-activity:last-child{border:none}
+.tp-activity .time{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text3);min-width:50px;flex-shrink:0}
+.tp-activity .desc{flex:1;color:var(--text2);line-height:1.4}
+.tp-activity .acost{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--yellow);min-width:45px;text-align:right;flex-shrink:0}
+.tp-activity .acost.free{color:var(--green)}
+/* Stopover card */
+.tp-layover-card{background:linear-gradient(135deg,rgba(99,102,241,0.08),rgba(234,179,8,0.06));border:1px solid rgba(99,102,241,0.2);border-radius:var(--radius-sm);padding:16px;margin-bottom:10px}
+.tp-layover-header{font-size:14px;font-weight:600;color:var(--accent);margin-bottom:6px}
+.tp-layover-body{font-size:13px;color:var(--text2);line-height:1.5}
+/* Cost summary */
+.tp-cost-summary{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-top:16px}
+.tp-cost-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.04);font-size:14px}
+.tp-cost-row:last-child{border:none}
+.tp-cost-row .label{color:var(--text2)}
+.tp-cost-row .value{font-family:'JetBrains Mono',monospace;font-weight:600}
+.tp-cost-row.total{font-size:18px;font-weight:700;padding-top:12px;border-top:2px solid var(--accent);margin-top:4px}
+.tp-cost-row.total .value{color:var(--green)}
+.tp-cost-row.over-budget .value{color:var(--red)}
+.tp-budget-bar{margin-top:12px;height:8px;background:var(--bg2);border-radius:4px;overflow:hidden}
+.tp-budget-bar .fill{height:100%;border-radius:4px;transition:width .5s;background:linear-gradient(90deg,var(--green),var(--yellow))}
+.tp-budget-bar .fill.over{background:linear-gradient(90deg,var(--yellow),var(--red))}
+/* Culture button */
+.tp-culture-btn{padding:12px 24px;background:transparent;border:1px solid var(--accent);border-radius:var(--radius-sm);color:var(--accent);font-size:14px;font-weight:600;font-family:inherit;cursor:pointer;transition:all .2s;margin-top:16px}
+.tp-culture-btn:hover{background:var(--accent-glow);transform:translateY(-1px)}
+/* Culture popup */
+#culture-popup{position:fixed;top:0;left:0;width:100%;height:100%;z-index:3000;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.7)}
+#culture-popup.active{display:flex}
+.culture-modal{background:var(--bg2);border:1px solid var(--border);border-radius:20px;width:90vw;max-width:800px;max-height:85vh;overflow-y:auto;padding:32px}
+.culture-modal::-webkit-scrollbar{width:6px}
+.culture-modal::-webkit-scrollbar-track{background:transparent}
+.culture-modal::-webkit-scrollbar-thumb{background:var(--text3);border-radius:3px}
+.culture-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.culture-header h2{font-size:22px;font-weight:700;background:linear-gradient(135deg,#818cf8,#6366f1);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.culture-close{font-size:24px;cursor:pointer;color:var(--text3);transition:color .2s;background:none;border:none;font-family:inherit}
+.culture-close:hover{color:var(--text)}
+.culture-section{margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.culture-section:last-child{border:none}
+.culture-section h4{font-size:15px;font-weight:600;color:var(--accent);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.culture-section p,.culture-section li{font-size:13px;color:var(--text2);line-height:1.7}
+.culture-section ul{padding-left:20px}
+.culture-section li{margin-bottom:4px}
+.tp-empty{text-align:center;padding:32px;color:var(--text3);font-size:14px}
+.tp-empty-state{text-align:center;padding:64px 32px;color:var(--text3)}
+.tp-empty-state .ico{font-size:64px;margin-bottom:16px}
+.tp-empty-state h3{font-size:18px;color:var(--text2);margin-bottom:8px}
+.tp-flash{position:fixed;bottom:32px;left:50%;transform:translateX(-50%);padding:16px 32px;border-radius:12px;font-weight:600;z-index:2000;animation:fadeIn .3s;box-shadow:0 8px 32px rgba(0,0,0,0.4)}
+.tp-flash.success{background:var(--green);color:#fff}
+.tp-flash.info{background:var(--accent);color:#fff}
 
 /* RESPONSIVE */
 @media(max-width:768px){
@@ -387,6 +497,17 @@ body{
     </div>
     <div class="modal-meta" id="modal-meta"></div>
     <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<!-- ═══ CULTURE POPUP (Trip Planner) ═══ -->
+<div id="culture-popup">
+  <div class="culture-modal">
+    <div class="culture-header">
+      <h2 id="culture-title">Culture & History</h2>
+      <button class="culture-close" onclick="closeCulture()">✕</button>
+    </div>
+    <div id="culture-body"></div>
   </div>
 </div>
 
@@ -512,6 +633,23 @@ function buildProject(p) {
       '<div id="music-today"><div class="music-empty-state"><div class="mico">🎵</div><h3>Loading today\'s song...</h3><p>Checking the daily recommendation.</p></div></div>' +
       '<div class="music-history" id="music-history"><h3>📋 My Song History</h3><div id="music-history-list"><div class="music-empty">No songs rated yet. Listen to today\'s pick and rate it!</div></div></div>';
   }
+  if (p.display === 'trip_planner' || p.name === 'Trip Planner') {
+    return header +
+      '<div class="tp-form" id="tp-form">' +
+        '<h3>✈️ Plan Your Trip</h3>' +
+        '<div class="tp-form-grid">' +
+          '<div class="tp-field"><label>🛫 Departure City</label><input type="text" id="tp-from" placeholder="e.g. Frankfurt" /></div>' +
+          '<div class="tp-field"><label>🛬 Destination City</label><input type="text" id="tp-to" placeholder="e.g. Barcelona" /></div>' +
+          '<div class="tp-field"><label>📅 Departure Date</label><input type="date" id="tp-depart" /></div>' +
+          '<div class="tp-field"><label>📅 Return Date</label><input type="date" id="tp-return" /></div>' +
+          '<div class="tp-field"><label>👥 Travelers</label><input type="number" id="tp-people" min="1" value="1" /></div>' +
+          '<div class="tp-field"><label>💰 Budget (€)</label><input type="number" id="tp-budget" min="0" placeholder="e.g. 2000" /><span class="hint">Leave empty for cheapest options</span></div>' +
+        '</div>' +
+        '<div class="tp-field full"><label>📝 Notes & Preferences</label><textarea id="tp-notes" placeholder="e.g. I want to visit Sagrada Familia, prefer luxury hotels, love seafood..." /></div>' +
+        '<button class="tp-arrange" id="tp-arrange-btn" onclick="submitTrip()">🔍 Arrange My Trip</button>' +
+      '</div>' +
+      '<div class="tp-list" id="tp-list"><h3>📋 My Trips</h3><div id="tp-list-content"><div class="tp-empty-state"><div class="ico">🗺️</div><h3>No trips yet</h3><p>Fill in the form above and click Arrange My Trip to get started!</p></div></div></div>';
+  }
 
   // Default placeholder
   return header +
@@ -545,7 +683,8 @@ async function buildOverview(config) {
                   p.name === 'Frankfurt Events' ? '🎪 Frankfurt Events' :
                   p.name === 'Hessen Events' ? '🌍 Hessen Events' :
                   p.name === 'Movies' ? '🎬 Movies' :
-                  p.name === 'Music' ? '🎵 Music' : '📁 ' + p.name;
+                  p.name === 'Music' ? '🎵 Music' :
+                  p.name === 'Trip Planner' ? '🗺️ Trip Planner' : '📁 ' + p.name;
 
     // Celestial events
     if (p.name === 'natural events' && celestial.length > 0) {
@@ -589,6 +728,7 @@ function switchTab(tabId) {
   if (tabId === 'project-hessen-events') loadHessen();
   if (tabId === 'project-movies') loadMovies();
   if (tabId === 'project-music') loadMusic();
+  if (tabId === 'project-trip-planner') loadTrips();
 }
 
 // ════════════════════════════════════════════════════════
@@ -813,6 +953,7 @@ function slug(s) { return (s + '').toLowerCase().replace(/[^a-z0-9]+/g,'-').repl
 
 const MOVIES_URL = 'movies.json?_=' + Date.now();
 const MUSIC_URL = 'music.json?_=' + Date.now();
+const TRIPS_URL = 'trips.json?_=' + Date.now();
 
 let _currentMovie = null; // currently open movie in modal
 
@@ -1096,6 +1237,365 @@ function renderMusicHistory() {
         (h.date ? '<span class="mhi-date">' + h.date + '</span>' : '') +
       '</div></div>'
   ).join('');
+}
+
+// ════════════════════════════════════════════════════════
+// TRIP PLANNER
+// ════════════════════════════════════════════════════════
+
+const TP_REQ_KEY = 'trip_requests';
+
+function getTripRequests() {
+  try { return JSON.parse(localStorage.getItem(TP_REQ_KEY) || '[]'); }
+  catch { return []; }
+}
+
+function saveTripRequest(req) {
+  const requests = getTripRequests();
+  requests.push(req);
+  localStorage.setItem(TP_REQ_KEY, JSON.stringify(requests));
+}
+
+function submitTrip() {
+  const from = document.getElementById('tp-from');
+  const to = document.getElementById('tp-to');
+  const depart = document.getElementById('tp-depart');
+  const ret = document.getElementById('tp-return');
+  const people = document.getElementById('tp-people');
+  const budget = document.getElementById('tp-budget');
+  const notes = document.getElementById('tp-notes');
+
+  if (!from.value.trim() || !to.value.trim() || !depart.value || !ret.value) {
+    showFlash('✗ Please fill in departure, destination, and both dates!', 'info');
+    return;
+  }
+
+  if (depart.value >= ret.value) {
+    showFlash('✗ Return date must be after departure date!', 'info');
+    return;
+  }
+
+  const req = {
+    id: 'tp-' + Date.now(),
+    from: from.value.trim(),
+    to: to.value.trim(),
+    departure_date: depart.value,
+    return_date: ret.value,
+    people: parseInt(people.value) || 1,
+    budget: budget.value ? parseFloat(budget.value) : null,
+    notes: notes.value.trim(),
+    status: 'pending',
+    submitted_at: new Date().toISOString(),
+    expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
+  };
+
+  saveTripRequest(req);
+  from.value = ''; to.value = ''; depart.value = ''; ret.value = '';
+  people.value = '1'; budget.value = ''; notes.value = '';
+
+  showFlash('✅ Trip request submitted! Tell me the details and I\'ll research everything for you.', 'success');
+  loadTrips();
+}
+
+async function loadTrips() {
+  try {
+    const r = await fetch(TRIPS_URL);
+    const d = await r.json();
+    renderTripList(d.trips || []);
+  } catch(_) {
+    // Still show pending requests
+    renderTripList([]);
+  }
+}
+
+function renderTripList(serverTrips) {
+  const container = document.getElementById('tp-list-content');
+  if (!container) return;
+
+  // Merge pending requests from localStorage with server trips
+  const pending = getTripRequests().filter(r => r.status === 'pending');
+  const all = [...serverTrips];
+
+  // Add pending requests to the top
+  const pendingCards = pending.map(r => ({
+    id: r.id,
+    request: r,
+    status: 'pending',
+    type: 'pending'
+  }));
+
+  const items = [...pendingCards, ...all];
+
+  if (items.length === 0) {
+    container.innerHTML = '<div class="tp-empty-state"><div class="ico">🗺️</div><h3>No trips yet</h3><p>Fill in the form above and click Arrange My Trip to get started!</p></div>';
+    return;
+  }
+
+  container.innerHTML = items.map(t => {
+    if (t.type === 'pending') {
+      const r = t.request;
+      return '<div class="tp-card">' +
+        '<div class="tp-card-header">' +
+          '<div class="tp-card-title"><span class="from">' + escHtml(r.from) + '</span><span class="arrow">→</span>' + escHtml(r.to) + '</div>' +
+          '<span class="tp-card-status pending">⏳ Pending</span>' +
+        '</div>' +
+        '<div class="tp-card-meta">' +
+          '<span>📅 ' + r.departure_date + ' → ' + r.return_date + '</span>' +
+          '<span>👥 ' + r.people + ' traveler' + (r.people > 1 ? 's' : '') + '</span>' +
+          (r.budget ? '<span>💰 €' + r.budget + '</span>' : '<span>💰 No budget set</span>') +
+          (r.notes ? '<span>📝 "' + escHtml(r.notes.substring(0,50)) + (r.notes.length > 50 ? '…' : '') + '"</span>' : '') +
+        '</div>' +
+      '</div>';
+    }
+    // Completed trip
+    const tr = t;
+    return '<div class="tp-card" onclick="openTripDetail(\'' + tr.id + '\')">' +
+      '<div class="tp-card-header">' +
+        '<div class="tp-card-title"><span class="from">' + escHtml(tr.request.from) + '</span><span class="arrow">→</span>' + escHtml(tr.request.to) + '</div>' +
+        (tr.plan && tr.plan.grand_total ? '<span class="tp-card-price">€' + tr.plan.grand_total + '</span>' : '') +
+      '</div>' +
+      '<div class="tp-card-meta">' +
+        '<span>📅 ' + tr.request.departure_date + ' → ' + tr.request.return_date + '</span>' +
+        '<span>👥 ' + tr.request.people + ' traveler' + (tr.request.people > 1 ? 's' : '') + '</span>' +
+        (tr.request.budget ? '<span>💰 Budget: €' + tr.request.budget + '</span>' : '') +
+        '<span class="tp-card-status complete">✅ Complete</span>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+function openTripDetail(tripId) {
+  // Fetch trips.json and find the trip
+  fetch(TRIPS_URL).then(r => r.json()).then(d => {
+    const trip = (d.trips || []).find(t => t.id === tripId);
+    if (!trip) { showFlash('Trip not found!', 'info'); return; }
+    renderTripDetail(trip);
+  }).catch(() => showFlash('Could not load trip details', 'info'));
+}
+
+function renderTripDetail(trip) {
+  const overlay = document.getElementById('modal-overlay');
+  document.getElementById('modal-title').textContent = '🗺️ ' + trip.request.from + ' → ' + trip.request.to;
+
+  // Meta info
+  const meta = document.getElementById('modal-meta');
+  const dates = trip.request.departure_date + ' → ' + trip.request.return_date;
+  const people = trip.request.people + ' traveler' + (trip.request.people > 1 ? 's' : '');
+  meta.innerHTML = '<span class="mm-tag">📅 ' + dates + '</span><span class="mm-tag">👥 ' + people + '</span>' +
+    (trip.request.budget ? '<span class="mm-tag" style="color:var(--yellow)">💰 €' + trip.request.budget + ' budget</span>' : '<span class="mm-tag" style="color:var(--text3)">💰 No budget set</span>');
+
+  const plan = trip.plan;
+  if (!plan) {
+    document.getElementById('modal-body').innerHTML = '<div class="tp-empty">Trip plan data not available.</div>';
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    return;
+  }
+
+  let html = '';
+
+  // Trip summary
+  html += '<div class="tp-detail-section"><h4>📋 Trip Summary</h4><p style="font-size:13px;color:var(--text2);line-height:1.6">' +
+    escHtml(plan.summary || '') + '</p></div>';
+
+  // 65/35 split
+  if (plan.phase1 && plan.phase2) {
+    html += '<div class="tp-detail-section"><h4>🎯 Trip Rhythm</h4>' +
+      '<div style="display:flex;gap:12px;font-size:13px">' +
+        '<span style="padding:6px 12px;background:rgba(99,102,241,0.15);border-radius:8px;color:var(--accent);font-weight:600">🔍 Explore: ' + plan.phase1.days + ' days (' + plan.phase1.percentage + '%)</span>' +
+        '<span style="padding:6px 12px;background:rgba(34,197,94,0.15);border-radius:8px;color:var(--green);font-weight:600">🏖️ Relax: ' + plan.phase2.days + ' days (' + plan.phase2.percentage + '%)</span>' +
+      '</div></div>';
+  }
+
+  // Stopovers
+  if (plan.layovers && plan.layovers.length > 0) {
+    html += '<div class="tp-detail-section"><h4>🔄 Stopovers & Layovers</h4>';
+    plan.layovers.forEach(lo => {
+      html += '<div class="tp-layover-card">' +
+        '<div class="tp-layover-header">📍 ' + escHtml(lo.city) + ' — ' + lo.stop_date + (lo.duration ? ' (' + lo.duration + ')' : '') + '</div>' +
+        '<div class="tp-layover-body">' +
+          (lo.hotel ? '<p><strong>🏨 Stay:</strong> ' + escHtml(lo.hotel.name) + ' — €' + lo.hotel.cost + '</p>' : '') +
+          (lo.activities ? lo.activities.map(a => '<p><span class="time">' + a.time + '</span> ' + escHtml(a.activity) + (a.cost ? ' (€' + a.cost + ')' : '') + '</p>').join('') : '') +
+          '<p style="margin-top:4px"><strong>💰 Layover total:</strong> €' + lo.total_cost + '</p>' +
+        '</div></div>';
+    });
+    html += '</div>';
+  }
+
+  // Flights
+  if (plan.flights) {
+    html += '<div class="tp-detail-section"><h4>✈️ Flights<span class="cost">€' + plan.flights.total + '</span></h4>';
+    if (plan.flights.outbound) {
+      const f = plan.flights.outbound;
+      html += '<div class="tp-flight-card">' +
+        '<div class="route">🛫 ' + escHtml(f.from) + ' → 🛬 ' + escHtml(f.to) +
+        (f.stops > 0 ? ' <span class="stop-info">🔄 ' + f.stops + ' stop' + (f.stops > 1 ? 's' : '') + '</span>' : ' <span class="stop-info">✈️ Direct</span>') +
+        '</div>' +
+        '<div class="details">' + f.airline + ' · ' + f.departure + ' → ' + f.arrival + ' · ' + f.duration + '</div>' +
+        '<div class="price">€' + f.price_person + '/person · €' + f.total + ' total</div>' +
+        (f.booking_url ? '<a class="booking-link" href="' + f.booking_url + '" target="_blank" rel="noopener">🔗 Book on ' + (f.booking_url.includes('skyscanner') ? 'Skyscanner' : f.booking_url.includes('kayak') ? 'Kayak' : f.booking_url.includes('booking') ? 'Booking.com' : 'travel site') + '</a>' : '') +
+      '</div>';
+    }
+    if (plan.flights.return) {
+      const f = plan.flights.return;
+      html += '<div class="tp-flight-card">' +
+        '<div class="route">🛫 ' + escHtml(f.from) + ' → 🛬 ' + escHtml(f.to) +
+        (f.stops > 0 ? ' <span class="stop-info">🔄 ' + f.stops + ' stop' + (f.stops > 1 ? 's' : '') + '</span>' : ' <span class="stop-info">✈️ Direct</span>') +
+        '</div>' +
+        '<div class="details">' + f.airline + ' · ' + f.departure + ' → ' + f.arrival + ' · ' + f.duration + '</div>' +
+        '<div class="price">€' + f.price_person + '/person · €' + f.total + ' total</div>' +
+        (f.booking_url ? '<a class="booking-link" href="' + f.booking_url + '" target="_blank" rel="noopener">🔗 Book on booking site</a>' : '') +
+      '</div>';
+    }
+    html += '</div>';
+  }
+
+  // Accommodation
+  if (plan.accommodations && plan.accommodations.length > 0) {
+    html += '<div class="tp-detail-section"><h4>🏨 Accommodation<span class="cost">€' + plan.accommodations.reduce((s,a) => s + (a.total || 0), 0) + '</span></h4>';
+    plan.accommodations.forEach(acc => {
+      const tag = acc.type === 'private' ? '🏠 Private' : acc.type === 'hostel' ? '🛏️ Hostel' : '🏨 Hotel';
+      html += '<div class="tp-stay-card">' +
+        '<div class="name">' + escHtml(acc.name) + ' <span class="tag">' + tag + '</span></div>' +
+        '<div class="details">⭐ ' + (acc.rating || 'N/A') + ' · ' + (acc.address || '') + '</div>' +
+        '<div class="price">€' + acc.price_per_night + '/night · €' + acc.total + ' total</div>' +
+        (acc.description ? '<div style="font-size:12px;color:var(--text2);margin-top:4px">' + escHtml(acc.description) + '</div>' : '') +
+        (acc.booking_url ? '<a class="booking-link" href="' + acc.booking_url + '" target="_blank" rel="noopener">🔗 Book now</a>' : '') +
+        (acc.alternatives && acc.alternatives.length > 0 ? renderAlternatives(acc.alternatives) : '') +
+      '</div>';
+    });
+    html += '</div>';
+  }
+
+  // Daily itinerary
+  if (plan.daily_itinerary && plan.daily_itinerary.length > 0) {
+    html += '<div class="tp-detail-section"><h4>📅 Daily Itinerary</h4>';
+    plan.daily_itinerary.forEach(day => {
+      const phaseClass = day.phase === 'relax' ? 'relax' : 'explore';
+      const phaseLabel = day.phase === 'relax' ? '🏖️ Relax' : '🔍 Explore';
+      html += '<div class="tp-day-card">' +
+        '<div class="tp-day-header">' +
+          '<span class="day">Day ' + day.day + ' — ' + day.date + '</span>' +
+          '<span class="phase ' + phaseClass + '">' + phaseLabel + '</span>' +
+          (day.day_total ? '<span class="day-total">€' + day.day_total + '</span>' : '') +
+        '</div>';
+      if (day.activities) {
+        day.activities.forEach(a => {
+          const costClass = a.cost === 0 || a.cost === '0' ? 'free' : '';
+          html += '<div class="tp-activity">' +
+            '<span class="time">' + (a.time || '') + '</span>' +
+            '<span class="desc">' + escHtml(a.activity) + (a.description ? '<br><span style="color:var(--text3);font-size:11px">' + escHtml(a.description) + '</span>' : '') + '</span>' +
+            '<span class="acost ' + costClass + '">' + (a.cost === 0 || a.cost === '0' ? 'FREE' : '€' + a.cost) + '</span>' +
+          '</div>';
+        });
+      }
+      html += '</div>';
+    });
+    html += '</div>';
+  }
+
+  // Cost summary
+  html += '<div class="tp-cost-summary">';
+  html += '<h4 style="margin-bottom:12px;font-size:14px;font-weight:600">💰 Cost Breakdown</h4>';
+  if (plan.flights && plan.flights.total) html += '<div class="tp-cost-row"><span class="label">✈️ Flights</span><span class="value">€' + plan.flights.total + '</span></div>';
+  if (plan.accommodations) html += '<div class="tp-cost-row"><span class="label">🏨 Accommodation</span><span class="value">€' + plan.accommodations.reduce((s,a) => s + (a.total || 0), 0) + '</span></div>';
+  if (plan.food_total) html += '<div class="tp-cost-row"><span class="label">🍽️ Food & Drink</span><span class="value">€' + plan.food_total + '</span></div>';
+  if (plan.attractions_total) html += '<div class="tp-cost-row"><span class="label">🎟️ Attractions</span><span class="value">€' + plan.attractions_total + '</span></div>';
+  if (plan.transport_local_total) html += '<div class="tp-cost-row"><span class="label">🚌 Local Transport</span><span class="value">€' + plan.transport_local_total + '</span></div>';
+  if (plan.extras_total) html += '<div class="tp-cost-row"><span class="label">🎒 Extras</span><span class="value">€' + plan.extras_total + '</span></div>';
+
+  // Divider
+  const grandTotal = plan.grand_total || 0;
+  const budget = trip.request.budget;
+  const overBudget = budget && grandTotal > budget;
+  html += '<div class="tp-cost-row total ' + (overBudget ? 'over-budget' : '') + '"><span class="label">💵 Grand Total</span><span class="value">€' + grandTotal + '</span></div>';
+  if (budget) {
+    const pct = Math.min(100, Math.round((grandTotal / budget) * 100));
+    html += '<div class="tp-cost-row"><span class="label">💰 Budget</span><span class="value">€' + budget + '</span></div>';
+    html += '<div class="tp-budget-bar"><div class="fill ' + (overBudget ? 'over' : '') + '" style="width:' + pct + '%"></div></div>';
+    if (overBudget) {
+      html += '<p style="font-size:12px;color:var(--red);margin-top:8px">⚠️ Over budget by €' + (grandTotal - budget) + '</p>';
+    } else {
+      html += '<p style="font-size:12px;color:var(--green);margin-top:8px">✅ Under budget by €' + (budget - grandTotal) + '</p>';
+    }
+  }
+  html += '</div>';
+
+  // Culture button
+  if (plan.culture) {
+    html += '<button class="tp-culture-btn" onclick="openCulture(\'' + encodeURIComponent(JSON.stringify(plan.culture)) + '\')">📚 Culture & History</button>';
+  }
+
+  document.getElementById('modal-body').innerHTML = html;
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function renderAlternatives(alts) {
+  if (!alts || alts.length === 0) return '';
+  let html = '<div class="tp-stay-alt"><div class="tp-stay-alt-title">Also available:</div>';
+  alts.forEach(a => {
+    const tag = a.type === 'private' ? '🏠' : a.type === 'hostel' ? '🛏️' : '🏨';
+    html += '<div class="tp-stay-alt-item"><div class="name">' + tag + ' ' + escHtml(a.name) + '</div>' +
+      '<div class="meta">⭐ ' + (a.rating || 'N/A') + ' · €' + a.price_per_night + '/night' +
+      (a.booking_url ? ' · <a href="' + a.booking_url + '" target="_blank" rel="noopener" style="color:var(--accent)">🔗 Book</a>' : '') +
+      '</div></div>';
+  });
+  html += '</div>';
+  return html;
+}
+
+function openCulture(encoded) {
+  try {
+    const culture = JSON.parse(decodeURIComponent(encoded));
+    const popup = document.getElementById('culture-popup');
+    const body = document.getElementById('culture-body');
+    document.getElementById('culture-title').textContent = '📚 Culture & History — ' + (culture.title || '');
+
+    let html = '';
+    const sections = [
+      {id: 'overview', icon: '🌍', label: 'Overview'},
+      {id: 'history', icon: '📜', label: 'History & Heritage'},
+      {id: 'architecture', icon: '🏛️', label: 'Architecture'},
+      {id: 'culture', icon: '🎭', label: 'Local Culture & Customs'},
+      {id: 'food', icon: '🍽️', label: 'Local Cuisine'},
+      {id: 'people', icon: '👥', label: 'People & Traditions'},
+      {id: 'regions', icon: '🗺️', label: 'Regions to Visit'},
+      {id: 'tips', icon: '💡', label: 'Travel Tips'},
+    ];
+
+    sections.forEach(s => {
+      const content = culture[s.id];
+      if (!content) return;
+      html += '<div class="culture-section">' +
+        '<h4>' + s.icon + ' ' + s.label + '</h4>';
+      if (Array.isArray(content)) {
+        html += '<ul>' + content.map(item => '<li>' + escHtml(item) + '</li>').join('') + '</ul>';
+      } else {
+        html += '<p>' + escHtml(content) + '</p>';
+      }
+      html += '</div>';
+    });
+
+    body.innerHTML = html || '<p style="color:var(--text3)">Cultural information not available for this trip.</p>';
+    popup.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  } catch(e) {
+    showFlash('Could not load culture data', 'info');
+  }
+}
+
+function closeCulture() {
+  document.getElementById('culture-popup').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function showFlash(msg, type) {
+  const el = document.createElement('div');
+  el.className = 'tp-flash ' + (type || 'success');
+  el.textContent = msg;
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 4000);
 }
 
 // ════════════════════════════════════════════════════════
