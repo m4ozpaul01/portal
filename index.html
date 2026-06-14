@@ -1149,19 +1149,20 @@
 
 <script>
 // ════════════════════════════════════════
-// CONFIG
+// CONFIG — hardcoded credentials (no external fetch needed for login)
 // ════════════════════════════════════════
+
+const PORTAL_CREDENTIALS = [
+  { username: "m4oz",   password_hash: "S2FsYWZpb3IwMQ==" },  // Kalafior01
+  { username: "sweetie", password_hash: "TWFqYTIwMjYh" }      // Maja2026!
+];
 
 const CONFIG_URL = 'config.json?_=' + Date.now();
 const SESSION_KEY = 'portal_auth';
 
 // ════════════════════════════════════════
-// LOGIN
+// LOGIN — synchronous, no external fetch required
 // ════════════════════════════════════════
-
-function encodePassword(password) {
-  return btoa(password);
-}
 
 document.getElementById('login-form').addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -1169,26 +1170,36 @@ document.getElementById('login-form').addEventListener('submit', async (e) => {
   const pass = document.getElementById('login-pass').value;
   const errorEl = document.getElementById('login-error');
 
-  try {
-    const resp = await fetch(CONFIG_URL);
-    const config = await resp.json();
+  // Encode password using base64 (matches browser btoa)
+  const encoded = btoa(pass);
 
-    const encoded = encodePassword(pass);
+  // Find matching user
+  const match = PORTAL_CREDENTIALS.find(c => user === c.username && encoded === c.password_hash);
 
-    // Check against all registered users
-    const creds = Array.isArray(config.credentials) ? config.credentials : [config.credentials];
-    const match = creds.find(c => user === c.username && encoded === c.password_hash);
+  if (match) {
+    sessionStorage.setItem(SESSION_KEY, 'true');
+    errorEl.style.display = 'none';
 
-    if (match) {
-      sessionStorage.setItem(SESSION_KEY, 'true');
-      errorEl.style.display = 'none';
+    // Load portal config (kredyt, projects, events) — BEST EFFORT
+    try {
+      const resp = await fetch(CONFIG_URL);
+      const config = await resp.json();
       initPortal(config);
-    } else {
-      errorEl.style.display = 'block';
+    } catch (err) {
+      // Even if config fetch fails, try with defaults
+      initPortal({
+        kredyt: 0,
+        tokens: 0,
+        model: '—',
+        provider: '',
+        projects: [],
+        last_updated: '—'
+      });
     }
-  } catch (err) {
-    errorEl.textContent = 'Failed to load portal config. Try again.';
+  } else {
+    errorEl.textContent = '❌ Invalid credentials. Try again.';
     errorEl.style.display = 'block';
+    console.warn('Login failed for user:', user, '| typed hash:', encoded);
   }
 });
 
@@ -1849,9 +1860,11 @@ document.addEventListener('keydown', function(e) {
     try {
       const resp = await fetch(CONFIG_URL);
       const config = await resp.json();
+      document.getElementById('login-overlay').classList.add('hidden');
+      document.getElementById('dashboard').style.display = 'block';
       initPortal(config);
     } catch (_) {
-      // Config not loaded yet, user logs in manually
+      // Config not loaded yet, show login
     }
   }
 })();
