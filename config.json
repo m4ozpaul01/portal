@@ -37,30 +37,6 @@
       "display": "hessen_events",
       "last_updated": "2026-06-14",
       "notes": ""
-    },
-    {
-      "name": "openui",
-      "status": "active",
-      "description": "A new project called openui",
-      "display": "placeholder",
-      "last_updated": "2026-06-14",
-      "notes": ""
-    },
-    {
-      "name": "Agentic SO",
-      "status": "active",
-      "description": "Agentic Operating System \u2014 orchestrate, monitor, and manage AI agents",
-      "display": "placeholder",
-      "last_updated": "2026-06-14",
-      "notes": "Dashboard at http://localhost:7878 | Start with: cd ~/Desktop/PROJECTS/Agentic SO && ./start.sh"
-    },
-    {
-      "name": "portal-backup-2026-06-14",
-      "status": "active",
-      "description": "A new project called portal-backup-2026-06-14",
-      "display": "placeholder",
-      "last_updated": "2026-06-14",
-      "notes": ""
     }
   ],
   "last_updated": "2026-06-14"

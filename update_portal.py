@@ -128,10 +128,12 @@ def estimate_tokens(balance, model_id):
 def sync_projects(config):
     """Add any new project folders as tabs in the portal."""
     existing = {p["name"] for p in config["projects"]}
+    # Directories to skip — hidden from portal tabs
+    SKIP = {'portal', 'openui', 'Agentic SO', 'portal-backup-2026-06-14'}
 
     for item in sorted(os.listdir(PROJECTS_DIR)):
         item_path = os.path.join(PROJECTS_DIR, item)
-        if os.path.isdir(item_path) and not item.startswith('.') and item != 'portal':
+        if os.path.isdir(item_path) and not item.startswith('.') and item not in SKIP:
             if item not in existing:
                 config["projects"].append({
                     "name": item,
