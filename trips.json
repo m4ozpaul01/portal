@@ -251,6 +251,169 @@
       },
       "status": "complete",
       "created_at": "2026-06-15 00:05:33.759112"
+    },
+    {
+      "id": "tp-1781474852506",
+      "request": {
+        "id": "tp-1781474852506",
+        "from": "Frankfurt",
+        "to": "barcelona",
+        "departure_date": "2026-06-16",
+        "return_date": "2026-06-21",
+        "people": 1,
+        "budget": null,
+        "notes": "architecture",
+        "status": "complete"
+      },
+      "plan": {
+        "grand_total": 650,
+        "currency": "EUR",
+        "budget_level": "budget-friendly (1 person)",
+        "special_2026": "Barcelona is the UNESCO World Capital of Architecture 2026 — 1,500+ events citywide celebrating Gaudí's centenary. Perfect timing!",
+        "flights": {
+          "recommendation": "Ryanair from Frankfurt-Hahn (HHN) or easyJet from Frankfurt (FRA) to Barcelona (BCN)",
+          "estimated_cost": 80,
+          "tip": "Book NOW — last-minute flights ~€40-80 each way on Skyscanner/Kayak. Pack light (carry-on only for Ryanair). Aerobús from airport: €5.90, every 5-10 min."
+        },
+        "accommodation": {
+          "recommendation": "Hostel or budget hotel — Eixample or Gràcia for architecture lovers",
+          "options": [
+            {
+              "name": "TOC Hostel Barcelona",
+              "area": "El Born",
+              "price_per_night": "€30-40",
+              "why": "Best location for walking to Gothic Quarter and Born architecture"
+            },
+            {
+              "name": "Generator Hostel Barcelona",
+              "area": "Sant Antoni",
+              "price_per_night": "€25-35",
+              "why": "Cheapest, rooftop pool, close to Sant Antoni market"
+            },
+            {
+              "name": "Rodamon Hostel Barcelona",
+              "area": "Eixample Esquerra",
+              "price_per_night": "€28-38",
+              "why": "Quiet area, close to Casa Batlló and La Pedrera"
+            }
+          ],
+          "estimated_total": 175
+        },
+        "daily_itinerary": [
+          {
+            "day": 1,
+            "date": "2026-06-16",
+            "title": "Arrival + Gothic Quarter + 2026 Architecture Kickoff",
+            "activities": [
+              "Arrive BCN — Aerobús to Plaça Catalunya (€5.90, 35 min)",
+              "Check in, drop bags",
+              "⭐ 2026 SPECIAL: Check the UIA2026BCN program for free architecture events/installations happening this week",
+              "Afternoon: Gothic Quarter walk — Barcelona Cathedral, Plaça Reial, Roman temple ruins",
+              "Evening: Carrer de Blai tapas crawl — €2-3 pintxos each. Try La Tasqueta de Blai",
+              "Dinner: Can Culleretes (est. 1786!) — oldest restaurant in Barcelona. Set menu ~€15"
+            ]
+          },
+          {
+            "day": 2,
+            "date": "2026-06-17",
+            "title": "Gaudí: Sagrada Família + Sant Pau",
+            "activities": [
+              "Morning: Sagrada Família — pre-book online NOW (€26), go 9am to beat crowds. 2026 is Gaudí centenary year, so it's busier than ever",
+              "Passion Façade tower if available — best city views",
+              "Lunch: La Paradeta (near Sagrada) — market-style seafood, pick your own, pay by weight, €12-18",
+              "Afternoon: Hospital de Sant Pau (€15) — UNESCO Modernist site, stunning pavilions, much quieter than Sagrada",
+              "Evening: Bar del Pla (El Born) — excellent tapas, €25-35"
+            ]
+          },
+          {
+            "day": 3,
+            "date": "2026-06-18",
+            "title": "Casa Batlló + Palau de la Música",
+            "activities": [
+              "Morning: Casa Batlló (€35-43) — Gaudí's most magical house. PRE-BOOK — the blue atrium is breathtaking",
+              "Walk Passeig de Gràcia — see Casa Milà/La Pedrera facade (€24 if you want rooftop)",
+              "Lunch: La Rita (Carrer d'Aragó) — €14 menu del día, 3 courses + drink",
+              "Afternoon: Palau de la Música Catalana — guided tour (€20), stunning Modernist concert hall by Domènech i Montaner",
+              "Evening: Cal Pep (El Born) — legendary tapas, queue before 7pm. €30-40"
+            ]
+          },
+          {
+            "day": 4,
+            "date": "2026-06-19",
+            "title": "Park Güell + Gràcia + Picasso Museum",
+            "activities": [
+              "Morning: Park Güell (€10, pre-book) — Gaudí's colorful park. Go early before the heat and crowds",
+              "Walk down through Gràcia neighborhood — bohemian squares, less touristy",
+              "Lunch: La Pubilla (Gràcia) — authentic Catalan, €12-15 menu del día",
+              "Afternoon: Picasso Museum (€12) — in beautiful Gothic palaces, incredible early Picasso",
+              "Then: Santa Maria del Mar (free) — breathtaking Gothic church in El Born",
+              "Evening: Can Paixano (La Xampanyeria) — legendary cava bar, €2 sandwiches + cava. Then Can Majó for paella (€20-25, Barceloneta)"
+            ]
+          },
+          {
+            "day": 5,
+            "date": "2026-06-20",
+            "title": "Gaudí's First House + Montjuïc + Farewell",
+            "activities": [
+              "Morning: Casa Vicens (€18) — Gaudí's first house, colorful Moorish-inspired, quietest of his major works",
+              "Lunch: Mercat de Sant Antoni — renovated food hall, local vibe, much cheaper than Boqueria",
+              "Afternoon: Montjuïc — Joan Miró Foundation (€13) or MNAC (€12) for Romanesque art, or just the free gardens + castle",
+              "Sunset: Bunkers del Carmel (FREE) — best sunset view in Barcelona. Bus 119 from Alfons X metro. Bring drinks.",
+              "Farewell dinner: Can Solé (Barceloneta) — traditional Catalan since 1905, €30-40"
+            ]
+          },
+          {
+            "day": 6,
+            "date": "2026-06-21",
+            "title": "Departure",
+            "activities": [
+              "Morning: Last walk, grab jamón or souvenirs at Santa Caterina Market (colorful roof, less crowded)",
+              "Or quick visit to Palau Güell (€12, near Ramblas) — Gaudí's early mansion with incredible rooftop chimneys",
+              "Aerobús back to BCN (€5.90)",
+              "Arrive airport 2h before flight"
+            ]
+          }
+        ],
+        "architecture_highlights": [
+          "Sagrada Família (€26) — pre-book NOW",
+          "Casa Batlló (€35-43) — pre-book",
+          "Park Güell (€10) — pre-book",
+          "Hospital de Sant Pau (€15) — UNESCO, quiet",
+          "Palau de la Música Catalana (€20)",
+          "Casa Vicens (€18) — Gaudí's first",
+          "Picasso Museum (€12) — Gothic palaces",
+          "Santa Maria del Mar — FREE, Gothic masterpiece",
+          "Palau Güell (€12) — rooftop chimneys",
+          "Bunkers del Carmel — FREE, best view"
+        ],
+        "food_highlights_compact": [
+          "Tapas crawl: Carrer de Blai (€2-4/piece)",
+          "Cava + montaditos: Can Paixano (€2-5)",
+          "Paella: Can Majó, Barceloneta (€20-25)",
+          "Menu del día: La Rita (€14, 3 courses)",
+          "Best tapas: Cal Pep, El Born (€30-40)",
+          "Catalan: Can Culleretes (€15 set menu)",
+          "Market: Mercat de Sant Antoni (cheap lunch)"
+        ],
+        "budget_breakdown": {
+          "flights": "€80-120",
+          "accommodation_5_nights": "€150-200",
+          "food_per_day": "€25-35",
+          "attractions_total": "€100-120",
+          "local_transport": "€20",
+          "estimated_total": "€550-700"
+        },
+        "last_minute_tips": [
+          "Book Sagrada Família + Casa Batlló online RIGHT NOW — June is busy and they sell out days ahead",
+          "June is 28-32°C — light clothes, sunscreen, hat, refillable water bottle",
+          "Pickpocket alert on Ramblas and metro — keep phone/wallet in front pockets",
+          "Midday heat (2-5pm) — use for museums, air-conditioned attractions, or siesta",
+          "T-Casual metro card: 10 rides for €11.35 (buy at any station)",
+          "FREE walking tours daily at 10am from Plaça Catalunya — good orientation on day 1"
+        ]
+      },
+      "status": "complete",
+      "created_at": "2026-06-15 00:08:45.399612"
     }
   ]
 }
