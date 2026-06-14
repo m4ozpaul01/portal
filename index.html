@@ -1262,7 +1262,7 @@ function saveTripRequest(req) {
   localStorage.setItem(TP_REQ_KEY, JSON.stringify(requests));
 }
 
-function submitTrip() {
+async function submitTrip() {
   try {
     const from = document.getElementById('tp-from');
     const to = document.getElementById('tp-to');
@@ -1305,7 +1305,22 @@ function submitTrip() {
     from.value = ''; to.value = ''; depart.value = ''; ret.value = '';
     people.value = '1'; budget.value = ''; notes.value = '';
 
-    showFlash('✅ Trip request submitted! Now tell me the details and I\'ll research everything for you.', 'success');
+    // Try to send to local server for automated processing
+    let serverOk = false;
+    try {
+      const r = await fetch('http://localhost:43829/api/trip', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(req),
+      });
+      if (r.ok) serverOk = true;
+    } catch(_) {}
+
+    if (serverOk) {
+      showFlash('✅ Trip request sent! I\'ll start researching now.', 'success');
+    } else {
+      showFlash('✅ Trip saved! I\'ll check for it and start researching shortly.', 'success');
+    }
     loadTrips();
   } catch(e) {
     showFlash('✗ Something went wrong: ' + e.message, 'info');
