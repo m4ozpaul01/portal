@@ -9,15 +9,15 @@
       "password_hash": "TWFqYTIwMjYh"
     }
   ],
-  "kredyt": 5.37,
-  "tokens": 17900000,
+  "kredyt": 4.64,
+  "tokens": 15466666,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
     {
       "name": "natural events",
       "status": "active",
-      "description": "Upcoming celestial events — meteor showers, eclipses, planetary alignments, comets, and more",
+      "description": "Upcoming celestial events \u2014 meteor showers, eclipses, planetary alignments, comets, and more",
       "display": "events",
       "last_updated": "2026-06-14",
       "notes": ""
@@ -33,7 +33,7 @@
     {
       "name": "Hessen Events",
       "status": "active",
-      "description": "Cultural and social events across Hessen state — filtered by distance from Frankfurt",
+      "description": "Cultural and social events across Hessen state \u2014 filtered by distance from Frankfurt",
       "display": "hessen_events",
       "last_updated": "2026-06-14",
       "notes": ""
@@ -41,7 +41,7 @@
     {
       "name": "Movies",
       "status": "active",
-      "description": "Movie suggestions with rating system — 3 new picks every Tue, Thu, Sat",
+      "description": "Movie suggestions with rating system \u2014 3 new picks every Tue, Thu, Sat",
       "display": "movies",
       "last_updated": "2026-06-14",
       "notes": ""
@@ -49,7 +49,7 @@
     {
       "name": "Music",
       "status": "active",
-      "description": "Daily song recommendations with rating system — fresh pick every day with Spotify playlist sync",
+      "description": "Daily song recommendations with rating system \u2014 fresh pick every day with Spotify playlist sync",
       "display": "music",
       "last_updated": "2026-06-14",
       "notes": ""
@@ -57,7 +57,7 @@
     {
       "name": "Trip Planner",
       "status": "active",
-      "description": "Deep research trip planner — flights, hotels, food, attractions, culture — with detailed cost breakdowns",
+      "description": "Deep research trip planner \u2014 flights, hotels, food, attractions, culture \u2014 with detailed cost breakdowns",
       "display": "trip_planner",
       "last_updated": "2026-06-14",
       "notes": ""
