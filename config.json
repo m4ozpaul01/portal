@@ -37,6 +37,14 @@
       "display": "hessen_events",
       "last_updated": "2026-06-14",
       "notes": ""
+    },
+    {
+      "name": "Movies",
+      "status": "active",
+      "description": "Movie suggestions with rating system — 3 new picks every Tue, Thu, Sat",
+      "display": "movies",
+      "last_updated": "2026-06-14",
+      "notes": ""
     }
   ],
   "last_updated": "2026-06-14"

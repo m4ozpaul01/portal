@@ -129,7 +129,7 @@ def sync_projects(config):
     """Add any new project folders as tabs in the portal."""
     existing = {p["name"] for p in config["projects"]}
     # Directories to skip — hidden from portal tabs
-    SKIP = {'portal', 'openui', 'Agentic SO', 'portal-backup-2026-06-14'}
+    SKIP = {'portal', 'openui', 'Agentic SO', 'portal-backup-2026-06-14', 'Movies'}
 
     for item in sorted(os.listdir(PROJECTS_DIR)):
         item_path = os.path.join(PROJECTS_DIR, item)
