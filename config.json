@@ -53,6 +53,14 @@
       "display": "music",
       "last_updated": "2026-06-14",
       "notes": ""
+    },
+    {
+      "name": "Trip Planner",
+      "status": "active",
+      "description": "Deep research trip planner — flights, hotels, food, attractions, culture — with detailed cost breakdowns",
+      "display": "trip_planner",
+      "last_updated": "2026-06-14",
+      "notes": ""
     }
   ],
   "last_updated": "2026-06-14"
