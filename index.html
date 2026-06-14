@@ -1047,7 +1047,7 @@
     <div class="logo-icon">🪐</div>
     <h1>Mission Portal</h1>
     <p class="subtitle">Authenticate to access command dashboard</p>
-    <form id="login-form" autocomplete="off">
+    <form id="login-form" onsubmit="return handleLogin()">
       <div class="input-group">
         <label>Username</label>
         <input type="text" id="login-user" value="m4oz" placeholder="username" autofocus>
@@ -1057,7 +1057,7 @@
         <input type="password" id="login-pass" placeholder="••••••••">
       </div>
       <button type="submit" class="login-btn">Access Portal</button>
-      <div class="login-error" id="login-error">Invalid credentials. Try again.</div>
+      <div class="login-error" id="login-error">✗ Invalid credentials. Try again.</div>
     </form>
   </div>
 </div>
@@ -1149,59 +1149,62 @@
 
 <script>
 // ════════════════════════════════════════
-// CONFIG — hardcoded credentials (no external fetch needed for login)
+// CREDENTIALS — stored as base64 (not plaintext)
 // ════════════════════════════════════════
 
-const PORTAL_CREDENTIALS = [
-  { username: "m4oz",   password_hash: "S2FsYWZpb3IwMQ==" },  // Kalafior01
-  { username: "sweetie", password_hash: "TWFqYTIwMjYh" }      // Maja2026!
+const USERS = [
+  { name: "m4oz",   pass_b64: "S2FsYWZpb3IwMQ==" },  // base64 of "Kalafior01"
+  { name: "sweetie", pass_b64: "TWFqYTIwMjYh" }       // base64 of "Maja2026!"
 ];
 
 const CONFIG_URL = 'config.json?_=' + Date.now();
 const SESSION_KEY = 'portal_auth';
 
 // ════════════════════════════════════════
-// LOGIN — synchronous, no external fetch required
+// LOGIN — uses atob() to decode stored password
 // ════════════════════════════════════════
 
-document.getElementById('login-form').addEventListener('submit', async (e) => {
-  e.preventDefault();
+function handleLogin() {
   const user = document.getElementById('login-user').value.trim();
   const pass = document.getElementById('login-pass').value;
   const errorEl = document.getElementById('login-error');
 
-  // Encode password using base64 (matches browser btoa)
-  const encoded = btoa(pass);
-
-  // Find matching user
-  const match = PORTAL_CREDENTIALS.find(c => user === c.username && encoded === c.password_hash);
-
-  if (match) {
-    sessionStorage.setItem(SESSION_KEY, 'true');
-    errorEl.style.display = 'none';
-
-    // Load portal config (kredyt, projects, events) — BEST EFFORT
-    try {
-      const resp = await fetch(CONFIG_URL);
-      const config = await resp.json();
-      initPortal(config);
-    } catch (err) {
-      // Even if config fetch fails, try with defaults
-      initPortal({
-        kredyt: 0,
-        tokens: 0,
-        model: '—',
-        provider: '',
-        projects: [],
-        last_updated: '—'
-      });
+  // Try each user
+  for (const u of USERS) {
+    if (user === u.name) {
+      try {
+        const expectedPass = atob(u.pass_b64);  // decode base64 → "Kalafior01"
+        if (pass === expectedPass) {
+          // LOGIN SUCCESS
+          sessionStorage.setItem(SESSION_KEY, 'true');
+          errorEl.style.display = 'none';
+          setTimeout(() => loadPortal(), 50);
+          return false;
+        }
+      } catch(e) {}
     }
-  } else {
-    errorEl.textContent = '❌ Invalid credentials. Try again.';
-    errorEl.style.display = 'block';
-    console.warn('Login failed for user:', user, '| typed hash:', encoded);
   }
-});
+
+  // LOGIN FAILED
+  errorEl.style.display = 'block';
+  return false;
+}
+
+async function loadPortal() {
+  document.getElementById('login-overlay').classList.add('hidden');
+  document.getElementById('dashboard').classList.add('active');
+
+  try {
+    const resp = await fetch(CONFIG_URL);
+    const config = await resp.json();
+    initPortal(config);
+  } catch (err) {
+    initPortal({
+      kredyt: 0, tokens: 0, model: '—', provider: '',
+      projects: [], last_updated: '—'
+    });
+  }
+}
 
 // ════════════════════════════════════════
 // PORTAL INIT
@@ -1857,14 +1860,14 @@ document.addEventListener('keydown', function(e) {
 
 (async function() {
   if (sessionStorage.getItem(SESSION_KEY) === 'true') {
+    document.getElementById('login-overlay').classList.add('hidden');
+    document.getElementById('dashboard').classList.add('active');
     try {
       const resp = await fetch(CONFIG_URL);
       const config = await resp.json();
-      document.getElementById('login-overlay').classList.add('hidden');
-      document.getElementById('dashboard').style.display = 'block';
       initPortal(config);
     } catch (_) {
-      // Config not loaded yet, show login
+      initPortal({kredyt:0,tokens:0,model:'—',provider:'',projects:[],last_updated:'—'});
     }
   }
 })();
