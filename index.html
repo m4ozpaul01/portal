@@ -1335,7 +1335,24 @@ async function loadTrips() {
   try {
     const r = await fetch(TRIPS_URL);
     const d = await r.json();
-    renderTripList(d.trips || []);
+    const serverTrips = d.trips || [];
+
+    // Auto-clean localStorage: remove pending entries that now have completed trips
+    // Match by route (from/to/dates) since browser IDs differ from server IDs
+    const pending = getTripRequests();
+    const completedRoutes = new Set(serverTrips.map(t => 
+      (t.request.from + '|' + t.request.to + '|' + t.request.departure_date).toLowerCase()
+    ));
+    const cleaned = pending.filter(r => {
+      if (r.status !== 'pending') return false;
+      const route = (r.from + '|' + r.to + '|' + r.departure_date).toLowerCase();
+      return !completedRoutes.has(route);
+    });
+    if (cleaned.length !== pending.length) {
+      localStorage.setItem(TP_REQ_KEY, JSON.stringify(cleaned));
+    }
+
+    renderTripList(serverTrips);
   } catch(_) {
     // Still show pending requests
     renderTripList([]);
@@ -1359,6 +1376,17 @@ function renderTripList(serverTrips) {
   }));
 
   const items = [...pendingCards, ...all];
+
+  // Sort completed trips: most recent first (by submitted_at)
+  items.sort((a, b) => {
+    // Pending always on top
+    if (a.type === 'pending' && b.type !== 'pending') return -1;
+    if (a.type !== 'pending' && b.type === 'pending') return 1;
+    // Both completed — sort by submitted_at desc (most recent first)
+    const aDate = a.request?.submitted_at || a.created_at || '';
+    const bDate = b.request?.submitted_at || b.created_at || '';
+    return bDate.localeCompare(aDate);
+  });
 
   if (items.length === 0) {
     container.innerHTML = '<div class="tp-empty-state"><div class="ico">🗺️</div><h3>No trips yet</h3><p>Fill in the form above and click Arrange My Trip to get started!</p></div>';

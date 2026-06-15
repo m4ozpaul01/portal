@@ -1,16 +1,3 @@
 {
-  "pending": [
-    {
-      "id": "tp-1781474361196",
-      "from": "frankfurt am main",
-      "to": "Barcelona",
-      "departure_date": "2026-08-12",
-      "return_date": "2026-08-21",
-      "people": 1,
-      "budget": null,
-      "notes": "Arhitecture and food",
-      "status": "pending",
-      "submitted_at": "2026-06-14T23:59:21.196640"
-    }
-  ]
+  "pending": []
 }
