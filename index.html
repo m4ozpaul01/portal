@@ -1586,9 +1586,10 @@ function renderTripDetail(trip) {
   }
   html += '</div>';
 
-  // Culture button
+  // Culture button — store data in window var instead of serializing into onclick
   if (plan.culture) {
-    html += '<button class="tp-culture-btn" onclick="openCulture(\'' + encodeURIComponent(JSON.stringify(plan.culture)) + '\')">📚 Culture & History</button>';
+    window.__cultureData = plan.culture;
+    html += '<button class="tp-culture-btn" onclick="openCulture()">📚 Culture & History</button>';
   }
 
   document.getElementById('modal-body').innerHTML = html;
@@ -1610,44 +1611,41 @@ function renderAlternatives(alts) {
   return html;
 }
 
-function openCulture(encoded) {
-  try {
-    const culture = JSON.parse(decodeURIComponent(encoded));
-    const popup = document.getElementById('culture-popup');
-    const body = document.getElementById('culture-body');
-    document.getElementById('culture-title').textContent = '📚 Culture & History — ' + (culture.title || '');
+function openCulture() {
+  const culture = window.__cultureData;
+  if (!culture) { showFlash('Culture data not available', 'info'); return; }
+  const popup = document.getElementById('culture-popup');
+  const body = document.getElementById('culture-body');
+  document.getElementById('culture-title').textContent = '📚 Culture & History — ' + (culture.title || '');
 
-    let html = '';
-    const sections = [
-      {id: 'overview', icon: '🌍', label: 'Overview'},
-      {id: 'history', icon: '📜', label: 'History & Heritage'},
-      {id: 'architecture', icon: '🏛️', label: 'Architecture'},
-      {id: 'culture', icon: '🎭', label: 'Local Culture & Customs'},
-      {id: 'food', icon: '🍽️', label: 'Local Cuisine'},
-      {id: 'people', icon: '👥', label: 'People & Traditions'},
-      {id: 'regions', icon: '🗺️', label: 'Regions to Visit'},
-      {id: 'tips', icon: '💡', label: 'Travel Tips'},
-    ];
+  let html = '';
+  const sections = [
+    {id: 'overview', icon: '🌍', label: 'Overview'},
+    {id: 'history', icon: '📜', label: 'History & Heritage'},
+    {id: 'architecture', icon: '🏛️', label: 'Architecture'},
+    {id: 'culture', icon: '🎭', label: 'Local Culture & Customs'},
+    {id: 'food', icon: '🍽️', label: 'Local Cuisine'},
+    {id: 'people', icon: '👥', label: 'People & Traditions'},
+    {id: 'regions', icon: '🗺️', label: 'Regions to Visit'},
+    {id: 'tips', icon: '💡', label: 'Travel Tips'},
+  ];
 
-    sections.forEach(s => {
-      const content = culture[s.id];
-      if (!content) return;
-      html += '<div class="culture-section">' +
-        '<h4>' + s.icon + ' ' + s.label + '</h4>';
-      if (Array.isArray(content)) {
-        html += '<ul>' + content.map(item => '<li>' + escHtml(item) + '</li>').join('') + '</ul>';
-      } else {
-        html += '<p>' + escHtml(content) + '</p>';
-      }
-      html += '</div>';
-    });
+  sections.forEach(s => {
+    const content = culture[s.id];
+    if (!content) return;
+    html += '<div class="culture-section">' +
+      '<h4>' + s.icon + ' ' + s.label + '</h4>';
+    if (Array.isArray(content)) {
+      html += '<ul>' + content.map(item => '<li>' + escHtml(item) + '</li>').join('') + '</ul>';
+    } else {
+      html += '<p>' + escHtml(content) + '</p>';
+    }
+    html += '</div>';
+  });
 
-    body.innerHTML = html || '<p style="color:var(--text3)">Cultural information not available for this trip.</p>';
-    popup.classList.add('active');
-    document.body.style.overflow = 'hidden';
-  } catch(e) {
-    showFlash('Could not load culture data', 'info');
-  }
+  body.innerHTML = html || '<p style="color:var(--text3)">Cultural information not available for this trip.</p>';
+  popup.classList.add('active');
+  document.body.style.overflow = 'hidden';
 }
 
 function closeCulture() {
