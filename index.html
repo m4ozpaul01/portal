@@ -962,12 +962,15 @@ const TRIPS_URL = 'trips.json?_=' + Date.now();
 let _currentMovie = null; // currently open movie in modal
 
 async function loadMovies() {
+  // Always render history first — independent of suggestions fetch
+  renderHistory(getMovieHistory());
   try {
     const r = await fetch(MOVIES_URL);
     const d = await r.json();
     renderSuggestions(d.suggestions || []);
-    renderHistory(getMovieHistory());
-  } catch(_) {}
+  } catch(_) {
+    // Suggestions are best-effort; history already loaded above
+  }
 }
 
 function renderSuggestions(suggestions) {
