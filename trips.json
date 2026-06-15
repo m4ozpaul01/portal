@@ -28,7 +28,7 @@
         },
         "flights": {
           "total": 120,
-          "recommendation": "Ryanair / easyJet from Frankfurt (FRA) or Frankfurt-Hahn (HHN) to Barcelona (BCN). Book 2-3 months ahead — €40-60 each way on Skyscanner.",
+          "recommendation": "Lufthansa, Eurowings, or easyJet from Frankfurt am Main (FRA) to Barcelona (BCN). Book 2-3 months ahead — €50-150 each way on Skyscanner/Google Flights.",
           "tip": "Pack light — carry-on only for Ryanair. Aerobús from airport: €5.90, every 5-10 min to Plaça Catalunya."
         },
         "accommodations": [
@@ -450,7 +450,7 @@
         },
         "flights": {
           "total": 80,
-          "recommendation": "Ryanair from Frankfurt-Hahn (HHN) or easyJet from Frankfurt (FRA) to Barcelona (BCN). Book NOW — last-minute €40-80 each way on Skyscanner/Kayak.",
+          "recommendation": "Lufthansa, Eurowings, or easyJet from Frankfurt am Main (FRA) to Barcelona (BCN). Book NOW — last-minute €70-180 each way on Skyscanner/Kayak.",
           "tip": "Pack carry-on only. Aerobús from BCN airport: €5.90 to Plaça Catalunya, every 5-10 min."
         },
         "accommodations": [
