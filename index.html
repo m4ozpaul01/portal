@@ -587,6 +587,8 @@ async function showDashboard() {
 function buildTabs(config) {
   const bar = document.getElementById('tabbar');
   const dynamic = document.getElementById('dynamic-content');
+  // Clear previous tabs BEFORE rebuilding — prevents double tabs
+  bar.innerHTML = '';
   dynamic.innerHTML = '';
 
   (config.projects || []).forEach(p => {
