@@ -13,8 +13,8 @@
       "password_hash": "TWFqYTIwMjYh"
     }
   ],
-  "kredyt": 3.94,
-  "tokens": 13133333,
+  "kredyt": 3.9,
+  "tokens": 13000000,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
@@ -23,7 +23,7 @@
       "status": "active",
       "description": "Upcoming celestial events \u2014 meteor showers, eclipses, planetary alignments, comets, and more",
       "display": "events",
-      "last_updated": "2026-06-16",
+      "last_updated": "2026-06-17",
       "notes": ""
     },
     {
@@ -31,7 +31,7 @@
       "status": "active",
       "description": "Curated cultural and social events in Frankfurt am Main",
       "display": "frankfurt_events",
-      "last_updated": "2026-06-16",
+      "last_updated": "2026-06-17",
       "notes": ""
     },
     {
@@ -39,7 +39,7 @@
       "status": "active",
       "description": "Cultural and social events across Hessen state \u2014 filtered by distance from Frankfurt",
       "display": "hessen_events",
-      "last_updated": "2026-06-16",
+      "last_updated": "2026-06-17",
       "notes": ""
     },
     {
@@ -55,7 +55,7 @@
       "status": "active",
       "description": "Daily song recommendations with rating system \u2014 fresh pick every day with Spotify playlist sync",
       "display": "music",
-      "last_updated": "2026-06-16",
+      "last_updated": "2026-06-17",
       "notes": ""
     },
     {
@@ -63,9 +63,9 @@
       "status": "active",
       "description": "Deep research trip planner \u2014 flights, hotels, food, attractions, culture \u2014 with detailed cost breakdowns",
       "display": "trip_planner",
-      "last_updated": "2026-06-16",
+      "last_updated": "2026-06-17",
       "notes": ""
     }
   ],
-  "last_updated": "2026-06-16"
+  "last_updated": "2026-06-17"
 }
