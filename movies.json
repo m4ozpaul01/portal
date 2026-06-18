@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-06-16",
+  "last_updated": "2026-06-18",
   "suggestions": [
     {
-      "title": "The Dark Knight",
-      "year": 2008,
-      "genre": "Action, Crime, Drama",
-      "description": "Batman faces the Joker, a chaotic criminal who threatens to plunge Gotham into anarchy in this landmark superhero film.",
-      "imdb_rating": 9.0,
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
-      "director": "Christopher Nolan"
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "genre": "Drama",
+      "description": "A banker convicted of murdering his wife and her lover engineers a meticulous escape from Shawshank prison over two decades — a timeless story of hope and friendship.",
+      "imdb_rating": 9.3,
+      "poster_url": "https://image.tmdb.org/t/p/w500/78Pb6FMLMfpm1jUOKTniwREYgAN.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=NmzuHjWmXOc",
+      "director": "Frank Darabont"
     },
     {
-      "title": "The Good, the Bad and the Ugly",
-      "year": 1966,
-      "genre": "Western, Adventure",
-      "description": "Three gunslingers compete to find a fortune in buried gold during the American Civil War in Sergio Leone's iconic spaghetti western.",
-      "imdb_rating": 8.8,
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BMWM5ZjQxM2YtNDlmYi00ZDNhLWI4MWUtN2VkYjBlMTY1ZTkwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=IFNUGzCOQoI",
-      "director": "Sergio Leone"
+      "title": "Gladiator",
+      "year": 2000,
+      "genre": "Action, Adventure, Drama",
+      "description": "A betrayed Roman general becomes a gladiator and seeks vengeance against the corrupt emperor who murdered his family in Ridley Scott's epic historical masterpiece.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w500/103TWtxYiPkVWiULjh1mo6x3VjZ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=P5ieIbInFpg",
+      "director": "Ridley Scott"
     },
     {
-      "title": "Spirited Away",
-      "year": 2001,
-      "genre": "Animation, Adventure, Fantasy",
-      "description": "A young girl enters a magical world of spirits and must work in a bathhouse to rescue her transformed parents in Miyazaki's masterpiece.",
-      "imdb_rating": 8.6,
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=ByXuk9QqQkk",
-      "director": "Hayao Miyazaki"
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "genre": "Comedy, Drama, Adventure",
+      "description": "The adventures of a legendary concierge and his protégé at a famous European hotel between the wars in Wes Anderson's visually stunning and hilarious caper.",
+      "imdb_rating": 8.1,
+      "poster_url": "https://image.tmdb.org/t/p/w500/cnYv3px6xOUryhCvasKO40v3fPD.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=xumqeY14vmw",
+      "director": "Wes Anderson"
     }
   ],
   "history": [],
@@ -39,6 +39,9 @@
     "Mad Max: Fury Road",
     "The Dark Knight",
     "The Good, the Bad and the Ugly",
-    "Spirited Away"
+    "Spirited Away",
+    "The Shawshank Redemption",
+    "Gladiator",
+    "The Grand Budapest Hotel"
   ]
 }
