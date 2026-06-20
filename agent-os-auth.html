@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent OS — Google Sign-In</title>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0a0f;
+      color: #e2e2f0;
+      font-family: 'Inter', -apple-system, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .spinner { font-size: 48px; animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+    .status { color: #6060a0; font-size: 14px; }
+    .error { color: #f87171; font-size: 13px; max-width: 400px; text-align: center; line-height: 1.5; }
+    .btn {
+      padding: 12px 24px;
+      border: 1px solid #7c6fcd;
+      background: rgba(124,111,205,0.15);
+      color: #c4b5fd;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-family: inherit;
+      display: none;
+    }
+    .btn:hover { background: rgba(124,111,205,0.25); }
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="spinner" id="spinner">🧠</div>
+  <p class="status" id="status">Initializing Google Sign-In…</p>
+  <button class="btn" id="retryBtn" onclick="startAuth()">Try Again</button>
+  <div class="error hidden" id="errorBox"></div>
+
+  <script>
+    const AGENT_OS_BASE = 'https://aos.bluebell-imc.com';
+    const GOOGLE_CLIENT_ID = '947168928592-ikuna9qelftj2fq7hh9b0opcq9r164m3.apps.googleusercontent.com';
+
+    function showError(msg, showRetry) {
+      document.getElementById('spinner').style.display = 'none';
+      document.getElementById('status').textContent = '❌ ' + (msg || 'Something went wrong');
+      document.getElementById('status').style.color = '#f87171';
+      if (showRetry) document.getElementById('retryBtn').style.display = 'inline-block';
+    }
+
+    // Redirect back to Agent OS with session
+    function redirectToAgentOS(sessionId, email) {
+      window.location.href = AGENT_OS_BASE + '/?session=' + encodeURIComponent(sessionId) + '&email=' + encodeURIComponent(email);
+    }
+
+    // Show error and still offer redirect to agent OS with password
+    function fallbackToPassword() {
+      document.getElementById('spinner').style.display = 'none';
+      document.getElementById('status').innerHTML = '⬅️ <a href="' + AGENT_OS_BASE + '" style="color:#7c6fcd;">Go back to Agent OS</a> and use password login.';
+      document.getElementById('status').style.color = '#6060a0';
+    }
+
+    async function startAuth() {
+      document.getElementById('retryBtn').style.display = 'none';
+      document.getElementById('spinner').style.display = 'block';
+      document.getElementById('status').textContent = 'Opening Google Sign-In…';
+      document.getElementById('status').style.color = '#6060a0';
+
+      // Wait for GIS library
+      function waitForGsi() {
+        return new Promise((resolve) => {
+          function check() {
+            if (typeof google !== 'undefined' && google.accounts) resolve(true);
+            else setTimeout(check, 200);
+          }
+          check();
+        });
+      }
+
+      const loaded = await waitForGsi();
+      if (!loaded) {
+        showError('Google Sign-In library failed to load.', true);
+        return;
+      }
+
+      // Init token client — opens popup
+      const client = google.accounts.oauth2.initTokenClient({
+        client_id: GOOGLE_CLIENT_ID,
+        scope: 'openid email profile',
+        callback: async (response) => {
+          if (response.access_token) {
+            document.getElementById('status').textContent = 'Verifying with Agent OS…';
+            try {
+              const res = await fetch(AGENT_OS_BASE + '/api/auth/google/exchange', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ access_token: response.access_token }),
+              });
+              const data = await res.json();
+              if (data.ok) {
+                document.getElementById('status').textContent = '✅ Signed in! Redirecting…';
+                setTimeout(() => redirectToAgentOS(data.session, data.email), 500);
+              } else {
+                showError(data.error || 'Authorization failed.', false);
+                fallbackToPassword();
+              }
+            } catch (e) {
+              showError('Could not reach Agent OS backend.', false);
+              fallbackToPassword();
+            }
+          } else if (response.error) {
+            showError(response.error, true);
+          }
+        },
+      });
+
+      client.requestAccessToken({ prompt: 'select_account' });
+    }
+
+    // Auto-start after 1 second (give GSI time to load)
+    setTimeout(startAuth, 1000);
+  </script>
+</body>
+</html>
