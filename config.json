@@ -13,8 +13,8 @@
       "password_hash": "TWFqYTIwMjYh"
     }
   ],
-  "kredyt": 3.7,
-  "tokens": 12333333,
+  "kredyt": 3.44,
+  "tokens": 11466666,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
@@ -63,6 +63,14 @@
       "status": "active",
       "description": "Deep research trip planner \u2014 flights, hotels, food, attractions, culture \u2014 with detailed cost breakdowns",
       "display": "trip_planner",
+      "last_updated": "2026-06-20",
+      "notes": ""
+    },
+    {
+      "name": "agent-os",
+      "status": "active",
+      "description": "A new project called agent-os",
+      "display": "placeholder",
       "last_updated": "2026-06-20",
       "notes": ""
     }
