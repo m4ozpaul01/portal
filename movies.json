@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-23",
   "suggestions": [
     {
-      "title": "The Godfather",
-      "year": 1972,
-      "genre": "Crime, Drama",
-      "description": "The aging patriarch of an organized crime dynasty transfers control to his reluctant youngest son — widely considered one of the greatest films ever made.",
-      "imdb_rating": 9.2,
-      "poster_url": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=59dJ3bZKyGo",
-      "director": "Francis Ford Coppola"
+      "title": "Schindler's List",
+      "year": 1993,
+      "genre": "Biography, Drama, War",
+      "description": "During WWII, German businessman Oskar Schindler saves over a thousand Polish Jews from the Holocaust by employing them in his factories — Steven Spielberg's devastating, essential masterpiece.",
+      "imdb_rating": 9.0,
+      "poster_url": "https://image.tmdb.org/t/p/w500/u6oXUTtOuJRPdUgUuPAVVJPSKCo.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=JdRGC-w9syA",
+      "director": "Steven Spielberg"
     },
     {
-      "title": "Interstellar",
-      "year": 2014,
-      "genre": "Sci-Fi, Drama, Adventure",
-      "description": "A team of astronauts travels through a wormhole in search of a new habitable planet for humanity in Christopher Nolan's visually stunning sci-fi epic.",
-      "imdb_rating": 8.7,
-      "poster_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
-      "director": "Christopher Nolan"
+      "title": "Fight Club",
+      "year": 1999,
+      "genre": "Drama, Thriller",
+      "description": "An insomniac office worker and a charismatic soap salesman form an underground fight club that spirals into something much larger — David Fincher's brilliantly twisted psychological masterpiece.",
+      "imdb_rating": 8.8,
+      "poster_url": "https://image.tmdb.org/t/p/w500/jbwYaoYWZwxtPP76AZnfYKQjCEB.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=J9pqOJ9HKXM",
+      "director": "David Fincher"
     },
     {
-      "title": "Pulp Fiction",
+      "title": "The Lion King",
       "year": 1994,
-      "genre": "Crime, Drama",
-      "description": "Interweaving stories of a hitman, his partner, a boxer, and a pair of diner bandits in Los Angeles — Quentin Tarantino's genre-defining masterpiece.",
-      "imdb_rating": 8.9,
-      "poster_url": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
-      "director": "Quentin Tarantino"
+      "genre": "Animation, Adventure, Drama",
+      "description": "A young lion prince flees his kingdom after his father's murder and must find the courage to reclaim his throne in Disney's timeless, beautifully animated coming-of-age epic.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://image.tmdb.org/t/p/w500/83WNOFWyTLrd5fhLpeFs0hFo8Zd.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7Esi1BJq7ng",
+      "director": "Roger Allers, Rob Minkoff"
     }
   ],
   "history": [],
@@ -45,6 +45,9 @@
     "The Grand Budapest Hotel",
     "The Godfather",
     "Interstellar",
-    "Pulp Fiction"
+    "Pulp Fiction",
+    "Schindler's List",
+    "Fight Club",
+    "The Lion King"
   ]
 }
