@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-25",
   "suggestions": [
     {
-      "title": "Schindler's List",
-      "year": 1993,
-      "genre": "Biography, Drama, War",
-      "description": "During WWII, German businessman Oskar Schindler saves over a thousand Polish Jews from the Holocaust by employing them in his factories — Steven Spielberg's devastating, essential masterpiece.",
-      "imdb_rating": 9.0,
-      "poster_url": "https://image.tmdb.org/t/p/w500/u6oXUTtOuJRPdUgUuPAVVJPSKCo.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=JdRGC-w9syA",
-      "director": "Steven Spielberg"
-    },
-    {
-      "title": "Fight Club",
+      "title": "The Matrix",
       "year": 1999,
-      "genre": "Drama, Thriller",
-      "description": "An insomniac office worker and a charismatic soap salesman form an underground fight club that spirals into something much larger — David Fincher's brilliantly twisted psychological masterpiece.",
-      "imdb_rating": 8.8,
-      "poster_url": "https://image.tmdb.org/t/p/w500/jbwYaoYWZwxtPP76AZnfYKQjCEB.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=J9pqOJ9HKXM",
-      "director": "David Fincher"
+      "genre": "Sci-Fi, Action",
+      "description": "A computer hacker discovers reality is a simulated world created by machines to subdue humanity — the Wachowskis' groundbreaking, mind-bending sci-fi masterpiece that redefined action cinema.",
+      "imdb_rating": 8.7,
+      "poster_url": "https://image.tmdb.org/t/p/w500/iVmDLujHcV1zaMnaahKWn4TcCS6.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=vKQi3bBA1y8",
+      "director": "Lana Wachowski, Lilly Wachowski"
     },
     {
-      "title": "The Lion King",
+      "title": "Forrest Gump",
       "year": 1994,
-      "genre": "Animation, Adventure, Drama",
-      "description": "A young lion prince flees his kingdom after his father's murder and must find the courage to reclaim his throne in Disney's timeless, beautifully animated coming-of-age epic.",
-      "imdb_rating": 8.5,
-      "poster_url": "https://image.tmdb.org/t/p/w500/83WNOFWyTLrd5fhLpeFs0hFo8Zd.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=7Esi1BJq7ng",
-      "director": "Roger Allers, Rob Minkoff"
+      "genre": "Drama, Romance",
+      "description": "A kind-hearted man with a low IQ unwittingly influences several defining historical events in 20th-century America — Robert Zemeckis' heartwarming, Oscar-winning classic starring Tom Hanks.",
+      "imdb_rating": 8.8,
+      "poster_url": "https://image.tmdb.org/t/p/w500/zUWRCzac72YuO9k5kEWSe0aGbs7.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=XHhAG-YLdk8",
+      "director": "Robert Zemeckis"
+    },
+    {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "genre": "Animation, Action, Adventure",
+      "description": "Teenager Miles Morales becomes Spider-Man and teams up with Spider-People from across the multiverse to save reality — a visually groundbreaking, Oscar-winning animated triumph.",
+      "imdb_rating": 8.4,
+      "poster_url": "https://image.tmdb.org/t/p/w500/ccuU3jptz6PWwvLrMmTqk8ESaUy.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=g4Hbz2jLxvQ",
+      "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman"
     }
   ],
   "history": [],
@@ -48,6 +48,9 @@
     "Pulp Fiction",
     "Schindler's List",
     "Fight Club",
-    "The Lion King"
+    "The Lion King",
+    "The Matrix",
+    "Forrest Gump",
+    "Spider-Man: Into the Spider-Verse"
   ]
 }
