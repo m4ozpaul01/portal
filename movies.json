@@ -2,34 +2,34 @@
   "last_updated": "2026-06-25",
   "suggestions": [
     {
-      "title": "The Matrix",
-      "year": 1999,
-      "genre": "Sci-Fi, Action",
-      "description": "A computer hacker discovers reality is a simulated world created by machines to subdue humanity — the Wachowskis' groundbreaking, mind-bending sci-fi masterpiece that redefined action cinema.",
-      "imdb_rating": 8.7,
-      "poster_url": "https://image.tmdb.org/t/p/w500/iVmDLujHcV1zaMnaahKWn4TcCS6.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=vKQi3bBA1y8",
-      "director": "Lana Wachowski, Lilly Wachowski"
+      "title": "The Departed",
+      "year": 2006,
+      "genre": "Crime, Drama, Thriller",
+      "description": "An undercover cop and a mole in the police force try to uncover each other's identities within the Boston mob — Scorsese's Oscar-winning crime masterpiece with DiCaprio, Damon, and Nicholson.",
+      "imdb_rating": 8.5,
+      "poster_url": "",
+      "trailer_url": "",
+      "director": "Martin Scorsese"
     },
     {
-      "title": "Forrest Gump",
-      "year": 1994,
-      "genre": "Drama, Romance",
-      "description": "A kind-hearted man with a low IQ unwittingly influences several defining historical events in 20th-century America — Robert Zemeckis' heartwarming, Oscar-winning classic starring Tom Hanks.",
-      "imdb_rating": 8.8,
-      "poster_url": "https://image.tmdb.org/t/p/w500/zUWRCzac72YuO9k5kEWSe0aGbs7.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=XHhAG-YLdk8",
-      "director": "Robert Zemeckis"
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "genre": "Crime, Drama, Thriller",
+      "description": "An FBI trainee seeks the insight of imprisoned cannibalistic serial killer Dr. Hannibal Lecter to catch another killer — a chilling, Oscar-sweeping psychological thriller.",
+      "imdb_rating": 8.6,
+      "poster_url": "",
+      "trailer_url": "",
+      "director": "Jonathan Demme"
     },
     {
-      "title": "Spider-Man: Into the Spider-Verse",
-      "year": 2018,
-      "genre": "Animation, Action, Adventure",
-      "description": "Teenager Miles Morales becomes Spider-Man and teams up with Spider-People from across the multiverse to save reality — a visually groundbreaking, Oscar-winning animated triumph.",
-      "imdb_rating": 8.4,
-      "poster_url": "https://image.tmdb.org/t/p/w500/ccuU3jptz6PWwvLrMmTqk8ESaUy.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=g4Hbz2jLxvQ",
-      "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman"
+      "title": "City of God",
+      "year": 2002,
+      "genre": "Crime, Drama",
+      "description": "Two boys growing up in a violent Rio de Janeiro favela take different paths — one becomes a photographer, the other a drug dealer — in this breathtaking, kinetic Brazilian masterpiece.",
+      "imdb_rating": 8.6,
+      "poster_url": "",
+      "trailer_url": "",
+      "director": "Fernando Meirelles, Kátia Lund"
     }
   ],
   "history": [],
