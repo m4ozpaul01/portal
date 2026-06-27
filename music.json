@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-06-27",
   "todays_pick": {
-    "title": "Sultans of Swing",
-    "artist": "Dire Straits",
-    "genre": "Rock",
-    "album": "Dire Straits",
-    "year": 1978,
+    "title": "Knockin' on Heaven's Door",
+    "artist": "Bob Dylan",
+    "genre": "Folk Rock",
+    "album": "Pat Garrett & Billy the Kid",
+    "year": 1973,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-06-26",
-    "why": "A Rock track to start your day!"
+    "picked_date": "2026-06-27",
+    "why": "A Folk Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -445,6 +445,7 @@
   "ratings": {},
   "picked_titles": [
     "Sultans of Swing",
-    "Learn to Fly"
+    "Learn to Fly",
+    "Knockin' on Heaven's Door"
   ]
 }
