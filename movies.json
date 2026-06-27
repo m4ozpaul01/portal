@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-06-25",
+  "last_updated": "2026-06-27",
   "suggestions": [
     {
-      "title": "The Departed",
-      "year": 2006,
-      "genre": "Crime, Drama, Thriller",
-      "description": "An undercover cop and a mole in the police force try to uncover each other's identities within the Boston mob — Scorsese's Oscar-winning crime masterpiece with DiCaprio, Damon, and Nicholson.",
+      "title": "Whiplash",
+      "year": 2014,
+      "genre": "Drama, Musical",
+      "description": "A promising young drummer is driven to his breaking point by an abusive, perfectionist jazz instructor in this intense, Oscar-winning drama.",
       "imdb_rating": 8.5,
-      "poster_url": "",
-      "trailer_url": "",
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7d_jQycdQGo",
+      "director": "Damien Chazelle"
+    },
+    {
+      "title": "Goodfellas",
+      "year": 1990,
+      "genre": "Crime, Drama, Biography",
+      "description": "The rise and fall of a mob associate who becomes deeply enmeshed in New York's organized crime underworld — Scorsese's masterpiece of the gangster genre.",
+      "imdb_rating": 8.7,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=2ilzidi_J8Q",
       "director": "Martin Scorsese"
     },
     {
-      "title": "The Silence of the Lambs",
-      "year": 1991,
-      "genre": "Crime, Drama, Thriller",
-      "description": "An FBI trainee seeks the insight of imprisoned cannibalistic serial killer Dr. Hannibal Lecter to catch another killer — a chilling, Oscar-sweeping psychological thriller.",
-      "imdb_rating": 8.6,
-      "poster_url": "",
-      "trailer_url": "",
-      "director": "Jonathan Demme"
-    },
-    {
-      "title": "City of God",
-      "year": 2002,
-      "genre": "Crime, Drama",
-      "description": "Two boys growing up in a violent Rio de Janeiro favela take different paths — one becomes a photographer, the other a drug dealer — in this breathtaking, kinetic Brazilian masterpiece.",
-      "imdb_rating": 8.6,
-      "poster_url": "",
-      "trailer_url": "",
-      "director": "Fernando Meirelles, Kátia Lund"
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "genre": "Action, Adventure",
+      "description": "Archaeologist Indiana Jones races Nazis to find the biblical Ark of the Covenant before it falls into their hands — the ultimate adventure classic from Spielberg.",
+      "imdb_rating": 8.4,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Raiders_of_the_Lost_Ark.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Rh_BJXG1-44",
+      "director": "Steven Spielberg"
     }
   ],
   "history": [],
@@ -51,6 +51,12 @@
     "The Lion King",
     "The Matrix",
     "Forrest Gump",
-    "Spider-Man: Into the Spider-Verse"
+    "Spider-Man: Into the Spider-Verse",
+    "The Departed",
+    "The Silence of the Lambs",
+    "City of God",
+    "Whiplash",
+    "Goodfellas",
+    "Raiders of the Lost Ark"
   ]
 }
