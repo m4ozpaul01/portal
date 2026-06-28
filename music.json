@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-06-27",
+  "last_updated": "2026-06-28",
   "todays_pick": {
-    "title": "Knockin' on Heaven's Door",
-    "artist": "Bob Dylan",
-    "genre": "Folk Rock",
-    "album": "Pat Garrett & Billy the Kid",
-    "year": 1973,
+    "title": "November Rain",
+    "artist": "Guns N' Roses",
+    "genre": "Hard Rock",
+    "album": "Use Your Illusion I",
+    "year": 1991,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-06-27",
-    "why": "A Folk Rock track to start your day!"
+    "picked_date": "2026-06-28",
+    "why": "A Hard Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -446,6 +446,7 @@
   "picked_titles": [
     "Sultans of Swing",
     "Learn to Fly",
-    "Knockin' on Heaven's Door"
+    "Knockin' on Heaven's Door",
+    "November Rain"
   ]
 }

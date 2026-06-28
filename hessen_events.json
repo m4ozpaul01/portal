@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-21",
-  "research_date": "2026-06-21",
+  "last_updated": "2026-06-28",
+  "research_date": "2026-06-28",
   "center": {
     "city": "Frankfurt am Main",
     "latitude": 50.1109,
@@ -683,6 +683,36 @@
       "distance_from_frankfurt_km": 31.5
     },
     {
+      "title": "Gregor Meyle & Sophia - Doppelkonzert",
+      "date": "2026-06-28",
+      "time": "20:00",
+      "description": "Im Rahmen des Schlosshof Open Air Butzbach treten Gregor Meyle und SOPHIA gemeinsam am 28. Juni 2026 im historischen Schlosshof von Butzbach auf. Die beiden deutschen Pop-Künstler verbinden ihre Musikstile für einen unvergesslichen Sommerabend. Die einzigartige Atmosphäre des Schlosshofs mit historischer Kulisse bildet den perfekten Rahmen. Das Doppelkonzert wird von HIT RADIO FFH präsentiert.",
+      "cost_per_person": "Ab 49,90 €",
+      "location": "Schlosshof Butzbach, Schlossplatz, 35510 Butzbach",
+      "category": "Music & Opera",
+      "city": "Butzbach",
+      "latitude": 50.4367,
+      "longitude": 8.6708,
+      "website": "https://butzbach-openair.de/acts/gregor-meyle-sophia/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Schlosshof+Butzbach,+Schlossplatz,+35510+Butzbach",
+      "distance_from_frankfurt_km": 36.2
+    },
+    {
+      "title": "hr-Sinfonieorchester: Karneval der Tiere",
+      "date": "2026-06-28",
+      "time": "15:00",
+      "description": "Im Rahmen der 75. Bad Hersfelder Festspiele gastiert das hr-Sinfonieorchester Frankfurt unter der Leitung von Chefdirigent Alain Altinoglu in der eindrucksvollen Stiftsruine. Auf dem Programm steht Saint-Saens' 'Karneval der Tiere', ein heiteres Werk, das sich perfekt als Familienkonzert eignet. Nach langer Pause kehrt das Orchester damit zu den Festspielen zurück und lädt Jung und Alt zu einem unterhaltsamen Nachmittag ein. Der Kartenvorverkauf begann am 3. November 2025.",
+      "cost_per_person": "35,00 € / 45,00 €",
+      "location": "Stiftsruine Bad Hersfeld, Am Markt 1, 36251 Bad Hersfeld",
+      "category": "Music & Opera",
+      "city": "Bad Hersfeld",
+      "latitude": 50.8708,
+      "longitude": 9.708,
+      "website": "https://www.hr-sinfonieorchester.de/konzerte/konzerte-25-26/bad-hersfelder-festspiele,konzerte-in-hessen-bad-hersfeld-100.html",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Stiftsruine+Bad+Hersfeld,+Am+Markt+1,+36251+Bad+Hersfeld",
+      "distance_from_frankfurt_km": 111.4
+    },
+    {
       "title": "Opernplatz Sommerfest — Frankfurt",
       "date": "2026-07-01",
       "time": "18:00 - 23:00",
@@ -696,6 +726,21 @@
       "website": "https://www.frankfurt-tourismus.de/veranstaltungen",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Opernplatz+60313+Frankfurt+am+Main",
       "distance_from_frankfurt_km": 0.8
+    },
+    {
+      "title": "St. Bardo-Treff",
+      "date": "2026-07-01",
+      "time": "14:30",
+      "description": "Am 1. Juli 2026 laedt die katholische Pfarrgruppe Karben zum St. Bardo-Treff ins Gemeindehaus in Petterweil ein. Ab 14:30 Uhr sind alle zu einem gemuetlichen Nachmittag mit Kaffee und Kuchen willkommen. Der St. Bardo-Treff ist ein regelmässiges Angebot der Kirchengemeinde zur Begegnung und zum Austausch. Die Veranstaltung ist kostenfrei und steht allen offen.",
+      "cost_per_person": "Kostenfrei",
+      "location": "Kath. Gemeindehaus St. Bardo, Vilbeler Str. 14, 61184 Karben-Petterweil",
+      "category": "Festival & Culture",
+      "city": "Karben",
+      "latitude": 50.2297,
+      "longitude": 8.7694,
+      "website": "https://www.karben.de/portal/seiten/veranstaltungskalender-900000289-24930.html",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Kath.+Gemeindehaus+St.+Bardo,+Vilbeler+Str.+14,+61184+Karben-Petterweil",
+      "distance_from_frankfurt_km": 14.6
     },
     {
       "title": "Bad Vilbel Open Air — Sommerklassiker im Freiluftkino",
@@ -773,6 +818,36 @@
       "distance_from_frankfurt_km": 6.1
     },
     {
+      "title": "Mädelsabend - Wild, Wild West!",
+      "date": "2026-07-03",
+      "time": "19:00",
+      "description": "Die Andreas GmbH in Dietzenbach veranstaltet am 3. Juli 2026 einen besonderen Mädelsabend unter dem Motto 'Wild, Wild West!' für Frauen. Der Abend bietet Musik, Drinks, kulinarische Spezialitäten und Einkaufsmöglichkeiten im Wild-West-Style. Die Location ist bekannt für ihr ausgefallenes Dekorationssortiment. Karten sind im Vorverkauf bei Eventbrite erhältlich.",
+      "cost_per_person": "Ab 37,30 €",
+      "location": "Andreas GmbH, Marie-Curie-Straße 4, 63128 Dietzenbach",
+      "category": "Nightlife & Social",
+      "city": "Dietzenbach",
+      "latitude": 50.0138,
+      "longitude": 8.7832,
+      "website": "https://www.eventbrite.de/o/andreas-gmbh-15636051520",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Andreas+GmbH,+Marie-Curie-Straße+4,+63128+Dietzenbach",
+      "distance_from_frankfurt_km": 13.0
+    },
+    {
+      "title": "Hugenottenmarkt 2026",
+      "date": "2026-07-03",
+      "time": "11:00",
+      "description": "Der traditionelle Hugenottenmarkt findet vom 3. bis 5. Juli 2026 im Zentrum Friedrichsdorfs statt. Das Strassenfest bietet ein Bühnenprogramm auf zwei Bühnen mit Live-Musik, eine Kunsthandwerksmeile sowie vielfältige Speisen und Getränke. Rund 60 Stände präsentieren ihr Angebot. Der Eintritt zu diesem von HUGO e.V. organisierten Fest ist kostenfrei.",
+      "cost_per_person": "Kostenfrei",
+      "location": "Innenstadt Friedrichsdorf, Landgrafenplatz bis Rathausplatz, 61381 Friedrichsdorf",
+      "category": "Festival & Culture",
+      "city": "Friedrichsdorf",
+      "latitude": 50.2547,
+      "longitude": 8.6467,
+      "website": "https://www.friedrichsdorf.de/freizeit-und-kultur/veranstaltungen/veranstaltungssuche/details/hugenottenmarkt",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Innenstadt+Friedrichsdorf,+Landgrafenplatz+bis+Rathausplatz,+61381+Friedrichsdorf",
+      "distance_from_frankfurt_km": 16.2
+    },
+    {
       "title": "Friedrichsdorf Sommerfest — Philipp-Reis-Park",
       "date": "2026-07-03",
       "time": "15:00 - 22:00",
@@ -786,6 +861,21 @@
       "website": "https://www.friedrichsdorf.de/veranstaltungen/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Philipp-Reis-Park+61381+Friedrichsdorf",
       "distance_from_frankfurt_km": 16.6
+    },
+    {
+      "title": "Königsteiner Event Sommer 2026 – Open-Air-Kultur",
+      "date": "2026-07-03",
+      "time": "18:00 - 22:00",
+      "description": "Der Königsteiner Event Sommer 2026 eröffnet die Sommersaison mit einem abwechslungsreichen Open-Air-Programm in der idyllischen Hubert-Faßbender-Anlage. Besucher erwartet ein Mix aus Live-Musik, Kleinkunst und sommerlicher Atmosphäre bei freiem Eintritt. Die Konzertreihe bietet für jeden Geschmack etwas – von Jazz und Rock über Pop bis hin zu Familienprogrammen. Eine Weinbar und Sitzgelegenheiten unter freiem Himmel laden zum entspannten Verweilen ein. Das vollständige Programm liegt in der Kur- und Stadtinformation aus und ist online abrufbar.",
+      "cost_per_person": "Free",
+      "location": "Hubert-Faßbender-Anlage, 61462 Königstein im Taunus",
+      "category": "Music & Opera",
+      "city": "Königstein im Taunus",
+      "latitude": 50.1838,
+      "longitude": 8.474,
+      "website": "https://www.taunus-nachrichten.de/koenigstein/nachrichten/koenigstein/koenigsteiner-event-sommer-2026-kulturgenuss-freiem-himmel-id228367.html",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hubert-Faßbender-Anlage,+61462+Königstein+im+Taunus",
+      "distance_from_frankfurt_km": 16.9
     },
     {
       "title": "SKELPT — Fiery Scots Folk, Rheingau Musik Festival",
@@ -938,6 +1028,21 @@
       "distance_from_frankfurt_km": 14.2
     },
     {
+      "title": "Kronberger Sommer 2026 – StadtStrand am Berliner Platz",
+      "date": "2026-07-04",
+      "time": "11:00 - 22:00",
+      "description": "Sonne, Sand und Sommerfeeling mitten in Kronberg! Vom 27. Juni bis 2. August verwandelt sich der Berliner Platz in eine urbane Strand-Oase mit dem beliebten StadtStrand, gemütlichen Sommerliegen, einer Boulebahn und einem abwechslungsreichen Programm. Besucher können hier bei erfrischenden Getränken und Snacks entspannen, während Live-Musik und kulturelle Darbietungen für Unterhaltung sorgen. Der Eintritt ist frei, und die Strandatmosphäre lädt zum Verweilen und Genießen ein. Präsentiert vom Stadtmarketing Kronberg in Zusammenarbeit mit lokalen Partnern, ist dies der perfekte Ort für einen sommerlichen Tag mit Familie und Freunden.",
+      "cost_per_person": "Free",
+      "location": "Berliner Platz 3-5, 61476 Kronberg im Taunus",
+      "category": "Seasonal & Markets",
+      "city": "Kronberg im Taunus",
+      "latitude": 50.179,
+      "longitude": 8.5114,
+      "website": "https://www.kronberg.de/de/kalender/veranstaltungen/2026-07-05-kronberger-sommer-2026-stadtstrand-berliner-platz/265576:0",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Berliner+Platz+3-5,+61476+Kronberg+im+Taunus",
+      "distance_from_frankfurt_km": 14.3
+    },
+    {
       "title": "Karben Sommerfest — Bürgerpark Klein-Karben",
       "date": "2026-07-04",
       "time": "14:00 - 22:00",
@@ -968,6 +1073,51 @@
       "distance_from_frankfurt_km": 16.8
     },
     {
+      "title": "Historische Stadtführung durch Grünberg",
+      "date": "2026-07-04",
+      "time": "11:00",
+      "description": "Stadtführer Werner Faust nimmt Besucher mit auf eine Reise in die Geschichte der Stadt Grünberg mit ihren Klosteranlagen und Fachwerkhäusern. Der Rundgang durch die historische Altstadt zeigt, wie Grünberg im Mittelalter aussah. Die Führung startet am Marktplatz und dauert etwa 90 Minuten. Grünberg blickt auf eine über 800-jährige Geschichte zurueck.",
+      "cost_per_person": "8,00 €",
+      "location": "Marktplatz Grünberg, 35305 Grünberg",
+      "category": "Family & Education",
+      "city": "Grünberg",
+      "latitude": 50.5922,
+      "longitude": 8.9603,
+      "website": "https://www.vogelsberg-touristik.de/detail/id=67c80b7a467a394344ff1c12",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz+Grünberg,+35305+Grünberg",
+      "distance_from_frankfurt_km": 57.0
+    },
+    {
+      "title": "Offene Altstadtführung inkl. Rathausbesichtigung",
+      "date": "2026-07-04",
+      "time": "11:00",
+      "description": "Jeden Samstag um 11:00 Uhr bietet das Tourist Center Alsfeld eine offene Altstadtführung mit Rathausbesichtigung an. Die Gäste erfahren Wissenswertes und Überraschendes über die Geschichte der Stadt Alsfeld, ihrer prachtvollen Fachwerkhäuser und historischen Plätze. Vom weltbekannten Rathaus über die Walpurgiskirche bis zu den vielen kleinen schmucken Gassen führt der Rundgang. Die Führung dauert etwa 90 Minuten und kostet 7 Euro pro Person. Von Mai bis Oktober gibt es zusätzlich sonntags um 14:00 Uhr eine weitere offene Altstadtführung.",
+      "cost_per_person": "7,00 €",
+      "location": "Tourist Center Alsfeld, Rittergasse 3, 36304 Alsfeld",
+      "category": "Family & Education",
+      "city": "Alsfeld",
+      "latitude": 50.7517,
+      "longitude": 9.2711,
+      "website": "https://www.alsfeld.de/veranstaltung/offene-altstadtfuehrung-inkl-rathausbesichtigung-232/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Tourist+Center+Alsfeld,+Rittergasse+3,+36304+Alsfeld",
+      "distance_from_frankfurt_km": 82.6
+    },
+    {
+      "title": "Sistergold - LuftMaschen (Burgfestspiele)",
+      "date": "2026-07-05",
+      "time": "11:00",
+      "description": "Die preisgekrönte A-cappella-Gruppe Sistergold gastiert am 5. Juli 2026 bei den Burgfestspielen Dreieichenhain im idyllischen Burggarten der Burg Hayn. Die fuenf Saengerinnen begeistern mit virtuosem Gesang, humorvollen Texten und mitreissender Buehnenpraesenz. Die Burgfestspiele bieten vom 24. Juni bis 9. August 2026 ein facettenreiches Programm. Die historische Open-Air-Kulisse des Burggartens schafft eine besondere Atmosphaere.",
+      "cost_per_person": "Ab 25,00 €",
+      "location": "Burggarten Dreieichenhain, Burg Hayn, 63303 Dreieich",
+      "category": "Music & Opera",
+      "city": "Dreieich",
+      "latitude": 50.0053,
+      "longitude": 8.7158,
+      "website": "https://www.eventim.de/event/sistergold-luftmaschen-burggarten-dreieichenhain-21031722/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Burggarten+Dreieichenhain,+Burg+Hayn,+63303+Dreieich",
+      "distance_from_frankfurt_km": 12.0
+    },
+    {
       "title": "Usingen Altstadtflohmarkt",
       "date": "2026-07-05",
       "time": "08:00 - 16:00",
@@ -981,6 +1131,36 @@
       "website": "https://www.usingen.de/veranstaltungen/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Altstadt+61250+Usingen",
       "distance_from_frankfurt_km": 26.9
+    },
+    {
+      "title": "Schloss Sickendorf Antik- & Spezialmarkt",
+      "date": "2026-07-05",
+      "time": "09:00 - 16:30",
+      "description": "Der beliebte Antik- & Spezialmarkt auf Schloss Sickendorf verwandelt den malerischen Schlosspark in ein Paradies für Schatzsucher und Liebhaber ausgefallener Raritäten. Rund 50 Händler bieten Antiquitäten, Vintage-Möbel, Sammlerstücke, Kunsthandwerk und kulinarische Spezialitäten aus der Region an. Das historische Schlossensemble mit seinem weitläufigen Park schafft eine besondere Atmosphäre für einen entspannten Sonntagsausflug. Parkplätze stehen kostenfrei zur Verfügung, und für das leibliche Wohl ist mit regionalen Köstlichkeiten gesorgt. Der Markt findet mehrmals jährlich statt und lockt Besucher aus ganz Hessen an.",
+      "cost_per_person": "€4.00",
+      "location": "Hofstraße 14, 36341 Lauterbach-Sickendorf",
+      "category": "Markets & Shopping",
+      "city": "Lauterbach (Hessen)",
+      "latitude": 50.632,
+      "longitude": 9.418,
+      "website": "https://www.marktcom.de/veranstaltung/schloss-sickendorf-antik-spezialmarkt-in-36341-lauterbach-hessen-sickendorf",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hofstraße+14,+36341+Lauterbach-Sickendorf",
+      "distance_from_frankfurt_km": 78.0
+    },
+    {
+      "title": "Rodgauer Weinfest auf dem Puiseauxplatz",
+      "date": "2026-07-08",
+      "time": "17:00 - 23:00",
+      "description": "Das Rodgauer Weinfest verwandelt den Puiseauxplatz in Nieder-Roden in eine festliche Oase für Weinliebhaber und Genießer. Vom 8. bis 20. Juli 2026 laden Winzer aus Rheinhessen und der Region täglich ab 17 Uhr zur Verkostung erlesener Weine und Sekte ein. Begleitend sorgt ein abwechslungsreiches Unterhaltungsprogramm mit Livemusik für eine ausgelassene Stimmung. Die Besucher können an gemütlichen Stehtischen verweilen und neben den Weinspezialitäten auch kulinarische Köstlichkeiten genießen. Der Puiseauxplatz im Herzen Nieder-Rodens bietet mit seinem Brunnen und den umliegenden Fachwerkhäusern eine charmante Kulisse für dieses sommerliche Genuss-Event.",
+      "cost_per_person": "Free entry",
+      "location": "Puiseauxplatz 3, 63110 Rodgau",
+      "category": "Food & Drink",
+      "city": "Rodgau",
+      "latitude": 50.0,
+      "longitude": 8.882,
+      "website": "https://rodgau-igemo.de/kalender-nieder-roden/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Puiseauxplatz+3,+63110+Rodgau",
+      "distance_from_frankfurt_km": 18.9
     },
     {
       "title": "Jazz im Palmengarten — Open Air Jazz Concert",
@@ -1011,6 +1191,21 @@
       "website": "https://www.eventim.de/event/till-broenner-trio-sommerreihe-2026-trinkkuranlage-bad-nauheim-21619470/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Trinkkuranlage+61231+Bad+Nauheim",
       "distance_from_frankfurt_km": 28.5
+    },
+    {
+      "title": "OPEN DOORS Festival 2026 – 34. Musikspektakel",
+      "date": "2026-07-10",
+      "time": "18:00 - 01:00",
+      "description": "Das OPEN DOORS Festival verwandelt Neu-Isenburg drei Tage lang in eine große Festival-Kommune mit über 50 Bands auf drei Bühnen. Vom 10. bis 12. Juli 2026 präsentiert das 34. Musikspektakel eine bunte Mischung aus Rock, Pop, Jazz und Independent-Musik auf der Frankfurter Straße und in angrenzenden Locations. Der Eintritt zu allen Konzerten ist frei – ein einzigartiges Konzept, das Musikliebhaber aus der gesamten Rhein-Main-Region anzieht. Neben den musikalischen Highlights sorgen gastronomische Stände und eine ausgelassene Festival-Atmosphäre für unvergessliche Sommerabende. Das Festival ist eines der größten kostenlosen Musikereignisse in Hessen.",
+      "cost_per_person": "Free",
+      "location": "Frankfurter Straße 152, 63263 Neu-Isenburg",
+      "category": "Music & Opera",
+      "city": "Neu-Isenburg",
+      "latitude": 50.052,
+      "longitude": 8.692,
+      "website": "https://opendoorsfestival.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Frankfurter+Straße+152,+63263+Neu-Isenburg",
+      "distance_from_frankfurt_km": 6.6
     },
     {
       "title": "Bad Homburger Sommer — Open Air Kulturfestival (40. Auflage)",
@@ -1133,6 +1328,36 @@
       "distance_from_frankfurt_km": 2.2
     },
     {
+      "title": "En Vogue - An Evening with En Vogue",
+      "date": "2026-07-11",
+      "time": "20:00",
+      "description": "En Vogue, eine der erfolgreichsten Female-Vocal-Groups der Musikgeschichte, gastiert am 11. Juli 2026 in der VILCO Stadthalle Bad Vilbel. Die Gruppe feierte mit Hits wie 'Hold On' und 'Free Your Mind' weltweit Erfolge. Das Konzert verspricht einen Abend voller Soul, R&B und Pop-Klassiker. Der Auftritt ist Teil ihrer 'An Evening with En Vogue'-Tour 2026.",
+      "cost_per_person": "Ab 68,30 €",
+      "location": "VILCO Stadthalle Bad Vilbel, Niddaplatz 1, 61118 Bad Vilbel",
+      "category": "Music & Opera",
+      "city": "Bad Vilbel",
+      "latitude": 50.1865,
+      "longitude": 8.7361,
+      "website": "https://www.eventim.de/event/en-vogue-an-evening-with-en-vogue-vilco-die-stadthalle-bad-vilbel-21559557/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=VILCO+Stadthalle+Bad+Vilbel,+Niddaplatz+1,+61118+Bad+Vilbel",
+      "distance_from_frankfurt_km": 9.2
+    },
+    {
+      "title": "Handkäs-Cup 2026 – Segelregatta auf dem Langener Waldsee",
+      "date": "2026-07-11",
+      "time": "10:00 - 17:00",
+      "description": "Der Handkäs-Cup ist eine traditionelle Segelregatta für die Bootsklasse 470er, die vom Wassersportverein Langen (WSVL) auf dem Langener Waldsee ausgerichtet wird. Segler aus der gesamten Region treten an diesem sportlichen Wochenende gegeneinander an und kämpfen um den begehrten Handkäs-Pokal. Der Langener Waldsee, mit 89 Hektar der größte Badesee im Rhein-Main-Gebiet, bietet eine malerische Kulisse für dieses spannende Sportereignis. Zuschauer können die Regatta vom Ufer aus verfolgen und die maritime Atmosphäre genießen. Die Teilnahme ist für registrierte Segler kostenpflichtig, der Eintritt für Zuschauer ist frei.",
+      "cost_per_person": "Free (spectators)",
+      "location": "Wassersportverein Langen, Langener Waldsee, 63225 Langen (Hessen)",
+      "category": "Sports",
+      "city": "Langen (Hessen)",
+      "latitude": 49.981,
+      "longitude": 8.683,
+      "website": "https://www.wsvlangen.de/?tribe_events=handkaes-cup-2026",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Wassersportverein+Langen,+Langener+Waldsee,+63225+Langen+(Hessen)",
+      "distance_from_frankfurt_km": 14.4
+    },
+    {
       "title": "Kultur im Sommer 2026 — Rüsselsheim",
       "date": "2026-07-11",
       "time": "18:00 - 22:00",
@@ -1163,6 +1388,21 @@
       "distance_from_frankfurt_km": 25.7
     },
     {
+      "title": "SommerFieber Open Air 2026 – Festival im Schlossgarten",
+      "date": "2026-07-11",
+      "time": "16:00 - 23:00",
+      "description": "Das SommerFieber Open Air 2026 verwandelt die Open-Air-Arena im Schlossgarten Usingen in eine bunte Festival-Location mit Live-Acts, guter Musik und ausgelassener Sommerstimmung. Das Line-up umfasst Buffalo & Wallace, Hyperboat Music, DJ Rudi und Caro Marija, die für einen unvergesslichen Sommertag sorgen. Einlass ist ab 16:00 Uhr, das Programm beginnt um 17:00 Uhr. Tickets sind im Vorverkauf für 12 Euro erhältlich. Der historische Schlossgarten bietet mit seinen alten Bäumen und der malerischen Kulisse des Usinger Schlosses eine traumhafte Atmosphäre für dieses Open-Air-Event. Für Verpflegung mit kühlen Getränken und Snacks ist gesorgt.",
+      "cost_per_person": "€12.00",
+      "location": "Schlossgarten, Schloßplatz 1, 61250 Usingen",
+      "category": "Music & Opera",
+      "city": "Usingen",
+      "latitude": 50.335,
+      "longitude": 8.537,
+      "website": "https://www.fieberevents.de/sf2304",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Schlossgarten,+Schloßplatz+1,+61250+Usingen",
+      "distance_from_frankfurt_km": 27.0
+    },
+    {
       "title": "Hessenbühne Open Air: Michael Schulte & Zoe Wees",
       "date": "2026-07-11",
       "time": "19:00 - 23:00",
@@ -1178,6 +1418,21 @@
       "distance_from_frankfurt_km": 31.9
     },
     {
+      "title": "Spass mit Brass – Wetzlarer Festspiele 2026",
+      "date": "2026-07-11",
+      "time": "20:30 - 22:30",
+      "description": "Im Rahmen der 73. Wetzlarer Festspiele präsentiert 'Spass mit Brass' ein mitreißendes Open-Air-Konzert im Rosengärtchen, einer malerischen Parkanlage in der Wetzlarer Altstadt. Blasmusik vom Feinsten, gepaart mit Humor und Unterhaltung, garantiert einen heiteren Sommerabend unter freiem Himmel. Die Wetzlarer Festspiele bieten von Juni bis August ein vielfältiges Programm mit Theater, Musik und Kabarett an verschiedenen Spielorten in der Stadt. Das Rosengärtchen in der Wöllbachertorstraße ist einer der stimmungsvollsten Spielorte mit seinem historischen Ambiente. Tickets sind bei Eventim und an den Vorverkaufsstellen erhältlich.",
+      "cost_per_person": "€24.60",
+      "location": "Rosengärtchen, Wöllbachertorstraße, 35578 Wetzlar",
+      "category": "Music & Opera",
+      "city": "Wetzlar",
+      "latitude": 50.555,
+      "longitude": 8.503,
+      "website": "https://wetzlarer-festspiele.de/veranstaltungen/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Rosengärtchen,+Wöllbachertorstraße,+35578+Wetzlar",
+      "distance_from_frankfurt_km": 51.0
+    },
+    {
       "title": "Grünberg Sommerfest am Marktplatz",
       "date": "2026-07-11",
       "time": "14:00 - 22:00",
@@ -1191,6 +1446,21 @@
       "website": "https://www.gruenberg.de/veranstaltungen/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz+35305+Gruenberg",
       "distance_from_frankfurt_km": 57.3
+    },
+    {
+      "title": "Schlitz feiert – Stadtfest mit Miss-Slitisa-Wahl",
+      "date": "2026-07-11",
+      "time": "11:00 - 23:00",
+      "description": "Unter dem Motto 'Schlitz feiert' knüpft die Burgenstadt an die Tradition der trachtenfestfreien Jahre an und lädt am 11. und 12. Juli 2026 zum großen Stadtfest ein. Auf dem historischen Marktplatz mit seinem Kopfsteinpflaster und dem Fachwerkensemble erwartet die Besucher ein abwechslungsreiches Programm mit Livemusik, Tanz und kulinarischen Genüssen. Ein besonderer Höhepunkt ist die Wahl der ersten Miss Slitisa, die am Samstagabend gekürt wird. Das Fest bietet eine wunderbare Gelegenheit, die gastfreundliche Atmosphäre der Burgenstadt mit ihren fünf Schlössern zu erleben. Der Eintritt zum Stadtfest ist frei.",
+      "cost_per_person": "Free",
+      "location": "Marktplatz, 36110 Schlitz",
+      "category": "Festival & Culture",
+      "city": "Schlitz",
+      "latitude": 50.674,
+      "longitude": 9.561,
+      "website": "https://www.schlitz.de/nachrichten-startseite/2026/juni/schlitz-feiert-stadt-knuepft-an-tradition-trachtenfestfreier-jahre-an/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Marktplatz,+36110+Schlitz",
+      "distance_from_frankfurt_km": 88.3
     },
     {
       "title": "Schlitz Burgfest — Mittelalterfest auf der Vorderburg",
@@ -1238,6 +1508,21 @@
       "distance_from_frankfurt_km": 144.4
     },
     {
+      "title": "58. Kesperkirmes – Kirschenfest in der Altstadt",
+      "date": "2026-07-11",
+      "time": "10:00 - 23:00",
+      "description": "Die traditionsreiche Kesperkirmes (Kirschenfest) feiert 2026 ihre 58. Auflage in der historischen Altstadt von Witzenhausen. Drei Tage lang dreht sich alles um die Kirsche – ein Höhepunkt ist die Deutsche Meisterschaft im Kirschsteinspucken, die jedes Jahr zahlreiche Schaulustige anzieht. Besondere Attraktion ist der sonntägliche verkaufsoffene Sonntag, bei dem die Geschäfte in der Altstadt zum Bummeln einladen. Live-Musik, kulinarische Stände und ein buntes Rahmenprogramm für die ganze Familie machen die Kesperkirmes zu einem der schönsten Sommerfeste Nordhessens. Der Eintritt zum Fest ist frei.",
+      "cost_per_person": "Free",
+      "location": "Altstadt, 37213 Witzenhausen",
+      "category": "Seasonal & Markets",
+      "city": "Witzenhausen",
+      "latitude": 51.34,
+      "longitude": 9.855,
+      "website": "https://kirschenland.de/die-kesperkirmes/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Altstadt,+37213+Witzenhausen",
+      "distance_from_frankfurt_km": 159.7
+    },
+    {
       "title": "Hinter dem Spiegel — Marta Hoepffner-Preis für Fotografie",
       "date": "2026-07-12",
       "time": "11:00 - 17:00",
@@ -1281,6 +1566,21 @@
       "website": "https://www.kassel.de/kultur/veranstaltungen/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Karlsaue+Park+34117+Kassel",
       "distance_from_frankfurt_km": 145.0
+    },
+    {
+      "title": "Sommerferien-Workshop: Kreatives Gestalten für Kinder",
+      "date": "2026-07-13",
+      "time": "10:00 - 15:00",
+      "description": "Im Familienzentrum Mörfelden startet in den Sommerferien 2026 ein spannender Kreativ-Workshop für Kinder zwischen 6 und 13 Jahren. Die jungen Teilnehmer tauchen spielerisch in die Welt des Malens und freien Gestaltens ein und lernen dabei vielfältige künstlerische Techniken kennen. Unter fachkundiger Anleitung können sie ihrer Fantasie freien Lauf lassen und eigene Kunstwerke erschaffen. Alle Materialien werden gestellt, und die Kinder können ihre Werke am Ende mit nach Hause nehmen. Eine Anmeldung ist erforderlich, da die Teilnehmerzahl begrenzt ist. Der Workshop fördert Kreativität, Feinmotorik und Selbstvertrauen in einer entspannten Ferienatmosphäre.",
+      "cost_per_person": "€10.00",
+      "location": "Familienzentrum Mörfelden, Langener Straße 1, 64546 Mörfelden-Walldorf",
+      "category": "Family & Education",
+      "city": "Mörfelden-Walldorf",
+      "latitude": 49.973,
+      "longitude": 8.583,
+      "website": "https://www.moerfelden-walldorf.de/de/aktuelles/veranstaltungskalender/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Familienzentrum+Mörfelden,+Langener+Straße+1,+64546+Mörfelden-Walldorf",
+      "distance_from_frankfurt_km": 16.9
     },
     {
       "title": "Tom Jones — Come Gather Round 2026 Tour Frankfurt",
@@ -1343,6 +1643,36 @@
       "distance_from_frankfurt_km": 78.0
     },
     {
+      "title": "Nomfusi - Live-Konzert",
+      "date": "2026-07-16",
+      "time": "19:30",
+      "description": "Die suedafrikanische Sängerin Nomfusi bringt am 16. Juli 2026 im Alten E-Werk Eschwege die Seele Afrikas auf die Bühne. Mit ihrer Stimme und elektrisierender Bühnenpräsenz präsentiert sie eine Mischung aus Township Music, Soul und Afropop. Ihr Konzertprogramm kehrt zu ihren südafrikanischen Wurzeln zurueck mit groovigen Township-Sounds. Das E-Werk Eschwege ist eine bekannte Veranstaltungshalle in Nordhessen.",
+      "cost_per_person": "Ab 25,00 €",
+      "location": "Altes E-Werk, Mangelgasse 19, 37269 Eschwege",
+      "category": "Music & Opera",
+      "city": "Eschwege",
+      "latitude": 51.1886,
+      "longitude": 10.0563,
+      "website": "https://www.mvp.de/hessen/veranstaltungen/nomfusi-altes-e-werk-eschwege/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Altes+E-Werk,+Mangelgasse+19,+37269+Eschwege",
+      "distance_from_frankfurt_km": 154.1
+    },
+    {
+      "title": "Grillen & Chillen am Weserstein",
+      "date": "2026-07-17",
+      "time": "18:00",
+      "description": "Am 17. Juli 2026 laedt der Ankerplatz am Weserstein in Hannoversch Münden zu 'Grillen & Chillen' ein. Die Gäste geniessen Grillspezialitäten von Tim's Catering Service am Zusammenfluss von Werra und Fulda. Der Ankerplatz bietet einen schönen Blick auf das Wasser und die historische Altstadt. Die Veranstaltung ist ideal für einen Sommerabend mit Freunden und Familie.",
+      "cost_per_person": "Nach Verzehr",
+      "location": "Ankerplatz am Weserstein, Tanzwerder, 34346 Hannoversch Münden",
+      "category": "Food & Drink",
+      "city": "Hannoversch Münden",
+      "latitude": 51.418,
+      "longitude": 9.6553,
+      "website": "https://hann.muenden-erlebnisregion.de/event/grillen-und-chillen",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Ankerplatz+am+Weserstein,+Tanzwerder,+34346+Hannoversch+Münden",
+      "distance_from_frankfurt_km": 160.6
+    },
+    {
       "title": "Hann. Münden Altstadtfest — Dreiflüssestadt feiert",
       "date": "2026-07-17",
       "time": "16:00 - 23:00",
@@ -1371,6 +1701,36 @@
       "website": "https://www.csd-frankfurt.de/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Hauptwache+60313+Frankfurt+am+Main",
       "distance_from_frankfurt_km": 0.4
+    },
+    {
+      "title": "Limburger Sommerfest – Open-Air-Konzert im Serenadenhof",
+      "date": "2026-07-18",
+      "time": "20:00 - 23:00",
+      "description": "Die Limburger Sommerfeste laden auch 2026 wieder zu stimmungsvollen Open-Air-Konzerten im Serenadenhof zwischen Stadthalle und St. Anna Kirche ein. An diesem Samstagabend präsentiert das zweite Sommerfest Livemusik verschiedener Genres bei freiem Eintritt. Die Konzertreihe hat sich als fester Bestandteil des Limburger Veranstaltungskalenders etabliert und lockt mit einer Mischung aus Rock, Pop und Blasmusik. Biergartenbestuhlung und kulinarische Angebote sorgen für Wohlfühlatmosphäre unter freiem Himmel. Sitzplätze können nicht reserviert werden, daher empfiehlt sich frühzeitiges Erscheinen.",
+      "cost_per_person": "Free",
+      "location": "Serenadenhof, Diezer Straße 13, 65549 Limburg an der Lahn",
+      "category": "Music & Opera",
+      "city": "Limburg an der Lahn",
+      "latitude": 50.388,
+      "longitude": 8.062,
+      "website": "https://www.limburg.de/index.php?object=tx,3251.5&ModID=7&FID=3252.32726.1",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Serenadenhof,+Diezer+Straße+13,+65549+Limburg+an+der+Lahn",
+      "distance_from_frankfurt_km": 53.8
+    },
+    {
+      "title": "Orgelpunkt 2026 - Orgelkonzert",
+      "date": "2026-07-18",
+      "time": "12:00",
+      "description": "Im Jubiläumsjahr '500 Jahre Homberger Synode' findet in der Stadtkirche St. Marien der 'Orgelpunkt 2026' statt. An jedem dritten Samstag im Monat um 12:00 Uhr erklingt 30 Minuten Orgelmusik am Ort der historischen Synode von 1526. Die Konzerte bieten Orgelmusik in der historischen Kirche St. Marien. Der Eintritt ist frei, um eine Spende für Kirchenmusik wird gebeten.",
+      "cost_per_person": "Eintritt frei, Spende erbeten",
+      "location": "Stadtkirche St. Marien, Marktplatz 25, 34576 Homberg (Efze)",
+      "category": "Music & Opera",
+      "city": "Homberg (Efze)",
+      "latitude": 51.03,
+      "longitude": 9.4022,
+      "website": "https://www.deutsche-maerchenstrasse.com/event/orgelpunkt-2026",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=Stadtkirche+St.+Marien,+Marktplatz+25,+34576+Homberg+(Efze)",
+      "distance_from_frankfurt_km": 114.2
     },
     {
       "title": "Alte Bekannte — Mehr! Live Open Air Marburg",
