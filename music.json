@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-29",
   "todays_pick": {
-    "title": "November Rain",
-    "artist": "Guns N' Roses",
-    "genre": "Hard Rock",
-    "album": "Use Your Illusion I",
-    "year": 1991,
+    "title": "The Pretender",
+    "artist": "Foo Fighters",
+    "genre": "Alternative Rock",
+    "album": "Echoes, Silence, Patience & Grace",
+    "year": 2007,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-06-28",
-    "why": "A Hard Rock track to start your day!"
+    "picked_date": "2026-06-29",
+    "why": "A Alternative Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -447,6 +447,7 @@
     "Sultans of Swing",
     "Learn to Fly",
     "Knockin' on Heaven's Door",
-    "November Rain"
+    "November Rain",
+    "The Pretender"
   ]
 }
