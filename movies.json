@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-06-27",
+  "last_updated": "2026-06-30",
   "suggestions": [
     {
-      "title": "Whiplash",
-      "year": 2014,
-      "genre": "Drama, Musical",
-      "description": "A promising young drummer is driven to his breaking point by an abusive, perfectionist jazz instructor in this intense, Oscar-winning drama.",
+      "title": "Django Unchained",
+      "year": 2012,
+      "genre": "Western, Drama, Action",
+      "description": "A freed slave teams up with a German bounty hunter to rescue his wife from a brutal plantation owner in this stylized, Oscar-winning Western from Quentin Tarantino.",
       "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=7d_jQycdQGo",
-      "director": "Damien Chazelle"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=0fUCuvNlOCg",
+      "director": "Quentin Tarantino"
     },
     {
-      "title": "Goodfellas",
-      "year": 1990,
-      "genre": "Crime, Drama, Biography",
-      "description": "The rise and fall of a mob associate who becomes deeply enmeshed in New York's organized crime underworld — Scorsese's masterpiece of the gangster genre.",
-      "imdb_rating": 8.7,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=2ilzidi_J8Q",
-      "director": "Martin Scorsese"
-    },
-    {
-      "title": "Raiders of the Lost Ark",
-      "year": 1981,
-      "genre": "Action, Adventure",
-      "description": "Archaeologist Indiana Jones races Nazis to find the biblical Ark of the Covenant before it falls into their hands — the ultimate adventure classic from Spielberg.",
+      "title": "Memento",
+      "year": 2000,
+      "genre": "Mystery, Thriller",
+      "description": "A man with short-term memory loss uses notes and tattoos to hunt for his wife's killer in Christopher Nolan's groundbreaking neo-noir psychological thriller.",
       "imdb_rating": 8.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Raiders_of_the_Lost_Ark.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Rh_BJXG1-44",
-      "director": "Steven Spielberg"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Memento_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=4CV41hoyS8A",
+      "director": "Christopher Nolan"
+    },
+    {
+      "title": "Amélie",
+      "year": 2001,
+      "genre": "Comedy, Romance",
+      "description": "A shy waitress in Montmartre decides to secretly improve the lives of those around her while pursuing her own love story in this whimsical French romantic comedy.",
+      "imdb_rating": 8.3,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Amelie_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=HUECWi5pX7o",
+      "director": "Jean-Pierre Jeunet"
     }
   ],
   "history": [],
@@ -57,6 +57,9 @@
     "City of God",
     "Whiplash",
     "Goodfellas",
-    "Raiders of the Lost Ark"
+    "Raiders of the Lost Ark",
+    "Django Unchained",
+    "Memento",
+    "Amélie"
   ]
 }
