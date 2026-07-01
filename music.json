@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-01",
   "todays_pick": {
-    "title": "Hotel California",
-    "artist": "Eagles",
-    "genre": "Rock",
-    "album": "Hotel California",
-    "year": 1976,
+    "title": "The Pot",
+    "artist": "Tool",
+    "genre": "Progressive Metal",
+    "album": "10,000 Days",
+    "year": 2006,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-06-30",
-    "why": "A Rock track to start your day!"
+    "picked_date": "2026-07-01",
+    "why": "A Progressive Metal track to start your day!"
   },
   "suggestions": [
     {
@@ -449,6 +449,7 @@
     "Knockin' on Heaven's Door",
     "November Rain",
     "The Pretender",
-    "Hotel California"
+    "Hotel California",
+    "The Pot"
   ]
 }
