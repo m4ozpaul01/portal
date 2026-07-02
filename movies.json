@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-02",
   "suggestions": [
     {
-      "title": "Django Unchained",
-      "year": 2012,
-      "genre": "Western, Drama, Action",
-      "description": "A freed slave teams up with a German bounty hunter to rescue his wife from a brutal plantation owner in this stylized, Oscar-winning Western from Quentin Tarantino.",
-      "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=0fUCuvNlOCg",
-      "director": "Quentin Tarantino"
+      "title": "Se7en",
+      "year": 1995,
+      "genre": "Crime, Mystery, Thriller",
+      "description": "Two detectives hunt a serial killer who uses the seven deadly sins as the motive for his murders in David Fincher's dark, masterful neo-noir thriller.",
+      "imdb_rating": 8.6,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/68/Seven_%28movie%29_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=znmZoVkCjpI",
+      "director": "David Fincher"
     },
     {
-      "title": "Memento",
-      "year": 2000,
-      "genre": "Mystery, Thriller",
-      "description": "A man with short-term memory loss uses notes and tattoos to hunt for his wife's killer in Christopher Nolan's groundbreaking neo-noir psychological thriller.",
+      "title": "WALL-E",
+      "year": 2008,
+      "genre": "Animation, Adventure, Sci-Fi",
+      "description": "A lonely trash-compacting robot on an abandoned Earth falls in love with a probe robot and follows her across the galaxy in Pixar's heartwarming sci-fi masterpiece.",
       "imdb_rating": 8.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Memento_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=4CV41hoyS8A",
-      "director": "Christopher Nolan"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/WALL-E_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=3Mi62VKDhm0",
+      "director": "Andrew Stanton"
     },
     {
-      "title": "Amélie",
-      "year": 2001,
-      "genre": "Comedy, Romance",
-      "description": "A shy waitress in Montmartre decides to secretly improve the lives of those around her while pursuing her own love story in this whimsical French romantic comedy.",
-      "imdb_rating": 8.3,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Amelie_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=HUECWi5pX7o",
-      "director": "Jean-Pierre Jeunet"
+      "title": "The Lives of Others",
+      "year": 2006,
+      "genre": "Drama, Thriller",
+      "description": "A Stasi agent in East Berlin becomes emotionally entangled in the lives of the artists he is assigned to surveil in this Oscar-winning German political thriller.",
+      "imdb_rating": 8.4,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/9f/Leben_der_anderen.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=n3_iLOp6IhM",
+      "director": "Florian Henckel von Donnersmarck"
     }
   ],
   "history": [],
@@ -60,6 +60,9 @@
     "Raiders of the Lost Ark",
     "Django Unchained",
     "Memento",
-    "Amélie"
+    "Amélie",
+    "Se7en",
+    "WALL-E",
+    "The Lives of Others"
   ]
 }
