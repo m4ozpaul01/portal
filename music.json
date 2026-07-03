@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-06-15",
   "todays_pick": {
-    "title": "Time",
-    "artist": "Pink Floyd",
-    "genre": "Progressive Rock",
-    "album": "The Dark Side of the Moon",
-    "year": 1973,
+    "title": "Under Pressure",
+    "artist": "Queen & David Bowie",
+    "genre": "Rock",
+    "album": "Hot Space",
+    "year": 1981,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-03",
-    "why": "A Progressive Rock track to start your day!"
+    "picked_date": "2026-06-15",
+    "why": "A Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -442,16 +442,5 @@
       "year": 1986
     }
   ],
-  "ratings": {},
-  "picked_titles": [
-    "Sultans of Swing",
-    "Learn to Fly",
-    "Knockin' on Heaven's Door",
-    "November Rain",
-    "The Pretender",
-    "Hotel California",
-    "The Pot",
-    "In the End",
-    "Time"
-  ]
+  "ratings": {}
 }

@@ -522,13 +522,12 @@ body{
 
 const PASSWORDS = {
   'm4oz':    [75,97,108,97,102,105,111,114,48,49],    // Kalafior01
-  'sweetie': [77,97,106,97,50,48,50,54,33],            // Maja2026!
-  'maja':    [77,97,106,97,50,48,50,54,33]             // Maja2026!
+  'sweetie': [77,97,106,97,50,48,50,54,33]             // Maja2026!
 };
 
 // Google OAuth — client ID + allowed emails
 const GOOGLE_CLIENT_ID = '947168928592-ikuna9qelftj2fq7hh9b0opcq9r164m3.apps.googleusercontent.com';
-const ALLOWED_EMAILS = ['m4oz.paul@gmail.com', 'maja.lah.hr@gmail.com'];  // add more emails here
+const ALLOWED_EMAILS = ['m4oz.paul@gmail.com'];  // add more emails here
 
 const SESSION_KEY = 'portal_auth';
 const BUST = '_=' + Date.now();
@@ -588,8 +587,6 @@ async function showDashboard() {
 function buildTabs(config) {
   const bar = document.getElementById('tabbar');
   const dynamic = document.getElementById('dynamic-content');
-  // Clear previous tabs BEFORE rebuilding — prevents double tabs
-  bar.innerHTML = '';
   dynamic.innerHTML = '';
 
   (config.projects || []).forEach(p => {
@@ -1382,6 +1379,17 @@ function renderTripList(serverTrips) {
   }));
 
   const items = [...pendingCards, ...all];
+
+  // Sort completed trips: most recent first (by submitted_at)
+  items.sort((a, b) => {
+    // Pending always on top
+    if (a.type === 'pending' && b.type !== 'pending') return -1;
+    if (a.type !== 'pending' && b.type === 'pending') return 1;
+    // Both completed — sort by submitted_at desc (most recent first)
+    const aDate = a.request?.submitted_at || a.created_at || '';
+    const bDate = b.request?.submitted_at || b.created_at || '';
+    return bDate.localeCompare(aDate);
+  });
 
   if (items.length === 0) {
     container.innerHTML = '<div class="tp-empty-state"><div class="ico">🗺️</div><h3>No trips yet</h3><p>Fill in the form above and click Arrange My Trip to get started!</p></div>';
