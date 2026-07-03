@@ -1,37 +1,44 @@
 {
-  "last_updated": "2026-06-14",
+  "last_updated": "2026-07-03",
   "suggestions": [
     {
-      "title": "Inception",
-      "year": 2010,
-      "genre": "Sci-Fi, Action, Thriller",
-      "description": "A thief who enters the dreams of others to steal secrets is tasked with planting an idea instead — an act of inception that could reshape reality itself.",
-      "imdb_rating": 8.8,
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
-      "director": "Christopher Nolan"
+      "title": "Everything Everywhere All at Once",
+      "year": 2022,
+      "genre": "Sci-Fi, Action, Comedy",
+      "description": "A middle-aged Chinese immigrant discovers she can access the memories and skills of alternate-universe versions of herself, and must use this power to save the multiverse from destruction. A wildly inventive, hilarious, and deeply heartfelt masterpiece.",
+      "imdb_rating": 7.8,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_SX300.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=wxN1T1uxQ2g",
+      "director": "Daniel Kwan, Daniel Scheinert"
     },
     {
-      "title": "Parasite",
-      "year": 2019,
-      "genre": "Drama, Thriller, Comedy",
-      "description": "A poor family schemes their way into the lives of a wealthy household with unexpected and devastating consequences in this Palme d'Or winner.",
-      "imdb_rating": 8.5,
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=5xH0HfJHsaY",
-      "director": "Bong Joon-ho"
+      "title": "The Green Mile",
+      "year": 1999,
+      "genre": "Drama, Fantasy, Crime",
+      "description": "A death row prison guard discovers that one of his inmates possesses a mysterious, supernatural gift that challenges everything he thought he knew about justice, humanity, and miracles in this powerful Stephen King adaptation.",
+      "imdb_rating": 8.6,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYjE4ZWYzMmMtMDI4Yy00NGRjLWEwMzItMGMxZGUzNjA1MjIxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Ki4haFrqSrw",
+      "director": "Frank Darabont"
     },
     {
-      "title": "Mad Max: Fury Road",
-      "year": 2015,
-      "genre": "Action, Adventure, Sci-Fi",
-      "description": "In a post-apocalyptic wasteland, a drifter teams up with a fierce warrior to escape a tyrannical warlord in this visually stunning masterpiece.",
-      "imdb_rating": 8.1,
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=hEJnMQG9ev8",
-      "director": "George Miller"
+      "title": "Coco",
+      "year": 2017,
+      "genre": "Animation, Adventure, Family",
+      "description": "A young boy named Miguel dreams of becoming a musician in a family that has banned music for generations. On Día de Muertos, he finds himself in the Land of the Dead and embarks on a journey to uncover his family's true history.",
+      "imdb_rating": 8.4,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODA1NjQ0OTY@._V1_SX300.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=zNCz4mQzfEI",
+      "director": "Lee Unkrich"
     }
   ],
   "history": [],
-  "shown_titles": []
+  "shown_titles": [
+    "Inception",
+    "Parasite",
+    "Mad Max: Fury Road",
+    "Se7en",
+    "WALL-E",
+    "The Lives of Others"
+  ]
 }

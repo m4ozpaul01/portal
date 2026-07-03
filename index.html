@@ -587,6 +587,7 @@ async function showDashboard() {
 function buildTabs(config) {
   const bar = document.getElementById('tabbar');
   const dynamic = document.getElementById('dynamic-content');
+  bar.innerHTML = '';
   dynamic.innerHTML = '';
 
   (config.projects || []).forEach(p => {
