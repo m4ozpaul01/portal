@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "todays_pick": {
-    "title": "In the End",
-    "artist": "Linkin Park",
-    "genre": "Nu Metal",
-    "album": "Hybrid Theory",
-    "year": 2000,
+    "title": "Time",
+    "artist": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "album": "The Dark Side of the Moon",
+    "year": 1973,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-02",
-    "why": "A Nu Metal track to start your day!"
+    "picked_date": "2026-07-03",
+    "why": "A Progressive Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -451,6 +451,7 @@
     "The Pretender",
     "Hotel California",
     "The Pot",
-    "In the End"
+    "In the End",
+    "Time"
   ]
 }
