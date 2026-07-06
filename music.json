@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-05",
+  "last_updated": "2026-07-06",
   "todays_pick": {
-    "title": "Giorgio by Moroder",
-    "artist": "Daft Punk",
-    "genre": "Electronic, Disco",
-    "album": "Random Access Memories",
-    "year": 2013,
+    "title": "Roygbiv",
+    "artist": "Boards of Canada",
+    "genre": "Electronic, Ambient",
+    "album": "Music Has the Right to Children",
+    "year": 1998,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-05",
-    "why": "A Electronic / Disco track to start your day!"
+    "picked_date": "2026-07-06",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -313,6 +313,7 @@
     "Time",
     "Time",
     "Caribbean Blue",
-    "Giorgio by Moroder"
+    "Giorgio by Moroder",
+    "Roygbiv"
   ]
 }
