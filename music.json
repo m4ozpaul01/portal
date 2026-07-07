@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-06",
+  "last_updated": "2026-07-07",
   "todays_pick": {
-    "title": "Roygbiv",
-    "artist": "Boards of Canada",
-    "genre": "Electronic, Ambient",
-    "album": "Music Has the Right to Children",
-    "year": 1998,
+    "title": "Tears in the Rain",
+    "artist": "Vangelis",
+    "genre": "Soundtrack, Ambient",
+    "album": "Blade Runner (Soundtrack)",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-06",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-07-07",
+    "why": "A Soundtrack / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -314,6 +314,7 @@
     "Time",
     "Caribbean Blue",
     "Giorgio by Moroder",
-    "Roygbiv"
+    "Roygbiv",
+    "Tears in the Rain"
   ]
 }
