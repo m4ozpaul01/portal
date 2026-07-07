@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-07",
   "suggestions": [
     {
-      "title": "The Dark Knight",
-      "year": 2008,
-      "genre": "Action, Crime, Drama",
-      "description": "Batman faces the Joker, a chaotic criminal who threatens to plunge Gotham into anarchy.",
-      "imdb_rating": 9.0,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_(2008_film).jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=kmJLuwP3MbY",
-      "director": "Christopher Nolan"
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "genre": "Drama",
+      "description": "A banker convicted of murdering his wife and her lover engineers a meticulous escape from Shawshank prison over two decades.",
+      "imdb_rating": 9.3,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+      "director": "Frank Darabont"
     },
     {
-      "title": "Spirited Away",
-      "year": 2001,
-      "genre": "Animation, Adventure, Fantasy",
-      "description": "A young girl enters a magical world of spirits and must work in a bathhouse to rescue her transformed parents.",
-      "imdb_rating": 8.6,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png",
-      "trailer_url": "https://www.youtube.com/watch?v=GAp2_0JJskk",
-      "director": "Hayao Miyazaki"
+      "title": "The Good, the Bad and the Ugly",
+      "year": 1966,
+      "genre": "Western, Adventure",
+      "description": "Three gunslingers compete to find a fortune in buried gold during the American Civil War.",
+      "imdb_rating": 8.8,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/45/Good_the_bad_and_the_ugly_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=IFNUGzCOQoI",
+      "director": "Sergio Leone"
     },
     {
-      "title": "Gladiator",
-      "year": 2000,
-      "genre": "Action, Adventure, Drama",
-      "description": "A betrayed Roman general becomes a gladiator and seeks vengeance against the corrupt emperor who murdered his family.",
+      "title": "Whiplash",
+      "year": 2014,
+      "genre": "Drama, Musical",
+      "description": "A promising young drummer is driven to his breaking point by an abusive, perfectionist jazz instructor.",
       "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_(2000_film_poster).png",
-      "trailer_url": "https://www.youtube.com/watch?v=0BLZbrLogTo",
-      "director": "Ridley Scott"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7d_jQycdQGo",
+      "director": "Damien Chazelle"
     }
   ],
   "history": [],
@@ -45,6 +45,9 @@
     "Coco",
     "The Dark Knight",
     "Spirited Away",
-    "Gladiator"
+    "Gladiator",
+    "The Shawshank Redemption",
+    "The Good, the Bad and the Ugly",
+    "Whiplash"
   ]
 }
