@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-09",
   "suggestions": [
     {
-      "title": "Everything Everywhere All at Once",
-      "year": 2022,
-      "genre": "Sci-Fi, Action, Comedy",
-      "description": "A middle-aged Chinese immigrant discovers she can access the memories and skills of alternate-universe versions of herself, and must use this power to save the multiverse from destruction. A wildly inventive, hilarious, and deeply heartfelt masterpiece.",
-      "imdb_rating": 7.8,
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_SX300.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=wxN1T1uxQ2g",
-      "director": "Daniel Kwan, Daniel Scheinert"
+      "title": "The Godfather",
+      "year": 1972,
+      "genre": "Crime, Drama",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his reluctant youngest son, Michael, in this legendary mafia saga filled with unforgettable performances from Marlon Brando and Al Pacino. A sweeping masterpiece of power, loyalty, and family.",
+      "imdb_rating": 9.2,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=1x0GpEZnwa8",
+      "director": "Francis Ford Coppola"
     },
     {
-      "title": "The Green Mile",
-      "year": 1999,
-      "genre": "Drama, Fantasy, Crime",
-      "description": "A death row prison guard discovers that one of his inmates possesses a mysterious, supernatural gift that challenges everything he thought he knew about justice, humanity, and miracles in this powerful Stephen King adaptation.",
+      "title": "Spirited Away",
+      "year": 2001,
+      "genre": "Animation, Adventure, Fantasy",
+      "description": "Young Chihiro enters a magical world of spirits and must work in a bathhouse to rescue her transformed parents. Hayao Miyazaki's Oscar-winning masterpiece of imagination, courage, and coming-of-age wonder.",
       "imdb_rating": 8.6,
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BYjE4ZWYzMmMtMDI4Yy00NGRjLWEwMzItMGMxZGUzNjA1MjIxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Ki4haFrqSrw",
-      "director": "Frank Darabont"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png",
+      "trailer_url": "https://www.youtube.com/watch?v=fDUFP7EeXLE",
+      "director": "Hayao Miyazaki"
     },
     {
-      "title": "Coco",
-      "year": 2017,
-      "genre": "Animation, Adventure, Family",
-      "description": "A young boy named Miguel dreams of becoming a musician in a family that has banned music for generations. On Día de Muertos, he finds himself in the Land of the Dead and embarks on a journey to uncover his family's true history.",
-      "imdb_rating": 8.4,
-      "poster_url": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODA1NjQ0OTY@._V1_SX300.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=zNCz4mQzfEI",
-      "director": "Lee Unkrich"
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "genre": "Crime, Drama",
+      "description": "Interweaving stories of a hitman, his partner, a boxer, and a pair of diner bandits collide in Quentin Tarantino's genre-defying, non-linear masterpiece that redefined modern cinema.",
+      "imdb_rating": 8.9,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
+      "director": "Quentin Tarantino"
     }
   ],
   "history": [],
@@ -39,6 +39,12 @@
     "Mad Max: Fury Road",
     "Se7en",
     "WALL-E",
-    "The Lives of Others"
+    "The Lives of Others",
+    "Everything Everywhere All at Once",
+    "The Green Mile",
+    "Coco",
+    "The Godfather",
+    "Spirited Away",
+    "Pulp Fiction"
   ]
 }
