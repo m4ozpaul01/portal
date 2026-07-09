@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-09",
   "todays_pick": {
-    "title": "Dayvan Cowboy",
-    "artist": "Boards of Canada",
-    "genre": "Electronic, Ambient",
-    "album": "The Campfire Headphase",
-    "year": 2005,
+    "title": "Return to Innocence",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "The Cross of Changes",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-08",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-07-09",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -316,6 +316,7 @@
     "Giorgio by Moroder",
     "Roygbiv",
     "Tears in the Rain",
-    "Dayvan Cowboy"
+    "Dayvan Cowboy",
+    "Return to Innocence"
   ]
 }
