@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-10",
   "todays_pick": {
-    "title": "Time",
-    "artist": "Hans Zimmer",
-    "genre": "Soundtrack, Contemporary Classical",
-    "album": "Inception (Original Motion Picture Soundtrack)",
-    "year": 2010,
+    "title": "Windowlicker",
+    "artist": "Aphex Twin",
+    "genre": "Electronic, IDM",
+    "album": "Windowlicker",
+    "year": 1999,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-03",
-    "why": "A monumental piece of modern classical music — building from a minimalist piano motif to a sweeping, emotional crescendo that captures the themes of memory, regret, and the irreversibility of time. Perfect for a contemplative July evening."
+    "picked_date": "2026-07-10",
+    "why": "A Electronic / IDM track to start your day!"
   },
   "suggestions": [
     {
@@ -311,6 +311,7 @@
     "Through the Fire and Flames",
     "The Final Countdown",
     "Time",
-    "Time"
+    "Time",
+    "Windowlicker"
   ]
 }
