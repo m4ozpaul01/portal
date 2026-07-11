@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "todays_pick": {
-    "title": "Windowlicker",
-    "artist": "Aphex Twin",
-    "genre": "Electronic, IDM",
-    "album": "Windowlicker",
-    "year": 1999,
+    "title": "Caribbean Blue",
+    "artist": "Enya",
+    "genre": "New Age, Celtic",
+    "album": "Shepherd Moons",
+    "year": 1991,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-10",
-    "why": "A Electronic / IDM track to start your day!"
+    "picked_date": "2026-07-11",
+    "why": "A New Age / Celtic track to start your day!"
   },
   "suggestions": [
     {
@@ -312,6 +312,7 @@
     "The Final Countdown",
     "Time",
     "Time",
-    "Windowlicker"
+    "Windowlicker",
+    "Caribbean Blue"
   ]
 }
