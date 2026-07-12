@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-11",
+  "last_updated": "2026-07-12",
   "todays_pick": {
-    "title": "Caribbean Blue",
-    "artist": "Enya",
-    "genre": "New Age, Celtic",
-    "album": "Shepherd Moons",
-    "year": 1991,
+    "title": "Clear Air Turbulence",
+    "artist": "deadmau5",
+    "genre": "Progressive House, Electronic",
+    "album": "4×4=12",
+    "year": 2010,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-11",
-    "why": "A New Age / Celtic track to start your day!"
+    "picked_date": "2026-07-12",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -313,6 +313,7 @@
     "Time",
     "Time",
     "Windowlicker",
-    "Caribbean Blue"
+    "Caribbean Blue",
+    "Clear Air Turbulence"
   ]
 }
