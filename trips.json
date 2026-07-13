@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-07-14",
   "trips": [
     {
       "id": "tp-1781474361196",
@@ -724,6 +724,1787 @@
       },
       "status": "complete",
       "created_at": "2026-06-15 00:07:32"
+    },
+    {
+      "id": "tp-1781509538164",
+      "request": {
+        "id": "tp-1781509538164",
+        "from": "Frankfurt",
+        "to": "Vietnam",
+        "departure_date": "2026-11-06",
+        "return_date": "2026-11-29",
+        "people": 1,
+        "budget": null,
+        "notes": "I would like to see a lot of things in the country. I dont want to stay all trip in one place. last days of the trip I would like to spend on a beach relaxing. Find also nice and cheap way of transportation.",
+        "status": "complete",
+        "submitted_at": "2026-06-15T09:45:38.164181"
+      },
+      "plan": {
+        "summary": "A 23-day Vietnam adventure starting in the north (Hanoi, Ha Long Bay), winding through the imperial cities of central Vietnam (Hue, Da Nang, Hoi An), diving into the energy of Ho Chi Minh City and the Mekong Delta, and finishing with 8 glorious days of beach relaxation on Phú Quốc Island. Budget-friendly solo trip using cheap street food, hostels/guesthouses, and affordable local transport (trains, buses, budget flights). Notable events: Ooc-Om-Bok Festival in the Mekong Delta (Nov 22-23) and Vietnam's first-ever Culture Day (Nov 24).",
+        "special_2026": "Vietnam celebrates its first-ever Culture Day on Nov 24, 2026 — nationwide festivities, free museum entry, parades! The Ooc-Om-Bok Khmer Moon Worship Festival (UNESCO recognized) runs Nov 22-23 in the Mekong Delta region you'll be visiting.",
+        "phase1": {
+          "name": "Explore",
+          "days": 16,
+          "percentage": 67
+        },
+        "phase2": {
+          "name": "Relax",
+          "days": 8,
+          "percentage": 33
+        },
+        "flights": {
+          "total": 771,
+          "recommendation": "Book open-jaw: fly into Hanoi (HAN), out of Ho Chi Minh City (SGN). Vietnam Airlines direct FRA→HAN ~$371 (Nov 6, ~11h). Qatar Airways SGN→FRA via Doha ~$400 (Nov 29, ~16h). Total ~$771 — the cheapest and most efficient option without backtracking. Alternative: Lufthansa FRA↔SGN round trip €912 (~$980).",
+          "tip": "Book 2-3 months ahead for best rates. Vietnam Airlines is reliable and includes meals. For Qatar Airways return, the Doha layover is only ~2-3 hours. Pack layers — Hanoi in Nov is 18-25°C, Phu Quoc is 27-32°C.",
+          "outbound": {
+            "airline": "Vietnam Airlines",
+            "from": "Frankfurt am Main (FRA)",
+            "to": "Hanoi (HAN)",
+            "date": "2026-11-06",
+            "departure": "11:00",
+            "arrival": "04:30+1",
+            "duration": "11h 10min",
+            "stops": 0,
+            "price_person": 371,
+            "total": 371,
+            "booking_url": "https://www.skyscanner.net/routes/fra/han/frankfurt-am-main-to-hanoi.html"
+          },
+          "return": {
+            "airline": "Qatar Airways",
+            "from": "Ho Chi Minh City (SGN)",
+            "to": "Frankfurt am Main (FRA)",
+            "date": "2026-11-29",
+            "departure": "23:00",
+            "arrival": "05:30+1",
+            "duration": "16h (via Doha)",
+            "stops": 1,
+            "stop_city": "Doha",
+            "price_person": 400,
+            "total": 400,
+            "booking_url": "https://www.skyscanner.net/routes/sgn/fra/ho-chi-minh-city-to-frankfurt-am-main.html"
+          }
+        },
+        "accommodations": [
+          {
+            "name": "Little Charm Hanoi Hostel (Hanoi)",
+            "type": "hostel",
+            "rating": 8.6,
+            "price_per_night": 9,
+            "total": 81,
+            "checkin": "2026-11-06",
+            "checkout": "2026-11-09",
+            "address": "Hang Buom Street, Old Quarter, Hanoi",
+            "description": "Top-rated Hanoi hostel in the Old Quarter. Clean dorms, social common area, solo-traveler friendly. Walking distance to Hoan Kiem Lake, Train Street, and all major attractions.",
+            "booking_url": "https://www.booking.com/hostel/vn/little-charm-hanoi-hostel.html",
+            "alternatives": [
+              {
+                "name": "Hanoi Central Backpackers Hostel",
+                "type": "hostel",
+                "rating": 8.0,
+                "price_per_night": 7,
+                "booking_url": ""
+              },
+              {
+                "name": "Dahlia Hotel Hanoi",
+                "type": "budget hotel",
+                "rating": 8.5,
+                "price_per_night": 22,
+                "booking_url": ""
+              }
+            ]
+          },
+          {
+            "name": "Halong Bay Budget Cruise",
+            "type": "cruise",
+            "rating": 8.0,
+            "price_per_night": 55,
+            "total": 110,
+            "checkin": "2026-11-09",
+            "checkout": "2026-11-11",
+            "address": "Ha Long Bay (departs from Hanoi/Halong City)",
+            "description": "2-day/1-night budget overnight cruise including meals, kayaking, cave visits, and tai chi. ~$55/night — all meals included.",
+            "booking_url": "",
+            "alternatives": [
+              {
+                "name": "Halong Phoenix Cruiser (day trip, $49)",
+                "type": "day cruise",
+                "rating": 7.5,
+                "price_per_night": 49,
+                "booking_url": ""
+              },
+              {
+                "name": "Swan Cruises Halong (deluxe, $90-120/night)",
+                "type": "cruise",
+                "rating": 8.5,
+                "price_per_night": 95,
+                "booking_url": ""
+              }
+            ]
+          },
+          {
+            "name": "Thanh An 3 Guesthouse (Hue)",
+            "type": "guesthouse",
+            "rating": 8.0,
+            "price_per_night": 12,
+            "total": 36,
+            "checkin": "2026-11-11",
+            "checkout": "2026-11-14",
+            "address": "Near Hue Citadel, Hue",
+            "description": "Simple family-run guesthouse near the Citadel. Private room with AC for dorm prices. Free WiFi, friendly hosts, great local knowledge.",
+            "booking_url": "",
+            "alternatives": [
+              {
+                "name": "Mimosa Hotel Hue",
+                "type": "budget hotel",
+                "rating": 8.5,
+                "price_per_night": 12,
+                "booking_url": ""
+              },
+              {
+                "name": "Jade Hotel Hue",
+                "type": "mid-range hotel",
+                "rating": 8.5,
+                "price_per_night": 30,
+                "booking_url": ""
+              }
+            ]
+          },
+          {
+            "name": "Under The Coconut Tree Homestay (Hoi An)",
+            "type": "homestay",
+            "rating": 9.7,
+            "price_per_night": 10,
+            "total": 40,
+            "checkin": "2026-11-14",
+            "checkout": "2026-11-18",
+            "address": "An Bang Beach, Hoi An",
+            "description": "Bamboo bungalow homestay right at An Bang Beach. Incredible 9.7 rating. Dorm beds ~$10 or private bamboo bungalows ~$22. Pool, hammocks, super chill vibe. Bike to Ancient Town in 15 min.",
+            "booking_url": "",
+            "alternatives": [
+              {
+                "name": "Mad Monkey Hoi An",
+                "type": "hostel",
+                "rating": 9.6,
+                "price_per_night": 10,
+                "booking_url": ""
+              },
+              {
+                "name": "An Nhien Hotel",
+                "type": "budget hotel",
+                "rating": 8.0,
+                "price_per_night": 15,
+                "booking_url": ""
+              }
+            ]
+          },
+          {
+            "name": "City Backpackers Hostel (HCMC)",
+            "type": "hostel",
+            "rating": 9.8,
+            "price_per_night": 10,
+            "total": 50,
+            "checkin": "2026-11-18",
+            "checkout": "2026-11-21",
+            "address": "District 1, Ho Chi Minh City",
+            "description": "Top-rated hostel in District 1 with 9.8 rating! Social atmosphere, walking distance to Ben Thanh Market, Bui Vien Walking Street, and all major sights. Clean dorms, great common area.",
+            "booking_url": "",
+            "alternatives": [
+              {
+                "name": "The Common Room Project",
+                "type": "hostel/coworking",
+                "rating": 9.5,
+                "price_per_night": 17,
+                "booking_url": ""
+              },
+              {
+                "name": "Vy Khanh Guesthouse",
+                "type": "guesthouse",
+                "rating": 8.0,
+                "price_per_night": 15,
+                "booking_url": ""
+              }
+            ]
+          },
+          {
+            "name": "Sunshine Bungalow (Phu Quoc)",
+            "type": "bungalow",
+            "rating": 8.8,
+            "price_per_night": 24,
+            "total": 192,
+            "checkin": "2026-11-21",
+            "checkout": "2026-11-29",
+            "address": "Long Beach / Sao Beach area, Phu Quoc Island",
+            "description": "Best value beachfront bungalow on Phu Quoc. Private bungalow steps from the sand, hammock on the porch, quiet area but close to restaurants. 8.8 rating. Perfect for the 8-day relax finale.",
+            "booking_url": "",
+            "alternatives": [
+              {
+                "name": "Ngoc Bao Bungalow",
+                "type": "bungalow",
+                "rating": 8.0,
+                "price_per_night": 16,
+                "booking_url": ""
+              },
+              {
+                "name": "Eco Beach Resort",
+                "type": "resort",
+                "rating": 8.0,
+                "price_per_night": 25,
+                "booking_url": ""
+              }
+            ]
+          }
+        ],
+        "domestic_transport": {
+          "recommendation": "Mix budget flights with trains for the best experience. Total domestic transport: ~$120-170",
+          "segments": [
+            {
+              "route": "Hanoi → Ha Long Bay",
+              "mode": "Limo bus",
+              "price": 12,
+              "duration": "3 hours",
+              "notes": "Book through hostel or Sinh Tourist. Departs Hanoi Old Quarter."
+            },
+            {
+              "route": "Ha Long Bay → Hanoi Airport",
+              "mode": "Limo bus",
+              "price": 12,
+              "duration": "3 hours",
+              "notes": "Bus back to Hanoi, then flight to Hue"
+            },
+            {
+              "route": "Hanoi → Hue",
+              "mode": "VietJet Air",
+              "price": 40,
+              "duration": "1h 15min",
+              "notes": "Budget flight, book 3-4 weeks ahead for ~$35-55"
+            },
+            {
+              "route": "Hue → Da Nang",
+              "mode": "Reunification Express train",
+              "price": 10,
+              "duration": "2.5-3 hours",
+              "notes": "MOST SCENIC STRETCH OVER HAI VAN PASS! Do not skip this."
+            },
+            {
+              "route": "Da Nang → Hoi An",
+              "mode": "Local bus",
+              "price": 1,
+              "duration": "45 min",
+              "notes": "Bus #1 — only $0.70 (18,000 VND)"
+            },
+            {
+              "route": "Da Nang → HCMC",
+              "mode": "VietJet Air",
+              "price": 40,
+              "duration": "1h 30min",
+              "notes": "Fly from Da Nang airport"
+            },
+            {
+              "route": "HCMC → Phu Quoc",
+              "mode": "VietJet Air",
+              "price": 30,
+              "duration": "50 min",
+              "notes": "Cheapest way — don't bus+ferry, flight is only $25-40"
+            },
+            {
+              "route": "Phu Quoc → HCMC (for return flight)",
+              "mode": "VietJet Air",
+              "price": 35,
+              "duration": "50 min",
+              "notes": "Fly back to HCMC then catch the evening Qatar Airways flight to FRA"
+            }
+          ]
+        },
+        "daily_itinerary": [
+          {
+            "day": 1,
+            "date": "2026-11-06",
+            "title": "Arrival in Hanoi — Old Quarter Stroll",
+            "phase": "explore",
+            "day_total": 6,
+            "activities": [
+              {
+                "time": "Late PM",
+                "activity": "Arrive Hanoi (flight from FRA ~04:30 local time)",
+                "description": "Vietnam Airlines direct. Take NoiBai Express bus ($0.50) or taxi (~$10) to Old Quarter",
+                "cost": 5
+              },
+              {
+                "time": "Evening",
+                "activity": "Check in + Hoan Kiem Lake walk",
+                "description": "Little Charm Hanoi Hostel. Drop bags, then take a sunset walk around the lake and see Ngoc Son Temple",
+                "cost": 0
+              },
+              {
+                "time": "Dinner",
+                "activity": "Phở Thìn on Hàng Đồng",
+                "description": "Legendary Hanoi pho since 1979. Bowl of phở bò = $1.50-2",
+                "cost": 2
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "date": "2026-11-07",
+            "title": "Hanoi — Culture & Train Street",
+            "phase": "explore",
+            "day_total": 28,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "Temple of Literature (30,000 VND / ~$1.20)",
+                "description": "Vietnam's first university (1076!). Beautiful Confucian temple, ancient stelae, peaceful gardens",
+                "cost": 1
+              },
+              {
+                "time": "09:30",
+                "activity": "Train Street (FREE)",
+                "description": "Iconic narrow alley with train tracks between houses. Train passes ~11:00 — go early for photos. Grab egg coffee at one of the cafes",
+                "cost": 2
+              },
+              {
+                "time": "12:00",
+                "activity": "Bún Chả Hương Liên",
+                "description": "Where Obama ate with Anthony Bourdain! Grilled pork patties + vermicelli — $1.50-2.50",
+                "cost": 2
+              },
+              {
+                "time": "14:00",
+                "activity": "Vietnamese Women's Museum (30,000 VND)",
+                "description": "Excellent museum about women's role in Vietnamese history and culture — very well curated",
+                "cost": 1
+              },
+              {
+                "time": "16:00",
+                "activity": "St. Joseph's Cathedral + weekend market",
+                "description": "FREE. Neo-Gothic cathedral built 1886. On weekends, the surrounding streets become a massive walking market",
+                "cost": 0
+              },
+              {
+                "time": "Evening",
+                "activity": "Night food crawl — Bia Hơi corner",
+                "description": "Sit on plastic stools at a bia hơi corner. Fresh beer $0.20/glass. Try bánh cuốn and nem rán nearby",
+                "cost": 3
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "date": "2026-11-08",
+            "title": "Hanoi — Mausoleum & Old Quarter Deep Dive",
+            "phase": "explore",
+            "day_total": 23,
+            "activities": [
+              {
+                "time": "07:30",
+                "activity": "Ho Chi Minh Mausoleum (FREE)",
+                "description": "Iconic site. ⚠️ Was closed Sep-Oct for renovation — check if reopened. Dress modestly (covered shoulders/knees). Also see the Presidential Palace and One Pillar Pagoda next door",
+                "cost": 0
+              },
+              {
+                "time": "10:00",
+                "activity": "B-52 Museum area",
+                "description": "FREE. See the wreck of a B-52 bomber shot down during the 1972 Christmas Bombings, now in a lake",
+                "cost": 0
+              },
+              {
+                "time": "12:00",
+                "activity": "Bánh Mì Hội An (but in Hanoi!)",
+                "description": "Not the famous Hoi An one but Hanoi has excellent bánh mì for $0.80-1.50. Try Bánh Mì 25 on Hàng Cá",
+                "cost": 1
+              },
+              {
+                "time": "14:00",
+                "activity": "Old Quarter maze walk + Long Biên Bridge",
+                "description": "Get lost in the 36 streets (each named after the guild that sold there). End at Long Biên Bridge for sunset — incredible views over the Red River",
+                "cost": 0
+              },
+              {
+                "time": "18:00",
+                "activity": "Water Puppet Show at Thang Long Theatre (100,000 VND / ~$4)",
+                "description": "Unique Vietnamese art form — water puppetry with live traditional music. Book ahead at the theatre",
+                "cost": 4
+              },
+              {
+                "time": "Dinner",
+                "activity": "Chả Cá Thăng Long",
+                "description": "Famous turmeric fish with dill — Hanoi's signature dish. ~$5-7. This is a splurge but worth it",
+                "cost": 6
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "date": "2026-11-09",
+            "title": "Hanoi → Ha Long Bay Overnight Cruise",
+            "phase": "explore",
+            "day_total": 15,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "Limo bus to Ha Long Bay",
+                "description": "Hostel pick-up to Halong City. Comfortable limo bus ~$12, 2.5-3 hours",
+                "cost": 12
+              },
+              {
+                "time": "12:00",
+                "activity": "Check in + lunch on cruise",
+                "description": "Board the overnight cruise. Lunch included as you cruise through the limestone karsts",
+                "cost": 0
+              },
+              {
+                "time": "14:00",
+                "activity": "Kayaking & swimming",
+                "description": "Kayak through caves and lagoons. Swim in the emerald waters. All gear provided",
+                "cost": 0
+              },
+              {
+                "time": "17:00",
+                "activity": "Sunset on deck + cooking demo",
+                "description": "Learn to make Vietnamese spring rolls while watching the sunset over the bay",
+                "cost": 0
+              },
+              {
+                "time": "19:00",
+                "activity": "Dinner + squid fishing",
+                "description": "Fresh seafood dinner on board. After dark, try squid fishing off the back of the boat",
+                "cost": 0
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "date": "2026-11-10",
+            "title": "Ha Long Bay — Full Day on the Bay",
+            "phase": "explore",
+            "day_total": 0,
+            "activities": [
+              {
+                "time": "06:00",
+                "activity": "Tai Chi on deck at sunrise",
+                "description": "Free tai chi session on the sundeck as the sun rises over the karsts",
+                "cost": 0
+              },
+              {
+                "time": "07:30",
+                "activity": "Light breakfast + morning cruise",
+                "description": "Continue cruising deeper into the bay. Visit floating fishing villages",
+                "cost": 0
+              },
+              {
+                "time": "09:00",
+                "activity": "Hang Sửng Sốt (Surprise Cave) visit",
+                "description": "One of the largest and most impressive caves in Ha Long Bay",
+                "cost": 0
+              },
+              {
+                "time": "11:00",
+                "activity": "More kayaking + Titop Island",
+                "description": "Hike up Titop Island for panoramic views. Kayak around secluded lagoons",
+                "cost": 0
+              },
+              {
+                "time": "12:00",
+                "activity": "Brunch/lunch on board",
+                "description": "Final meal on the cruise",
+                "cost": 0
+              },
+              {
+                "time": "14:00",
+                "activity": "Return to harbor, bus back to Hanoi",
+                "description": "Limo bus back to Hanoi (~$12, 3 hrs). Ready for evening flight",
+                "cost": 12
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "date": "2026-11-11",
+            "title": "Fly to Hue — Imperial City",
+            "phase": "explore",
+            "day_total": 18,
+            "activities": [
+              {
+                "time": "06:00",
+                "activity": "Early flight Hanoi → Hue (VietJet ~$40, 1h 15min)",
+                "description": "Budget flight. Book in advance for best price. Grab from Hanoi Noi Bai airport",
+                "cost": 42
+              },
+              {
+                "time": "09:00",
+                "activity": "Check in, drop bags at Thanh An 3 Guesthouse",
+                "description": "Family-run guesthouse near the Citadel. Rent a bicycle (~$1/day)",
+                "cost": 2
+              },
+              {
+                "time": "10:00",
+                "activity": "Imperial City (Citadel) — 200,000 VND / ~$8",
+                "description": "UNESCO World Heritage. The vast walled city of the Nguyen emperors. Allow 3-4 hours — the Forbidden Purple City, Thai Hoa Palace, Nine Dynastic Urns",
+                "cost": 8
+              },
+              {
+                "time": "14:00",
+                "activity": "Lunch — Bún Bò Huế ($1.20-2)",
+                "description": "Hue's signature dish — spicy beef noodle soup. Far superior to pho! Best at Quán Bún Bò Mụ Ni or Đông Ba Market",
+                "cost": 2
+              },
+              {
+                "time": "15:00",
+                "activity": "Thien Mu Pagoda (FREE)",
+                "description": "Iconic 7-story pagoda on the Perfume River. The oldest in Hue (1601). See the car that transported the monk who self-immolated in 1963",
+                "cost": 0
+              },
+              {
+                "time": "Sunset",
+                "activity": "Perfume River sunset + walk Đông Ba Market",
+                "description": "FREE. Watch the river turn golden. Visit the bustling market for snacks and bánh bèo ($0.20-0.40 each)",
+                "cost": 2
+              }
+            ]
+          },
+          {
+            "day": 7,
+            "date": "2026-11-12",
+            "title": "Hue — Royal Tombs & Culture",
+            "phase": "explore",
+            "day_total": 10,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "Tu Duc Tomb (100,000 VND / ~$4)",
+                "description": "Emperor Tu Duc's tomb. The most beautiful and poetic — set in a lake, pine forest, pavilions. 50 workers were buried alive to keep the location secret",
+                "cost": 4
+              },
+              {
+                "time": "10:00",
+                "activity": "Khai Dinh Tomb (150,000 VND / ~$6)",
+                "description": "The most ornate tomb — blends Vietnamese and European styles. Intricate ceramic mosaics. Steps up a dragon staircase",
+                "cost": 6
+              },
+              {
+                "time": "12:00",
+                "activity": "Lunch at Đông Ba Market",
+                "description": "Cơm Hến (rice with baby clams, $0.60-1) or Bánh Khoái (Hue crepe, $0.60-1). Some of the cheapest food in Vietnam",
+                "cost": 2
+              },
+              {
+                "time": "14:00",
+                "activity": "Hue Royal Antiquities Museum (FREE-ish)",
+                "description": "Or visit for a small fee. Contains artifacts from the Nguyen dynasty",
+                "cost": 1
+              },
+              {
+                "time": "16:00",
+                "activity": "Bicycle ride through the countryside",
+                "description": "Rent a bike and cycle to nearby villages. See rice paddies, water buffalo, village life. Beautiful back roads",
+                "cost": 2
+              },
+              {
+                "time": "Evening",
+                "activity": "Royal cuisine dinner",
+                "description": "Try Hue's famous royal cuisine at a restaurant like Ancient Hue Garden ($5-8 for a set). Or street food crawl",
+                "cost": 6
+              }
+            ]
+          },
+          {
+            "day": 8,
+            "date": "2026-11-13",
+            "title": "Scenic Train: Hue → Da Nang (Hai Van Pass)",
+            "phase": "explore",
+            "day_total": 20,
+            "activities": [
+              {
+                "time": "08:30",
+                "activity": "Hue → Da Nang by train (SE train, $5-15, 2.5-3h)",
+                "description": "The MUST-DO experience! Train snakes over the Hai Van Pass hugging the coast. Stunning views — ocean on one side, mountains on the other. Sit on the left side for best views",
+                "cost": 10
+              },
+              {
+                "time": "12:00",
+                "activity": "Arrive Da Nang station → Bus #1 to Hoi An ($0.70)",
+                "description": "From Da Nang train station, walk to the bus stop and take local bus #1. Direct to Hoi An Ancient Town",
+                "cost": 1
+              },
+              {
+                "time": "13:30",
+                "activity": "Check in at Under The Coconut Tree Homestay",
+                "description": "An Bang Beach, Hoi An. Bamboo bungalow, pool, hammocks, 9.7 rating!",
+                "cost": 0
+              },
+              {
+                "time": "15:00",
+                "activity": "Hoi An Ancient Town walk",
+                "description": "150,000 VND ticket (~$6) covers 5 of 22 sites. See Japanese Covered Bridge, Fujian Assembly Hall, Tan Ky Old House",
+                "cost": 6
+              },
+              {
+                "time": "Dinner",
+                "activity": "Bánh Mì Phượng — THE BEST BÁNH MÌ IN VIETNAM ($1)",
+                "description": "Famous. Anthony Bourdain ate here. Queue may be long but it's $1-1.50. Get the mixed pork version",
+                "cost": 1
+              },
+              {
+                "time": "Evening",
+                "activity": "Hoi An Night Market + lanterns",
+                "description": "FREE. Thousands of colorful lanterns reflecting on the river. Hoi An at night is magical. Take a boat ride ($2-3) or just walk",
+                "cost": 0
+              }
+            ]
+          },
+          {
+            "day": 9,
+            "date": "2026-11-14",
+            "title": "Hoi An — My Son Sanctuary & An Bang Beach",
+            "phase": "explore",
+            "day_total": 22,
+            "activities": [
+              {
+                "time": "06:00",
+                "activity": "My Son Sanctuary half-day tour (~$10-15)",
+                "description": "UNESCO site — the 'Angkor Wat of Vietnam.' Hindu temple complex built by the Cham civilization between 4th-14th centuries. Morning tour avoids heat",
+                "cost": 12
+              },
+              {
+                "time": "13:00",
+                "activity": "Lunch at An Bang Beach ($2-4)",
+                "description": "Fresh seafood right on the sand. Try cao lầu ($1.20-2) — Hoi An's signature noodle dish with pork and greens",
+                "cost": 3
+              },
+              {
+                "time": "14:00",
+                "activity": "An Bang Beach afternoon — FREE",
+                "description": "Swim, sleep in a hammock, read a book. One of Vietnam's best beaches — much quieter than Da Nang's My Khe",
+                "cost": 0
+              },
+              {
+                "time": "17:00",
+                "activity": "Tailor visit — get measured for custom clothes",
+                "description": "Hoi An is famous for custom tailoring. A dress costs ~$30, suit ~$80. Yaly or Bebe Tailor. Allow 24-48 hours turnaround",
+                "cost": 35
+              },
+              {
+                "time": "Dinner",
+                "activity": "White Rose dumplings + Mỳ Quảng",
+                "description": "Two Hoi An specialties. White Rose (bánh bao bánh vạc) — $1.50-2.50. Mỳ Quảng — turmeric noodles with pork/shrimp ($1-1.80)",
+                "cost": 4
+              }
+            ]
+          },
+          {
+            "day": 10,
+            "date": "2026-11-15",
+            "title": "Hoi An — Cooking Class & Lantern Evening",
+            "phase": "explore",
+            "day_total": 22,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "Hoi An cooking class with market visit",
+                "description": "Half-day cooking class ~$15-25. Includes market tour, boat ride, and making 4 dishes (pho, spring rolls, banh xeo). Highly recommended by solo travelers",
+                "cost": 20
+              },
+              {
+                "time": "13:00",
+                "activity": "FREE afternoon — bike to Tra Que Vegetable Village",
+                "description": "Free biking through organic herb gardens. 15 min bike ride from Hoi An. See farmers working with traditional methods unchanged for centuries",
+                "cost": 0
+              },
+              {
+                "time": "15:00",
+                "activity": "Pick up tailored clothes from yesterday",
+                "description": "Fitting session for any custom clothes ordered. Tailors do adjustments on the spot if needed",
+                "cost": 0
+              },
+              {
+                "time": "Sunset",
+                "activity": "Thu Bon River sunset",
+                "description": "FREE. Watch the sunset over the boats on the river. The Japanese Covered Bridge looks stunning at golden hour",
+                "cost": 0
+              },
+              {
+                "time": "Evening",
+                "activity": "Second night market + lantern boat",
+                "description": "Release a lantern on the river (good luck, ~$1). Or hire a boat ($2-3) for a 20-min ride under the lanterns",
+                "cost": 2
+              }
+            ]
+          },
+          {
+            "day": 11,
+            "date": "2026-11-16",
+            "title": "Da Nang — Marble Mountains & Dragon Bridge",
+            "phase": "explore",
+            "day_total": 8,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "Bus to Da Nang (local bus #1, $0.70, 45 min)",
+                "description": "Cheap local bus from Hoi An to Da Nang. Drops near Marble Mountains",
+                "cost": 1
+              },
+              {
+                "time": "09:00",
+                "activity": "Marble Mountains (40,000 VND / ~$1.60)",
+                "description": "Five marble and limestone hills with caves, pagodas, and stunning views. Climb to the top for panoramic beach views. Huyen Khong Cave is the most atmospheric",
+                "cost": 2
+              },
+              {
+                "time": "12:00",
+                "activity": "Mỳ Quảng at Bà Mua (Da Nang)",
+                "description": "Da Nang's most famous Mỳ Quảng. $1-2. The turmeric noodles with shrimp and quail egg are incredible",
+                "cost": 2
+              },
+              {
+                "time": "14:00",
+                "activity": "My Khe Beach (China Beach) — FREE",
+                "description": "One of Vietnam's most beautiful beaches. 20 km of white sand. Wash off the mountain dust with a swim",
+                "cost": 0
+              },
+              {
+                "time": "16:00",
+                "activity": "Son Tra Peninsula (Monkey Mountain) — FREE",
+                "description": "Grab bike to the top. See the 67m tall Lady Buddha statue (Linh Ung Pagoda) and maybe wild monkeys",
+                "cost": 3
+              },
+              {
+                "time": "21:00",
+                "activity": "Dragon Bridge fire show (weekends only!)",
+                "description": "FREE. Saturdays & Sundays at 9pm. The dragon breathes fire and water! Check day — Nov 16 is a Monday, so this may not run. If it's Saturday (Nov 14), watch from the bridge",
+                "cost": 0
+              }
+            ]
+          },
+          {
+            "day": 12,
+            "date": "2026-11-17",
+            "title": "Hoi An — Free Morning + Travel to HCMC",
+            "phase": "explore",
+            "day_total": 47,
+            "activities": [
+              {
+                "time": "Morning",
+                "activity": "Lazy morning at An Bang Beach",
+                "description": "One last swim and breakfast at the beach. Fresh fruit smoothie bowl ~$1.50-2",
+                "cost": 2
+              },
+              {
+                "time": "12:00",
+                "activity": "Bus Da Nang → Airport",
+                "description": "Local bus back from Hoi An to Da Nang Airport. ~$1, 1 hour",
+                "cost": 1
+              },
+              {
+                "time": "14:00",
+                "activity": "Fly Da Nang → HCMC (VietJet ~$40, 1h 30min)",
+                "description": "Budget flight to Ho Chi Minh City. Grab from Tan Son Nhat airport to District 1 (~$3-5)",
+                "cost": 44
+              },
+              {
+                "time": "16:00",
+                "activity": "Check in at City Backpackers Hostel, District 1",
+                "description": "Top-rated hostel, 9.8 rating! Drop bags, freshen up",
+                "cost": 0
+              },
+              {
+                "time": "17:00",
+                "activity": "Bui Vien Walking Street",
+                "description": "HCMC's backpacker area. Cheap drinks, street food, lively atmosphere. Check the 'Nguyen Hue Walking Street' nearby for fountains and weekend events",
+                "cost": 0
+              },
+              {
+                "time": "Dinner",
+                "activity": "Cơm Tấm Bụi Sài Gòn ($1-2)",
+                "description": "Broken rice with grilled pork — HCMC's quintessential dish. Cheap, fast, incredible flavor",
+                "cost": 2
+              }
+            ]
+          },
+          {
+            "day": 13,
+            "date": "2026-11-18",
+            "title": "HCMC — War Remnants & Cu Chi Tunnels",
+            "phase": "explore",
+            "day_total": 26,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "War Remnants Museum (40,000 VND / ~$1.60)",
+                "description": "Essential and sobering. One of the most powerful museums in Vietnam. The Agent Orange exhibit and the war photography are unforgettable. Allow 2 hours",
+                "cost": 2
+              },
+              {
+                "time": "10:00",
+                "activity": "Notre-Dame Cathedral + Central Post Office (FREE)",
+                "description": "The cathedral is under renovation but the exterior is still beautiful. The Central Post Office (designed by Gustave Eiffel) is a must-see interior",
+                "cost": 0
+              },
+              {
+                "time": "11:00",
+                "activity": "Cu Chi Tunnels half-day tour ($15-22)",
+                "description": "Book a tour from District 1 (includes transport). Crawl through the actual tunnels used by Viet Cong. See booby traps, underground kitchens, shooting range",
+                "cost": 20
+              },
+              {
+                "time": "15:00",
+                "activity": "Return to city",
+                "description": "Tour drops back in District 1. Rest and freshen up",
+                "cost": 0
+              },
+              {
+                "time": "Evening",
+                "activity": "Bánh Mì Huỳnh Hoa ($2-3)",
+                "description": "HCMC's best bánh mì. Stuffed with cold cuts, pate, pork floss, pickled veg. Worth the hype",
+                "cost": 3
+              },
+              {
+                "time": "Night",
+                "activity": "Saigon rooftop bar (budget version)",
+                "description": "Saigon Saigon Rooftop Bar at the Caravelle Hotel. You can have one drink ($4-6) for the view. Or cheaper: Chill Sky Bar for a beer ($3-4)",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 14,
+            "date": "2026-11-19",
+            "title": "HCMC — Markets, Pagodas & Food Tour",
+            "phase": "explore",
+            "day_total": 10,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "Ben Thanh Market (FREE entry)",
+                "description": "Iconic HCMC market. Haggle for souvenirs, try fresh fruit, see the chaos. Go early before the tourist crowds",
+                "cost": 0
+              },
+              {
+                "time": "10:00",
+                "activity": "Jade Emperor Pagoda (FREE)",
+                "description": "Most atmospheric Chinese-style pagoda in HCMC. Built 1909, dedicated to the Jade Emperor. Incense, turtles, intricate carvings",
+                "cost": 0
+              },
+              {
+                "time": "12:00",
+                "activity": "Phở Hòa Pasteur ($2-3)",
+                "description": "Famous pho restaurant — one of the oldest in Saigon. Clear, rich broth. A classic",
+                "cost": 3
+              },
+              {
+                "time": "14:00",
+                "activity": "Museum of Vietnamese History (30,000 VND / ~$1.20)",
+                "description": "Excellent overview of Vietnam's 4,000-year history from prehistoric times to the Nguyen dynasty. Water puppet show also at 11am",
+                "cost": 1
+              },
+              {
+                "time": "16:00",
+                "activity": "Tao Dan Park (FREE)",
+                "description": "Beautiful city park with ancient trees, bonsai garden, and bird enthusiasts gathering at sunset. Escape the city noise",
+                "cost": 0
+              },
+              {
+                "time": "18:00",
+                "activity": "Street food walking tour (self-guided)",
+                "description": "Hit Vinh Khanh Street (District 4) for seafood. Or Nguyễn Thượng Hiền Street for snails (ốc). Bánh Xèo 46A ($1-2) — crispy Vietnamese crepe",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 15,
+            "date": "2026-11-20",
+            "title": "Mekong Delta — Floating Market Day Trip",
+            "phase": "explore",
+            "day_total": 20,
+            "activities": [
+              {
+                "time": "06:00",
+                "activity": "Bus to Can Tho / My Tho ($5-10, 2-3h)",
+                "description": "Early departure to catch the floating markets. Futa Bus line is comfortable. Aim for Can Tho for the best experience",
+                "cost": 8
+              },
+              {
+                "time": "09:00",
+                "activity": "Cai Rang Floating Market boat tour (~$5-10)",
+                "description": "The biggest floating market in the Mekong Delta. Hundreds of boats selling everything. Go at sunrise for the most action. Buy a coconut coffee from a boat seller",
+                "cost": 8
+              },
+              {
+                "time": "11:00",
+                "activity": "Coconut candy workshop + sampan ride",
+                "description": "Visit a coconut candy workshop in Ben Tre. Take a small sampan (rowing boat) through narrow palm-shaded canals. Very peaceful",
+                "cost": 5
+              },
+              {
+                "time": "13:00",
+                "activity": "Lunch — Hủ Tiếu Mỹ Tho ($1-1.60)",
+                "description": "My Tho's signature noodle soup — clear pork/seafood broth with tapioca noodles. Freshest possible ingredients in the Delta",
+                "cost": 2
+              },
+              {
+                "time": "14:00",
+                "activity": "Vinh Trang Pagoda (FREE)",
+                "description": "Giant Buddha statues, mix of Vietnamese, Chinese, and Khmer architecture. Peaceful gardens",
+                "cost": 0
+              },
+              {
+                "time": "15:00",
+                "activity": "Bus back to HCMC",
+                "description": "Return to HCMC by bus ($5-10)",
+                "cost": 8
+              },
+              {
+                "time": "Evening",
+                "activity": "Lẩu Cá Kèo (crispy snakehead fish hotpot)",
+                "description": "Mekong Delta specialty in HCMC. ~$2.50-4. The fish is fried whole, then added to a sour tamarind hotpot",
+                "cost": 4
+              }
+            ]
+          },
+          {
+            "day": 16,
+            "date": "2026-11-21",
+            "title": "Fly to Phu Quoc — Beach Paradise Begins",
+            "phase": "relax",
+            "day_total": 35,
+            "activities": [
+              {
+                "time": "Morning",
+                "activity": "Last HCMC breakfast + check out",
+                "description": "Hủ Tiếu Nam Vang — another noodle soup variation ($1.50-2.50)",
+                "cost": 2
+              },
+              {
+                "time": "11:00",
+                "activity": "Fly HCMC → Phu Quoc (VietJet ~$30, 50 min)",
+                "description": "Quick and cheap flight. Phu Quoc airport is small and efficient",
+                "cost": 33
+              },
+              {
+                "time": "13:00",
+                "activity": "Check in at Sunshine Bungalow",
+                "description": "Beachfront bungalow!!! Drop bags, change into swimwear. 8 nights of pure relaxation ahead",
+                "cost": 0
+              },
+              {
+                "time": "14:00",
+                "activity": "Sao Beach afternoon (FREE)",
+                "description": "The most beautiful beach on Phu Quoc. Powdery white sand, turquoise water, calm waves. Umbrella and lounger: ~$2-3",
+                "cost": 2
+              },
+              {
+                "time": "Evening",
+                "activity": "Dinh Cau Night Market",
+                "description": "FREE to enter. Seafood BBQ street food — grilled scallops with garlic ($1-2), squid ($2-3), tiger prawns. Wash it down with fresh sugarcane juice ($0.50)",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 17,
+            "date": "2026-11-22",
+            "title": "Phu Quoc — Snorkeling & Island Hopping",
+            "phase": "relax",
+            "day_total": 22,
+            "activities": [
+              {
+                "time": "08:30",
+                "activity": "Snorkeling / Island hopping tour ($16-33)",
+                "description": "Half-day or full-day tour to the An Thoi Islands. Best snorkeling in Vietnam — coral reefs, tropical fish, clear water. Usually includes lunch on the boat",
+                "cost": 25
+              },
+              {
+                "time": "15:00",
+                "activity": "Back from tour — chill at Long Beach",
+                "description": "Famous for sunset views. Grab a coconut ($0.60-1) and a hammock",
+                "cost": 1
+              },
+              {
+                "time": "Sunset",
+                "activity": "Sunset cocktails at a beach bar",
+                "description": "Rory's Beach Bar or similar. Happy hour 5-7pm. Beer ~$1.50, cocktail ~$4",
+                "cost": 4
+              },
+              {
+                "time": "Evening",
+                "activity": "Bún Quậy ($1.20-2)",
+                "description": "Phu Quoc specialty — noodle soup with fish cakes and crab. Try it at Bún Quậy Kiên Xương — simple, incredible",
+                "cost": 2
+              }
+            ]
+          },
+          {
+            "day": 18,
+            "date": "2026-11-23",
+            "title": "Phu Quoc — Cable Car & Beach Day",
+            "phase": "relax",
+            "day_total": 25,
+            "activities": [
+              {
+                "time": "09:00",
+                "activity": "Phu Quoc Cable Car (Hòn Thơm, ~$20)",
+                "description": "World's longest over-sea cable car (7.9 km). 15-min ride over turquoise water to Hòn Thơm island. Spectacular views — worth every cent",
+                "cost": 20
+              },
+              {
+                "time": "11:00",
+                "activity": "Hòn Thơm island relax",
+                "description": "White sand beaches, clear water. Swim, sunbathe, explore the island trails. Quieter than main island beaches",
+                "cost": 0
+              },
+              {
+                "time": "14:00",
+                "activity": "Back to main island — fish sauce factory & pearl farm",
+                "description": "FREE. Phu Quoc is famous for fish sauce (Phú Quốc nước mắm) and pearl farming. Both are fascinating visits",
+                "cost": 0
+              },
+              {
+                "time": "Evening",
+                "activity": "Gỏi Cá Trích ($2-3)",
+                "description": "Phu Quoc's herring salad — fresh raw herring with herbs, coconut, peanuts, and fish sauce. A must-try island specialty. Best at Khánh Ly Restaurant",
+                "cost": 3
+              }
+            ]
+          },
+          {
+            "day": 19,
+            "date": "2026-11-24",
+            "title": "Phu Quoc — Vietnam Culture Day! 🇻🇳",
+            "phase": "relax",
+            "day_total": 8,
+            "activities": [
+              {
+                "time": "Morning",
+                "activity": "Vietnam Culture Day celebrations!!!",
+                "description": "First-ever national Culture Day! Parades, performances, FREE museum entry across Vietnam. Phu Quoc will have special events — check local listings",
+                "cost": 0
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Sao Beach — full afternoon",
+                "description": "The beach is calling. Swim, read, nap. The Culture Day festivities might include special beach events too",
+                "cost": 0
+              },
+              {
+                "time": "Late PM",
+                "activity": "Massage time ($10-15 for 60 min)",
+                "description": "Vietnamese massage on the beach or at a local spa. You've earned it after 18 days of travel",
+                "cost": 12
+              },
+              {
+                "time": "Dinner",
+                "activity": "Special Culture Day dinner",
+                "description": "Look for special cultural food festivals on the island. Try regional specialties from all over Vietnam gathered in one place",
+                "cost": 6
+              }
+            ]
+          },
+          {
+            "day": 20,
+            "date": "2026-11-25",
+            "title": "Phu Quoc — National Park Hike & Beach",
+            "phase": "relax",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "07:00",
+                "activity": "Phu Quoc National Park hike (FREE)",
+                "description": "Early morning hike in the protected tropical forest. See birds, butterflies, and the trail to the top of Mount Chúa (603m). Big views over the island",
+                "cost": 0
+              },
+              {
+                "time": "11:00",
+                "activity": "Starfish Beach",
+                "description": "Shallow turquoise water with red starfish visible on the sandy bottom. 15-20 min drive from town. Go at high tide for the best experience",
+                "cost": 2
+              },
+              {
+                "time": "13:00",
+                "activity": "Lunch — fresh seafood ($3-5)",
+                "description": "Simple beachfront restaurant. Grilled fish, rice, greens. About $3-5 with a beer",
+                "cost": 4
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Hammock time at the bungalow",
+                "description": "Afternoon nap, read your book, drink fresh coconut. The vacation life",
+                "cost": 0
+              },
+              {
+                "time": "Sunset",
+                "activity": "Sunset at Ong Lang Beach",
+                "description": "Quieter beach area with fewer tourists. Sunset here is spectacular",
+                "cost": 0
+              }
+            ]
+          },
+          {
+            "day": 21,
+            "date": "2026-11-26",
+            "title": "Phu Quoc — Full Day of Doing Nothing",
+            "phase": "relax",
+            "day_total": 6,
+            "activities": [
+              {
+                "time": "Morning",
+                "activity": "Sleep in + lazy breakfast",
+                "description": "No alarm. Morning swim in the sea. Fresh fruit and coffee at the bungalow",
+                "cost": 2
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Long Beach stretch + swimming",
+                "description": "Walk the length of Long Beach (20 km of sand). Dip whenever you feel hot. Beach massage on the sand ($6-10)",
+                "cost": 0
+              },
+              {
+                "time": "Evening",
+                "activity": "Italian at Le Bar du Phu Quoc",
+                "description": "Sometimes you crave pizza after weeks of pho! Excellent wood-fired pizza $3-5. Or try Indian at Ganesh ($3-6)",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 22,
+            "date": "2026-11-27",
+            "title": "Phu Quoc — Last Full Beach Day",
+            "phase": "relax",
+            "day_total": 6,
+            "activities": [
+              {
+                "time": "Morning",
+                "activity": "Sao Beach — one last time",
+                "description": "Your favorite beach on the island. One last swim in paradise. Pure white sand, warm water, blue sky",
+                "cost": 0
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Last souvenir shopping + packing",
+                "description": "Dinh Cau night market for last souvenirs (pepper, fish sauce, pearls). Pack for the journey home",
+                "cost": 20
+              },
+              {
+                "time": "Sunset",
+                "activity": "Final sunset at the bungalow",
+                "description": "Watch the sun set over the Gulf of Thailand. Reflect on 22 incredible days in Vietnam",
+                "cost": 0
+              },
+              {
+                "time": "Farewell dinner",
+                "activity": "Seafood BBQ blowout ($6-8)",
+                "description": "Go all out at the night market. All the grilled seafood you can eat: tiger prawns, squid, scallops, clams. A feast to remember",
+                "cost": 7
+              }
+            ]
+          },
+          {
+            "day": 23,
+            "date": "2026-11-28",
+            "title": "Final Day — Relax & Prepare to Depart",
+            "phase": "relax",
+            "day_total": 4,
+            "activities": [
+              {
+                "time": "Morning",
+                "activity": "One last swim",
+                "description": "Final dip in the sea. Morning coffee on the beach",
+                "cost": 2
+              },
+              {
+                "time": "Afternoon",
+                "activity": "Check out + fly Phu Quoc → HCMC ($35, 50 min)",
+                "description": "Last flight from the island back to the mainland. Spend the afternoon at Can Tho area or just wait at HCMC airport",
+                "cost": 37
+              },
+              {
+                "time": "Evening",
+                "activity": "Final Vietnamese meal in HCMC",
+                "description": "Before the 23:00 flight: one last phở at Phở Lệ ($2-3) near the airport",
+                "cost": 3
+              },
+              {
+                "time": "23:00",
+                "activity": "Fly HCMC → FRA (Qatar Airways via Doha)",
+                "description": "Return flight home. Arrive in Frankfurt Nov 29 afternoon. Trip complete!",
+                "cost": 0
+              }
+            ]
+          }
+        ],
+        "food_total": 80,
+        "attractions_total": 95,
+        "transport_local_total": 140,
+        "extras_total": 60,
+        "grand_total": 1480,
+        "culture": {
+          "title": "🇻🇳 Vietnam — 4,000 Years of Culture",
+          "overview": "Vietnam is a land of staggering natural beauty and deep cultural complexity — shaped by 1,000 years of Chinese rule, French colonialism, the Vietnam War, and its modern emergence as a vibrant Southeast Asian destination. The culture is ancient yet dynamic: Confucian traditions coexist with Communist ideology, Buddhist pagodas sit beside French cathedrals, and a burgeoning street-food scene is recognized worldwide. Vietnamese people are famously warm, resilient, and welcoming. The country's S-shape stretches 1,650 km from the misty mountains of the north to the Mekong Delta's floating markets in the south — every region has its own dialect, cuisine, and character.",
+          "history": [
+            "Hồng Bàng Dynasty (2879-258 BCE): Vietnam's legendary first dynasty. The myth of Âu Cơ — a fairy who married a dragon king and gave birth to 100 eggs, from which all Vietnamese descend.",
+            "Chinese Domination (111 BCE - 938 CE): Over 1,000 years of Chinese rule. The Trưng Sisters led a famous rebellion in 40 CE. Vietnam finally gained independence at the Battle of Bạch Đằng River in 938.",
+            "Nguyễn Dynasty (1802-1945): The last imperial dynasty, which built the Imperial City in Huế. French colonization began in 1858, ending the Nguyễn emperors' true power.",
+            "French Colonial Era (1887-1954): Coffee plantations, rubber estates, and the introduction of baguettes (bánh mì!) and French architecture. Ended with the decisive Battle of Điện Biên Phủ in 1954.",
+            "Vietnam War / American War (1955-1975): The most defining chapter for modern Vietnam. The country was devastated by war, Agent Orange, and millions of casualties. Reunification came in 1975 when Saigon fell to North Vietnamese forces.",
+            "Đổi Mới (1986-present): Vietnam's economic reforms transformed it from one of the world's poorest nations to a middle-income country within one generation. Today, it's a manufacturing powerhouse tourism hot spot."
+          ],
+          "architecture": [
+            "Imperial Citadel of Thăng Long (Hanoi): UNESCO site, 11th-century royal enclosure with layered Chinese-Vietnamese influences.",
+            "Imperial City of Huế: 19th-century Nguyen citadel modeled on Beijing's Forbidden City but with Vietnamese character — dragons, naga serpents, lotus motifs.",
+            "Temple of Literature (Hanoi): Vietnam's first university (1076). Classic Confucian layout with five courtyards, ancient banyan trees, stone stelae on turtle backs.",
+            "French Colonial Legacy: Hanoi's Opera House, HCMC's Central Post Office (Eiffel!), Notre-Dame Cathedral — elegant boulevards and yellow-painted villas.",
+            "Vietnamese Pagodas: Multi-tiered, curved roofs with dragon finials. Bút Tháp Temple (Bac Ninh) has the famous Quan Âm statue with 1,000 eyes and 1,000 arms.",
+            "Hội An Ancient Town: The best-preserved Southeast Asian trading port. Japanese covered bridge (1593), Chinese assembly halls, French shophouses, Vietnamese tube houses — all UNESCO protected."
+          ],
+          "culture": [
+            "Ancestor Worship: The most important spiritual practice. Every home has an ancestor altar. Families burn incense and offer food on death anniversaries.",
+            "Confucianism: Deeply embedded. Filial piety, respect for elders, education as the highest value. This explains the warmth but also the formality in family structures.",
+            "Tết Nguyên Đán (Lunar New Year): THE biggest holiday. The entire country shuts down for a week. Families travel home, give lucky money, eat bánh chưng (square sticky rice cake).",
+            "Ao Dài: The elegant Vietnamese national dress — a long silk tunic worn over pants. Women wear it for weddings, Tết, and formal occasions. The conical hat (nón lá) is iconic.",
+            "Water Puppetry: A uniquely Vietnamese art form from the Red River Delta. Puppets perform on water with musicians and singers. The water hides the rods and creates special effects.",
+            "Hospitality: Vietnamese people are exceptionally warm to foreigners. 'Bà con xa' (distant relative) — strangers are often treated as family. Expect to be invited for tea, offered food, and waved at constantly.",
+            "Motorbike Culture: Vietnam has 60+ million motorbikes. Crossing the street is an art — don't stop or run, just walk at a steady pace and the bikes flow around you."
+          ],
+          "food": [
+            "Phở: Vietnam's national dish. Beef noodle soup with star anise, cinnamon, and fresh herbs. Phở Bắc (Hanoi-style) has a clear, simple broth. Phở Nam (Saigon-style) is sweeter with more garnishes.",
+            "Bún Chả: Hanoi's gift to the world. Grilled pork patties in a sweet-sour dipping sauce with vermicelli and fresh herbs. Obama ate this!",
+            "Bánh Mì: The perfect fusion food — French baguette stuffed with Vietnamese fillings (cold cuts, pate, pickled daikon, cilantro, chilli). The best sandwich in the world for $1-2.",
+            "Cao Lầu: Hoi An's signature. Thick noodles made with ancient Cham well water, slices of pork, crispy croutons, fresh greens. Found nowhere else.",
+            "Bún Bò Huế: Spicy beef noodle soup from Hue. Lemongrass, shrimp paste, and annatto oil give it a red broth that's far more complex than pho.",
+            "Cơm Tấm: 'Broken rice' — Saigon's favorite. Grilled pork chop, shredded pork skin, egg meatloaf, scallion oil, fish sauce. Hearty and cheap.",
+            "Fresh Spring Rolls (Gỏi Cuốn): Rice paper rolls with shrimp, pork, vermicelli, herbs. Dipped in hoisin-peanut sauce. Fresh and healthy.",
+            "Egg Coffee (Cà Phê Trứng): Hanoi invention — whipped egg yolk + condensed milk over robusta coffee. Dessert and coffee in one.",
+            "Street Food Etiquette: Sit on tiny plastic stools. Eat when it's ready. Pay after. Don't ask for ice-free drinks (locals drink iced). Fresh herbs are unlimited. Chopsticks + spoon combo is standard.",
+            "Food Budget: $8-15/day for amazing meals. Street food $1-3, market food $0.50-2, sit-down restaurants $3-6. Vietnam is one of the cheapest food destinations in the world."
+          ],
+          "people": [
+            "The Vietnamese are overwhelmingly warm, curious, and resilient. After centuries of war and hardship, the national mood is forward-looking and optimistic. 'Không có gì' (it's nothing / no problem) is a common response to thanks.",
+            "Family is everything. Multi-generational households are the norm. Children care for elderly parents — nursing homes are almost unheard of. The family altar is the heart of every home.",
+            "Haggling is expected at markets — start at 50% of the asking price and meet in the middle. But haggling over $0.50 is not worth the bad taste it leaves.",
+            "Communal eating: meals are shared, dishes placed in the center, everyone picks with chopsticks. This reflects the collectivist culture.",
+            "Tipping culture is minimal. Round up taxi fares, leave small change ($0.50-1) at nice restaurants. Not expected but appreciated.",
+            "The Vietnamese smile can mean many things: yes, no, embarrassment, apology, or 'I don't understand.' It's a social lubricant, not always agreement."
+          ],
+          "regions": [
+            "Northern Vietnam (Hanoi, Ha Long Bay, Sapa): Cooler climate (18-25°C in Nov). Red River Delta, misty mountains, terraced rice fields. Hanoi is 1,000 years old. Ha Long Bay is one of the world's natural wonders.",
+            "Central Vietnam (Hue, Da Nang, Hoi An): The narrow waist of Vietnam. Imperial history, beautiful beaches, the Hai Van Pass. Hoi An is a UNESCO town frozen in time. Rainy in November but still warm (25-30°C).",
+            "Southern Vietnam (HCMC, Mekong Delta, Phu Quoc): Hot and dry in November (27-33°C). The economic engine of Vietnam. HCMC is chaotic and electric. The Mekong Delta is 'Vietnam's rice bowl' — a watery world of floating markets and orchards. Phu Quoc is tropical paradise.",
+            "Highlands (Da Lat, Dalat, Buon Ma Thuot): Cool year-round (15-22°C). Pine forests, coffee plantations, canyoning, waterfalls. Da Lat is the honeymoon capital of Vietnam — very romantic, also great for solo hiking."
+          ],
+          "tips": [
+            "Cash is king. Vietnam runs on cash for everything under $50. ATMs charge $2-4 per withdrawal — take out larger amounts less often. VND has many zeros: 100,000 VND = ~$4.",
+            "SIM card: Buy a Viettel sim at the airport or any Viettel shop. $5-10 for 30GB+ data valid for 30 days. Unlimited WhatsApp/Facebook calls.",
+            "Download Grab (Southeast Asia's Uber) — use it in every city. Works for motorbike taxis (GrabBike), cars (GrabCar), and food delivery. Cash or card.",
+            "Crossing the road: Don't run, don't hesitate. Walk at a steady pace and the motorbikes will flow around you. Making eye contact helps drivers predict your path.",
+            "November weather: Hanoi 18-25°C (light jacket for evenings), Central 25-30°C (rainy — pack a rain jacket), South/Phu Quoc 27-33°C (hot, sunny, dry season!). Pack layers.",
+            "Scams to watch: Taxi overcharging (use Grab), cyclo drivers (agree price BEFORE), 'my friend/sister owns a shop' (hard sell), people asking you to hold their baby for a 'photo' (it ends with a donation request).",
+            "Health: No jabs required. Tap water is NOT drinkable — buy bottled ($0.20-0.50). Street food is safe if it's cooked fresh in front of you. Avoid raw veggies washed in tap water.",
+            "Bargaining: Start at 50% of asking price in markets. At shops with fixed prices (most shops in HCMC), don't bargain. Hotels/hostels booked online are cheaper than walk-in.",
+            "Visa: Germans get 45-day visa-free entry to Vietnam. No visa needed for this trip! Arrive, get stamp, go.",
+            "Ultimate tip: The best thing about Vietnam is the people. Smile, say 'xin chào' (hello), and 'cảm ơn' (thank you). A little Vietnamese goes a very long way."
+          ]
+        }
+      },
+      "status": "complete",
+      "created_at": "2026-06-15 11:12:25.750340"
+    },
+    {
+      "id": "tp-1783974550374",
+      "request": {
+        "id": "tp-1783974550374",
+        "from": "frankfurt am main",
+        "to": "porec, kroatia",
+        "departure_date": "2026-09-12",
+        "return_date": "2026-09-27",
+        "people": 2,
+        "budget": 1000.0,
+        "notes": "I will drive there with the car so travel costs are 0. I would like to spend first week on driving around. I would like to drive to nice places or events in the 100 km area from Porec. second week I would like to spend on a beach. please plan me a no stress vacation. Thank you.",
+        "status": "complete",
+        "submitted_at": "2026-07-13T22:29:10.374687"
+      },
+      "plan": {
+        "summary": "16-tägiger No-Stress-Urlaub zu zweit: Mit dem Auto von Frankfurt nach Poreč in Kroatien. Woche 1: entspannte Hinfahrt über Chiemsee, Salzburg, Bleder See und Predjama, gefolgt von Tagestrips innerhalb von 100 km um Poreč (Rovinj, Motovun, Pula, Limski-Kanal, Grožnjan, Brijuni). Woche 2: reiner Strandurlaub an den schönsten Buchten Istriens. Budget: €1.000 für 2 Personen inkl. Sprit, Unterkunft, Verpflegung.",
+        "phase1": {
+          "days": 7,
+          "percentage": 50
+        },
+        "phase2": {
+          "days": 8,
+          "percentage": 50
+        },
+        "flights": {
+          "total": 0,
+          "recommendation": "Kein Flug nötig – Anreise mit dem eigenen Auto über die malerische Route Frankfurt → München → Chiemsee → Salzburg → Bleder See → Predjama → Poreč. Ca. 750 km.",
+          "tip": "Slowenien E-Vignette vorab online kaufen (e-vignette.si). In Kroatien Maut auf A8/A9 (Tunnel Učka). Bargeld oder Kreditkarte bereithalten."
+        },
+        "accommodations": [
+          {
+            "name": "Ferienwohnung Poreč Altstadt (Woche 1)",
+            "type": "private_apartment",
+            "price_per_night": 45,
+            "total": 270,
+            "description": "Zentrale Lage in Poreč, fußläufig zur Altstadt und Euphrasius-Basilika. 6 Nächte (13.–19.09.)."
+          },
+          {
+            "name": "Appartement am Strand (Woche 2)",
+            "type": "private_apartment",
+            "price_per_night": 40,
+            "total": 320,
+            "description": "Direkt am Plaža Borik oder Lanterna – maximal 5 Gehminuten zum Wasser. 8 Nächte (20.–27.09.)."
+          }
+        ],
+        "daily_itinerary": [
+          {
+            "day": 1,
+            "date": "2026-09-12",
+            "title": "Hinfahrt: Frankfurt → Salzburg",
+            "phase": "travel",
+            "day_total": 60,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "Abfahrt in Frankfurt",
+                "cost": 0
+              },
+              {
+                "time": "10:30",
+                "activity": "München – kurzer Spaziergang/ Viktualienmarkt",
+                "cost": 10
+              },
+              {
+                "time": "13:00",
+                "activity": "Picknick am Chiemsee",
+                "cost": 5
+              },
+              {
+                "time": "18:00",
+                "activity": "Ankunft Salzburg – Altstadtbummel",
+                "cost": 0
+              },
+              {
+                "time": "Übernachtung",
+                "activity": "Pension / Airbnb Salzburg oder Umgebung",
+                "cost": 45
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "date": "2026-09-13",
+            "title": "Hinfahrt: Salzburg → Poreč",
+            "phase": "travel",
+            "day_total": 50,
+            "activities": [
+              {
+                "time": "09:00",
+                "activity": "Frühstück + Weiterfahrt",
+                "cost": 5
+              },
+              {
+                "time": "10:30",
+                "activity": "Bleder See, Slowenien – traumhafter Stopp",
+                "cost": 0
+              },
+              {
+                "time": "12:00",
+                "activity": "Höhlenburg Predjama",
+                "cost": 5
+              },
+              {
+                "time": "15:00",
+                "activity": "Ankunft Poreč, Wohnung beziehen",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Bummel durch die Altstadt von Poreč",
+                "cost": 40
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "date": "2026-09-14",
+            "title": "Poreč Erkundung + Euphrasius-Basilika",
+            "phase": "explore",
+            "day_total": 20,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Euphrasius-Basilika (UNESCO) – wunderschöne byzantinische Mosaike",
+                "cost": 5
+              },
+              {
+                "time": "Mittag",
+                "activity": "Frischer Fisch am Markt + Picknick in der Altstadt",
+                "cost": 5
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Erste Strandminute – Plaža Borik testen",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Gostrna – hausgemachte istrische Pasta",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "date": "2026-09-15",
+            "title": "Vrsar Music Festival",
+            "phase": "explore",
+            "day_total": 15,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Vrsar erkunden – kleines hübsches Fischerdorf (10 km)",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Musikfestival Istria im historischen Vrsar",
+                "cost": 5
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Strandtag in Vrsar",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Festival-Programm – Live-Musik am Meer",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "date": "2026-09-16",
+            "title": "Motovun – Trüffelstadt",
+            "phase": "explore",
+            "day_total": 20,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Motovun (30 km) – mittelalterliches Bergdorf mit Traumaussicht",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Trüffelpasta im Restaurant auf dem Hügel",
+                "cost": 10
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Auf der Stadtmauer spazieren (1 km, Gratis)",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Trüffelprodukte kaufen – Käse, Pesto, Öl",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "date": "2026-09-17",
+            "title": "Pula + Rovinj Doppeltag",
+            "phase": "explore",
+            "day_total": 25,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Pula Arena – weltberühmtes römisches Amphitheater (€10)",
+                "cost": 10
+              },
+              {
+                "time": "Mittag",
+                "activity": "Markt am Forum (Samstag!) – lokale Produkte",
+                "cost": 5
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Weiter nach Rovinj (40 km) – bunte Altstadt",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "La Puntulina – Fisch auf den Felsen, Sonnenuntergang",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 7,
+            "date": "2026-09-18",
+            "title": "Grožnjan + Limski-Kanal",
+            "phase": "explore",
+            "day_total": 20,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Grožnjan – Künstlerdorf voller Galerien",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Limski-Kanal – frische Austern direkt vom Züchter",
+                "cost": 10
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Kleine Bootsfahrt durch den Kanal (€10)",
+                "cost": 10
+              },
+              {
+                "time": "Abend",
+                "activity": "Zurück nach Poreč, entspannter Abend",
+                "cost": 0
+              }
+            ]
+          },
+          {
+            "day": 8,
+            "date": "2026-09-19",
+            "title": "Freier Tag + Umzug an den Strand",
+            "phase": "relax",
+            "day_total": 10,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Ausschlafen, letzte Altstadt-Besorgungen",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Umzug ins Strand-Appartement",
+                "cost": 0
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Erster langer Strandtag an Plaža Lanterna",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Gemeinsames Kochen im Appartement",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 9,
+            "date": "2026-09-20",
+            "title": "Strandtag Borik",
+            "phase": "beach",
+            "day_total": 10,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Plaža Borik (15 Min Fußweg) – Buch, Handtuch, Meer",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Picknick am Strand (Selbstverpflegung)",
+                "cost": 5
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Schwimmen, dösen, Muscheln sammeln",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Restaurant Borik – günstig & lecker direkt am Strand",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 10,
+            "date": "2026-09-21",
+            "title": "Strandtag Materada",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Materada Bucht (2 km nördlich) – Pinien spenden Schatten, kristallklares Wasser, kaum los",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Selbst kochen – Nudeln mit istrischem Olivenöl & Gemüse",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 11,
+            "date": "2026-09-22",
+            "title": "Strandtag Lanterna",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Plaža Lanterna (6 km südlich) – große Anlage, flaches Wasser, ein bisschen Abwechslung",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Selbst kochen oder günstig essen (Pizza in Poreč)",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 12,
+            "date": "2026-09-23",
+            "title": "Strandtag Červar-Porat",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Červar-Porat (4 km nördlich) – Pinienwald direkt am Strand, sehr ruhig",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Spaziergang in Novigrad + Fischabend",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 13,
+            "date": "2026-09-24",
+            "title": "Versteckte Bucht erkunden",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Uvala Tarska-Valeta oder Rt Zub – kleine naturbelassene Bucht entdecken",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Wein & Käse vom Markt auf der Terrasse",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 14,
+            "date": "2026-09-25",
+            "title": "Strandtag – Freestyle",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Ganz entspannt – zurück zum Lieblingsstrand oder nochmal woanders hin",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Abschiedsessen in der Porečer Altstadt",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 15,
+            "date": "2026-09-26",
+            "title": "Letzter Tag in Poreč",
+            "phase": "relax",
+            "day_total": 10,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Letztes Mal schwimmen, Souvenirs kaufen",
+                "cost": 5
+              },
+              {
+                "time": "Mittag",
+                "activity": "Letzter Marktbesuch – Olivenöl, Trüffel, Lavendel",
+                "cost": 5
+              },
+              {
+                "time": "Abend",
+                "activity": "Abschieds-Cocktail an der Strandbar",
+                "cost": 0
+              }
+            ]
+          },
+          {
+            "day": 16,
+            "date": "2026-09-27",
+            "title": "Rückfahrt Poreč → Frankfurt",
+            "phase": "travel",
+            "day_total": 50,
+            "activities": [
+              {
+                "time": "06:00",
+                "activity": "Früh los! Poreč → Frankfurt in einem Rutsch (ca. 8 h)",
+                "cost": 0
+              },
+              {
+                "time": "Unterwegs",
+                "activity": "Picknick-Stopp an der Autobahn (Kroatien oder Slowenien)",
+                "cost": 10
+              },
+              {
+                "time": "Abend",
+                "activity": "Ankunft Zuhause in Frankfurt",
+                "cost": 0
+              }
+            ]
+          }
+        ],
+        "accommodation": {
+          "recommendation": "Ferienwohnung Poreč Altstadt (Woche 1) + Appartement am Strand (Woche 2)",
+          "options": [
+            {
+              "name": "Ferienwohnung Altstadt",
+              "price_per_night": "€40–50",
+              "why": "Zentral, abends in die Stadt, 15 Min zu Fuß zum Strand"
+            },
+            {
+              "name": "Appartement direkt am Strand",
+              "price_per_night": "€35–45",
+              "why": "Kein Auto nötig, Aufwachen mit Meerblick"
+            },
+            {
+              "name": "Langzeit-Appartement (14 Nächte)",
+              "price_per_night": "€30–35",
+              "why": "Günstigster Gesamtpreis – Rabatt für 2 Wochen!"
+            }
+          ]
+        },
+        "food_total": 250,
+        "attractions_total": 30,
+        "transport_local_total": 250,
+        "extras_total": 50,
+        "grand_total": 1000,
+        "beaches": "Borik (sand/kies, flach, Strandbar), Materada (Kies, Pinien, ruhig, Einheimische), Lanterna (große Anlage, flach, Wassersport), Červar-Porat (Pinienwald, sehr ruhig), versteckte Buchten wie Rt Zub und Uvala Tarska-Valeta",
+        "events_september": "Music Festival Istria in Vrsar (10.–13.9.), Trüffelsaison-Start (Motovun/Buzet), Weinlesefeste (verschiedene Weingüter)",
+        "budget_tips": [
+          "Selbst kochen (Frühstück + Abendbrot) spart €80+",
+          "Rabatt bei eigentümergeführten Appartements für 14 Nächte anfragen",
+          "Langsam fahren (100–110 km/h) auf Autobahn spart €30 Sprit",
+          "Kroatien hat Euro seit 2023 – kein Geldtausch nötig!"
+        ]
+      },
+      "status": "complete",
+      "created_at": "2026-07-14T00:00:00"
     }
   ]
 }
