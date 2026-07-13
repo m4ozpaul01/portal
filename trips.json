@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-07-14",
   "trips": [
     {
       "id": "tp-1781474361196",
@@ -2007,6 +2007,504 @@
       },
       "status": "complete",
       "created_at": "2026-06-15 11:12:25.750340"
+    },
+    {
+      "id": "tp-1783974550374",
+      "request": {
+        "id": "tp-1783974550374",
+        "from": "frankfurt am main",
+        "to": "porec, kroatia",
+        "departure_date": "2026-09-12",
+        "return_date": "2026-09-27",
+        "people": 2,
+        "budget": 1000.0,
+        "notes": "I will drive there with the car so travel costs are 0. I would like to spend first week on driving around. I would like to drive to nice places or events in the 100 km area from Porec. second week I would like to spend on a beach. please plan me a no stress vacation. Thank you.",
+        "status": "complete",
+        "submitted_at": "2026-07-13T22:29:10.374687"
+      },
+      "plan": {
+        "summary": "16-tägiger No-Stress-Urlaub zu zweit: Mit dem Auto von Frankfurt nach Poreč in Kroatien. Woche 1: entspannte Hinfahrt über Chiemsee, Salzburg, Bleder See und Predjama, gefolgt von Tagestrips innerhalb von 100 km um Poreč (Rovinj, Motovun, Pula, Limski-Kanal, Grožnjan, Brijuni). Woche 2: reiner Strandurlaub an den schönsten Buchten Istriens. Budget: €1.000 für 2 Personen inkl. Sprit, Unterkunft, Verpflegung.",
+        "phase1": {
+          "days": 7,
+          "percentage": 50
+        },
+        "phase2": {
+          "days": 8,
+          "percentage": 50
+        },
+        "flights": {
+          "total": 0,
+          "recommendation": "Kein Flug nötig – Anreise mit dem eigenen Auto über die malerische Route Frankfurt → München → Chiemsee → Salzburg → Bleder See → Predjama → Poreč. Ca. 750 km.",
+          "tip": "Slowenien E-Vignette vorab online kaufen (e-vignette.si). In Kroatien Maut auf A8/A9 (Tunnel Učka). Bargeld oder Kreditkarte bereithalten."
+        },
+        "accommodations": [
+          {
+            "name": "Ferienwohnung Poreč Altstadt (Woche 1)",
+            "type": "private_apartment",
+            "price_per_night": 45,
+            "total": 270,
+            "description": "Zentrale Lage in Poreč, fußläufig zur Altstadt und Euphrasius-Basilika. 6 Nächte (13.–19.09.)."
+          },
+          {
+            "name": "Appartement am Strand (Woche 2)",
+            "type": "private_apartment",
+            "price_per_night": 40,
+            "total": 320,
+            "description": "Direkt am Plaža Borik oder Lanterna – maximal 5 Gehminuten zum Wasser. 8 Nächte (20.–27.09.)."
+          }
+        ],
+        "daily_itinerary": [
+          {
+            "day": 1,
+            "date": "2026-09-12",
+            "title": "Hinfahrt: Frankfurt → Salzburg",
+            "phase": "travel",
+            "day_total": 60,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "Abfahrt in Frankfurt",
+                "cost": 0
+              },
+              {
+                "time": "10:30",
+                "activity": "München – kurzer Spaziergang/ Viktualienmarkt",
+                "cost": 10
+              },
+              {
+                "time": "13:00",
+                "activity": "Picknick am Chiemsee",
+                "cost": 5
+              },
+              {
+                "time": "18:00",
+                "activity": "Ankunft Salzburg – Altstadtbummel",
+                "cost": 0
+              },
+              {
+                "time": "Übernachtung",
+                "activity": "Pension / Airbnb Salzburg oder Umgebung",
+                "cost": 45
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "date": "2026-09-13",
+            "title": "Hinfahrt: Salzburg → Poreč",
+            "phase": "travel",
+            "day_total": 50,
+            "activities": [
+              {
+                "time": "09:00",
+                "activity": "Frühstück + Weiterfahrt",
+                "cost": 5
+              },
+              {
+                "time": "10:30",
+                "activity": "Bleder See, Slowenien – traumhafter Stopp",
+                "cost": 0
+              },
+              {
+                "time": "12:00",
+                "activity": "Höhlenburg Predjama",
+                "cost": 5
+              },
+              {
+                "time": "15:00",
+                "activity": "Ankunft Poreč, Wohnung beziehen",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Bummel durch die Altstadt von Poreč",
+                "cost": 40
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "date": "2026-09-14",
+            "title": "Poreč Erkundung + Euphrasius-Basilika",
+            "phase": "explore",
+            "day_total": 20,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Euphrasius-Basilika (UNESCO) – wunderschöne byzantinische Mosaike",
+                "cost": 5
+              },
+              {
+                "time": "Mittag",
+                "activity": "Frischer Fisch am Markt + Picknick in der Altstadt",
+                "cost": 5
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Erste Strandminute – Plaža Borik testen",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Gostrna – hausgemachte istrische Pasta",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "date": "2026-09-15",
+            "title": "Vrsar Music Festival",
+            "phase": "explore",
+            "day_total": 15,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Vrsar erkunden – kleines hübsches Fischerdorf (10 km)",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Musikfestival Istria im historischen Vrsar",
+                "cost": 5
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Strandtag in Vrsar",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Festival-Programm – Live-Musik am Meer",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "date": "2026-09-16",
+            "title": "Motovun – Trüffelstadt",
+            "phase": "explore",
+            "day_total": 20,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Motovun (30 km) – mittelalterliches Bergdorf mit Traumaussicht",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Trüffelpasta im Restaurant auf dem Hügel",
+                "cost": 10
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Auf der Stadtmauer spazieren (1 km, Gratis)",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Trüffelprodukte kaufen – Käse, Pesto, Öl",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "date": "2026-09-17",
+            "title": "Pula + Rovinj Doppeltag",
+            "phase": "explore",
+            "day_total": 25,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Pula Arena – weltberühmtes römisches Amphitheater (€10)",
+                "cost": 10
+              },
+              {
+                "time": "Mittag",
+                "activity": "Markt am Forum (Samstag!) – lokale Produkte",
+                "cost": 5
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Weiter nach Rovinj (40 km) – bunte Altstadt",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "La Puntulina – Fisch auf den Felsen, Sonnenuntergang",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 7,
+            "date": "2026-09-18",
+            "title": "Grožnjan + Limski-Kanal",
+            "phase": "explore",
+            "day_total": 20,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Grožnjan – Künstlerdorf voller Galerien",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Limski-Kanal – frische Austern direkt vom Züchter",
+                "cost": 10
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Kleine Bootsfahrt durch den Kanal (€10)",
+                "cost": 10
+              },
+              {
+                "time": "Abend",
+                "activity": "Zurück nach Poreč, entspannter Abend",
+                "cost": 0
+              }
+            ]
+          },
+          {
+            "day": 8,
+            "date": "2026-09-19",
+            "title": "Freier Tag + Umzug an den Strand",
+            "phase": "relax",
+            "day_total": 10,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Ausschlafen, letzte Altstadt-Besorgungen",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Umzug ins Strand-Appartement",
+                "cost": 0
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Erster langer Strandtag an Plaža Lanterna",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Gemeinsames Kochen im Appartement",
+                "cost": 10
+              }
+            ]
+          },
+          {
+            "day": 9,
+            "date": "2026-09-20",
+            "title": "Strandtag Borik",
+            "phase": "beach",
+            "day_total": 10,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Plaža Borik (15 Min Fußweg) – Buch, Handtuch, Meer",
+                "cost": 0
+              },
+              {
+                "time": "Mittag",
+                "activity": "Picknick am Strand (Selbstverpflegung)",
+                "cost": 5
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Schwimmen, dösen, Muscheln sammeln",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Restaurant Borik – günstig & lecker direkt am Strand",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 10,
+            "date": "2026-09-21",
+            "title": "Strandtag Materada",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Materada Bucht (2 km nördlich) – Pinien spenden Schatten, kristallklares Wasser, kaum los",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Selbst kochen – Nudeln mit istrischem Olivenöl & Gemüse",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 11,
+            "date": "2026-09-22",
+            "title": "Strandtag Lanterna",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Plaža Lanterna (6 km südlich) – große Anlage, flaches Wasser, ein bisschen Abwechslung",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Selbst kochen oder günstig essen (Pizza in Poreč)",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 12,
+            "date": "2026-09-23",
+            "title": "Strandtag Červar-Porat",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Červar-Porat (4 km nördlich) – Pinienwald direkt am Strand, sehr ruhig",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Spaziergang in Novigrad + Fischabend",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 13,
+            "date": "2026-09-24",
+            "title": "Versteckte Bucht erkunden",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Uvala Tarska-Valeta oder Rt Zub – kleine naturbelassene Bucht entdecken",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Wein & Käse vom Markt auf der Terrasse",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 14,
+            "date": "2026-09-25",
+            "title": "Strandtag – Freestyle",
+            "phase": "beach",
+            "day_total": 5,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Ganz entspannt – zurück zum Lieblingsstrand oder nochmal woanders hin",
+                "cost": 0
+              },
+              {
+                "time": "Abend",
+                "activity": "Abschiedsessen in der Porečer Altstadt",
+                "cost": 5
+              }
+            ]
+          },
+          {
+            "day": 15,
+            "date": "2026-09-26",
+            "title": "Letzter Tag in Poreč",
+            "phase": "relax",
+            "day_total": 10,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Letztes Mal schwimmen, Souvenirs kaufen",
+                "cost": 5
+              },
+              {
+                "time": "Mittag",
+                "activity": "Letzter Marktbesuch – Olivenöl, Trüffel, Lavendel",
+                "cost": 5
+              },
+              {
+                "time": "Abend",
+                "activity": "Abschieds-Cocktail an der Strandbar",
+                "cost": 0
+              }
+            ]
+          },
+          {
+            "day": 16,
+            "date": "2026-09-27",
+            "title": "Rückfahrt Poreč → Frankfurt",
+            "phase": "travel",
+            "day_total": 50,
+            "activities": [
+              {
+                "time": "06:00",
+                "activity": "Früh los! Poreč → Frankfurt in einem Rutsch (ca. 8 h)",
+                "cost": 0
+              },
+              {
+                "time": "Unterwegs",
+                "activity": "Picknick-Stopp an der Autobahn (Kroatien oder Slowenien)",
+                "cost": 10
+              },
+              {
+                "time": "Abend",
+                "activity": "Ankunft Zuhause in Frankfurt",
+                "cost": 0
+              }
+            ]
+          }
+        ],
+        "accommodation": {
+          "recommendation": "Ferienwohnung Poreč Altstadt (Woche 1) + Appartement am Strand (Woche 2)",
+          "options": [
+            {
+              "name": "Ferienwohnung Altstadt",
+              "price_per_night": "€40–50",
+              "why": "Zentral, abends in die Stadt, 15 Min zu Fuß zum Strand"
+            },
+            {
+              "name": "Appartement direkt am Strand",
+              "price_per_night": "€35–45",
+              "why": "Kein Auto nötig, Aufwachen mit Meerblick"
+            },
+            {
+              "name": "Langzeit-Appartement (14 Nächte)",
+              "price_per_night": "€30–35",
+              "why": "Günstigster Gesamtpreis – Rabatt für 2 Wochen!"
+            }
+          ]
+        },
+        "food_total": 250,
+        "attractions_total": 30,
+        "transport_local_total": 250,
+        "extras_total": 50,
+        "grand_total": 1000,
+        "beaches": "Borik (sand/kies, flach, Strandbar), Materada (Kies, Pinien, ruhig, Einheimische), Lanterna (große Anlage, flach, Wassersport), Červar-Porat (Pinienwald, sehr ruhig), versteckte Buchten wie Rt Zub und Uvala Tarska-Valeta",
+        "events_september": "Music Festival Istria in Vrsar (10.–13.9.), Trüffelsaison-Start (Motovun/Buzet), Weinlesefeste (verschiedene Weingüter)",
+        "budget_tips": [
+          "Selbst kochen (Frühstück + Abendbrot) spart €80+",
+          "Rabatt bei eigentümergeführten Appartements für 14 Nächte anfragen",
+          "Langsam fahren (100–110 km/h) auf Autobahn spart €30 Sprit",
+          "Kroatien hat Euro seit 2023 – kein Geldtausch nötig!"
+        ]
+      },
+      "status": "complete",
+      "created_at": "2026-07-14T00:00:00"
     }
   ]
 }
