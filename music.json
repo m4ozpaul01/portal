@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-12",
+  "last_updated": "2026-07-13",
   "todays_pick": {
-    "title": "Clear Air Turbulence",
-    "artist": "deadmau5",
-    "genre": "Progressive House, Electronic",
-    "album": "4×4=12",
-    "year": 2010,
+    "title": "Adagio for Strings",
+    "artist": "Tiësto",
+    "genre": "Trance, Electronic",
+    "album": "Just Be",
+    "year": 2004,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-12",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-07-13",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -314,6 +314,7 @@
     "Time",
     "Windowlicker",
     "Caribbean Blue",
-    "Clear Air Turbulence"
+    "Clear Air Turbulence",
+    "Adagio for Strings"
   ]
 }
