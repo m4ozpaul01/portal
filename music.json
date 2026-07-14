@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-14",
   "todays_pick": {
-    "title": "Return to Innocence",
-    "artist": "Enigma",
-    "genre": "New Age, Electronic",
-    "album": "The Cross of Changes",
-    "year": 1994,
+    "title": "Sandstorm",
+    "artist": "Darude",
+    "genre": "Trance, Electronic",
+    "album": "Before the Storm",
+    "year": 1999,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-09",
-    "why": "A New Age / Electronic track to start your day!"
+    "picked_date": "2026-07-14",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -317,6 +317,7 @@
     "Roygbiv",
     "Tears in the Rain",
     "Dayvan Cowboy",
-    "Return to Innocence"
+    "Return to Innocence",
+    "Sandstorm"
   ]
 }
