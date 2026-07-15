@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-15",
   "todays_pick": {
-    "title": "Sandstorm",
-    "artist": "Darude",
-    "genre": "Trance, Electronic",
-    "album": "Before the Storm",
-    "year": 1999,
+    "title": "Clear Air Turbulence",
+    "artist": "deadmau5",
+    "genre": "Progressive House, Electronic",
+    "album": "4×4=12",
+    "year": 2010,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-14",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-07-15",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -318,6 +318,7 @@
     "Tears in the Rain",
     "Dayvan Cowboy",
     "Return to Innocence",
-    "Sandstorm"
+    "Sandstorm",
+    "Clear Air Turbulence"
   ]
 }
