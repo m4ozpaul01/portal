@@ -2569,6 +2569,66 @@
       },
       "status": "complete",
       "created_at": "2026-07-14T00:00:00"
+    },
+    {
+      "id": "tp-1784195833683",
+      "request": {
+        "id": "tp-1784195833683",
+        "from": "Frankfurt am main",
+        "to": "porec, croatia",
+        "departure_date": "2026-09-12",
+        "return_date": "2026-09-27",
+        "people": 2,
+        "budget": 1000.0,
+        "notes": "Trip costs and accommodation process is 0. We have our house there and fuel covered by my company. We would like to spend one week on exploring and second week only to relax on the beach. We have two old dogs and want to spend quality time together Our range for a day is 100 km. We want to be in the budget in 1000 for all other costs (food and entry to sightseeing). Please prepare nice trip for me.",
+        "status": "complete",
+        "submitted_at": "2026-07-16T11:57:13.683771"
+      },
+      "plan": {
+        "summary": "A 16-day relaxation-first road trip from Frankfurt am Main to Poreč, Croatia (Istria). Free accommodation in your own house, fuel covered by company. Week 1: gentle exploration of Istria's medieval hill towns, coastal gems, and natural beauty within 100 km of Poreč — all dog-friendly. Week 2: pure beach relaxation with your two old dogs. Budget of €1,000 for two people covering food and entry fees for 14 days on the ground (≈€71/day).",
+        "special_2026": "September in Istria is post-peak season — beaches are half-empty, temperatures are perfect (22-27°C), and the sea is still warm at 22-24°C. The Vrsar Music Festival runs 10-13 September nearby. Truffle season begins in September — peak Istrian truffle time!",
+        "phase1": {"days": 7, "percentage": 50, "label": "Explore Istria (Gentle Day Trips)"},
+        "phase2": {"days": 7, "percentage": 50, "label": "Beach Relaxation with Dogs"},
+        "flights": {"total": 0, "recommendation": "Driving — no flights needed.", "tip": "Route: Frankfurt → München (scenic stop) → Salzburg → Bled (Slovenia) → Poreč. About 750 km total, easy 2-day drive with beautiful stops."},
+        "accommodations": [
+          {
+            "name": "Your own house in Poreč",
+            "type": "private_apartment",
+            "price_per_night": 0,
+            "total": 0,
+            "description": "Free accommodation — perfect for two old dogs who need routine and comfort."
+          }
+        ],
+        "food_total": 245,
+        "attractions_total": 20,
+        "transport_local_total": 5,
+        "extras_total": 30,
+        "grand_total": 300,
+        "transport_details": {
+          "route_description": "Frankfurt am Main → München (scenic) → Salzburg area → Lake Bled (Slovenia) → Poreč. Return: same route reverse. Total ~1,500 km round trip.",
+          "total_km": 1500,
+          "fuel_cost": 0,
+          "toll_cost": 0,
+          "vignette_info": "Fuel covered by company, tolls covered by company. For reference: Austria requires vignette (€9.90 for 10-day), Slovenia requires vignette (€15 for 7-day). Croatia has toll roads (€15-20 per direction).",
+          "scenic_stops": [
+            {"name": "Lake Bled, Slovenia", "km_marker": "~500 km", "suggested_time": "30 min", "description": "Iconic alpine lake, dog-friendly path, perfect halfway stretch."},
+            {"name": "Postojna / Predjama Castle", "km_marker": "~650 km", "suggested_time": "1 hour", "description": "Dramatic cave castle — quick detour if timing allows."}
+          ]
+        },
+        "beaches": "1. Blue Moon (Bijela Uvala) — designated dog beach\n2. Plaža Borik — 15-min walk, sand/pebble\n3. Plaža Materada — quiet pebble coves\n4. Červar-Porat — pine forest beach\n5. Lanterna — wide, shallow beach",
+        "events_september": "Vrsar Music Festival (10-13 Sep). Regular farmers markets in Poreč every morning with local produce.",
+        "budget_tips": [
+          "Self-catering is your biggest money-saver. Shopping at Konzum/Plodine ~€50-60/week.",
+          "Free truffle/wine tastings in Motovun, Livade, Grožnjan.",
+          "Buy fresh truffle in Livade (€5-10) and make pasta at home.",
+          "Natural beaches are free. No sunbed fees needed.",
+          "Bakery breakfast (burek, bread) costs €2-3 vs €10+ at a cafe.",
+          "Local morning market in Poreč for cheapest produce."
+        ]
+      },
+      "status": "complete",
+      "created_at": "2026-07-16 12:00:00"
     }
-  ]
+  ],
+  "last_updated": "2026-07-16"
 }
