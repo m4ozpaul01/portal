@@ -1,1 +1,16 @@
-{"pending": []}
+{
+  "pending": [
+    {
+      "id": "tp-1784195833683",
+      "from": "Frankfurt am main",
+      "to": "porec, croatia",
+      "departure_date": "2026-09-12",
+      "return_date": "2026-09-27",
+      "people": 2,
+      "budget": 1000.0,
+      "notes": "Trip costs and accommodation process is 0. We have our house there and fuel covered by my company. We would like to spend one week on exploring and second week only to relax on the beach. We have two old dogs and want to spend quality time together Our range for a day is 100 km. We want to be in the budget in 1000 for all other costs (food and entry to sightseeing). Please prepare nice trip for me.",
+      "status": "pending",
+      "submitted_at": "2026-07-16T11:57:13.683771"
+    }
+  ]
+}
