@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-15",
+  "last_updated": "2026-07-16",
   "todays_pick": {
-    "title": "Clear Air Turbulence",
-    "artist": "deadmau5",
-    "genre": "Progressive House, Electronic",
-    "album": "4×4=12",
-    "year": 2010,
+    "title": "Age of Loneliness",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "The Cross of Changes",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-15",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-07-16",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -319,6 +319,7 @@
     "Dayvan Cowboy",
     "Return to Innocence",
     "Sandstorm",
-    "Clear Air Turbulence"
+    "Clear Air Turbulence",
+    "Age of Loneliness"
   ]
 }
