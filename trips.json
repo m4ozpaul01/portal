@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-16",
   "trips": [
     {
       "id": "tp-1781474361196",
@@ -2585,50 +2585,840 @@
         "submitted_at": "2026-07-16T11:57:13.683771"
       },
       "plan": {
-        "summary": "A 16-day relaxation-first road trip from Frankfurt am Main to Poreč, Croatia (Istria). Free accommodation in your own house, fuel covered by company. Week 1: gentle exploration of Istria's medieval hill towns, coastal gems, and natural beauty within 100 km of Poreč — all dog-friendly. Week 2: pure beach relaxation with your two old dogs. Budget of €1,000 for two people covering food and entry fees for 14 days on the ground (≈€71/day).",
-        "special_2026": "September in Istria is post-peak season — beaches are half-empty, temperatures are perfect (22-27°C), and the sea is still warm at 22-24°C. The Vrsar Music Festival runs 10-13 September nearby. Truffle season begins in September — peak Istrian truffle time!",
-        "phase1": {"days": 7, "percentage": 50, "label": "Explore Istria (Gentle Day Trips)"},
-        "phase2": {"days": 7, "percentage": 50, "label": "Beach Relaxation with Dogs"},
-        "flights": {"total": 0, "recommendation": "Driving — no flights needed.", "tip": "Route: Frankfurt → München (scenic stop) → Salzburg → Bled (Slovenia) → Poreč. About 750 km total, easy 2-day drive with beautiful stops."},
+        "summary": "16-tägiger No-Stress-Urlaub zu zweit in eurem eigenen Haus in Poreč mit zwei alten Hunden. Woche 1 (12.-19. Sep): Sanfte Erkundungstouren innerhalb von 100 km — Rovinj, Motovun, Grožnjan, Hum, Pula Arena, Brijuni-Inseln, Limski-Kanal, Opatija — alles hundefreundlich. Woche 2 (19.-27. Sep): Reine Strandentspannung an Porečs schönsten Hunde- und Naturstränden. Budget: €1.000 für 2 Personen nur für Essen + Eintritte (ca. €71/Tag). Unterkunft und Sprit sind kostenlos.",
+        "special_2026": "September in Istrien ist die beste Reisezeit: 22-27°C, Meer 23°C, keine Julihitze für die alten Hunde. Nachsaison — ruhiger und günstiger. Trüffelsaison beginnt! Vrsar Music Festival (10.-13. Sep) in der Nähe.",
+        "phase1": {
+          "days": 7,
+          "percentage": 50,
+          "label": "Erkundung Istriens — hundefreundliche Tagestrips"
+        },
+        "phase2": {
+          "days": 8,
+          "percentage": 50,
+          "label": "Strandentspannung mit Hunden"
+        },
+        "flights": {
+          "total": 0,
+          "recommendation": "Anreise mit dem eigenen Auto von Frankfurt nach Poreč (ca. 750 km). Kein Flug nötig.",
+          "tip": "Route: Frankfurt → München → Salzburg → Bled (Slowenien) → Poreč. Empfehlung: am 12.9. losfahren, Zwischenstopp in Salzburg oder Bled, am 13.9. in Poreč ankommen. Slowenien E-Vignette vorab kaufen (e-vignette.si)."
+        },
         "accommodations": [
           {
-            "name": "Your own house in Poreč",
+            "name": "Eigenes Haus in Poreč",
             "type": "private_apartment",
             "price_per_night": 0,
             "total": 0,
-            "description": "Free accommodation — perfect for two old dogs who need routine and comfort."
+            "description": "Kostenlose Unterkunft — perfekt für zwei alte Hunde, die Routine und ihr gewohntes Umfeld brauchen. Kein Umzug nötig, beide Wochen von hier aus.",
+            "dog_friendly": "Eigenes Haus mit Garten — ideal für alte Hunde. Keine Hotelregeln, keine Leinenpflicht im eigenen Garten."
           }
         ],
-        "food_total": 245,
-        "attractions_total": 20,
-        "transport_local_total": 5,
-        "extras_total": 30,
-        "grand_total": 300,
-        "transport_details": {
-          "route_description": "Frankfurt am Main → München (scenic) → Salzburg area → Lake Bled (Slovenia) → Poreč. Return: same route reverse. Total ~1,500 km round trip.",
-          "total_km": 1500,
-          "fuel_cost": 0,
-          "toll_cost": 0,
-          "vignette_info": "Fuel covered by company, tolls covered by company. For reference: Austria requires vignette (€9.90 for 10-day), Slovenia requires vignette (€15 for 7-day). Croatia has toll roads (€15-20 per direction).",
-          "scenic_stops": [
-            {"name": "Lake Bled, Slovenia", "km_marker": "~500 km", "suggested_time": "30 min", "description": "Iconic alpine lake, dog-friendly path, perfect halfway stretch."},
-            {"name": "Postojna / Predjama Castle", "km_marker": "~650 km", "suggested_time": "1 hour", "description": "Dramatic cave castle — quick detour if timing allows."}
+        "daily_itinerary": [
+          {
+            "day": 1,
+            "date": "2026-09-12",
+            "title": "Hinfahrt: Frankfurt → Poreč (Start Tag 1)",
+            "phase": "travel",
+            "day_total": 55,
+            "activities": [
+              {
+                "time": "06:00",
+                "activity": "Abfahrt in Frankfurt mit Hunden",
+                "description": "Hunde bequem auf der Rückbank. Frühstück eingepackt. Erster Stopp alle 2h für Hunde-Pinkelpause.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "10:00",
+                "activity": "Stopp am Chiemsee",
+                "description": "Schöner Picknick-Stopp. Hunde können sich die Beine vertreten — flache Ufer zum Trinken.",
+                "cost": 5,
+                "dog_friendly": true
+              },
+              {
+                "time": "14:00",
+                "activity": "Stopp in Slowenien (Bled oder Postojna)",
+                "description": "Kurzer Spaziergang am Bleder See oder am Predjama-Schloss. Hunde willkommen, Leine nicht vergessen.",
+                "cost": 10,
+                "dog_friendly": true
+              },
+              {
+                "time": "19:00",
+                "activity": "Ankunft in Poreč — Haus beziehen",
+                "description": "Hunde im vertrauten Haus? Willkommen! Abendlicher Willkommensspaziergang durch die Altstadt.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abendessen",
+                "activity": "Erstes Abendessen — Pizza to go oder Selbstkochen",
+                "description": "Nach der langen Fahrt entspannt: Pizza von Pizzeria Stari Most oder selbst kochen im Haus.",
+                "cost": 40,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "date": "2026-09-13",
+            "title": "Poreč Altstadt + Euphrasius-Basilika + erster Strand",
+            "phase": "explore",
+            "day_total": 30,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Euphrasius-Basilika (UNESCO) + Altstadtbummel",
+                "description": "Wunderschöne byzantinische Mosaike aus dem 6. Jh. Hunde sind auf dem Vorplatz und in der Altstadt willkommen. Eintritt Basilika: €5 pro Person.",
+                "cost": 10,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Marktbesuch + Picknick",
+                "description": "Frischer Fisch, Oliven, Käse vom Marktplatz. Picknick am Meer mit Hunden.",
+                "cost": 10,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Erster Hundestrand — Beach Ulika",
+                "description": "Der offizielle Hundestrand von Poreč! Felsiger Bereich mit herrlichem Panorama, umgeben von Eichenwald. Perfekt für alte Hunde — ruhig und nicht überlaufen.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Gemeinsam Kochen im Haus",
+                "description": "Fangfrischer Fisch vom Markt + istrisches Olivenöl. Hunde bekommen eine kleine Portion.",
+                "cost": 10,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "date": "2026-09-14",
+            "title": "Rovinj — schönste Altstadt Istriens (40 km)",
+            "phase": "explore",
+            "day_total": 35,
+            "activities": [
+              {
+                "time": "09:00",
+                "activity": "Fahrt nach Rovinj (40 km, 35 min)",
+                "description": "Kurze Fahrt durch die istrische Küste. Hunde lieben die Fahrt im Auto.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Vormittag",
+                "activity": "Altstadt Rovinj mit Hunden",
+                "description": "Bunte Altstadt auf der Halbinsel. Kopfsteinpflaster — alte Hunde? Langsam gehen. Kirchenaufgang zur St. Euphemia (draußen). Hunde überall auf den Gassen willkommen.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Hundefreundliches Restaurant am Hafen",
+                "description": "Terrasse mit Hundeplatz. Frischer Fisch oder hausgemachte Pasta. Ca. €15 pro Person.",
+                "cost": 30,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Rovinj Küstenpromenade (Lungomare)",
+                "description": "Wunderschöner Spaziergang am Wasser entlang. Hunde an der Leine willkommen. Eben und flach — perfekt für alte Hunde.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Picknick am Meer + Rückfahrt",
+                "description": "Sonnenuntergang in Rovijn — einer der schönsten Istriens. Hunde genießen die Abendbrise.",
+                "cost": 5,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "date": "2026-09-15",
+            "title": "Soße Trüffel: Motovun + Grožnjan (30-40 km)",
+            "phase": "explore",
+            "day_total": 30,
+            "activities": [
+              {
+                "time": "09:00",
+                "activity": "Fahrt nach Motovun (30 km, 30 min)",
+                "description": "Mittelalterliches Bergdorf auf dem Hügel. Parkplatz unten, dann gemütlicher Spaziergang hoch.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Vormittag",
+                "activity": "Motovun Altstadt + Stadtmauer",
+                "description": "Atemberaubende Aussicht auf das Mirna-Tal. Die Stadtmauer (1 km) ist flach genug für alte Hunde. Viele Schattenplätze.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Trüffeldegustation + Pasta",
+                "description": "Hausgemachte Fuži mit Trüffeln — das beste Gericht Istriens! Terrasse mit Hundeplatz. Kostenlose Trüffel-Verkostung in den Läden.",
+                "cost": 20,
+                "dog_friendly": true
+              },
+              {
+                "time": "14:00",
+                "activity": "Weiter nach Grožnjan (10 km)",
+                "description": "Das Künstlerdorf! Zahlreiche Galerien, Jazz-Atmosphäre. Hunde in den Gassen willkommen. Viele Wassernäpfe vor den Geschäften.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Grožnjan erkunden",
+                "description": "Kopfsteinpflaster, aber kleine Gassen. Schattige Plätze für eine Pause. Eis essen auf der Piazza.",
+                "cost": 5,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Rückfahrt + Selbstkochen",
+                "description": "Trüffel-Pesto und istrischer Pršut vom Markt. Ein Abend zuhause mit den Hunden.",
+                "cost": 5,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "date": "2026-09-16",
+            "title": "Pula Arena + das kleinste Dorf Hum (65 km)",
+            "phase": "explore",
+            "day_total": 42,
+            "activities": [
+              {
+                "time": "08:30",
+                "activity": "Fahrt nach Pula (65 km, 50 min)",
+                "description": "Gemächliche Fahrt durchs istrische Inland.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "09:30",
+                "activity": "Pula Arena — römisches Amphitheater",
+                "description": "Eines der besterhaltenen römischen Amphitheater. Hunde sind in der Arena erlaubt! Eintritt €10 pro Person. Auch der äußere Bereich ist beeindruckend und kostenlos.",
+                "cost": 20,
+                "dog_friendly": true
+              },
+              {
+                "time": "11:00",
+                "activity": "Pula Forum + Augustus-Tempel",
+                "description": "Der römische Stadtkern. Hunde willkommen auf dem Platz. Augustus-Tempel von außen besichtigen.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Hundefreundliche Konoba in Pula",
+                "description": "Terrasse in der Altstadt. Istrianische Spezialitäten zu fairen Preisen (€12-15).",
+                "cost": 25,
+                "dog_friendly": true
+              },
+              {
+                "time": "13:30",
+                "activity": "Fahrt nach Hum (35 km)",
+                "description": "Das 'kleinste Dorf der Welt'. Kleine, ruhige Gasse. Hunde willkommen.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "14:00",
+                "activity": "Hum erkunden + Biska probieren",
+                "description": "Mistel-Brandy (Biska) in Hum probieren. Kleiner Spaziergang durch das Dorf in 20 min machbar.",
+                "cost": 2,
+                "dog_friendly": true
+              },
+              {
+                "time": "Rückfahrt",
+                "activity": "Rückfahrt nach Poreč",
+                "description": "Gemütliche Fahrt zurück. Hunde schlafen zufrieden auf der Rückbank.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Abendessen zuhause",
+                "description": "Nudeln mit istrischem Gemüse und Olivenöl. Leicht und lecker.",
+                "cost": 5,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "date": "2026-09-17",
+            "title": "Limski-Kanal + Opatija (75 km)",
+            "phase": "explore",
+            "day_total": 45,
+            "activities": [
+              {
+                "time": "09:00",
+                "activity": "Fahrt zum Limski-Kanal (40 km)",
+                "description": "Der Fjord-ähnliche Meeresarm. Hunde lieben den Pinienwaldgeruch. Parken am Aussichtspunkt.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Vormittag",
+                "activity": "Aussichtspunkt Limski-Kanal",
+                "description": "Spektakulärer Blick über den Kanal. Kostenlose Aussichtsplattform. Hunde an der Leine.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "11:00",
+                "activity": "Austern-Verkostung am Limski-Kanal",
+                "description": "Frische Austern und Muscheln direkt vom Züchter in der Konoba am Kanal. Terrassenplatz für Hunde. Ca. €15-20 für eine Platte.",
+                "cost": 20,
+                "dog_friendly": true
+              },
+              {
+                "time": "12:30",
+                "activity": "Weiterfahrt nach Opatija (35 km)",
+                "description": "Kurvige, schöne Küstenstraße durch die Kvarner-Bucht.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "13:30",
+                "activity": "Lungomare-Promenade Opatija",
+                "description": "Die 12 km lange Uferpromenade 'Carmen Sylve'. Völlig flach, schattig, hundefreundlich. Perfekt für alte Hunde! Viele Bänke zum Ausruhen.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "14:30",
+                "activity": "Mittagspause in Opatija",
+                "description": "Hundefreundliches Café auf der Promenade. Kaffee und Kuchen.",
+                "cost": 15,
+                "dog_friendly": true
+              },
+              {
+                "time": "16:00",
+                "activity": "Rückfahrt (75 km)",
+                "description": "Zufriedene Hunde auf der Rückbank. Evtl. kurzer Stopp an einer Badebucht unterwegs.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Picknick im eigenen Garten",
+                "description": "Brot, Käse, Oliven, Wein. Sterne gucken mit Hunden auf der Decke.",
+                "cost": 10,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 7,
+            "date": "2026-09-18",
+            "title": "Brijuni-Nationalpark (60 km) + Ruhetag",
+            "phase": "explore",
+            "day_total": 28,
+            "activities": [
+              {
+                "time": "08:00",
+                "activity": "Fahrt nach Fazana (60 km, 50 min)",
+                "description": "Fähre zu den Brijuni-Inseln. Hunde sind auf den Inseln erlaubt (Leine). Nicht im Safari-Park oder Museum, aber überall draußen!",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "09:00",
+                "activity": "Nationalpark Brijuni",
+                "description": "Titos ehemaliger Sommerwohnsitz! Hunde auf der Insel willkommen (Leine). Elektroboote erlauben Hunde. NICHT im Safari-Park oder Museum, aber die Naturparks und Küstenwege sind perfekt. Fähr-Ticket ca. €15 p.P. + Parkeintritt €10 p.P.",
+                "cost": 25,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Picknick auf Brijuni",
+                "description": "Mitgebrachtes Picknick mit Meerblick. Hunde entspannen im Schatten.",
+                "cost": 3,
+                "dog_friendly": true
+              },
+              {
+                "time": "14:00",
+                "activity": "Rückfahrt nach Poreč",
+                "description": "Hunde sind müde vom Inselspaziergang — Zeit für ein Nickerchen zuhause.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Ruhetag zuhause — Pause für alte Hunde",
+                "description": "Nach 6 Tagen Ausflügen brauchen alte Hunde Erholung. Einfach im Garten liegen, dösen, streicheln.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Pizza-Abend + Film zuhause",
+                "description": "Gemütlicher Abend im Haus mit den Hunden. Pizza bestellen oder TK-Pizza aufbacken.",
+                "cost": 5,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 8,
+            "date": "2026-09-19",
+            "title": "Übergangstag: Grožnjan zurück + Poreč Brulo Beach",
+            "phase": "relax",
+            "day_total": 25,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Ausschlafen + gemütlicher Morgen",
+                "description": "Hunde ausschlafen lassen — sie haben die Woche genossen, aber alte Knochen brauchen Ruhe.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "11:00",
+                "activity": "Brulo Beach testen (Hundestrand!)",
+                "description": "Brulo Dog Beach — ausgewiesener Strandbereich für Hunde zwischen Brulo und Delfin Beach. Kiesstrand, flacher Einstieg. Perfekt für die Hunde!",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Picknick am Brulo Strand",
+                "description": "Selbstgemachte Sandwiches. Hunde teilen sich die Wurst.",
+                "cost": 5,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Schwimmen + Sonnen mit Hunden",
+                "description": "Abwechselnd schwimmen und auf die Hunde aufpassen. Ruhiger Strandabschnitt, kaum los in September.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Gemeinsam Grillen im Garten",
+                "description": "Istrische Würstchen (kobasice), Gemüse, Brot vom Grill. Hunde freuen sich über ein Stückchen.",
+                "cost": 20,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 9,
+            "date": "2026-09-20",
+            "title": "Materada Bucht — ruhige Hundebucht",
+            "phase": "beach",
+            "day_total": 15,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Materada Bucht (2 km nördlich)",
+                "description": "Ruhige Bucht mit Pinien, die Schatten spenden. Kristallklares Wasser. Kaum los in September — perfekt für alte Hunde! Liegt am Hotel Laguna Materada.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Picknick unter den Pinien",
+                "description": "Selbstverpflegung vom Markt. Hunde dösen im Schatten.",
+                "cost": 5,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Langes Schwimmen + Hundebaden",
+                "description": "Flacher Einstieg perfekt für alte Hunde. Ruhig schwimmen während die Hunde am Ufer liegen.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Leichtes Abendessen zuhause",
+                "description": "Salat + gegrillter Fisch. Hunde müde und glücklich.",
+                "cost": 10,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 10,
+            "date": "2026-09-21",
+            "title": "Blue Moon (Bijela Uvala) — Designated Dog Beach",
+            "phase": "beach",
+            "day_total": 15,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Blue Moon Hundestrand (Bijela Uvala)",
+                "description": "Der bekannteste ausgewiesene Hundestrand in Poreč. Liegt in der Bijela Uvala (5 km südlich). Extra Bereich nur für Hunde! Flaches Wasser, Kiesstrand. Viele Hundebesitzer in September.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Picknick + Café",
+                "description": "Kleine Strandbar in der Nähe. Kaffee für euch, Wasser für die Hunde.",
+                "cost": 5,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Weiter relaxen am Hundestrand",
+                "description": "Buch lesen, schwimmen, Hunde beobachten. Quality Time!",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Selbstkochen — Fuži mit Trüffelsoße",
+                "description": "Trüffel aus dem Urlaub gekauft? Heute wird er verarbeitet. Hunde bekommen ein kleines Trüffel-Stückchen (ungefährlich).",
+                "cost": 10,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 11,
+            "date": "2026-09-22",
+            "title": "Zelena Laguna — grüne Lagune mit Hundestrand",
+            "phase": "beach",
+            "day_total": 15,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Zelena Laguna Plava Laguna complex",
+                "description": "3 km südlich. Große Strandanlage eingebettet in Pinienwald. Die Camping Zelena Laguna hat einen eigenen Strandabschnitt für Hunde (ausgeschildert).",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Mittagessen — Konoba in der Nähe",
+                "description": "Terrasse in der Zelena Laguna. Hunde auf der Terrasse erlaubt. Günstiges Tagesmenü (€10-12).",
+                "cost": 10,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Strandspaziergang + Schwimmen",
+                "description": "Langer Spaziergang entlang der kilometerlangen Strandpromenade. Hunde an der Leine, aber überall erlaubt.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Leichtes Abendessen zuhause",
+                "description": "Bruschetta, Käse, Oliven. Einfach und gut.",
+                "cost": 5,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 12,
+            "date": "2026-09-23",
+            "title": "Červar-Porat — Strand im Pinienwald",
+            "phase": "beach",
+            "day_total": 15,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Červar-Porat (4 km nördlich)",
+                "description": "Wunderschöner Strand im Pinienwald. Ruhig im September. Der Strand 'Stari Červar' hat einen Hundebereich. Schatten pur durch die Bäume — gut für alte Hunde!",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Picknick im Wald / Imbiss",
+                "description": "Sandwich, Obst, Wasser. Hundekekse nicht vergessen.",
+                "cost": 5,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Schwimmen, Dösen, Spazieren",
+                "description": "Abwechslung: mal Wasser, mal Schatten, mal ein kurzer Spaziergang durch den Pinienwald.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Abendessen — Konoba Sunset",
+                "description": "Terrasse in Poreč mit Meerblick. Hunde erlaubt. Hausgemachte istrische Küche.",
+                "cost": 10,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 13,
+            "date": "2026-09-24",
+            "title": "Freestyle — Lieblingsstrand wiederholen",
+            "phase": "beach",
+            "day_total": 15,
+            "activities": [
+              {
+                "time": "Ganzer Tag",
+                "activity": "Zurück zum Lieblingsstrand eurer Hunde",
+                "description": "Welcher Strand hat den Hunden am besten gefallen? Blue Moon? Materada? Červar? Heute wiederholen. Alte Hunde lieben Routine!",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Picknick am Strand",
+                "description": "Einfaches Picknick — Brot, Käse, Tomaten, Oliven.",
+                "cost": 5,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Letzte Runde Schwimmen",
+                "description": "Genießt die letzte Septemberwärme. Das Meer ist noch warm (22°C).",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Essen gehen — Konoba Rina",
+                "description": "Hundefreundliche Konoba mit bester Bewertung in Poreč. Terrasse. Hausgemachte Teigwaren.",
+                "cost": 10,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 14,
+            "date": "2026-09-25",
+            "title": "Versteckte Bucht entdecken + letzter Strandtag",
+            "phase": "beach",
+            "day_total": 15,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Versteckte Bucht: Uvala Tarska-Valeta",
+                "description": "Naturbucht südlich von Poreč (10 min Fahrt). Kaum jemand da. Ruhig, klar, naturbelassen. Hunde können frei laufen.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Picknick an der versteckten Bucht",
+                "description": "Das letzte Picknick am Meer. Genießt die Ruhe.",
+                "cost": 5,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Letzte Runde Schwimmen",
+                "description": "Das Meer noch einmal genießen — ihr, die Hunde, die Sonne.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Letztes Abendessen in Poreč",
+                "description": "Gemeinsames Kochen im Haus: Lieblingsgericht des Urlaubs nachkochen. Oder Abschieds-Cocktail an der Strandbar.",
+                "cost": 10,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 15,
+            "date": "2026-09-26",
+            "title": "Letzter Urlaubstag + Souvenirs",
+            "phase": "relax",
+            "day_total": 25,
+            "activities": [
+              {
+                "time": "Vormittag",
+                "activity": "Letztes Mal zum Strand",
+                "description": "Noch eine Stunde am Brulo oder Blue Moon. Hunde schnuppern zum letzten Mal die Adria-Luft.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Mittag",
+                "activity": "Souvenir-Einkauf auf dem Markt",
+                "description": "Olivenöl, Trüffelprodukte, Lavendel, istrischer Wein. Letzte Marktbesuche.",
+                "cost": 10,
+                "dog_friendly": true
+              },
+              {
+                "time": "Nachmittag",
+                "activity": "Haus aufräumen + Packen",
+                "description": "Hunde ruhen sich für die Rückfahrt aus.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Abschiedsessen — Konoba Kaštel",
+                "description": "Die beste Konoba in Poreč. Terrasse, Hunde willkommen. Hausgemachte istrische Spezialitäten: Boškarin-Eintopf oder Trüffelpasta.",
+                "cost": 15,
+                "dog_friendly": true
+              }
+            ]
+          },
+          {
+            "day": 16,
+            "date": "2026-09-27",
+            "title": "Rückfahrt Poreč → Frankfurt",
+            "phase": "travel",
+            "day_total": 50,
+            "activities": [
+              {
+                "time": "06:00",
+                "activity": "Früh los mit den Hunden",
+                "description": "Hunde bequem auf der Rückbank. Frühstück für unterwegs eingepackt.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "10:00",
+                "activity": "Stopp in Slowenien",
+                "description": "Letzte Hunde-Pinkelpause. Vielleicht ein letzter Blick auf den Bleder See.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "13:00",
+                "activity": "Picknick-Stopp in Österreich",
+                "description": "Selbstgemachte Brote. Hunde bekommen den Rest vom Schinken.",
+                "cost": 10,
+                "dog_friendly": true
+              },
+              {
+                "time": "17:00",
+                "activity": "Ankunft in Frankfurt",
+                "description": "Zuhause angekommen. Müde, aber glücklich. Hunde schlafen durch.",
+                "cost": 0,
+                "dog_friendly": true
+              },
+              {
+                "time": "Abend",
+                "activity": "Letzte Reste essen",
+                "description": "Nichts mehr kochen müssen — Reste vom Urlaub essen.",
+                "cost": 40,
+                "dog_friendly": true
+              }
+            ]
+          }
+        ],
+        "accommodation": {
+          "recommendation": "Eigenes Haus in Poreč — keine Kosten, kein Umzug, perfekt für zwei alte Hunde mit Routine.",
+          "options": [
+            {
+              "name": "Eigenes Haus",
+              "price_per_night": "€0 (eigenes Haus)",
+              "why": "Keine Umbuchung nötig, Hunde fühlen sich wohl, Garten für die Nächte. Beide Wochen von hier aus."
+            }
           ]
         },
-        "beaches": "1. Blue Moon (Bijela Uvala) — designated dog beach\n2. Plaža Borik — 15-min walk, sand/pebble\n3. Plaža Materada — quiet pebble coves\n4. Červar-Porat — pine forest beach\n5. Lanterna — wide, shallow beach",
-        "events_september": "Vrsar Music Festival (10-13 Sep). Regular farmers markets in Poreč every morning with local produce.",
+        "food_total": 310,
+        "attractions_total": 55,
+        "transport_local_total": 0,
+        "extras_total": 35,
+        "grand_total": 400,
+        "dog_tips": [
+          "Designierte Hundestrände in Poreč: Blue Moon (Bijela Uvala), Brulo Dog Beach, Beach Ulika — alle ausgeschildert.",
+          "Motovun, Grožnjan, Hum: Hunde an der Leine überall willkommen. Viele Wassernäpfe in den Gassen.",
+          "Pula Arena: Hunde im Amphitheater erlaubt! Einzigartiges Erlebnis.",
+          "Brijuni-Inseln: Hunde an der Leine auf den Wegen erlaubt, aber nicht im Safari-Park oder Museum.",
+          "Rovinj Altstadt: Kopfsteinpflaster — alte Hunde langsam führen. Lungomare-Promenade ist flach und leicht.",
+          "Lim Fjord Konoba: Terrassenplätze mit Hundeerlaubnis.",
+          "September ist ideal: keine extreme Hitze (22-27°C), Schatten an allen Stränden, klares Wasser.",
+          "Hundetränke immer dabeihaben — alte Hunde dehydrieren schneller.",
+          "Kühlmatte für heiße Tage im Haus.",
+          "Tierarzt in Poreč: Veterinarska Stanica Poreč (M. B. Rašana 8) — zur Not.",
+          "EU-Heimtierausweis nicht vergessen (gültige Tollwutimpfung)."
+        ],
+        "beaches": "1. Blue Moon (Bijela Uvala) — Offizieller Hundestrand, ausgewiesener Bereich\n2. Brulo Dog Beach — zwischen Brulo und Delfin Beach, Hundebereich\n3. Beach Ulika — felsiger Strand, Eichenwald, tolles Panorama\n4. Materada Bucht — ruhig, Pinien, flacher Einstieg\n5. Zelena Laguna — Camping-Hundestrand, kilometerlange Promenade\n6. Červar-Porat — Pinienwald, 'Stari Červar' Hundebereich\n7. Uvala Tarska-Valeta — versteckte Naturbucht, kaum Menschen",
+        "events_september": "Vrsar Music Festival (10.-13. Sep) in der Nähe. Trüffelsaison in Motovun und Buzet. Weinlesefeste an istrischen Weingütern. Poreč Wochenmarkt jeden Morgen.",
         "budget_tips": [
-          "Self-catering is your biggest money-saver. Shopping at Konzum/Plodine ~€50-60/week.",
-          "Free truffle/wine tastings in Motovun, Livade, Grožnjan.",
-          "Buy fresh truffle in Livade (€5-10) and make pasta at home.",
-          "Natural beaches are free. No sunbed fees needed.",
-          "Bakery breakfast (burek, bread) costs €2-3 vs €10+ at a cafe.",
-          "Local morning market in Poreč for cheapest produce."
-        ]
+          "Selbst kochen spart am meisten — die Hunde sind abends ohnehin müde.",
+          "Frühstück vom Bäcker: Burek, Brot, Käse — €2-3 statt €10+ im Café.",
+          "Picknick zum Strand mitnehmen statt Restaurant.",
+          "Wochenmarkt Poreč: frische Produkte zum halben Supermarktpreis.",
+          "Trüffel-/Weinverkostungen sind kostenlos in Motovun und Livade.",
+          "Eintritt nur für Highlights: Pula Arena (€10), Brijuni (€25), Basilika (€5).",
+          "Naturstrände sind kostenlos — keine Liegengebühren nötig.",
+          "Konoba zum Abendessen: €10-15 p.P. mit Hauswein.",
+          "Budget läuft auf ~€400 raus — ihr habt €600 Puffer für spontane Ausgaben!"
+        ],
+        "culture": {
+          "title": "🇭🇷 Kroatien (Istrien) — Mittelmeerseele mit venezianischem Charme",
+          "overview": "Istrien ist die herzförmige Halbinsel Kroatiens, geprägt von venezianischer Herrschaft, habsburgischem Einfluss, italienischer Immigration und jugoslawischer Geschichte — aber stolz auf die eigene Identität. Oft als 'Toskana am Meer' bezeichnet, bietet Istrien mittelalterliche Bergdörfer, römische Ruinen, trüffelreiche Wälder, Olivenhaine und eine Küste mit Kieselbuchten. Im September ist es ruhig, warm und perfekt für einen Urlaub mit alten Hunden — kein Trubel, angenehme Temperaturen und hundefreundliche Gastronomie.",
+          "history": [
+            "Histri-Stamm (10. Jh. v. Chr.): Die Halbinsel ist nach den Histri benannt, einem illyrischen Stamm, der bis 177 v. Chr. gegen die Römer kämpfte.",
+            "Römerzeit (177 v. Chr. — 476 n. Chr.): Pula war ein bedeutender römischer Hafen. Die Pula Arena (1. Jh. n. Chr.) ist eines der besterhaltenen Amphitheater der Welt — 23.000 Plätze.",
+            "Republik Venedig (1267-1797): Venedig regierte Istrien 500 Jahre. Die Küstenstädte (Rovinj, Poreč, Pula) sehen venezianisch aus — Markuslöwen, gotische Paläste, Glockentürme.",
+            "Österreich-Ungarn (1797-1918): Nach Venedig wurde Istrien habsburgisch. Porečs Uferpromenade stammt aus dieser Zeit.",
+            "Italienische Periode (1918-1947): Istrien wurde italienisch. Der Einfluss ist stark — viele Istrier sprechen einen istro-venetischen Dialekt.",
+            "Jugoslawien (1947-1991): Nach dem Zweiten Weltkrieg wurde Istrien jugoslawisch. Viele Italiener gingen. Die Altstädte blieben erhalten.",
+            "Modernes Istrien (seit 1991): Istrien ist die entwickeltste Region Kroatiens. Trüffel, Wein, Olivenöl, Kulturerbe — Premium-Destination."
+          ],
+          "architecture": [
+            "Euphrasius-Basilika (Poreč): Byzantinisches Meisterwerk aus dem 6. Jh., UNESCO-Weltkulturerbe. Die Apsismosaiken sind weltklasse.",
+            "Pula Arena: Das einzige römische Amphitheater mit allen vier Seitentürmen. Gladiatorenkämpfe, Konzerte, Filmfestival.",
+            "Venezianische Gotik: Rovijns Altstadt ist die fotogenste Kroatiens. Porečs Altstadt hat römisches Straßengitter unter venezianischen Fassaden.",
+            "Motovun: Perfekte mittelalterliche Bergstadt mit Stadtmauer. Trüffel-Hauptstadt.",
+            "Grožnjan: 'Stadt der Künstler' — seit den 1960ern Sommerkolonie für Maler und Musiker."
+          ],
+          "culture": [
+            "Istrier sehen sich als eigenständig — entspannter, italienisch beeinflusster, genussvoller.",
+            "Truffeljagd im Motovuner Wald: Familientradition mit Hunden. Weiße Trüffel (September-November) konkurrieren mit Piemont.",
+            "Olivenöl-Leidenschaft: Istrien produziert preisgekrönte Olivenöle. Chiavalon, Ipša, Kabola.",
+            "Glagolitische Schrift: Kroatiens einzigartiges mittelalterliches Alphabet. Glagolitic Alley bei Hum."
+          ],
+          "food": [
+            "Fuži & Pljukanci: Istriens handgemachte Pasta. Mit Trüffelsoße oder Boškarin-Ragù.",
+            "Istrianischer Pršut: Luftgetrockneter Schinken, 12-18 Monate gereift.",
+            "Maneštra: Istrische Minestrone mit Graupen, Kartoffeln, Bohnen.",
+            "Boškarin: Fast ausgestorbene istrische Ochsenrasse — zartes, aromatisches Fleisch.",
+            "Fritaja: Istrisches Omelett mit Spargel im Frühling oder Trüffeln im Herbst.",
+            "Biska: Mistel-Brandy aus Hum — einzigartiger Digestif.",
+            "Wein: Malvazija Istarska (weiß, blumig) und Teran (rot, tanninhaltig).",
+            "Budget: Konoba €10-15 p.P. Trüffelpasta €12-18. Street Food €5-8."
+          ],
+          "people": [
+            "Istrier sind entspannt und stolz auf ihre Esskultur. Fremde unterhalten sich über Olivenöl oder Wein.",
+            "Sprache: Die meisten sprechen gut Englisch. 'Hvala' (danke), 'Molim' (bitte), 'Dobar tek' (guten Appetit).",
+            "Trinkgeld: 10% im Restaurant ist willkommen, aber nicht Pflicht.",
+            "Sicherheit: Istrien ist eine der sichersten Regionen Europas."
+          ],
+          "regions": [
+            "Westküste (Poreč, Rovinj, Pula): Venezianische Altstädte, Kieselstrände, Jachthäfen.",
+            "Istrisches Inland (Motovun, Grožnjan, Hum): Mittelalterliche Bergdörfer, Trüffelwälder, Weinberge.",
+            "Brijuni-Inseln: Nationalpark mit Titos Sommerresidenz — Dinosaurier-Fußabdrücke!",
+            "Limski-Kanal: Fjordartige Bucht mit Austern- und Muschelzucht.",
+            "Tagesausflug Venedig: Von Poreč per Katamaran in 2,5h erreichbar."
+          ],
+          "tips": [
+            "Währung: Kroatien hat seit 2023 den Euro. Kartenzahlung überall, Bargeld für Konoben und Märkte.",
+            "Auto: Temposünder-Kameras überall. Parken in Poreč Altstadt €1-2/h.",
+            "September: Beste Reisezeit. Meer 22-24°C. Keine Massen. Trüffelsaison beginnt.",
+            "Mücken: Septemberabende können Mücken haben — Repellent einpacken.",
+            "Sonnenuntergang: Rovijns Uferpromenade ist weltklasse. In Poreč die Riva.",
+            "Der istrischste Moment: Auf einen Hügel fahren, Malvazija und Pršut bestellen, den Sonnenuntergang anschauen."
+          ]
+        }
       },
       "status": "complete",
-      "created_at": "2026-07-16 12:00:00"
+      "created_at": "2026-07-16 13:00:00"
     }
-  ],
-  "last_updated": "2026-07-16"
+  ]
 }
