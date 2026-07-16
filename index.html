@@ -6,6 +6,8 @@
 <title>Mission Portal</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script src="https://accounts.google.com/gsi/client" async defer></script>
 <style>
 :root {
@@ -27,6 +29,24 @@
   --radius-sm: 8px;
 }
 *{margin:0;padding:0;box-sizing:border-box}
+
+/* Flatpickr dark theme override */
+.flatpickr-calendar{background:#1a1a25!important;border:1px solid rgba(255,255,255,0.08)!important;box-shadow:0 8px 32px rgba(0,0,0,0.5)!important}
+.flatpickr-calendar *{color:#e8e8ed!important}
+.flatpickr-months .flatpickr-month{background:#1a1a25!important;fill:#e8e8ed!important;height:44px}
+.flatpickr-current-month .flatpickr-monthDropdown-months{background:#1a1a25!important}
+.flatpickr-current-month input.cur-year{color:#e8e8ed!important}
+.flatpickr-day{color:#ccc!important;border-radius:8px!important}
+.flatpickr-day:hover{background:rgba(99,102,241,0.3)!important;border-color:transparent!important}
+.flatpickr-day.today{border-color:rgba(99,102,241,0.5)!important}
+.flatpickr-day.selected,.flatpickr-day.startRange,.flatpickr-day.endRange,.flatpickr-day.inRange{background:var(--accent)!important;border-color:transparent!important;color:#fff!important}
+.flatpickr-day.flatpickr-disabled{opacity:0.3!important;color:var(--text3)!important}
+.flatpickr-weekday{color:var(--text2)!important;font-weight:500!important}
+.flatpickr-months .flatpickr-prev-month svg,.flatpickr-months .flatpickr-next-month svg{fill:#e8e8ed!important}
+.flatpickr-months .flatpickr-prev-month:hover svg,.flatpickr-months .flatpickr-next-month:hover svg{fill:var(--accent)!important}
+span.flatpickr-weekday{color:var(--text3)!important}
+.flatpickr-day.today.selected,.flatpickr-day.today.startRange,.flatpickr-day.today.endRange{border-color:var(--accent)!important}
+
 body{
   font-family:'Inter',-apple-system,sans-serif;
   background:var(--bg);
@@ -582,6 +602,35 @@ async function showDashboard() {
 
   buildTabs(config);
   buildOverview(config);
+
+  // Init flatpickr on any .tp-datepicker fields
+  setTimeout(() => {
+    document.querySelectorAll('.tp-datepicker').forEach(el => {
+      if (el._flatpickr) return;
+      flatpickr(el, {
+        dateFormat: 'Y-m-d',
+        minDate: 'today',
+        allowInput: true,
+        disableMobile: true,
+      });
+    });
+    // After flatpickr loads, clicking tp-form or any datepicker area re-inits
+    const form = document.getElementById('tp-form');
+    if (form) {
+      const observer = new MutationObserver(() => {
+        document.querySelectorAll('.tp-datepicker:not([data-fp-init])').forEach(el => {
+          if (el._flatpickr) return;
+          flatpickr(el, {
+            dateFormat: 'Y-m-d',
+            minDate: 'today',
+            allowInput: true,
+            disableMobile: true,
+          });
+        });
+      });
+      observer.observe(form, { childList: true, subtree: true });
+    }
+  }, 100);
 }
 
 function buildTabs(config) {
@@ -630,11 +679,17 @@ function buildProject(p) {
   }
   if (p.display === 'movies' || p.name === 'Movies') {
     return header +
+      '<div class="tp-controls" style="display:flex;align-items:center;gap:12px;margin-bottom:12px">' +
+        '<button class="tp-arrange" onclick="loadMovies()" style="padding:6px 14px;font-size:12px">🔄 Refresh Suggestions</button>' +
+      '</div>' +
       '<div id="movies-suggestions" class="movies-grid"><div class="movie-empty-state"><div class="mico">🎬</div><h3>No suggestions yet</h3><p>New movie picks arrive every Tuesday, Thursday, and Saturday at 8 PM.</p></div></div>' +
       '<div class="movies-history" id="movies-history"><h3>📋 My Watch History</h3><div id="movies-history-list"><div class="history-empty">No movies chosen yet. Pick one from the suggestions above!</div></div></div>';
   }
   if (p.display === 'music' || p.name === 'Music') {
     return header +
+      '<div class="tp-controls" style="display:flex;align-items:center;gap:12px;margin-bottom:12px">' +
+        '<button class="tp-arrange" onclick="loadMusic()" style="padding:6px 14px;font-size:12px">🔄 Refresh Song</button>' +
+      '</div>' +
       '<div id="music-today"><div class="music-empty-state"><div class="mico">🎵</div><h3>Loading today\'s song...</h3><p>Checking the daily recommendation.</p></div></div>' +
       '<div class="music-history" id="music-history"><h3>📋 My Song History</h3><div id="music-history-list"><div class="music-empty">No songs rated yet. Listen to today\'s pick and rate it!</div></div></div>';
   }
@@ -645,8 +700,8 @@ function buildProject(p) {
         '<div class="tp-form-grid">' +
           '<div class="tp-field"><label>🛫 Departure City</label><input type="text" id="tp-from" placeholder="e.g. Frankfurt" /></div>' +
           '<div class="tp-field"><label>🛬 Destination City</label><input type="text" id="tp-to" placeholder="e.g. Barcelona" /></div>' +
-          '<div class="tp-field"><label>📅 Departure Date</label><input type="date" id="tp-depart" /></div>' +
-          '<div class="tp-field"><label>📅 Return Date</label><input type="date" id="tp-return" /></div>' +
+          '<div class="tp-field"><label>📅 Departure Date</label><input type="text" id="tp-depart" class="tp-datepicker" placeholder="Pick a date" readonly /></div>' +
+          '<div class="tp-field"><label>📅 Return Date</label><input type="text" id="tp-return" class="tp-datepicker" placeholder="Pick a date" readonly /></div>' +
           '<div class="tp-field"><label>👥 Travelers</label><input type="number" id="tp-people" min="1" value="1" /></div>' +
           '<div class="tp-field"><label>💰 Budget (€)</label><input type="number" id="tp-budget" min="0" placeholder="e.g. 2000" /><span class="hint">Leave empty for cheapest options</span></div>' +
         '</div>' +
