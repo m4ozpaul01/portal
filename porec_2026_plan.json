@@ -1,0 +1,296 @@
+{
+  "summary": "A 16-day relaxation-first road trip from Frankfurt am Main to Poreč, Croatia (Istria). Free accommodation in your own house, fuel covered by company. Week 1: gentle exploration of Istria's medieval hill towns, coastal gems, and natural beauty within 100 km of Poreč — all dog-friendly. Week 2: pure beach relaxation with your two old dogs. Budget of €1,000 for two people covering food and entry fees for 14 days on the ground (≈€71/day).",
+  "special_2026": "September in Istria is post-peak season — beaches are half-empty, temperatures are perfect (22-27°C), and the sea is still warm at 22-24°C. The Vrsar Music Festival runs 10-13 September nearby. The famous Špancirfest in Varaždin runs late August to early September (check exact dates). Truffle season begins in September — peak Istrian truffle time!",
+  "phase1": {
+    "days": 7,
+    "percentage": 50,
+    "label": "Explore Istria (Gentle Day Trips)"
+  },
+  "phase2": {
+    "days": 7,
+    "percentage": 50,
+    "label": "Beach Relaxation with Dogs"
+  },
+  "flights": {
+    "total": 0,
+    "recommendation": "Driving — no flights needed.",
+    "tip": "Route: Frankfurt → München (scenic stop) → Salzburg → Bled (Slovenia) → Poreč. About 750 km total, easy 2-day drive with beautiful stops."
+  },
+  "accommodations": [
+    {
+      "name": "Your own house in Poreč",
+      "type": "private_apartment",
+      "price_per_night": 0,
+      "total": 0,
+      "description": "You own the house in Poreč — the whole trip is based from here. Familiar environment is ideal for two old dogs who need routine and comfort. Same base for both weeks, just different daily activities."
+    }
+  ],
+  "daily_itinerary": [
+    {
+      "day": 1,
+      "date": "2026-09-12",
+      "title": "Anreise — Scenic Drive to Poreč via Lake Bled",
+      "phase": "travel",
+      "day_total": 25,
+      "activities": [
+        { "time": "06:00", "activity": "Depart Frankfurt am Main", "cost": 0 },
+        { "time": "09:00", "activity": "Breakfast stop near München (packed or highway rest stop)", "cost": 8 },
+        { "time": "12:00", "activity": "Lake Bled, Slovenia — short walk with dogs around the lake (30 min stretch)", "cost": 0 },
+        { "time": "15:00", "activity": "Drive through Slovenia → Croatia border → Poreč", "cost": 0 },
+        { "time": "18:00", "activity": "Arrive at your house, unpack, settle the dogs, evening walk in neighborhood", "cost": 0 },
+        { "time": "Evening", "activity": "Grocery shopping at Konzum/Plodine for the week (stock up fridge)", "cost": 50 }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-09-13",
+      "title": "Poreč Old Town + Euphrasian Basilica",
+      "phase": "explore",
+      "day_total": 15,
+      "activities": [
+        { "time": "Morning", "activity": "Leisurely breakfast at the house, morning walk with dogs through neighborhood", "cost": 0 },
+        { "time": "10:00", "activity": "Walk to Poreč Old Town peninsula (easy, flat, dogs welcome on leash)", "cost": 0 },
+        { "time": "11:00", "activity": "Euphrasian Basilica (UNESCO) — €7 entry, 6th century mosaics, free for dogs in courtyard", "cost": 7 },
+        { "time": "12:30", "activity": "Lunch: picnic in town park or take-away from local bakery (peka bread, cheese)", "cost": 8 },
+        { "time": "Afternoon", "activity": "Explore Pentagonal Tower, Romanesque houses, Decumanus street — all free", "cost": 0 },
+        { "time": "Evening", "activity": "Sunset walk along Poreč waterfront with dogs, dinner at home (self-catered)", "cost": 6 }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-09-14",
+      "title": "Day Trip: Motovun + Grožnjan (Truffle & Artist Villages)",
+      "phase": "explore",
+      "day_total": 25,
+      "activities": [
+        { "time": "09:00", "activity": "Drive to Motovun (30 km, 25 min) — medieval hill town surrounded by vineyards", "cost": 0 },
+        { "time": "10:00", "activity": "Walk Motovun's city walls and old town. Free entry. Dogs on leash welcome", "cost": 0 },
+        { "time": "11:00", "activity": "Free truffle and wine tastings at local shops (several offer free samples)", "cost": 0 },
+        { "time": "12:30", "activity": "Lunch: picnic with views over Mirna Valley (bring bread, local cheese, prosciutto)", "cost": 8 },
+        { "time": "14:00", "activity": "Drive 5 km to Grožnjan — charming artist village, galleries, free to wander", "cost": 0 },
+        { "time": "16:00", "activity": "Return to Poreč, rest with dogs", "cost": 0 },
+        { "time": "Evening", "activity": "Self-catered dinner at home", "cost": 8 }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-09-15",
+      "title": "Day Trip: Rovinj — Istria's Most Beautiful Coastal Town",
+      "phase": "explore",
+      "day_total": 25,
+      "activities": [
+        { "time": "09:30", "activity": "Drive to Rovinj (35 km, 40 min) — park at city parking lot", "cost": 5 },
+        { "time": "10:30", "activity": "Walk Rovinj's old town and harbor. Dogs welcome on leash. Free.", "cost": 0 },
+        { "time": "12:00", "activity": "St. Euphemia Church — free entry, climb bell tower (€3) for best panorama", "cost": 3 },
+        { "time": "13:00", "activity": "Lunch: take-away cevapi or burek from a local bakery (€5-7 each)", "cost": 12 },
+        { "time": "14:30", "activity": "Walk the Zlatni Rt (Golden Cape) forest park — dog-friendly nature paths", "cost": 0 },
+        { "time": "16:30", "activity": "Drive back to Poreč, rest", "cost": 0 },
+        { "time": "Evening", "activity": "Self-catered dinner", "cost": 8 }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-09-16",
+      "title": "Pula Roman Arena + Brioni National Park Views",
+      "phase": "explore",
+      "day_total": 30,
+      "activities": [
+        { "time": "09:00", "activity": "Drive to Pula (55 km, 45 min)", "cost": 0 },
+        { "time": "10:00", "activity": "Pula Arena (Roman amphitheater) — €10 entry, one of the best-preserved in world", "cost": 10 },
+        { "time": "11:30", "activity": "Walk Pula's Forum, Temple of Augustus, Sergii Arch — all free, dogs welcome", "cost": 0 },
+        { "time": "13:00", "activity": "Lunch: budget konoba (taverna) in Pula old town — local pasta or grilled fish ~€10-12", "cost": 10 },
+        { "time": "14:30", "activity": "Scenic drive along the coast toward Brioni Islands viewpoint (free)", "cost": 0 },
+        { "time": "Evening", "activity": "Return to Poreč, self-catered dinner", "cost": 10 }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-09-17",
+      "title": "Lim Bay + Vrsar — Fjord & Fishing Village",
+      "phase": "explore",
+      "day_total": 15,
+      "activities": [
+        { "time": "10:00", "activity": "Drive to Lim Bay (Limski Kanal, 20 km, 25 min) — stunning 10km fjord-like inlet", "cost": 0 },
+        { "time": "10:30", "activity": "Viewpoint over Lim Bay (free). Look for shellfish farms below", "cost": 0 },
+        { "time": "11:30", "activity": "Continue to Vrsar (10 km) — charming fishing village, walk old town, free", "cost": 0 },
+        { "time": "13:00", "activity": "Lunch: local konoba grilled fish or seafood risotto (€10-12)", "cost": 10 },
+        { "time": "Afternoon", "activity": "Leisurely walk with dogs along Vrsar waterfront", "cost": 0 },
+        { "time": "Evening", "activity": "Return to Poreč, self-catered dinner", "cost": 8 }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-09-18",
+      "title": "Hum + Livade — Smallest Town & Truffle Region",
+      "phase": "explore",
+      "day_total": 20,
+      "activities": [
+        { "time": "09:00", "activity": "Drive to Hum (55 km, 50 min) — officially the smallest town in the world", "cost": 0 },
+        { "time": "10:30", "activity": "Walk Hum's entire town in 20 minutes. Old gate, frescoes, Biska grappa tasting. Free.", "cost": 0 },
+        { "time": "11:30", "activity": "Stop in Livade (truffle capital) on the way back — visit a truffle shop, free tastings", "cost": 0 },
+        { "time": "13:00", "activity": "Scenic drive through Motovun forest, picnic lunch at a woodland spot", "cost": 6 },
+        { "time": "Afternoon", "activity": "Return to Poreč, rest day for you and the dogs", "cost": 0 },
+        { "time": "Evening", "activity": "Self-catered dinner with truffle pasta (buy fresh truffle in Livade ~€5-10)", "cost": 20 }
+      ]
+    },
+    {
+      "day": 8,
+      "date": "2026-09-19",
+      "title": "Transition Day — Gentle Beach Introduction",
+      "phase": "beach",
+      "day_total": 12,
+      "activities": [
+        { "time": "Late morning", "activity": "Slow breakfast, pack beach bag, prepare for beach week", "cost": 0 },
+        { "time": "11:00", "activity": "Visit Plaža Borik (15 min walk from town) — sand/pebble beach, shallow entry, dog-friendly section", "cost": 0 },
+        { "time": "13:00", "activity": "Picnic lunch on the beach", "cost": 8 },
+        { "time": "Afternoon", "activity": "Swimming, reading, napping under pinetrees. Dogs can paddle in designated area", "cost": 0 },
+        { "time": "Evening", "activity": "Self-catered dinner at home", "cost": 8 }
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-09-20",
+      "title": "Beach Day — Materada",
+      "phase": "beach",
+      "day_total": 8,
+      "activities": [
+        { "time": "10:00", "activity": "Walk to Plaža Materada (2 km south) — quiet pebble coves under pine trees, very calm", "cost": 0 },
+        { "time": "All day", "activity": "Lay on beach towels, swim, read, nap. Dogs can rest in the shade of pines", "cost": 0 },
+        { "time": "Lunch", "activity": "Light picnic from home (bread, cheese, tomatoes, local olive oil — shop for €3-4)", "cost": 5 },
+        { "time": "Evening", "activity": "Easy self-catered dinner at home", "cost": 8 }
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-09-21",
+      "title": "Beach Day — Červar Porat (Pine Forest Beach)",
+      "phase": "beach",
+      "day_total": 10,
+      "activities": [
+        { "time": "10:00", "activity": "Drive 5 km north to Červar-Porat — long beach strip with pine forest right to shore", "cost": 0 },
+        { "time": "All day", "activity": "Relax on the beach. Pine trees provide natural shade — perfect for dogs. Very quiet in September.", "cost": 0 },
+        { "time": "Lunch", "activity": "Light lunch from local bakery or self-catered", "cost": 6 },
+        { "time": "Afternoon", "activity": "Shallow-water swimming, beach walks with dogs", "cost": 0 },
+        { "time": "Evening", "activity": "Self-catered dinner", "cost": 8 }
+      ]
+    },
+    {
+      "day": 11,
+      "date": "2026-09-22",
+      "title": "Beach Day — Lanterna Peninsula",
+      "phase": "beach",
+      "day_total": 8,
+      "activities": [
+        { "time": "10:00", "activity": "Drive 8 km south to Lanterna resort area — wide beach, shallow, very dog-tolerant", "cost": 0 },
+        { "time": "All day", "activity": "Full beach day. Bring towels, books, umbrella. Dogs love the shallow sandy entry here", "cost": 0 },
+        { "time": "Lunch", "activity": "Picnic from home", "cost": 5 },
+        { "time": "Evening", "activity": "Self-catered dinner", "cost": 8 }
+      ]
+    },
+    {
+      "day": 12,
+      "date": "2026-09-23",
+      "title": "Rest Day at Home + Evening Walk to Town",
+      "phase": "beach",
+      "day_total": 15,
+      "activities": [
+        { "time": "Morning", "activity": "Sleep in, leisurely breakfast at home with the dogs", "cost": 0 },
+        { "time": "Lunch", "activity": "Self-catered lunch", "cost": 6 },
+        { "time": "Afternoon", "activity": "Rest at the house with dogs. Let them nap in their familiar environment.", "cost": 0 },
+        { "time": "Late afternoon", "activity": "Leisurely walk to Poreč town for gelato (€2-3 each)", "cost": 5 },
+        { "time": "Evening", "activity": "Cook a nice dinner at home with local ingredients", "cost": 10 }
+      ]
+    },
+    {
+      "day": 13,
+      "date": "2026-09-24",
+      "title": "Beach Day — Blue Moon (Dog Beach!)",
+      "phase": "beach",
+      "day_total": 8,
+      "activities": [
+        { "time": "10:00", "activity": "Go to Blue Moon beach (beach of Hotel Delfin area) — designated dog beach in Poreč!", "cost": 0 },
+        { "time": "All day", "activity": "Perfect day for the dogs — they can swim freely at this dog-approved beach. Paved paths, beach bars", "cost": 0 },
+        { "time": "Lunch", "activity": "Grab a simple meal at beach bar or packed lunch", "cost": 8 },
+        { "time": "Evening", "activity": "Self-catered dinner at home", "cost": 8 }
+      ]
+    },
+    {
+      "day": 14,
+      "date": "2026-09-25",
+      "title": "Free Day — Repeat Your Favourite Spot",
+      "phase": "beach",
+      "day_total": 15,
+      "activities": [
+        { "time": "Morning", "activity": "No plan — repeat whatever beach you loved most, or stay home with dogs", "cost": 0 },
+        { "time": "Lunch", "activity": "Self-catered", "cost": 6 },
+        { "time": "Afternoon", "activity": "Relax", "cost": 0 },
+        { "time": "Evening", "activity": "Treat yourself: dinner at a nice konoba in Poreč old town (€15-20 per person)", "cost": 18 }
+      ]
+    },
+    {
+      "day": 15,
+      "date": "2026-09-26",
+      "title": "Final Beach Day + Farewell Dinner",
+      "phase": "beach",
+      "day_total": 20,
+      "activities": [
+        { "time": "Morning", "activity": "Final beach morning. Choose your favourite spot.", "cost": 0 },
+        { "time": "Lunch", "activity": "Self-catered", "cost": 6 },
+        { "time": "Afternoon", "activity": "Pack leisurely, rest", "cost": 0 },
+        { "time": "Evening", "activity": "Farewell dinner at a nice restaurant in Poreč (€15-20 per person)", "cost": 20 }
+      ]
+    },
+    {
+      "day": 16,
+      "date": "2026-09-27",
+      "title": "Return Drive — Poreč → Frankfurt",
+      "phase": "travel",
+      "day_total": 20,
+      "activities": [
+        { "time": "06:00", "activity": "Depart Poreč", "cost": 0 },
+        { "time": "09:00", "activity": "Breakfast stop in Slovenia", "cost": 10 },
+        { "time": "12:00", "activity": "Lunch stop near Austrian border", "cost": 10 },
+        { "time": "Evening", "activity": "Arrive home in Frankfurt", "cost": 0 }
+      ]
+    }
+  ],
+  "accommodation": {
+    "recommendation": "Your own house in Poreč — no cost, familiar for the dogs, fully equipped kitchen (saves hundreds on food), already has beach gear. Perfect setup.",
+    "options": [
+      {
+        "name": "Your own house in Poreč",
+        "price_per_night": "€0",
+        "why": "Free, familiar, dog-friendly, fully equipped, your home base for both weeks"
+      }
+    ]
+  },
+  "food_total": 245,
+  "attractions_total": 20,
+  "transport_local_total": 5,
+  "extras_total": 30,
+  "grand_total": 300,
+  "transport_details": {
+    "route_description": "Frankfurt am Main → München (scenic) → Salzburg area → Lake Bled (Slovenia) → Poreč. Return: same route reverse. Total ~1,500 km round trip.",
+    "total_km": 1500,
+    "fuel_cost": 0,
+    "toll_cost": 0,
+    "vignette_info": "Fuel covered by company, tolls covered by company. For reference: Austria requires vignette (€9.90 for 10-day), Slovenia requires vignette (€15 for 7-day). Croatia has toll roads (€15-20 per direction).",
+    "scenic_stops": [
+      { "name": "Lake Bled, Slovenia", "km_marker": "~500 km from Frankfurt", "suggested_time": "30 min stretch + photos", "description": "Iconic alpine lake with island church. Dog-friendly lakeside path. Perfect halfway stretch." },
+      { "name": "Postojna / Predjama Castle", "km_marker": "~650 km from Frankfurt", "suggested_time": "1 hour", "description": "Dramatic cave castle — worth a quick detour if timing allows." }
+    ]
+  },
+  "beaches": "1. Blue Moon (beach Bijela Uvala) — DESIGNATED DOG BEACH, paved paths, beach bars, best for swimming with dogs\n2. Plaža Borik — 15-min walk from town, sand/pebble, shallow entry, dog-tolerant\n3. Plaža Materada — quiet pebble coves, pinetree shade, very calm, good for old dogs\n4. Červar-Porat — long beach, pine forest right to shore, very quiet in September\n5. Lanterna — wide beach, shallow, developed resort area with amenities",
+  "events_september": "Vrsar Music Festival (10-13 September) — just 10 km from Poreč. If arriving on the 12th, you might catch the tail end. Also: Špancirfest Varaždin (late Aug/early Sep). Regular farmers markets in Poreč every morning with local produce.",
+  "budget_tips": [
+    "Self-catering is your biggest money-saver. Shopping at Konzum/Plodine for the week costs ~€50-60 for two people.",
+    "Ask for free truffle/wine tastings at shops in Motovun, Livade, and Grožnjan — it's customary and free.",
+    "Buy a fresh truffle in Livade (€5-10) and make pasta at home — a €50 restaurant experience for €8.",
+    "Poreč waterfront has free public barbecue spots — bring charcoal and grill local sausages/vegetables.",
+    "Bakery breakfast (burek, bread, pastries) costs €2-3 per person vs €10+ at a cafe.",
+    "September is off-peak — many konobe have affordable lunch menus (€8-12) that are cheaper than dinner.",
+    "Natural beaches are free. No sunbed fees needed — bring towels and an umbrella.",
+    "Fill reusable water bottles at home — tap water in Poreč is excellent.",
+    "Local markets in Poreč (morning) have the cheapest seasonal fruit, vegetables, and cheese."
+  ]
+}
