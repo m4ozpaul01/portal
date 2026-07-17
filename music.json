@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-17",
   "todays_pick": {
-    "title": "Adagio for Strings",
-    "artist": "Tiësto",
-    "genre": "Trance, Electronic",
-    "album": "Just Be",
-    "year": 2004,
+    "title": "Echoes",
+    "artist": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "album": "Meddle",
+    "year": 1971,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-13",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-07-17",
+    "why": "A Progressive Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -315,6 +315,7 @@
     "Windowlicker",
     "Caribbean Blue",
     "Clear Air Turbulence",
-    "Adagio for Strings"
+    "Adagio for Strings",
+    "Echoes"
   ]
 }
