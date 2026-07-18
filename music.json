@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-07-18",
   "todays_pick": {
-    "title": "Echoes",
-    "artist": "Pink Floyd",
-    "genre": "Progressive Rock",
-    "album": "Meddle",
-    "year": 1971,
+    "title": "Children",
+    "artist": "Robert Miles",
+    "genre": "Dream Trance, Electronic",
+    "album": "Dreamland",
+    "year": 1995,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-17",
-    "why": "A Progressive Rock track to start your day!"
+    "picked_date": "2026-07-18",
+    "why": "A Dream Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -316,6 +316,7 @@
     "Caribbean Blue",
     "Clear Air Turbulence",
     "Adagio for Strings",
-    "Echoes"
+    "Echoes",
+    "Children"
   ]
 }
