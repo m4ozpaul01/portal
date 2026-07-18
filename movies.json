@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-18",
   "suggestions": [
     {
-      "title": "Goodfellas",
-      "year": 1990,
-      "genre": "Crime, Drama, Biography",
-      "description": "The rise and fall of a mob associate who becomes deeply enmeshed in New York's organized crime underworld. Martin Scorsese's masterful gangster epic features career-defining performances by Ray Liotta, Robert De Niro, and Joe Pesci, with one of cinema's most famous tracking shots.",
+      "title": "The Matrix",
+      "year": 1999,
+      "genre": "Sci-Fi, Action",
+      "description": "A computer hacker discovers reality is a simulated world created by machines to subdue humanity. The Wachowskis' groundbreaking sci-fi masterpiece redefined action cinema with its revolutionary visual effects, martial arts choreography, and mind-bending philosophical questions. Starring Keanu Reeves as Neo, the film won 4 Academy Awards and became a cultural phenomenon.",
       "imdb_rating": 8.7,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=2ilzidi_J8Q",
-      "director": "Martin Scorsese"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Matrix.png",
+      "trailer_url": "https://www.youtube.com/watch?v=tGgCqGm_6Hs",
+      "director": "Lana Wachowski, Lilly Wachowski"
     },
     {
-      "title": "Spider-Man: Into the Spider-Verse",
-      "year": 2018,
-      "genre": "Animation, Action, Adventure",
-      "description": "Teenager Miles Morales becomes Spider-Man and teams up with Spider-People from across the multiverse to save reality. A groundbreaking visual masterpiece that pushed the boundaries of animation, winning the Academy Award for Best Animated Feature.",
-      "imdb_rating": 8.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fa/Spider-Man_Into_the_Spider-Verse_poster.png",
-      "trailer_url": "https://www.youtube.com/watch?v=ii3n7hYQOl4",
-      "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman"
+      "title": "City of God",
+      "year": 2002,
+      "genre": "Crime, Drama",
+      "description": "Two boys growing up in a violent Rio de Janeiro favela take different paths — one becomes a photographer, the other a drug dealer. Fernando Meirelles' electrifying Brazilian epic portrays the cycle of violence and survival with kinetic energy, non-linear storytelling, and one of the most remarkable ensembles in cinema history.",
+      "imdb_rating": 8.6,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/10/CidadedeDeus.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=dcUOO4Itgmw",
+      "director": "Fernando Meirelles, Kátia Lund"
     },
     {
-      "title": "Schindler's List",
-      "year": 1993,
-      "genre": "Biography, Drama, War",
-      "description": "During WWII, German businessman Oskar Schindler saves over a thousand Polish Jews from the Holocaust by employing them in his factories. Steven Spielberg's deeply moving historical drama is an essential, emotionally devastating masterpiece that won 7 Academy Awards including Best Picture.",
-      "imdb_rating": 9.0,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=mxphAlJID9U",
-      "director": "Steven Spielberg"
+      "title": "Gladiator",
+      "year": 2000,
+      "genre": "Action, Adventure, Drama",
+      "description": "A betrayed Roman general becomes a gladiator and seeks vengeance against the corrupt emperor who murdered his family. Ridley Scott's epic historical drama revitalized the sword-and-sandal genre with breathtaking visuals, Hans Zimmer's iconic score, and Russell Crowe's commanding Oscar-winning performance as Maximus.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
+      "trailer_url": "https://www.youtube.com/watch?v=P5ieIbInFpg",
+      "director": "Ridley Scott"
     }
   ],
   "history": [],
@@ -51,6 +51,9 @@
     "The Good, the Bad and the Ugly",
     "Goodfellas",
     "Spider-Man: Into the Spider-Verse",
-    "Schindler's List"
+    "Schindler's List",
+    "The Matrix",
+    "City of God",
+    "Gladiator"
   ]
 }
