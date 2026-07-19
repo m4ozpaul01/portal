@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-18",
+  "last_updated": "2026-07-19",
   "todays_pick": {
-    "title": "Children",
-    "artist": "Robert Miles",
-    "genre": "Dream Trance, Electronic",
-    "album": "Dreamland",
-    "year": 1995,
+    "title": "Midnight City",
+    "artist": "M83",
+    "genre": "Synthwave, Electronic",
+    "album": "Hurry Up, We're Dreaming",
+    "year": 2011,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-18",
-    "why": "A Dream Trance / Electronic track to start your day!"
+    "picked_date": "2026-07-19",
+    "why": "A Synthwave / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -317,6 +317,7 @@
     "Clear Air Turbulence",
     "Adagio for Strings",
     "Echoes",
-    "Children"
+    "Children",
+    "Midnight City"
   ]
 }
