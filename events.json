@@ -1,135 +1,7 @@
 {
-  "last_updated": "2026-07-12",
-  "research_date": "2026-07-12",
+  "last_updated": "2026-07-19",
+  "research_date": "2026-07-19",
   "events": [
-    {
-      "date": "2026-07-12",
-      "type": "Saturn",
-      "description": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Article\",\"@id\":\"https:\\/\\/earthsky.org\\/astronomy-essentials\\/visible-planets-tonight-mars-jupiter-venus-saturn-mercury\\/#article\",\"name\":\"Visibl",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-07-12",
-      "type": "Sun",
-      "description": "<a href=\"https://earthsky.org/sun/\" class=\"nav-link-mobile w-nav-link\" data-udy-fe=\"text_4c600e6\">Sun</a>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-07-12",
-      "type": "Moon",
-      "description": "<a href=\"https://earthsky.org/moon-phases/\" class=\"dropdown-sidebar-link\" data-udy-fe=\"text_-33be4ba9\">Moon Phases</a>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-07-12",
-      "type": "Eclipse",
-      "description": "<a href=\"https://earthsky.org/astronomy-essentials/total-solar-eclipse-visible-august-12-2026/\" class=\"thumbnail-small w-inline-block\">",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-07-12",
-      "type": "Mars",
-      "description": "<div class=\"post-rich-text w-richtext\"><h2>July 12 and 13 mornings: Moon near Aldebaran, Mars and the Pleiades</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-07-12",
-      "type": "Comet",
-      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/C7xbWR9a6JrkhEokX3DUq4.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/C7xbWR9a6JrkhE",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-07-13",
-      "type": "Comet",
-      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/JfKMcLZLW9a56vA8GtRUGa.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/JfKMcLZLW9a56v",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-07-13",
-      "type": "Meteor",
-      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/EuwYKyxawL9g25Xv4zDdqe.jpg\" alt=\"Star chart showing the Perseid meteor shower radiant in the constellation Perseus during the new moon.\" srcset=\"https://cdn",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-07-14",
-      "type": "Moon",
-      "description": "<h2>July 14: New moon</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-07-14",
-      "type": "Meteor",
-      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/EuwYKyxawL9g25Xv4zDdqe.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/EuwYKyxawL9g25",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-07-15",
-      "type": "Venus",
-      "description": "<h2>July 15 evening: Moon near Venus and Regulus</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-07-15",
-      "type": "Moon",
-      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/Y6z5HYmWmvRAYp5U5hhwAm.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/Y6z5HYmWmvRAYp",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-07-16",
-      "type": "Venus",
-      "description": "<h2>July 16 and 17 evenings: Moon close to Venus and Regulus</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-07-16",
-      "type": "Moon",
-      "description": "<p><a href=\"https://earthsky.org/astronomy-essentials/what-is-earthshine/\" rel=\"noopener\" target=\"_blank\">Read more: Earthshine is a lovely glow on the unlit portion of the moon</a></p>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-07-17",
-      "type": "Venus",
-      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/AfzLSxTUJ9z3ZVAioNfFWP.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/AfzLSxTUJ9z3ZV",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-07-18",
-      "type": "Moon",
-      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/aSvJUEP7BSaCFVAaxjYgTV.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/aSvJUEP7BSaCFV",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
     {
       "date": "2026-07-19",
       "type": "Planet",
@@ -149,7 +21,15 @@
     {
       "date": "2026-07-20",
       "type": "Meteor",
-      "description": "In this video, EarthSky&#8217;s Deborah Byrd gives you the best night sky sights of July 2026: the moon, planets, stars and meteors. Mark your calendar! Watch here or <a href=\"https://www.youtube.com/",
+      "description": "<p><iframe title=\"This Weeks Night Sky: Delta Aquariid Meteors Week Of July 20\" width=\"422\" height=\"750\" src=\"https://www.youtube.com/embed/h6wD-XxSfUs?feature=oembed\" frameborder=\"0\" allow=\"accelerom",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "Eclipse",
+      "description": "<h2>Solar eclipse coming! Watch a video</h2>",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
@@ -230,14 +110,6 @@
       "date": "2026-07-20",
       "type": "Venus",
       "description": "<a href=\"https://www.space.com/astronomy/solar-system/venus\" class=\"meganav-item__link\" data-nav-link=\"\" arial-label=\"Venus\" data-before-rewrite-localise=\"/astronomy/solar-system/venus\">",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-07-20",
-      "type": "Eclipse",
-      "description": "<a href=\"https://www.space.com/stargazing/eclipses\" class=\"meganav-item__title-link\" tabindex=\"0\" data-nav-title-link=\"\" arial-label=\"Eclipses\" style=\"--nav-item-font-weight: 600; --nav-item-font-size",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
@@ -397,7 +269,7 @@
     {
       "date": "2026-07-31",
       "type": "Jupiter",
-      "description": "<a href=\"https://www.space.com/stargazing/venus-jupiter-and-mercury-headline-a-stunning-planet-parade-through-june-heres-when-to-see-it\" data-recirculation-id=\"recirculation-card-3\" data-analytics-id=",
+      "description": "<a href=\"https://www.space.com/stargazing/venus-jupiter-and-mercury-headline-a-stunning-planet-parade-through-june-heres-when-to-see-it\" data-recirculation-id=\"recirculation-card-5\" data-analytics-id=",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
@@ -405,7 +277,7 @@
     {
       "date": "2026-07-31",
       "type": "Planet",
-      "description": "<a href=\"https://www.space.com/stargazing/3-bright-planets-light-up-junes-night-sky-heres-where-and-when-to-look\" data-recirculation-id=\"recirculation-card-7\" data-analytics-id=\"recirculation-feed-7\" ",
+      "description": "<a href=\"https://www.space.com/stargazing/3-bright-planets-light-up-junes-night-sky-heres-where-and-when-to-look\" data-recirculation-id=\"recirculation-card-9\" data-analytics-id=\"recirculation-feed-9\" ",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
@@ -453,15 +325,23 @@
     {
       "date": "2026-08-12",
       "type": "Eclipse",
-      "description": "<h6 class=\"post-heading-small\">The total solar eclipse of August 12, 2026</h6>",
+      "description": "On August 12, 2026, the moon will pass directly in front of the sun, creating one of nature\u2019s most breathtaking sights: a total solar eclipse. Join EarthSky&#8217;s <a href=\"https://earthsky.org/autho",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
     },
     {
       "date": "2026-08-12",
-      "type": "Flare",
-      "description": "<!-- [if lte IE 9]><script src=\"https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js\"></script><![endif] -->",
+      "type": "Planet",
+      "description": "<h2>July morning planets: Northern Hemisphere view</h2>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "Saturn",
+      "description": "<figure id=\"attachment_549817\" aria-describedby=\"caption-attachment-549817\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/06",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
@@ -619,14 +499,6 @@
       "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
     },
     {
-      "date": "2026-11-18",
-      "type": "Moon",
-      "description": "<figure id=\"attachment_528352\" aria-describedby=\"caption-attachment-528352\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2025/11",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
       "date": "2026-11-20",
       "type": "Mercury",
       "description": "<p><span class=\"date-text\">November 20</span> - <span class=\"title-text\">Mercury at Greatest Western Elongation.</span> The planet Mercury reaches greatest western elongation of 19.6 degrees from the ",
@@ -764,8 +636,16 @@
     },
     {
       "date": "2027-02-24",
+      "type": "Flare",
+      "description": "<!-- [if lte IE 9]><script src=\"https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js\"></script><![endif] -->",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-02-24",
       "type": "Eclipse",
-      "description": "<a href=\"https://earthsky.org/astronomy-essentials/total-solar-eclipse-visible-august-12-2026/\" class=\"thumbnail-small post w-inline-block\">",
+      "description": "</div><div id=\"cp_heading-2-285207\" class=\"cp-field-html-data    cp-none cp_has_editor\" data-type=\"cp_heading\"      ><div class=\"cp-rotate-wrap\"><div class=\"cp-target cp-field-element cp-heading tinym",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
@@ -827,30 +707,6 @@
       "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
     },
     {
-      "date": "2027-04-13",
-      "type": "Asteroid",
-      "description": "Asteroid Apophis was briefly considered the most dangerous known asteroid. Now we know it won&#8217;t hit Earth in 2029 &#8230; but its close flyby on April 13, 2029, will be one of the most remarkabl",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-04-13",
-      "type": "Planet",
-      "description": "<h2>July morning planets: Northern Hemisphere view</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-04-13",
-      "type": "Saturn",
-      "description": "<figure id=\"attachment_549817\" aria-describedby=\"caption-attachment-549817\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/06",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
       "date": "2027-04-17",
       "type": "Moon",
       "description": "<p><span class=\"date-text\">April 17</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This pha",
@@ -908,8 +764,24 @@
     },
     {
       "date": "2027-05-20",
+      "type": "Meteor",
+      "description": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Article\",\"@id\":\"https:\\/\\/earthsky.org\\/astronomy-essentials\\/visible-planets-tonight-mars-jupiter-venus-saturn-mercury\\/#article\",\"name\":\"Visibl",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-05-20",
+      "type": "Sun",
+      "description": "<a href=\"https://earthsky.org/sun/\" class=\"nav-link-mobile w-nav-link\" data-udy-fe=\"text_4c600e6\">Sun</a>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-05-20",
       "type": "Moon",
-      "description": "<meta property=\"og:image\" content=\"https://earthsky.org/upl/2026/06/2026-July-12-13-Moon-B-1.jpeg\" />",
+      "description": "<a href=\"https://earthsky.org/moon-phases/\" class=\"dropdown-sidebar-link\" data-udy-fe=\"text_-33be4ba9\">Moon Phases</a>",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
@@ -1156,38 +1028,6 @@
     },
     {
       "date": "2027-07-10",
-      "type": "Moon",
-      "description": "<a href=\"https://earthsky.org/moon-phases/waning-crescent/\" class=\"thumbnail-small w-inline-block\">",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-07-10",
-      "type": "Sun",
-      "description": "<a href=\"https://earthsky.org/sun/\" class=\"nav-link w-nav-link\" data-udy-fe=\"text_3fa282a\">Sun</a>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-07-10",
-      "type": "Saturn",
-      "description": "<a href=\"https://twitter.com/intent/tweet?url=https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/&text=Visible planets and night sky guide for July\" ta",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-07-10",
-      "type": "Planet",
-      "description": "<a href=\"https://earthsky.org/astronomy-essentials/\" class=\"badge\">Astronomy Essentials</a><a href=\"https://earthsky.org/tonight/\" class=\"badge\">Tonight</a>                  <h1 class=\"post-heading\">V",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-07-10",
       "type": "Venus",
       "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/TT6Tergd2nBfDJ8obofMzW.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/TT6Tergd2nBfDJ",
       "how_to_observe": "Check local sky conditions for best viewing.",
@@ -1195,44 +1035,12 @@
       "source": "https://www.space.com/16149-night-sky.html"
     },
     {
-      "date": "2027-07-11",
-      "type": "Comet",
-      "description": "<div class=\"team-member-bio post-page\">Meet Marcy Curran, our voice of the night sky on EarthSky YouTube. Check out her popular short videos in the Sky category on our YouTube channel. When she's not ",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-07-11",
+      "date": "2027-07-10",
       "type": "Moon",
-      "description": "<div class=\"team-member-bio post-page\">\u201cI can sometimes see the moon in the daytime\u201d was a cosmic revelation that John Jardine Goss first discovered through personal observations at age 6. It shook hi",
+      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/R9kFgbtrTnYTkWN56CoaVd.jpg\" alt=\"Star chart showing a waning crescent moon near the Pleiades (Seven Sisters) open star cluster before dawn in the eastern sk",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-07-11",
-      "type": "Asteroid",
-      "description": "<div class=\"team-member-bio post-page\">Deborah Byrd (asteroid 3505 Byrd) helps edit EarthSky.org and is a frequent host of EarthSky videos. Deborah created the EarthSky radio series in 1991 and founde",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-07-11",
-      "type": "Eclipse",
-      "description": "<a href=\"https://earthsky.org/astronomy-essentials/total-solar-eclipse-visible-august-12-2026/\" class=\"post-mini-thumbnail w-inline-block\">",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-07-11",
-      "type": "Saturn",
-      "description": "var embedVars = {\"disqusConfig\":{\"integration\":\"wordpress 3.1.3 6.9.4\"},\"disqusIdentifier\":\"85647 https://earthsky.org/?p=85647\",\"disqusShortname\":\"earthskyscience\",\"disqusTitle\":\"Visible planets and ",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+      "source": "https://www.space.com/16149-night-sky.html"
     },
     {
       "date": "2027-07-11",
@@ -1249,6 +1057,150 @@
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-12",
+      "type": "Comet",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/C7xbWR9a6JrkhEokX3DUq4.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/C7xbWR9a6JrkhE",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-12",
+      "type": "Moon",
+      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/JfKMcLZLW9a56vA8GtRUGa.jpg\" alt=\"Spot the thin &amp;quot;old moon&amp;quot; before sunrise on July 12.\" srcset=\"https://cdn.mos.cms.futurecdn.net/JfKMcLZLW9",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-13",
+      "type": "Comet",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/JfKMcLZLW9a56vA8GtRUGa.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/JfKMcLZLW9a56v",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-13",
+      "type": "Meteor",
+      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/EuwYKyxawL9g25Xv4zDdqe.jpg\" alt=\"Star chart showing the Perseid meteor shower radiant in the constellation Perseus during the new moon.\" srcset=\"https://cdn",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-14",
+      "type": "Meteor",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/EuwYKyxawL9g25Xv4zDdqe.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/EuwYKyxawL9g25",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-14",
+      "type": "Moon",
+      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/Y6z5HYmWmvRAYp5U5hhwAm.jpg\" alt=\"Star chart showing a very thin waxing crescent moon low above the western horizon after sunset.\" srcset=\"https://cdn.mos.cm",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-15",
+      "type": "Sun",
+      "description": "<a href=\"https://earthsky.org/sun/\" class=\"nav-link w-nav-link\" data-udy-fe=\"text_3fa282a\">Sun</a>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-07-15",
+      "type": "Saturn",
+      "description": "<a href=\"https://twitter.com/intent/tweet?url=https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/&text=Visible planets and night sky guide for July\" ta",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-07-15",
+      "type": "Planet",
+      "description": "<a href=\"https://earthsky.org/astronomy-essentials/\" class=\"badge\">Astronomy Essentials</a><a href=\"https://earthsky.org/tonight/\" class=\"badge\">Tonight</a>                  <h1 class=\"post-heading\">V",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-07-15",
+      "type": "Moon",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/Y6z5HYmWmvRAYp5U5hhwAm.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/Y6z5HYmWmvRAYp",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-15",
+      "type": "Venus",
+      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/VAFDiwNG9og4C6WSzqxrF4.jpg\" alt=\"Star chart showing a thin waxing crescent moon with Earthshine visible after sunset near Regulus and Venus.\" srcset=\"https:",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-16",
+      "type": "Venus",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/VAFDiwNG9og4C6WSzqxrF4.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/VAFDiwNG9og4C6",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-17",
+      "type": "Venus",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/AfzLSxTUJ9z3ZVAioNfFWP.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos.cms.futurecdn.net/AfzLSxTUJ9z3ZV",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-07-18",
+      "type": "Comet",
+      "description": "<div class=\"team-member-bio post-page\">Meet Marcy Curran, our voice of the night sky on EarthSky YouTube. Check out her popular short videos in the Sky category on our YouTube channel. When she's not ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-07-18",
+      "type": "Moon",
+      "description": "<div class=\"team-member-bio post-page\">\u201cI can sometimes see the moon in the daytime\u201d was a cosmic revelation that John Jardine Goss first discovered through personal observations at age 6. It shook hi",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-07-18",
+      "type": "Asteroid",
+      "description": "<div class=\"team-member-bio post-page\">Deborah Byrd (asteroid 3505 Byrd) helps edit EarthSky.org and is a frequent host of EarthSky videos. Deborah created the EarthSky radio series in 1991 and founde",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-07-18",
+      "type": "Eclipse",
+      "description": "<a href=\"https://earthsky.org/astronomy-essentials/total-solar-eclipse-visible-august-12-2026/\" class=\"post-mini-thumbnail w-inline-block\">",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-07-18",
+      "type": "Saturn",
+      "description": "var embedVars = {\"disqusConfig\":{\"integration\":\"wordpress 3.1.3 6.9.5\"},\"disqusIdentifier\":\"85647 https://earthsky.org/?p=85647\",\"disqusShortname\":\"earthskyscience\",\"disqusTitle\":\"Visible planets and ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
     }
   ]
 }
