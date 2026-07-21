@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-07-18",
+  "last_updated": "2026-07-21",
   "suggestions": [
     {
-      "title": "The Matrix",
-      "year": 1999,
-      "genre": "Sci-Fi, Action",
-      "description": "A computer hacker discovers reality is a simulated world created by machines to subdue humanity. The Wachowskis' groundbreaking sci-fi masterpiece redefined action cinema with its revolutionary visual effects, martial arts choreography, and mind-bending philosophical questions. Starring Keanu Reeves as Neo, the film won 4 Academy Awards and became a cultural phenomenon.",
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "genre": "Adventure, Drama, Fantasy",
+      "description": "The final battle for Middle-earth unfolds as Frodo and Sam approach Mount Doom to destroy the One Ring. Peter Jackson's epic conclusion to the trilogy swept all 11 Academy Awards including Best Picture — a monumental achievement in filmmaking with breathtaking battles, emotional depth, and Howard Shore's majestic score.",
+      "imdb_rating": 9.0,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/48/Lord_Rings_Return_King.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=r5X-hFf6Bwo",
+      "director": "Peter Jackson"
+    },
+    {
+      "title": "Interstellar",
+      "year": 2014,
+      "genre": "Sci-Fi, Drama, Adventure",
+      "description": "A team of astronauts travels through a wormhole in search of a new habitable planet for humanity. Christopher Nolan's visually stunning and emotionally devastating space epic combines hard science fiction with a deeply human story of love transcending time and dimensions. Features Hans Zimmer's iconic organ score.",
       "imdb_rating": 8.7,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Matrix.png",
-      "trailer_url": "https://www.youtube.com/watch?v=tGgCqGm_6Hs",
-      "director": "Lana Wachowski, Lilly Wachowski"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=M0RQqERmiE8",
+      "director": "Christopher Nolan"
     },
     {
-      "title": "City of God",
-      "year": 2002,
-      "genre": "Crime, Drama",
-      "description": "Two boys growing up in a violent Rio de Janeiro favela take different paths — one becomes a photographer, the other a drug dealer. Fernando Meirelles' electrifying Brazilian epic portrays the cycle of violence and survival with kinetic energy, non-linear storytelling, and one of the most remarkable ensembles in cinema history.",
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "genre": "Crime, Drama, Thriller",
+      "description": "An FBI trainee seeks the insight of imprisoned cannibalistic serial killer Dr. Hannibal Lecter to catch another killer. Jonathan Demme's masterful psychological thriller swept the Big Five Oscars and features Anthony Hopkins' iconic, haunting performance as Lecter in only 16 minutes of screen time.",
       "imdb_rating": 8.6,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/10/CidadedeDeus.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=dcUOO4Itgmw",
-      "director": "Fernando Meirelles, Kátia Lund"
-    },
-    {
-      "title": "Gladiator",
-      "year": 2000,
-      "genre": "Action, Adventure, Drama",
-      "description": "A betrayed Roman general becomes a gladiator and seeks vengeance against the corrupt emperor who murdered his family. Ridley Scott's epic historical drama revitalized the sword-and-sandal genre with breathtaking visuals, Hans Zimmer's iconic score, and Russell Crowe's commanding Oscar-winning performance as Maximus.",
-      "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
-      "trailer_url": "https://www.youtube.com/watch?v=P5ieIbInFpg",
-      "director": "Ridley Scott"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=6iB21hsprAQ",
+      "director": "Jonathan Demme"
     }
   ],
   "history": [],
@@ -54,6 +54,9 @@
     "Schindler's List",
     "The Matrix",
     "City of God",
-    "Gladiator"
+    "Gladiator",
+    "The Lord of the Rings: The Return of the King",
+    "Interstellar",
+    "The Silence of the Lambs"
   ]
 }
