@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-21",
   "todays_pick": {
-    "title": "Shivers",
-    "artist": "Armin van Buuren",
-    "genre": "Trance, Electronic",
-    "album": "Shivers",
-    "year": 2005,
+    "title": "Return to Innocence",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "The Cross of Changes",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-20",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-07-21",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -319,6 +319,7 @@
     "Echoes",
     "Children",
     "Midnight City",
-    "Shivers"
+    "Shivers",
+    "Return to Innocence"
   ]
 }
