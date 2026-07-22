@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "todays_pick": {
-    "title": "Return to Innocence",
-    "artist": "Enigma",
-    "genre": "New Age, Electronic",
-    "album": "The Cross of Changes",
-    "year": 1994,
+    "title": "Escape",
+    "artist": "deadmau5",
+    "genre": "Progressive House, Electronic",
+    "album": "For Lack of a Better Name",
+    "year": 2009,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-21",
-    "why": "A New Age / Electronic track to start your day!"
+    "picked_date": "2026-07-22",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -320,6 +320,7 @@
     "Children",
     "Midnight City",
     "Shivers",
-    "Return to Innocence"
+    "Return to Innocence",
+    "Escape"
   ]
 }
