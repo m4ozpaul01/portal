@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "todays_pick": {
-    "title": "Escape",
-    "artist": "deadmau5",
-    "genre": "Progressive House, Electronic",
-    "album": "For Lack of a Better Name",
-    "year": 2009,
+    "title": "Nimrod",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "The Screen Behind the Mirror",
+    "year": 2000,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-22",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-07-23",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -321,6 +321,7 @@
     "Midnight City",
     "Shivers",
     "Return to Innocence",
-    "Escape"
+    "Escape",
+    "Nimrod"
   ]
 }
