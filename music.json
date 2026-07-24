@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-24",
   "todays_pick": {
-    "title": "Nimrod",
-    "artist": "Enigma",
-    "genre": "New Age, Electronic",
-    "album": "The Screen Behind the Mirror",
-    "year": 2000,
+    "title": "Roygbiv",
+    "artist": "Boards of Canada",
+    "genre": "Electronic, Ambient",
+    "album": "Music Has the Right to Children",
+    "year": 1998,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-23",
-    "why": "A New Age / Electronic track to start your day!"
+    "picked_date": "2026-07-24",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -322,6 +322,7 @@
     "Shivers",
     "Return to Innocence",
     "Escape",
-    "Nimrod"
+    "Nimrod",
+    "Roygbiv"
   ]
 }
