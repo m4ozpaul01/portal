@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-25",
   "todays_pick": {
-    "title": "Roygbiv",
-    "artist": "Boards of Canada",
-    "genre": "Electronic, Ambient",
-    "album": "Music Has the Right to Children",
-    "year": 1998,
+    "title": "Café del Mar",
+    "artist": "Energy 52",
+    "genre": "Trance, Electronic",
+    "album": "Café del Mar",
+    "year": 1993,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-24",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-07-25",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -323,6 +323,7 @@
     "Return to Innocence",
     "Escape",
     "Nimrod",
-    "Roygbiv"
+    "Roygbiv",
+    "Café del Mar"
   ]
 }
