@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-25",
+  "last_updated": "2026-07-26",
   "todays_pick": {
-    "title": "Café del Mar",
-    "artist": "Energy 52",
-    "genre": "Trance, Electronic",
-    "album": "Café del Mar",
-    "year": 1993,
+    "title": "Tears in the Rain",
+    "artist": "Vangelis",
+    "genre": "Soundtrack, Ambient",
+    "album": "Blade Runner (Soundtrack)",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-25",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-07-26",
+    "why": "A Soundtrack / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -324,6 +324,7 @@
     "Escape",
     "Nimrod",
     "Roygbiv",
-    "Café del Mar"
+    "Café del Mar",
+    "Tears in the Rain"
   ]
 }
