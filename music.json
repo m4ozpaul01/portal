@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-26",
+  "last_updated": "2026-07-27",
   "todays_pick": {
-    "title": "Tears in the Rain",
-    "artist": "Vangelis",
-    "genre": "Soundtrack, Ambient",
-    "album": "Blade Runner (Soundtrack)",
-    "year": 1994,
+    "title": "Shine On You Crazy Diamond (Parts I–V)",
+    "artist": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "album": "Wish You Were Here",
+    "year": 1975,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-26",
-    "why": "A Soundtrack / Ambient track to start your day!"
+    "picked_date": "2026-07-27",
+    "why": "A Progressive Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -325,6 +325,7 @@
     "Nimrod",
     "Roygbiv",
     "Café del Mar",
-    "Tears in the Rain"
+    "Tears in the Rain",
+    "Shine On You Crazy Diamond (Parts I–V)"
   ]
 }
