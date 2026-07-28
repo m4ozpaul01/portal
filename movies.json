@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-28",
   "suggestions": [
     {
-      "title": "Fight Club",
-      "year": 1999,
-      "genre": "Drama, Thriller",
-      "description": "A disillusioned office worker and a charismatic soap salesman form an underground fight club that spirals into something much larger. David Fincher's mind-bending masterpiece is a visceral, darkly funny takedown of consumerism and modern masculinity. Brad Pitt and Edward Norton deliver career-defining performances, leading to one of cinema's most unforgettable twists. The first rule of Movie Night Club: you talk about Movie Night Club.",
-      "imdb_rating": 8.8,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=_XgQA9Ab0Gw",
-      "director": "David Fincher"
-    },
-    {
-      "title": "Raiders of the Lost Ark",
-      "year": 1981,
-      "genre": "Action, Adventure",
-      "description": "Archaeologist Indiana Jones races the Nazis to find the biblical Ark of the Covenant before it falls into their hands. Steven Spielberg and George Lucas created the gold standard of adventure cinema. Harrison Ford's Indy dodges booby traps, fights giant boulders, battles snakes, and outwits villains in a relentless thrill ride that defined a generation. The boulder chase alone is worth the price of admission.",
-      "imdb_rating": 8.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Raiders_of_the_Lost_Ark.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Rh_BJXG1-44",
-      "director": "Steven Spielberg"
-    },
-    {
-      "title": "Amélie",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
       "year": 2001,
-      "genre": "Comedy, Romance",
-      "description": "A shy waitress in Montmartre decides to secretly improve the lives of those around her while pursuing her own love story. Jean-Pierre Jeunet's visual masterpiece is pure cinematic joy — a whimsical, candy-colored Parisian fairy tale that reminds us that the smallest acts of kindness can change the world. Audrey Tautou is utterly radiant. The kind of film that leaves you smiling for days.",
-      "imdb_rating": 8.3,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Amelie_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=HUECWi5pX7o",
-      "director": "Jean-Pierre Jeunet"
+      "genre": "Adventure, Drama, Fantasy",
+      "description": "A young hobbit and a fellowship of eight companions set out to destroy the One Ring before it falls into the hands of the Dark Lord Sauron. Peter Jackson's epic fantasy masterpiece launched one of cinema's greatest trilogies — breathtaking New Zealand landscapes, Howard Shore's iconic score, and a cast that brings Tolkien's world to life with unforgettable performances from Ian McKellen, Viggo Mortensen, and Elijah Wood.",
+      "imdb_rating": 8.8,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=V75dMMIW2B4",
+      "director": "Peter Jackson"
+    },
+    {
+      "title": "Whiplash",
+      "year": 2014,
+      "genre": "Drama, Musical",
+      "description": "A promising young drummer is driven to his breaking point by an abusive, perfectionist jazz instructor. Damien Chazelle's electrifying drama features J.K. Simmons in an Oscar-winning performance that's as terrifying as it is mesmerizing. The climactic drum solo is one of the most tense and thrilling sequences ever put on film. Not your typical musical — it's a psychological battle wrapped in jazz.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=tlCBXp7WvPg",
+      "director": "Damien Chazelle"
+    },
+    {
+      "title": "Die Hard",
+      "year": 1988,
+      "genre": "Action, Thriller",
+      "description": "A New York cop battles a group of terrorists who have taken over a Los Angeles skyscraper during a Christmas party. John McTiernan's blueprint for the modern action movie — Bruce Willis as the everyman hero John McClane, Alan Rickman as cinema's suavest villain, and a relentless cat-and-mouse game through Nakatomi Plaza that invented the genre. Yippee-ki-yay.",
+      "imdb_rating": 8.2,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/ca/Die_Hard_%281988_film%29_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=jaJuwKCmJbY",
+      "director": "John McTiernan"
     }
   ],
   "history": [],
@@ -60,6 +60,9 @@
     "The Silence of the Lambs",
     "Fight Club",
     "Raiders of the Lost Ark",
-    "Amélie"
+    "Amélie",
+    "The Lord of the Rings: The Fellowship of the Ring",
+    "Whiplash",
+    "Die Hard"
   ]
 }
