@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-28",
   "todays_pick": {
-    "title": "Shine On You Crazy Diamond (Parts I–V)",
-    "artist": "Pink Floyd",
-    "genre": "Progressive Rock",
-    "album": "Wish You Were Here",
-    "year": 1975,
+    "title": "Opus",
+    "artist": "Eric Prydz",
+    "genre": "Progressive House, Electronic",
+    "album": "Opus",
+    "year": 2016,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-27",
-    "why": "A Progressive Rock track to start your day!"
+    "picked_date": "2026-07-28",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -326,6 +326,7 @@
     "Roygbiv",
     "Café del Mar",
     "Tears in the Rain",
-    "Shine On You Crazy Diamond (Parts I–V)"
+    "Shine On You Crazy Diamond (Parts I–V)",
+    "Opus"
   ]
 }
