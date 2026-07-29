@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "todays_pick": {
-    "title": "Opus",
-    "artist": "Eric Prydz",
-    "genre": "Progressive House, Electronic",
-    "album": "Opus",
-    "year": 2016,
+    "title": "Halcyon + On + On",
+    "artist": "Orbital",
+    "genre": "Electronic, Ambient",
+    "album": "Orbital 2",
+    "year": 1993,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-28",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-07-29",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -327,6 +327,7 @@
     "Café del Mar",
     "Tears in the Rain",
     "Shine On You Crazy Diamond (Parts I–V)",
-    "Opus"
+    "Opus",
+    "Halcyon + On + On"
   ]
 }
