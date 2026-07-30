@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-30",
   "todays_pick": {
-    "title": "Halcyon + On + On",
-    "artist": "Orbital",
+    "title": "Dayvan Cowboy",
+    "artist": "Boards of Canada",
     "genre": "Electronic, Ambient",
-    "album": "Orbital 2",
-    "year": 1993,
+    "album": "The Campfire Headphase",
+    "year": 2005,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-29",
+    "picked_date": "2026-07-30",
     "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
@@ -328,6 +328,7 @@
     "Tears in the Rain",
     "Shine On You Crazy Diamond (Parts I–V)",
     "Opus",
-    "Halcyon + On + On"
+    "Halcyon + On + On",
+    "Dayvan Cowboy"
   ]
 }
