@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-30",
   "suggestions": [
     {
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "year": 2001,
-      "genre": "Adventure, Drama, Fantasy",
-      "description": "A young hobbit and a fellowship of eight companions set out to destroy the One Ring before it falls into the hands of the Dark Lord Sauron. Peter Jackson's epic fantasy masterpiece launched one of cinema's greatest trilogies — breathtaking New Zealand landscapes, Howard Shore's iconic score, and a cast that brings Tolkien's world to life with unforgettable performances from Ian McKellen, Viggo Mortensen, and Elijah Wood.",
-      "imdb_rating": 8.8,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=V75dMMIW2B4",
-      "director": "Peter Jackson"
+      "title": "Saving Private Ryan",
+      "year": 1998,
+      "genre": "Drama, War",
+      "description": "A group of U.S. soldiers search behind enemy lines for a paratrooper whose three brothers have been killed in action. Steven Spielberg's visceral WWII epic redefined war cinema with its gut-wrenching Omaha Beach opening sequence — raw, unflinching, and profoundly human. Tom Hanks delivers a career-defining performance as Captain Miller, leading a squad through impossible moral choices in the fog of war.",
+      "imdb_rating": 8.6,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/ac/Saving_Private_Ryan_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=zwhP5b4tD6g",
+      "director": "Steven Spielberg"
     },
     {
-      "title": "Whiplash",
-      "year": 2014,
-      "genre": "Drama, Musical",
-      "description": "A promising young drummer is driven to his breaking point by an abusive, perfectionist jazz instructor. Damien Chazelle's electrifying drama features J.K. Simmons in an Oscar-winning performance that's as terrifying as it is mesmerizing. The climactic drum solo is one of the most tense and thrilling sequences ever put on film. Not your typical musical — it's a psychological battle wrapped in jazz.",
+      "title": "The Lion King",
+      "year": 1994,
+      "genre": "Animation, Adventure, Drama",
+      "description": "A young lion prince flees his kingdom after his father's murder and must find the courage to reclaim his throne. Disney's Renaissance masterpiece — stunning hand-drawn animation, Hans Zimmer's legendary score, Elton John's timeless songs, and a Shakespearean story that hits adults as hard as kids. Hakuna Matata meets Hamlet in a circle-of-life epic that has never aged a day.",
       "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=tlCBXp7WvPg",
-      "director": "Damien Chazelle"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7Esi1BJq7ng",
+      "director": "Roger Allers, Rob Minkoff"
     },
     {
-      "title": "Die Hard",
-      "year": 1988,
-      "genre": "Action, Thriller",
-      "description": "A New York cop battles a group of terrorists who have taken over a Los Angeles skyscraper during a Christmas party. John McTiernan's blueprint for the modern action movie — Bruce Willis as the everyman hero John McClane, Alan Rickman as cinema's suavest villain, and a relentless cat-and-mouse game through Nakatomi Plaza that invented the genre. Yippee-ki-yay.",
-      "imdb_rating": 8.2,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/ca/Die_Hard_%281988_film%29_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=jaJuwKCmJbY",
-      "director": "John McTiernan"
+      "title": "Oldboy",
+      "year": 2003,
+      "genre": "Action, Drama, Mystery",
+      "description": "A man is imprisoned in a hotel room for fifteen years, then released and given five days to find his captor. Park Chan-wook's brutal masterpiece of revenge cinema — the legendary one-take hallway fight scene alone is worth the price of admission. A Korean neo-noir that twists and turns until its devastating finale. Not for the faint of heart, but absolutely unforgettable.",
+      "imdb_rating": 8.3,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Oldboykoreanposter.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=2cjtJAzinjQ",
+      "director": "Park Chan-wook"
     }
   ],
   "history": [],
@@ -63,6 +63,9 @@
     "Amélie",
     "The Lord of the Rings: The Fellowship of the Ring",
     "Whiplash",
-    "Die Hard"
+    "Die Hard",
+    "Saving Private Ryan",
+    "The Lion King",
+    "Oldboy"
   ]
 }
