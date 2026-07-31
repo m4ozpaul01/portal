@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-07-31",
   "todays_pick": {
-    "title": "Dayvan Cowboy",
-    "artist": "Boards of Canada",
-    "genre": "Electronic, Ambient",
-    "album": "The Campfire Headphase",
-    "year": 2005,
+    "title": "Sadeness (Part I)",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "MCMXC a.D.",
+    "year": 1990,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-30",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-07-31",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -329,6 +329,7 @@
     "Shine On You Crazy Diamond (Parts I–V)",
     "Opus",
     "Halcyon + On + On",
-    "Dayvan Cowboy"
+    "Dayvan Cowboy",
+    "Sadeness (Part I)"
   ]
 }
