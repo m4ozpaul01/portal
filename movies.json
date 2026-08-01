@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-08-01",
   "suggestions": [
     {
-      "title": "Saving Private Ryan",
-      "year": 1998,
-      "genre": "Drama, War",
-      "description": "A group of U.S. soldiers search behind enemy lines for a paratrooper whose three brothers have been killed in action. Steven Spielberg's visceral WWII epic redefined war cinema with its gut-wrenching Omaha Beach opening sequence — raw, unflinching, and profoundly human. Tom Hanks delivers a career-defining performance as Captain Miller, leading a squad through impossible moral choices in the fog of war.",
-      "imdb_rating": 8.6,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/ac/Saving_Private_Ryan_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=zwhP5b4tD6g",
-      "director": "Steven Spielberg"
-    },
-    {
-      "title": "The Lion King",
+      "title": "Forrest Gump",
       "year": 1994,
-      "genre": "Animation, Adventure, Drama",
-      "description": "A young lion prince flees his kingdom after his father's murder and must find the courage to reclaim his throne. Disney's Renaissance masterpiece — stunning hand-drawn animation, Hans Zimmer's legendary score, Elton John's timeless songs, and a Shakespearean story that hits adults as hard as kids. Hakuna Matata meets Hamlet in a circle-of-life epic that has never aged a day.",
-      "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=7Esi1BJq7ng",
-      "director": "Roger Allers, Rob Minkoff"
+      "genre": "Drama, Romance",
+      "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who inadvertently becomes a war hero, ping-pong champion, and shrimp tycoon while never wavering in his devotion to his childhood sweetheart Jenny. Robert Zemeckis's sweeping, warm-hearted epic — with Tom Hanks's Oscar-winning performance and a flawless period soundtrack — is the rare blockbuster that is both a crowd-pleaser and a genuine American meditation on destiny, chance, and the value of a kind heart. 'Life is like a box of chocolates.'",
+      "imdb_rating": 8.8,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=eYSnxZKTZzU",
+      "director": "Robert Zemeckis"
     },
     {
-      "title": "Oldboy",
-      "year": 2003,
-      "genre": "Action, Drama, Mystery",
-      "description": "A man is imprisoned in a hotel room for fifteen years, then released and given five days to find his captor. Park Chan-wook's brutal masterpiece of revenge cinema — the legendary one-take hallway fight scene alone is worth the price of admission. A Korean neo-noir that twists and turns until its devastating finale. Not for the faint of heart, but absolutely unforgettable.",
-      "imdb_rating": 8.3,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Oldboykoreanposter.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=2cjtJAzinjQ",
-      "director": "Park Chan-wook"
+      "title": "The Departed",
+      "year": 2006,
+      "genre": "Crime, Drama, Thriller",
+      "description": "An undercover cop infiltrates a powerful South Boston Irish mob gang, while a crime kingpin's mole simultaneously works his way up the Massachusetts State Police — both racing to unmask the other before their cover is blown. Martin Scorsese's electrifying Boston crime saga (finally earning him his long-deserved Best Director Oscar) crackles with a powerhouse cast — Leonardo DiCaprio, Matt Damon, and Jack Nicholson at his most unhinged. A tense, violent, endlessly rewatchable cat-and-mouse thriller that stands among the genre's very best.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=auYbpnEwBBg",
+      "director": "Martin Scorsese"
+    },
+    {
+      "title": "Django Unchained",
+      "year": 2012,
+      "genre": "Western, Drama, Action",
+      "description": "A freed slave teams up with a charismatic German bounty hunter to rescue his wife from a brutal Mississippi plantation owner. Quentin Tarantino's audacious, stylish 'southern' reimagines the Western with swagger and fury — Christoph Waltz and Jamie Foxx make a superb duo, while the razor-sharp dialogue, Morricone-tinged score, and explosive set pieces make it pure cinematic fireworks. Equal parts gorgeous, brutal, funny, and satisfyingly cathartic, it's Tarantino at the height of his powers.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=fQdpryfvuzg",
+      "director": "Quentin Tarantino"
     }
   ],
   "history": [],
@@ -66,6 +66,9 @@
     "Die Hard",
     "Saving Private Ryan",
     "The Lion King",
-    "Oldboy"
+    "Oldboy",
+    "Forrest Gump",
+    "The Departed",
+    "Django Unchained"
   ]
 }
