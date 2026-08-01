@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-01",
   "todays_pick": {
-    "title": "Sadeness (Part I)",
-    "artist": "Enigma",
-    "genre": "New Age, Electronic",
-    "album": "MCMXC a.D.",
-    "year": 1990,
+    "title": "Oxygène (Part IV)",
+    "artist": "Jean-Michel Jarre",
+    "genre": "Electronic, Ambient",
+    "album": "Oxygène",
+    "year": 1976,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-07-31",
-    "why": "A New Age / Electronic track to start your day!"
+    "picked_date": "2026-08-01",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -330,6 +330,7 @@
     "Opus",
     "Halcyon + On + On",
     "Dayvan Cowboy",
-    "Sadeness (Part I)"
+    "Sadeness (Part I)",
+    "Oxygène (Part IV)"
   ]
 }
