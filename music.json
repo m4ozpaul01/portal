@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-02",
   "todays_pick": {
-    "title": "Oxygène (Part IV)",
-    "artist": "Jean-Michel Jarre",
-    "genre": "Electronic, Ambient",
-    "album": "Oxygène",
-    "year": 1976,
+    "title": "Age of Loneliness",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "The Cross of Changes",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-01",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-08-02",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -331,6 +331,7 @@
     "Halcyon + On + On",
     "Dayvan Cowboy",
     "Sadeness (Part I)",
-    "Oxygène (Part IV)"
+    "Oxygène (Part IV)",
+    "Age of Loneliness"
   ]
 }
