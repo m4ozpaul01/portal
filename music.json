@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "todays_pick": {
-    "title": "Age of Loneliness",
-    "artist": "Enigma",
-    "genre": "New Age, Electronic",
-    "album": "The Cross of Changes",
-    "year": 1994,
+    "title": "Avril 14th",
+    "artist": "Aphex Twin",
+    "genre": "Electronic, Ambient",
+    "album": "Drukqs",
+    "year": 2001,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-02",
-    "why": "A New Age / Electronic track to start your day!"
+    "picked_date": "2026-08-03",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -332,6 +332,7 @@
     "Dayvan Cowboy",
     "Sadeness (Part I)",
     "Oxygène (Part IV)",
-    "Age of Loneliness"
+    "Age of Loneliness",
+    "Avril 14th"
   ]
 }
