@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-04",
   "suggestions": [
     {
-      "title": "Forrest Gump",
-      "year": 1994,
-      "genre": "Drama, Romance",
-      "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who inadvertently becomes a war hero, ping-pong champion, and shrimp tycoon while never wavering in his devotion to his childhood sweetheart Jenny. Robert Zemeckis's sweeping, warm-hearted epic — with Tom Hanks's Oscar-winning performance and a flawless period soundtrack — is the rare blockbuster that is both a crowd-pleaser and a genuine American meditation on destiny, chance, and the value of a kind heart. 'Life is like a box of chocolates.'",
-      "imdb_rating": 8.8,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=eYSnxZKTZzU",
-      "director": "Robert Zemeckis"
+      "title": "Heat",
+      "year": 1995,
+      "genre": "Action, Crime, Drama",
+      "description": "A master thief and a dedicated detective develop a mutual respect as their cat-and-mouse game intensifies through the streets of Los Angeles. Michael Mann's epic heist film famously pairs Al Pacino and Robert De Niro on screen together for the first time, in a blistering crime saga capped by the legendary diner scene and a celebrated bank-heist gunfight. Tense, operatic, and endlessly rewatchable — arguably the gold standard of the Los Angeles crime thriller.",
+      "imdb_rating": 8.3,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/6c/Heatposter.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=2GfZl4kuVNI",
+      "director": "Michael Mann"
     },
     {
-      "title": "The Departed",
+      "title": "Pan's Labyrinth",
       "year": 2006,
-      "genre": "Crime, Drama, Thriller",
-      "description": "An undercover cop infiltrates a powerful South Boston Irish mob gang, while a crime kingpin's mole simultaneously works his way up the Massachusetts State Police — both racing to unmask the other before their cover is blown. Martin Scorsese's electrifying Boston crime saga (finally earning him his long-deserved Best Director Oscar) crackles with a powerhouse cast — Leonardo DiCaprio, Matt Damon, and Jack Nicholson at his most unhinged. A tense, violent, endlessly rewatchable cat-and-mouse thriller that stands among the genre's very best.",
-      "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=auYbpnEwBBg",
-      "director": "Martin Scorsese"
+      "genre": "Fantasy, Drama, War",
+      "description": "In post-Civil War Spain, a young girl escapes the brutality of her fascist stepfather's world by retreating into a dark, mythical labyrinth where a faun claims she is a lost princess. Guillermo del Toro's Academy Award-winning masterpiece interweaves a haunting fairy tale with grim historical reality, blending stunning practical effects and genuinely frightening creatures with profound emotional depth. A singular dark-fantasy epic that is equal parts beautiful and brutal.",
+      "imdb_rating": 8.2,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Pan%27s_Labyrinth.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=E7XGNPXdlGQ",
+      "director": "Guillermo del Toro"
     },
     {
-      "title": "Django Unchained",
-      "year": 2012,
-      "genre": "Western, Drama, Action",
-      "description": "A freed slave teams up with a charismatic German bounty hunter to rescue his wife from a brutal Mississippi plantation owner. Quentin Tarantino's audacious, stylish 'southern' reimagines the Western with swagger and fury — Christoph Waltz and Jamie Foxx make a superb duo, while the razor-sharp dialogue, Morricone-tinged score, and explosive set pieces make it pure cinematic fireworks. Equal parts gorgeous, brutal, funny, and satisfyingly cathartic, it's Tarantino at the height of his powers.",
-      "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=fQdpryfvuzg",
-      "director": "Quentin Tarantino"
+      "title": "The Shining",
+      "year": 1980,
+      "genre": "Horror, Drama",
+      "description": "A writer takes a winter caretaker job at an isolated mountain hotel, where his sanity rapidly unravels and his family's safety spirals into terror. Stanley Kubrick's chilling masterpiece — anchored by Jack Nicholson's iconic, unhinged performance — is a slow-burn descent into madness distinguished by its eerie symmetry, unsettling score, and half-dozen unforgettable set pieces. Widely regarded as one of the greatest and most influential horror films ever made.",
+      "imdb_rating": 8.4,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/e/ea/The_Shining_%281980%29.png",
+      "trailer_url": "https://www.youtube.com/watch?v=S014oGZiSdI",
+      "director": "Stanley Kubrick"
     }
   ],
   "history": [],
@@ -69,6 +69,9 @@
     "Oldboy",
     "Forrest Gump",
     "The Departed",
-    "Django Unchained"
+    "Django Unchained",
+    "Heat",
+    "Pan's Labyrinth",
+    "The Shining"
   ]
 }
