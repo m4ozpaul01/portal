@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-04",
   "todays_pick": {
-    "title": "Avril 14th",
-    "artist": "Aphex Twin",
-    "genre": "Electronic, Ambient",
-    "album": "Drukqs",
-    "year": 2001,
+    "title": "Orinoco Flow",
+    "artist": "Enya",
+    "genre": "New Age, Celtic",
+    "album": "Watermark",
+    "year": 1988,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-03",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-08-04",
+    "why": "A New Age / Celtic track to start your day!"
   },
   "suggestions": [
     {
@@ -333,6 +333,7 @@
     "Sadeness (Part I)",
     "Oxygène (Part IV)",
     "Age of Loneliness",
-    "Avril 14th"
+    "Avril 14th",
+    "Orinoco Flow"
   ]
 }
