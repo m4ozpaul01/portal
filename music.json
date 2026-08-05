@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-05",
   "todays_pick": {
-    "title": "Orinoco Flow",
-    "artist": "Enya",
-    "genre": "New Age, Celtic",
-    "album": "Watermark",
-    "year": 1988,
+    "title": "Saltwater",
+    "artist": "Chicane",
+    "genre": "Trance, Electronic",
+    "album": "Behind the Sun",
+    "year": 2000,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-04",
-    "why": "A New Age / Celtic track to start your day!"
+    "picked_date": "2026-08-05",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -334,6 +334,7 @@
     "Oxygène (Part IV)",
     "Age of Loneliness",
     "Avril 14th",
-    "Orinoco Flow"
+    "Orinoco Flow",
+    "Saltwater"
   ]
 }
