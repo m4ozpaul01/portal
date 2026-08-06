@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-06",
   "todays_pick": {
-    "title": "Saltwater",
-    "artist": "Chicane",
-    "genre": "Trance, Electronic",
-    "album": "Behind the Sun",
-    "year": 2000,
+    "title": "Levels",
+    "artist": "Avicii",
+    "genre": "Progressive House, Electronic",
+    "album": "True",
+    "year": 2011,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-05",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-08-06",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -335,6 +335,7 @@
     "Age of Loneliness",
     "Avril 14th",
     "Orinoco Flow",
-    "Saltwater"
+    "Saltwater",
+    "Levels"
   ]
 }
