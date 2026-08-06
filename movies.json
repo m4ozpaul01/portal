@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-06",
   "suggestions": [
     {
-      "title": "Heat",
-      "year": 1995,
-      "genre": "Action, Crime, Drama",
-      "description": "A master thief and a dedicated detective develop a mutual respect as their cat-and-mouse game intensifies through the streets of Los Angeles. Michael Mann's epic heist film famously pairs Al Pacino and Robert De Niro on screen together for the first time, in a blistering crime saga capped by the legendary diner scene and a celebrated bank-heist gunfight. Tense, operatic, and endlessly rewatchable — arguably the gold standard of the Los Angeles crime thriller.",
-      "imdb_rating": 8.3,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/6c/Heatposter.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=2GfZl4kuVNI",
-      "director": "Michael Mann"
-    },
-    {
-      "title": "Pan's Labyrinth",
-      "year": 2006,
-      "genre": "Fantasy, Drama, War",
-      "description": "In post-Civil War Spain, a young girl escapes the brutality of her fascist stepfather's world by retreating into a dark, mythical labyrinth where a faun claims she is a lost princess. Guillermo del Toro's Academy Award-winning masterpiece interweaves a haunting fairy tale with grim historical reality, blending stunning practical effects and genuinely frightening creatures with profound emotional depth. A singular dark-fantasy epic that is equal parts beautiful and brutal.",
-      "imdb_rating": 8.2,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Pan%27s_Labyrinth.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=E7XGNPXdlGQ",
-      "director": "Guillermo del Toro"
-    },
-    {
-      "title": "The Shining",
-      "year": 1980,
-      "genre": "Horror, Drama",
-      "description": "A writer takes a winter caretaker job at an isolated mountain hotel, where his sanity rapidly unravels and his family's safety spirals into terror. Stanley Kubrick's chilling masterpiece — anchored by Jack Nicholson's iconic, unhinged performance — is a slow-burn descent into madness distinguished by its eerie symmetry, unsettling score, and half-dozen unforgettable set pieces. Widely regarded as one of the greatest and most influential horror films ever made.",
+      "title": "Apocalypse Now",
+      "year": 1979,
+      "genre": "Drama, War, Mystery",
+      "description": "A U.S. Army captain is sent on a dangerous mission into Cambodia to assassinate a renegade colonel, descending into the heart of darkness during the Vietnam War. Francis Ford Coppola's hallucinatory, monumental war epic blends surreal imagery, haunting sound design, and career-defining performances by Martin Sheen and Marlon Brando. A singular, decades-in-the-making obsession that remains one of the most powerful and controversial films ever made.",
       "imdb_rating": 8.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/e/ea/The_Shining_%281980%29.png",
-      "trailer_url": "https://www.youtube.com/watch?v=S014oGZiSdI",
-      "director": "Stanley Kubrick"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c2/Apocalypse_Now_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=FTjG-Aux_yQ",
+      "director": "Francis Ford Coppola"
+    },
+    {
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "genre": "Comedy, Drama, Adventure",
+      "description": "The adventures of Gustave H, a legendary concierge at a famous European hotel between the wars, and his loyal lobby boy Zero as they become entangled in a stolen-painting heist. Wes Anderson's meticulously crafted, visually enchanting caper is a bittersweet meditation on friendship and a lost era, featuring one of Ralph Fiennes' greatest comedic performances. Quirky, witty, and gorgeous — a perfect pick for something utterly distinct.",
+      "imdb_rating": 8.1,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Grand_Budapest_Hotel.png",
+      "trailer_url": "https://www.youtube.com/watch?v=1Fg5iWmQjwk",
+      "director": "Wes Anderson"
+    },
+    {
+      "title": "Memento",
+      "year": 2000,
+      "genre": "Mystery, Thriller",
+      "description": "A man with short-term memory loss uses notes, photographs, and tattoos to hunt for his wife's murderer, telling the story in reverse chronological order. Christopher Nolan's breakout cerebral thriller — anchored by a stunning Guy Pearce performance — rewired the psychological-thriller genre with its ingenious backwards structure. A puzzle-box masterpiece that rewards every rewatch.",
+      "imdb_rating": 8.4,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Memento_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=AJp6FMKSQF4",
+      "director": "Christopher Nolan"
     }
   ],
   "history": [],
@@ -72,6 +72,9 @@
     "Django Unchained",
     "Heat",
     "Pan's Labyrinth",
-    "The Shining"
+    "The Shining",
+    "Apocalypse Now",
+    "The Grand Budapest Hotel",
+    "Memento"
   ]
 }
