@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-06",
+  "last_updated": "2026-08-07",
   "todays_pick": {
-    "title": "Levels",
-    "artist": "Avicii",
-    "genre": "Progressive House, Electronic",
-    "album": "True",
-    "year": 2011,
+    "title": "Sandstorm",
+    "artist": "Darude",
+    "genre": "Trance, Electronic",
+    "album": "Before the Storm",
+    "year": 1999,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-06",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-08-07",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -336,6 +336,7 @@
     "Avril 14th",
     "Orinoco Flow",
     "Saltwater",
-    "Levels"
+    "Levels",
+    "Sandstorm"
   ]
 }
