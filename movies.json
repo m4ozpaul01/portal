@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-06",
+  "last_updated": "2026-08-08",
   "suggestions": [
     {
-      "title": "Apocalypse Now",
-      "year": 1979,
-      "genre": "Drama, War, Mystery",
-      "description": "A U.S. Army captain is sent on a dangerous mission into Cambodia to assassinate a renegade colonel, descending into the heart of darkness during the Vietnam War. Francis Ford Coppola's hallucinatory, monumental war epic blends surreal imagery, haunting sound design, and career-defining performances by Martin Sheen and Marlon Brando. A singular, decades-in-the-making obsession that remains one of the most powerful and controversial films ever made.",
-      "imdb_rating": 8.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c2/Apocalypse_Now_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=FTjG-Aux_yQ",
-      "director": "Francis Ford Coppola"
+      "title": "No Country for Old Men",
+      "year": 2007,
+      "genre": "Crime, Drama, Thriller",
+      "description": "A hunter stumbles upon a drug deal gone wrong and a suitcase full of cash, drawing the attention of a relentlessly determined hitman. The Coen Brothers' Oscar-winning modern noir is a suspenseful, near-wordless cat-and-mouse chase across the Texan desert, anchored by Javier Bardem's chilling, iconic Anton Chigurh. A masterclass in tension and atmosphere.",
+      "imdb_rating": 8.2,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8b/No_Country_for_Old_Men_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=38A__WT3-o0",
+      "director": "Joel Coen, Ethan Coen"
     },
     {
-      "title": "The Grand Budapest Hotel",
-      "year": 2014,
-      "genre": "Comedy, Drama, Adventure",
-      "description": "The adventures of Gustave H, a legendary concierge at a famous European hotel between the wars, and his loyal lobby boy Zero as they become entangled in a stolen-painting heist. Wes Anderson's meticulously crafted, visually enchanting caper is a bittersweet meditation on friendship and a lost era, featuring one of Ralph Fiennes' greatest comedic performances. Quirky, witty, and gorgeous — a perfect pick for something utterly distinct.",
-      "imdb_rating": 8.1,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Grand_Budapest_Hotel.png",
-      "trailer_url": "https://www.youtube.com/watch?v=1Fg5iWmQjwk",
-      "director": "Wes Anderson"
+      "title": "Das Boot",
+      "year": 1981,
+      "genre": "Drama, War, Thriller",
+      "description": "The harrowing, claustrophobic life aboard a German U-boat during the Battle of the Atlantic in WWII. Wolfgang Petersen's epic is widely regarded as one of the greatest war films ever made, with breathtaking tension, superb production design, and an authentic, nerve-shredding depiction of life under the sea. A foreign-language classic that immerses you entirely.",
+      "imdb_rating": 8.4,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/a3/Das_boot_ver1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=UCzR7mISZw4",
+      "director": "Wolfgang Petersen"
     },
     {
-      "title": "Memento",
-      "year": 2000,
-      "genre": "Mystery, Thriller",
-      "description": "A man with short-term memory loss uses notes, photographs, and tattoos to hunt for his wife's murderer, telling the story in reverse chronological order. Christopher Nolan's breakout cerebral thriller — anchored by a stunning Guy Pearce performance — rewired the psychological-thriller genre with its ingenious backwards structure. A puzzle-box masterpiece that rewards every rewatch.",
-      "imdb_rating": 8.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c7/Memento_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=AJp6FMKSQF4",
-      "director": "Christopher Nolan"
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "year": 2004,
+      "genre": "Drama, Romance, Sci-Fi",
+      "description": "A heartbroken Joel discovers his ex-girlfriend Clementine has had him erased from her memory, and undergoes the same procedure himself — only to relive their love as it's being deleted. Michel Gondry and Charlie Kaufman's poignant, inventive sci-fi romance is a deeply moving exploration of love, memory, and regret, with stunning turns from Jim Carrey and Kate Winslet.",
+      "imdb_rating": 8.3,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/a4/Eternal_Sunshine_of_the_Spotless_Mind.png",
+      "trailer_url": "https://www.youtube.com/watch?v=07-QBnEkgXU",
+      "director": "Michel Gondry"
     }
   ],
   "history": [],
@@ -75,6 +75,9 @@
     "The Shining",
     "Apocalypse Now",
     "The Grand Budapest Hotel",
-    "Memento"
+    "Memento",
+    "No Country for Old Men",
+    "Das Boot",
+    "Eternal Sunshine of the Spotless Mind"
   ]
 }
