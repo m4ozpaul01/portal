@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-08",
   "todays_pick": {
-    "title": "Sandstorm",
-    "artist": "Darude",
-    "genre": "Trance, Electronic",
-    "album": "Before the Storm",
-    "year": 1999,
+    "title": "On the Beach",
+    "artist": "Yanni",
+    "genre": "New Age, Instrumental",
+    "album": "In My Time",
+    "year": 1993,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-07",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-08-08",
+    "why": "A New Age / Instrumental track to start your day!"
   },
   "suggestions": [
     {
@@ -337,6 +337,7 @@
     "Orinoco Flow",
     "Saltwater",
     "Levels",
-    "Sandstorm"
+    "Sandstorm",
+    "On the Beach"
   ]
 }
