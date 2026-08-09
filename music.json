@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-08-09",
   "todays_pick": {
-    "title": "On the Beach",
-    "artist": "Yanni",
-    "genre": "New Age, Instrumental",
-    "album": "In My Time",
-    "year": 1993,
+    "title": "Strobe",
+    "artist": "deadmau5",
+    "genre": "Progressive House, Electronic",
+    "album": "For Lack of a Better Name",
+    "year": 2009,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-08",
-    "why": "A New Age / Instrumental track to start your day!"
+    "picked_date": "2026-08-09",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -338,6 +338,7 @@
     "Saltwater",
     "Levels",
     "Sandstorm",
-    "On the Beach"
+    "On the Beach",
+    "Strobe"
   ]
 }
