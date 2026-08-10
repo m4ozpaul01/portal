@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-10",
   "todays_pick": {
-    "title": "Strobe",
-    "artist": "deadmau5",
-    "genre": "Progressive House, Electronic",
-    "album": "For Lack of a Better Name",
-    "year": 2009,
+    "title": "Boadicea",
+    "artist": "Enya",
+    "genre": "New Age, Celtic",
+    "album": "Enya",
+    "year": 1986,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-09",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-08-10",
+    "why": "A New Age / Celtic track to start your day!"
   },
   "suggestions": [
     {
@@ -339,6 +339,7 @@
     "Levels",
     "Sandstorm",
     "On the Beach",
-    "Strobe"
+    "Strobe",
+    "Boadicea"
   ]
 }
