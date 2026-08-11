@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-11",
   "todays_pick": {
-    "title": "Boadicea",
-    "artist": "Enya",
-    "genre": "New Age, Celtic",
-    "album": "Enya",
-    "year": 1986,
+    "title": "The Great Gig in the Sky",
+    "artist": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "album": "The Dark Side of the Moon",
+    "year": 1973,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-10",
-    "why": "A New Age / Celtic track to start your day!"
+    "picked_date": "2026-08-11",
+    "why": "A Progressive Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -340,6 +340,7 @@
     "Sandstorm",
     "On the Beach",
     "Strobe",
-    "Boadicea"
+    "Boadicea",
+    "The Great Gig in the Sky"
   ]
 }
