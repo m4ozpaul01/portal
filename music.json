@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "todays_pick": {
-    "title": "The Great Gig in the Sky",
-    "artist": "Pink Floyd",
-    "genre": "Progressive Rock",
-    "album": "The Dark Side of the Moon",
-    "year": 1973,
+    "title": "Sunset Jesus",
+    "artist": "Avicii",
+    "genre": "Progressive House, Electronic",
+    "album": "Stories",
+    "year": 2015,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-11",
-    "why": "A Progressive Rock track to start your day!"
+    "picked_date": "2026-08-12",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -341,6 +341,7 @@
     "On the Beach",
     "Strobe",
     "Boadicea",
-    "The Great Gig in the Sky"
+    "The Great Gig in the Sky",
+    "Sunset Jesus"
   ]
 }
