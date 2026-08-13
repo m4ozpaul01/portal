@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-13",
   "suggestions": [
     {
-      "title": "There Will Be Blood",
-      "year": 2007,
-      "genre": "Drama",
-      "description": "A ruthless oil prospector strikes it rich in early 20th-century California, sacrificing everything in his pursuit of wealth. Paul Thomas Anderson's sprawling epic of family, faith, power, and oil is anchored by one of the greatest performances in cinema history — Daniel Day-Lewis's mesmerizing, terrifying Daniel Plainview. A slow-burning masterpiece of ambition and greed.",
-      "imdb_rating": 8.2,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/da/There_Will_Be_Blood_Poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=FeSLPELpMeM",
-      "director": "Paul Thomas Anderson"
-    },
-    {
-      "title": "Singin' in the Rain",
-      "year": 1952,
-      "genre": "Comedy, Musical, Romance",
-      "description": "A silent-film star struggles to adapt to the new world of talking pictures in Hollywood's golden age. Gene Kelly and Stanley Donen's joyful, endlessly rewatchable musical is routinely hailed as the greatest song-and-dance film ever made — anchored by Kelly's iconic, rain-soaked title number and Donald O'Connor's show-stopping 'Make 'Em Laugh.' Pure, infectious movie magic from a classic era.",
+      "title": "Toy Story",
+      "year": 1995,
+      "genre": "Animation, Adventure, Comedy",
+      "description": "A cowboy doll is threatened by the arrival of a new space ranger action figure in a child's bedroom. Pixar's landmark debut feature — the first fully computer-animated movie ever made — is a warm, hilarious, endlessly rewatchable buddy comedy about jealousy, loyalty, and friendship. Woody and Buzz Lightyear's journey turned a studio into a legend and redefined animation for a generation.",
       "imdb_rating": 8.3,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Singin%27_in_the_Rain_%281952_poster%29.jpg/500px-Singin%27_in_the_Rain_%281952_poster%29.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=5_EVHeNEIJY",
-      "director": "Stanley Donen, Gene Kelly"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7MM1k1SSlWs",
+      "director": "John Lasseter"
     },
     {
-      "title": "Senna",
-      "year": 2010,
-      "genre": "Documentary, Biography, Sport",
-      "description": "The remarkable life and tragic death of Brazilian Formula One racing legend Ayrton Senna. Asif Kapadia's groundbreaking film — built entirely from archival footage and audio, no talking heads — captures the intensity, genius, and spirituality of a three-time world champion whose death at Imola in 1994 shook the world. A gripping, emotional sports documentary unlike any other.",
-      "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/89/Senna_film_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=sfosF-ZAbR4",
-      "director": "Asif Kapadia"
+      "title": "Catch Me If You Can",
+      "year": 2002,
+      "genre": "Biography, Crime, Drama",
+      "description": "A teenage con artist impersonates a pilot, doctor, and lawyer while an FBI agent pursues him across the globe. Steven Spielberg's slick, stylish true story of Frank Abagnale Jr. is equal parts caper and character study — DiCaprio's charm offensive and Hanks' dogged agent make for one of the most effortlessly entertaining cat-and-mouse games in cinema.",
+      "imdb_rating": 8.1,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Catch_Me_If_You_Can_2002_movie.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=71rDQ7z4eFg",
+      "director": "Steven Spielberg"
+    },
+    {
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "genre": "Sci-Fi, Drama, Mystery",
+      "description": "A new blade runner unearths a long-buried secret that could destabilize society, leading him to find former blade runner Rick Deckard. Denis Villeneuve's awe-inspiring sequel honors Ridley Scott's original while forging its own identity — a meditative, breathtakingly beautiful neon-noir existential thriller anchored by Ryan Gosling and a towering score by Hans Zimmer.",
+      "imdb_rating": 8.0,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png",
+      "trailer_url": "https://www.youtube.com/watch?v=gCcx85zbxz4",
+      "director": "Denis Villeneuve"
     }
   ],
   "history": [],
@@ -81,6 +81,9 @@
     "Eternal Sunshine of the Spotless Mind",
     "There Will Be Blood",
     "Singin' in the Rain",
-    "Senna"
+    "Senna",
+    "Toy Story",
+    "Catch Me If You Can",
+    "Blade Runner 2049"
   ]
 }
