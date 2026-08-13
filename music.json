@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-12",
+  "last_updated": "2026-08-13",
   "todays_pick": {
-    "title": "Sunset Jesus",
-    "artist": "Avicii",
-    "genre": "Progressive House, Electronic",
-    "album": "Stories",
-    "year": 2015,
+    "title": "Love on a Real Train",
+    "artist": "Tangerine Dream",
+    "genre": "Electronic, Ambient",
+    "album": "Risky Business (Soundtrack)",
+    "year": 1983,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-12",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-08-13",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -342,6 +342,7 @@
     "Strobe",
     "Boadicea",
     "The Great Gig in the Sky",
-    "Sunset Jesus"
+    "Sunset Jesus",
+    "Love on a Real Train"
   ]
 }
