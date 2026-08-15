@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-15",
   "suggestions": [
     {
-      "title": "Toy Story",
-      "year": 1995,
-      "genre": "Animation, Adventure, Comedy",
-      "description": "A cowboy doll is threatened by the arrival of a new space ranger action figure in a child's bedroom. Pixar's landmark debut feature — the first fully computer-animated movie ever made — is a warm, hilarious, endlessly rewatchable buddy comedy about jealousy, loyalty, and friendship. Woody and Buzz Lightyear's journey turned a studio into a legend and redefined animation for a generation.",
-      "imdb_rating": 8.3,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=7MM1k1SSlWs",
-      "director": "John Lasseter"
-    },
-    {
-      "title": "Catch Me If You Can",
-      "year": 2002,
-      "genre": "Biography, Crime, Drama",
-      "description": "A teenage con artist impersonates a pilot, doctor, and lawyer while an FBI agent pursues him across the globe. Steven Spielberg's slick, stylish true story of Frank Abagnale Jr. is equal parts caper and character study — DiCaprio's charm offensive and Hanks' dogged agent make for one of the most effortlessly entertaining cat-and-mouse games in cinema.",
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "genre": "Comedy, Crime",
+      "description": "A laid-back Los Angeles slacker known as 'The Dude' gets caught up in a convoluted kidnapping plot. The Coen Brothers' cult classic turns mistaken identity and a stolen rug into cinema's most endlessly quotable shaggy-dog story. Jeff Bridges' sublime chilled-out performance anchors a surreal, hilarious, and surprisingly warm comedy about a man who just wants to bowl.",
       "imdb_rating": 8.1,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Catch_Me_If_You_Can_2002_movie.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=71rDQ7z4eFg",
-      "director": "Steven Spielberg"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/35/Biglebowskiposter.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=cd-go0oBF4Y",
+      "director": "Joel Coen, Ethan Coen"
     },
     {
-      "title": "Blade Runner 2049",
-      "year": 2017,
-      "genre": "Sci-Fi, Drama, Mystery",
-      "description": "A new blade runner unearths a long-buried secret that could destabilize society, leading him to find former blade runner Rick Deckard. Denis Villeneuve's awe-inspiring sequel honors Ridley Scott's original while forging its own identity — a meditative, breathtakingly beautiful neon-noir existential thriller anchored by Ryan Gosling and a towering score by Hans Zimmer.",
+      "title": "Downfall",
+      "year": 2004,
+      "genre": "Biography, Drama, War",
+      "description": "The final ten days of Adolf Hitler's life inside his Berlin bunker as the Third Reich crumbles. Bruno Ganz gives one of cinema's most haunting portrayals of Hitler in this claustrophobic historical drama, told largely through the eyes of his secretary Traudl Junge. A gripping, morally complex examination of the final collapse of Nazi Germany.",
+      "imdb_rating": 8.2,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Der_Untergang_Downfall_poster.png",
+      "trailer_url": "https://www.youtube.com/watch?v=htvYfe6wz_8",
+      "director": "Oliver Hirschbiegel"
+    },
+    {
+      "title": "La La Land",
+      "year": 2016,
+      "genre": "Comedy, Drama, Musical",
+      "description": "A jazz pianist and an aspiring actress fall in love while chasing their dreams in modern-day Los Angeles. Damien Chazelle's dazzling, Oscar-winning musical gave Hollywood back its sense of wonder — a swooning, bittersweet love letter to Los Angeles, jazz, and the people who dare to dream. Emma Stone and Ryan Gosling have never been more magnetic together.",
       "imdb_rating": 8.0,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png",
-      "trailer_url": "https://www.youtube.com/watch?v=gCcx85zbxz4",
-      "director": "Denis Villeneuve"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_%28film%29.png",
+      "trailer_url": "https://www.youtube.com/watch?v=0pdqf4P9MB8",
+      "director": "Damien Chazelle"
     }
   ],
   "history": [],
@@ -84,6 +84,9 @@
     "Senna",
     "Toy Story",
     "Catch Me If You Can",
-    "Blade Runner 2049"
+    "Blade Runner 2049",
+    "The Big Lebowski",
+    "Downfall",
+    "La La Land"
   ]
 }
