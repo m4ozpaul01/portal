@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-09",
-  "research_date": "2026-08-09",
+  "last_updated": "2026-08-16",
+  "research_date": "2026-08-16",
   "center": {
     "city": "Frankfurt am Main",
     "latitude": 50.1109,
@@ -34,6 +34,19 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0826,8.2412"
     },
     {
+      "title": "DFF – Deutsches Filminstitut & Filmmuseum: Kino & Ausstellung",
+      "date": "2026-08-15",
+      "time": "10:00 - 18:00",
+      "description": "Das DFF am Museumsufer zeigt in seinem Kino regelmäßig Retrospektiven, Klassiker und aktuelle Previews. Dauerausstellung und Sonderprogramm beleuchten die Geschichte des deutschen Films, ergänzt um Sonderreihen – oft in Kooperation mit anderen Frankfurter Museen wie dem Museum für Kommunikation.",
+      "cost_per_person": "Kino €8–€10, Museum €10",
+      "location": "DFF Filmmuseum, Schaumainkai 41, 60596 Frankfurt am Main",
+      "image_url": "",
+      "category": "Film & Cinema",
+      "city": "Frankfurt",
+      "website": "https://www.dff.film/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1036,8.683"
+    },
+    {
       "title": "Flohmarkt am Schaumainkai (Kunst- & Antiquitätentrödel)",
       "date": "2026-08-15",
       "time": "09:00 - 14:00",
@@ -60,17 +73,30 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.108,8.665"
     },
     {
-      "title": "Schirn: 'The World Through AI' (KI-Kunst)",
+      "title": "Kleinmarkthalle Frankfurt – Marktkultur in der Innenstadt",
       "date": "2026-08-15",
-      "time": "10:00 - 19:00",
-      "description": "Die große Sommerausstellung der Schirn Kunsthalle zeigt bis zum 20. September Kunstwerke aus den letzten zehn Jahren, die sich mit den kognitiven, politischen und ökologischen Dimensionen der Künstlichen Intelligenz auseinandersetzen. Zeitkapseln verbinden die Gegenwart mit der Vergangenheit. (Teil der Ausstellung in Halle 2 endet bereits am 6. September.)",
+      "time": "08:00 - 18:00",
+      "description": "Über 60 Stände mit frischem Obst, Gemüse, Fleisch, Fisch, Käse, Brot und internationalen Delikatessen machen die Kleinmarkthalle zum kulinarischen Herzen Frankfurts. Auch während der laufenden Umbauarbeiten bleibt die traditionsreiche Markthalle zwischen Zeil und Liebfrauenberg für Besucher geöffnet und lädt zum Stöbern und Probieren ein.",
+      "cost_per_person": "Free entry (Einkauf nach Bedarf)",
+      "location": "Kleinmarkthalle, Hasengasse 5-7, 60311 Frankfurt am Main",
+      "image_url": "",
+      "category": "Food & Drink",
+      "city": "Frankfurt",
+      "website": "https://www.kleinmarkthalle.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.112,8.686"
+    },
+    {
+      "title": "Museum Angewandte Kunst: 'Yes, we care. Das Neue Frankfurt'",
+      "date": "2026-08-15",
+      "time": "10:00 - 18:00",
+      "description": "Zum 100-jährigen Jubiläum des Neuen Frankfurt widmet das Museum Angewandte Kunst der wegweisenden 1920er-Jahre-Bewegung eine große Sonderausstellung. 'Yes, we care' verbindet Designgeschichte mit der Frage nach dem Gemeinwohl – von sozialen Bauten bis zur Gestaltungsmoderne am Main.",
       "cost_per_person": "€12",
-      "location": "Schirn Kunsthalle, Römerberg, 60311 Frankfurt am Main",
+      "location": "Museum Angewandte Kunst, Schaumainkai 17, 60594 Frankfurt am Main",
       "image_url": "",
       "category": "Art & Exhibitions",
       "city": "Frankfurt",
-      "website": "https://www.schirn.de/ausstellung/the-world-through-ai/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1109,8.6821"
+      "website": "https://www.museumangewandtekunst.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0995,8.676"
     },
     {
       "title": "Museum für Kommunikation: 'NACHRICHTEN – NEWS'",
@@ -86,10 +112,23 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1031,8.6786"
     },
     {
-      "title": "Senckenberg: Sonderausstellung 'Sargassum – Fluch und Segen'",
+      "title": "Schirn: 'The World Through AI' (KI-Kunst)",
+      "date": "2026-08-15",
+      "time": "10:00 - 19:00",
+      "description": "Die große Sommerausstellung der Schirn Kunsthalle zeigt bis zum 20. September Kunstwerke aus den letzten zehn Jahren, die sich mit den kognitiven, politischen und ökologischen Dimensionen der Künstlichen Intelligenz auseinandersetzen. Zeitkapseln verbinden die Gegenwart mit der Vergangenheit. (Teil der Ausstellung in Halle 2 endet bereits am 6. September.)",
+      "cost_per_person": "€12",
+      "location": "Schirn Kunsthalle, Römerberg, 60311 Frankfurt am Main",
+      "image_url": "",
+      "category": "Art & Exhibitions",
+      "city": "Frankfurt",
+      "website": "https://www.schirn.de/ausstellung/the-world-through-ai/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1109,8.6821"
+    },
+    {
+      "title": "Senckenberg: 'Stadtinsekten – Frankfurts kleine Helfer'",
       "date": "2026-08-15",
       "time": "09:00 - 17:00",
-      "description": "Das Senckenberg Naturmuseum zeigt die beiden Gesichter der faszinierenden Meeresalge Sargassum: zugleich artenreicher Lebensraum im Ozean und gefürchtete, massenhafte Plage an den Küsten. Die interaktive Ausstellung ist bis Oktober 2026 zu sehen und verbindet Meeresbiologie mit aktueller Klimaforschung.",
+      "description": "Die Familienausstellung im Senckenberg Naturmuseum entdeckt die faszinierende Welt der Insekten direkt vor der Haustür. Bienen, Schmetterlinge, Käfer und Co. als unverzichtbare Helfer im urbanen Ökosystem – mit interaktiven Stationen zum Staunen und Mitmachen für Groß und Klein.",
       "cost_per_person": "€12 (inkl. Dauerausstellung)",
       "location": "Senckenberg Naturmuseum, Senckenberganlage 25, 60325 Frankfurt am Main",
       "image_url": "",
@@ -99,10 +138,10 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1177,8.6515"
     },
     {
-      "title": "Senckenberg: 'Stadtinsekten – Frankfurts kleine Helfer'",
+      "title": "Senckenberg: Sonderausstellung 'Sargassum – Fluch und Segen'",
       "date": "2026-08-15",
       "time": "09:00 - 17:00",
-      "description": "Die Familienausstellung im Senckenberg Naturmuseum entdeckt die faszinierende Welt der Insekten direkt vor der Haustür. Bienen, Schmetterlinge, Käfer und Co. als unverzichtbare Helfer im urbanen Ökosystem – mit interaktiven Stationen zum Staunen und Mitmachen für Groß und Klein.",
+      "description": "Das Senckenberg Naturmuseum zeigt die beiden Gesichter der faszinierenden Meeresalge Sargassum: zugleich artenreicher Lebensraum im Ozean und gefürchtete, massenhafte Plage an den Küsten. Die interaktive Ausstellung ist bis Oktober 2026 zu sehen und verbindet Meeresbiologie mit aktueller Klimaforschung.",
       "cost_per_person": "€12 (inkl. Dauerausstellung)",
       "location": "Senckenberg Naturmuseum, Senckenberganlage 25, 60325 Frankfurt am Main",
       "image_url": "",
@@ -125,69 +164,43 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.119,8.654"
     },
     {
-      "title": "Museum Angewandte Kunst: 'Yes, we care. Das Neue Frankfurt'",
-      "date": "2026-08-15",
-      "time": "10:00 - 18:00",
-      "description": "Zum 100-jährigen Jubiläum des Neuen Frankfurt widmet das Museum Angewandte Kunst der wegweisenden 1920er-Jahre-Bewegung eine große Sonderausstellung. 'Yes, we care' verbindet Designgeschichte mit der Frage nach dem Gemeinwohl – von sozialen Bauten bis zur Gestaltungsmoderne am Main.",
-      "cost_per_person": "€12",
-      "location": "Museum Angewandte Kunst, Schaumainkai 17, 60594 Frankfurt am Main",
+      "title": "DAM: 'Suburbia – Die Zukunft der Vorstadt'",
+      "date": "2026-08-16",
+      "time": "11:00 - 18:00",
+      "description": "Mit Fotos, Filmen, Literatur und Kunstprojekten taucht die Ausstellung ins US-amerikanische Vorstadt-Idyll ein: Saftiger Rasen, blauer Pool, Doppelgarage. Die Schau zeigt, wie Politik, Architektur und Werbung Sehnsüchte nach dem Eigenheim erzeugten – und was daraus weltweit wurde.",
+      "cost_per_person": "€10 (erm. €5)",
+      "location": "Deutsches Architekturmuseum, Schaumainkai 43, 60596 Frankfurt am Main",
       "image_url": "",
       "category": "Art & Exhibitions",
       "city": "Frankfurt",
-      "website": "https://www.museumangewandtekunst.de/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0995,8.676"
+      "website": "https://dam-online.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1025,8.6828"
     },
     {
-      "title": "DFF – Deutsches Filminstitut & Filmmuseum: Kino & Ausstellung",
-      "date": "2026-08-15",
-      "time": "10:00 - 18:00",
-      "description": "Das DFF am Museumsufer zeigt in seinem Kino regelmäßig Retrospektiven, Klassiker und aktuelle Previews. Dauerausstellung und Sonderprogramm beleuchten die Geschichte des deutschen Films, ergänzt um Sonderreihen – oft in Kooperation mit anderen Frankfurter Museen wie dem Museum für Kommunikation.",
-      "cost_per_person": "Kino €8–€10, Museum €10",
-      "location": "DFF Filmmuseum, Schaumainkai 41, 60596 Frankfurt am Main",
-      "image_url": "",
-      "category": "Film & Cinema",
-      "city": "Frankfurt",
-      "website": "https://www.dff.film/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1036,8.683"
-    },
-    {
-      "title": "Kleinmarkthalle Frankfurt – Marktkultur in der Innenstadt",
-      "date": "2026-08-15",
-      "time": "08:00 - 18:00",
-      "description": "Über 60 Stände mit frischem Obst, Gemüse, Fleisch, Fisch, Käse, Brot und internationalen Delikatessen machen die Kleinmarkthalle zum kulinarischen Herzen Frankfurts. Auch während der laufenden Umbauarbeiten bleibt die traditionsreiche Markthalle zwischen Zeil und Liebfrauenberg für Besucher geöffnet und lädt zum Stöbern und Probieren ein.",
-      "cost_per_person": "Free entry (Einkauf nach Bedarf)",
-      "location": "Kleinmarkthalle, Hasengasse 5-7, 60311 Frankfurt am Main",
-      "image_url": "",
-      "category": "Food & Drink",
-      "city": "Frankfurt",
-      "website": "https://www.kleinmarkthalle.de/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.112,8.686"
-    },
-    {
-      "title": "FILMZ Freiluftkino im Landesmuseum Mainz",
+      "title": "Deutsches Architekturmuseum (DAM): 'Too Hot – Heiße Städte, neue Wege'",
       "date": "2026-08-16",
-      "time": "21:00 - 23:00",
-      "description": "Im Rahmen von FILMZ – Festival des deutschen Kinos findet bis Oktober regelmäßig Freiluftkino & Muschelkino im Landesmuseum Mainz statt. Ausgewählte deutsche Filme, oft in Jubiläumsedition zum 25. FILMZ-Jahr, werden unter freiem Himmel gezeigt. Das große Hauptfestival folgt vom 2. bis 15. November.",
-      "cost_per_person": "ca. €9",
-      "location": "Landesmuseum Mainz, Große Bleiche 49-51, 55116 Mainz",
+      "time": "11:00 - 18:00",
+      "description": "Die große Ausstellung im DAM widmet sich der klimaneutralen Stadtentwicklung und zeigt, wie grüne, inklusive und sozial gerechte Quartiere entstehen können. Anhand internationaler Projekte wird veranschaulicht, wie Städte Hitze begegnen – von der Kühlung über Dachbegrünung bis zu neuen Verkehrs- und Lebensmodellen. Laufzeit bis 7. Februar 2027.",
+      "cost_per_person": "€10 (erm. €5)",
+      "location": "Deutsches Architekturmuseum, Schaumainkai 43, 60596 Frankfurt am Main",
       "image_url": "",
-      "category": "Film & Cinema",
-      "city": "Mainz",
-      "website": "https://www.filmz-mainz.de/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=49.998,8.269"
+      "category": "Art & Exhibitions",
+      "city": "Frankfurt",
+      "website": "https://dam-online.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1025,8.6828"
     },
     {
-      "title": "Oper Frankfurt: Saisonauftakt 'Turandot' (Puccini)",
-      "date": "2026-08-22",
-      "time": "19:30 - 22:30",
-      "description": "Puccinis monumentale Oper über die eiskalte Prinzessin Turandot eröffnet die Spielzeit 2026/27 in der Inszenierung von Andrea Breth. Zum Saisonauftakt gelten alle Plätze zum Aktionspreis von nur 20 Euro. Die Wiederaufnahme wird von Simone Di Felice dirigiert.",
-      "cost_per_person": "€20 (Saisonauftakt-Aktionspreis)",
-      "location": "Oper Frankfurt, Opernplatz 1, 60313 Frankfurt am Main",
+      "title": "Struwwelpeter-Museum: 'Spiel mit! Struwwelpeter in Karten und Gesellschaftsspielen'",
+      "date": "2026-08-16",
+      "time": "11:00 - 17:00",
+      "description": "In der neuen Altstadt zeigt das Struwwelpeter- und Heinrich-Hoffmann-Museum, wie aus dem berühmten Bilderbuch ein Füllhorn an Spielen wurde: Kartenspiele, Brett- und Gesellschaftsspiele von 1878 bis heute. Die Sonderausstellung ist bis zum 30. November 2026 zu sehen und lädt Groß und Klein zum Mitmachen ein.",
+      "cost_per_person": "€8 (Kinder frei)",
+      "location": "Struwwelpeter-Museum, Hühnermarkt, 60311 Frankfurt am Main",
       "image_url": "",
-      "category": "Music & Opera",
+      "category": "Family & Education",
       "city": "Frankfurt",
-      "website": "https://oper-frankfurt.de/de/spielplan/turandot_2/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1072,8.6728"
+      "website": "https://www.struwwelpeter-museum.de/sonderausstellungen/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.11,8.6849"
     },
     {
       "title": "Flohmarkt am Schaumainkai (Kunst- & Antiquitätentrödel)",
@@ -201,6 +214,19 @@
       "city": "Frankfurt",
       "website": "https://veranstaltungen.meinestadt.de/frankfurt-am-main/event-detail/42364962",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.102,8.684"
+    },
+    {
+      "title": "Oper Frankfurt: Saisonauftakt 'Turandot' (Puccini)",
+      "date": "2026-08-22",
+      "time": "19:30 - 22:30",
+      "description": "Puccinis monumentale Oper über die eiskalte Prinzessin Turandot eröffnet die Spielzeit 2026/27 in der Inszenierung von Andrea Breth. Zum Saisonauftakt gelten alle Plätze zum Aktionspreis von nur 20 Euro. Die Wiederaufnahme wird von Simone Di Felice dirigiert.",
+      "cost_per_person": "€20 (Saisonauftakt-Aktionspreis)",
+      "location": "Oper Frankfurt, Opernplatz 1, 60313 Frankfurt am Main",
+      "image_url": "",
+      "category": "Music & Opera",
+      "city": "Frankfurt",
+      "website": "https://oper-frankfurt.de/de/spielplan/turandot_2/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1072,8.6728"
     },
     {
       "title": "Oper Frankfurt: 'Così fan tutte' (Mozart)",
@@ -229,6 +255,19 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=49.9863,8.2585"
     },
     {
+      "title": "FILMZ Freiluftkino im Landesmuseum Mainz",
+      "date": "2026-08-28",
+      "time": "21:00 - 23:00",
+      "description": "Das FILMZ Open-Air-Kino im Innenhof des Mainzer Landesmuseums läuft vom 28. August bis 6. September 2026 an zehn Abenden im Rahmen des Kultursommers Rheinland-Pfalz ('Die Goldenen Zwanziger'). Gezeigt wird ein vielseitiges deutsches und internationales Filmprogramm unter freiem Himmel, als Warm-up zur 25. FILMZ-Festivalausgabe im November.",
+      "cost_per_person": "ca. €9",
+      "location": "Landesmuseum Mainz, Große Bleiche 49-51, 55116 Mainz",
+      "image_url": "",
+      "category": "Film & Cinema",
+      "city": "Mainz",
+      "website": "https://www.filmz-mainz.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=49.998,8.269"
+    },
+    {
       "title": "Museumsuferfest Frankfurt – Europas großes Kulturfestival",
       "date": "2026-08-28",
       "time": "15:00 - 00:00",
@@ -240,45 +279,6 @@
       "city": "Frankfurt",
       "website": "https://www.museumsuferfest.de/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1036,8.6805"
-    },
-    {
-      "title": "Museumsuferfest – Drachenbootrennen",
-      "date": "2026-08-29",
-      "time": "10:00 - 18:00",
-      "description": "Zum 25. Mal veranstaltet der Sportkreis Frankfurt das beliebte Drachenbootrennen auf dem Main im Rahmen des Museumsuferfests. In den Kategorien Mixed-Fun, Damen und Pink kämpfen Mannschaften auf den farbenfrohen Booten um die schnellste Zeit – ein spektakuläres Spektakel für Zuschauer auf beiden Ufern.",
-      "cost_per_person": "Free",
-      "location": "Mainufer (Mainkai), 60311 Frankfurt am Main",
-      "image_url": "",
-      "category": "Sports",
-      "city": "Frankfurt",
-      "website": "https://www.museumsuferfest.de/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.109,8.683"
-    },
-    {
-      "title": "Museumsuferfest – Batschkapp: 50 Jahre Jubiläumsshow",
-      "date": "2026-08-29",
-      "time": "13:00 - 22:00",
-      "description": "Die legendäre Frankfurter Konzertbühne Batschkapp feiert ihr 50-jähriges Bestehen live beim Museumsuferfest mit Special Guests und einer Zeitreise-Party. Auf dem Programm stehen unter anderem Shantel & Bucovina Club Sound System und weitere Überraschungsgäste. Gratis-Konzert an der Mainufer-Bühne.",
-      "cost_per_person": "Free",
-      "location": "Mainufer, Museumsuferfest, 60594 Frankfurt am Main",
-      "image_url": "",
-      "category": "Music & Opera",
-      "city": "Frankfurt",
-      "website": "https://www.batschkapp.net/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.104,8.681"
-    },
-    {
-      "title": "Oper Frankfurt: 'Turandot' (Puccini)",
-      "date": "2026-08-29",
-      "time": "19:30 - 22:30",
-      "description": "Zweite Vorstellung von Puccinis Saisonauftakt-Oper 'Turandot' in der Inszenierung von Andrea Breth mit dem Frankfurter Opern- und Museumsorchester. Ein Drama um Macht, Liebe und die berühmten Rätsel der eisigen Prinzessin.",
-      "cost_per_person": "€30–€165",
-      "location": "Oper Frankfurt, Opernplatz 1, 60313 Frankfurt am Main",
-      "image_url": "",
-      "category": "Music & Opera",
-      "city": "Frankfurt",
-      "website": "https://oper-frankfurt.de/de/spielplan/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1072,8.6728"
     },
     {
       "title": "Bundesliga: 1. FSV Mainz 05 vs. SC Paderborn 07",
@@ -307,6 +307,45 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.102,8.684"
     },
     {
+      "title": "Museumsuferfest – Batschkapp: 50 Jahre Jubiläumsshow",
+      "date": "2026-08-29",
+      "time": "13:00 - 22:00",
+      "description": "Die legendäre Frankfurter Konzertbühne Batschkapp feiert ihr 50-jähriges Bestehen live beim Museumsuferfest mit Special Guests und einer Zeitreise-Party. Auf dem Programm stehen unter anderem Shantel & Bucovina Club Sound System und weitere Überraschungsgäste. Gratis-Konzert an der Mainufer-Bühne.",
+      "cost_per_person": "Free",
+      "location": "Mainufer, Museumsuferfest, 60594 Frankfurt am Main",
+      "image_url": "",
+      "category": "Music & Opera",
+      "city": "Frankfurt",
+      "website": "https://www.batschkapp.net/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.104,8.681"
+    },
+    {
+      "title": "Museumsuferfest – Drachenbootrennen",
+      "date": "2026-08-29",
+      "time": "10:00 - 18:00",
+      "description": "Zum 25. Mal veranstaltet der Sportkreis Frankfurt das beliebte Drachenbootrennen auf dem Main im Rahmen des Museumsuferfests. In den Kategorien Mixed-Fun, Damen und Pink kämpfen Mannschaften auf den farbenfrohen Booten um die schnellste Zeit – ein spektakuläres Spektakel für Zuschauer auf beiden Ufern.",
+      "cost_per_person": "Free",
+      "location": "Mainufer (Mainkai), 60311 Frankfurt am Main",
+      "image_url": "",
+      "category": "Sports",
+      "city": "Frankfurt",
+      "website": "https://www.museumsuferfest.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.109,8.683"
+    },
+    {
+      "title": "Oper Frankfurt: 'Turandot' (Puccini)",
+      "date": "2026-08-29",
+      "time": "19:30 - 22:30",
+      "description": "Zweite Vorstellung von Puccinis Saisonauftakt-Oper 'Turandot' in der Inszenierung von Andrea Breth mit dem Frankfurter Opern- und Museumsorchester. Ein Drama um Macht, Liebe und die berühmten Rätsel der eisigen Prinzessin.",
+      "cost_per_person": "€30–€165",
+      "location": "Oper Frankfurt, Opernplatz 1, 60313 Frankfurt am Main",
+      "image_url": "",
+      "category": "Music & Opera",
+      "city": "Frankfurt",
+      "website": "https://oper-frankfurt.de/de/spielplan/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1072,8.6728"
+    },
+    {
       "title": "Museumsuferfest – Großes Abschlussfeuerwerk",
       "date": "2026-08-30",
       "time": "22:00 - 22:30",
@@ -318,6 +357,19 @@
       "city": "Frankfurt",
       "website": "https://www.museumsuferfest.de/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.106,8.682"
+    },
+    {
+      "title": "The Dead Kennys Party – 50 Jahre Batschkapp",
+      "date": "2026-08-30",
+      "time": "18:00 - 23:00",
+      "description": "Nach dem Museumsuferfest feiert die Batschkapp ihr 50-jähriges Jubiläum mit einer Punk- und Alternativ-Party an der Gwinnerstraße. Der legendäre Frankfurter Konzert-Club lädt zum Feierabend-Konzertabend mit besonderen Gästen ein – ein Abend für alle, die die Batschkapp seit Jahrzehnten prägen.",
+      "cost_per_person": "ca. €18",
+      "location": "Batschkapp, Gwinnerstraße 5, 60388 Frankfurt am Main",
+      "image_url": "",
+      "category": "Music & Opera",
+      "city": "Frankfurt",
+      "website": "https://www.batschkapp.net/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1286,8.745"
     },
     {
       "title": "Rheingauer Weinmarkt Frankfurt auf der Freßgass",
@@ -359,6 +411,32 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0782,8.2398"
     },
     {
+      "title": "Städel KI Festival: 'Imagining Futures in Noisy Times'",
+      "date": "2026-09-04",
+      "time": "10:00 - 19:00",
+      "description": "An zwei Tagen veranstaltet das Städel Museum ein großes zweitägiges Festival rund um Kunst und Künstliche Intelligenz. Keynotes, Talks, Workshops und künstlerische Positionen loten aus, wie KI die Kunst- und Kulturwelt prägt – im Kontext der Ausstellung 'The World Through AI' in der Schirn. Ein 2-Tages-Ticket (20 % Rabatt) schließt den Zugang zu beiden Festivaltagen ein.",
+      "cost_per_person": "Tagesticket ca. €25, 2-Tages-Ticket ca. €40",
+      "location": "Städel Museum, Schaumainkai 63, 60596 Frankfurt am Main",
+      "image_url": "",
+      "category": "Art & Exhibitions",
+      "city": "Frankfurt",
+      "website": "https://www.staedelmuseum.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1036,8.6747"
+    },
+    {
+      "title": "The Frankfurt Art Experience – Galerienwochenende 'Saisonstart'",
+      "date": "2026-09-04",
+      "time": "10:00 - 20:00",
+      "description": "Zum 32. Mal laden rund 40 Galerien sowie 20 Off-Spaces und Kunstinstitutionen in ganz Frankfurt zum Galerienwochenende ein: 36 Galerien präsentieren Einzel- und Gruppenausstellungen mit Schwerpunkt auf Malerei, Druckgrafik, Fotografie und Videokunst. Auftakt der Frankfurter Kunstsaison mit Eröffnungen, Führungen und Künstlergesprächen vom 4. bis 6. September.",
+      "cost_per_person": "Free / nach Galerie",
+      "location": "Verschiedene Galerien in der Frankfurter Innenstadt, 60311 Frankfurt am Main",
+      "image_url": "",
+      "category": "Art & Exhibitions",
+      "city": "Frankfurt",
+      "website": "https://www.frankfurtexperience.art/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1109,8.6821"
+    },
+    {
       "title": "Flohmarkt am Schaumainkai (Kunst- & Antiquitätentrödel)",
       "date": "2026-09-05",
       "time": "09:00 - 14:00",
@@ -372,17 +450,30 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.102,8.684"
     },
     {
-      "title": "Marché de Nuit – der Frankfurter Nachtmarkt",
-      "date": "2026-09-05",
-      "time": "18:00 - 00:00",
-      "description": "Der Marché de Nuit im Zoogesellschaftshaus verwandelt die historische Location in einen stimmungsvollen Nachtmarkt mit Handmade-Kunst, Design, Mode und Schmuck auf über 1.000 m². Ein DJ-Team liefert den passenden Soundtrack beim abendlichen Stöbern und Genießen – Shopping unter Sternen des Frankfurter Zoos.",
-      "cost_per_person": "Free entry",
-      "location": "Zoogesellschaftshaus, Bernhard-Grzimek-Allee 1, 60316 Frankfurt am Main",
+      "title": "Eintracht Frankfurt – Erstes Heimspiel der Saison 2026/27",
+      "date": "2026-09-06",
+      "time": "17:30 - 19:30",
+      "description": "Im ersten Heimspiel der neuen Bundesliga-Saison empfängt Eintracht Frankfurt im Deutsche Bank Park einen Gegner aus der Auftaktphase des Spieltags. Die Adler starteten auswärts bei Union Berlin; das erste Duell vor heimischem Publikum verspricht volle Tribünen und große Stimmung in der Wald-arena am Stadion.",
+      "cost_per_person": "Tickets ab ca. €20",
+      "location": "Deutsche Bank Park, Mörfelder Landstraße 362, 60528 Frankfurt am Main",
       "image_url": "",
-      "category": "Markets & Shopping",
+      "category": "Sports",
       "city": "Frankfurt",
-      "website": "https://www.nachtmarkt-frankfurt.de/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1155,8.693"
+      "website": "https://profis.eintracht.de/bundesliga/spielplan/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0686,8.6455"
+    },
+    {
+      "title": "28. Frankfurter Rudelsingen in der Batschkapp",
+      "date": "2026-09-08",
+      "time": "19:30 - 23:00",
+      "description": "Das legendäre Mitmach-Konzert kommt zum 28. Mal nach Frankfurt: Mit Jörg Siewert und Steffen Walter singt das ganze Publikum gemeinsam die größten Hits und Schlager-Klassiker – mit Live-Band und Texten auf der Leinwand. Kein Konzert, sondern ein kollektives Singfest in der Batschkapp, inkl. RMV-Kombiticket.",
+      "cost_per_person": "ab ca. €19,80",
+      "location": "Batschkapp, Gwinnerstraße 5, 60388 Frankfurt am Main",
+      "image_url": "",
+      "category": "Music & Opera",
+      "city": "Frankfurt",
+      "website": "https://www.batschkapp.net/events/28-frankfurter-rudelsingen-frankfurt-batschkapp-2026-09-08-193000",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1286,8.745"
     },
     {
       "title": "Das 32. Mainzer Rudelsingen im KUZ",
@@ -396,6 +487,32 @@
       "city": "Mainz",
       "website": "https://rudelsingen.de/termin-tickets/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0027,8.2595"
+    },
+    {
+      "title": "Farid Bang – 'So muss man gehen' Tour 2026",
+      "date": "2026-09-09",
+      "time": "20:00 - 23:00",
+      "description": "Der Düsseldorfer Rapper Farid Bang gastiert mit seiner 'So muss man gehen'-Tour in der Frankfurter Batschkapp. Erwartet werden energiegeladene Deutschrap-Hymnen und die berühmt-berüchtigten Punchlines des JBG-Künstlers vor ausverkauftem Haus.",
+      "cost_per_person": "ab ca. €55,90",
+      "location": "Batschkapp, Gwinnerstraße 5, 60388 Frankfurt am Main",
+      "image_url": "",
+      "category": "Music & Opera",
+      "city": "Frankfurt",
+      "website": "https://batschkapp.reservix.de/events",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1286,8.745"
+    },
+    {
+      "title": "Frankfurter Oktoberfest 2026 im Deutsche Bank Park",
+      "date": "2026-09-09",
+      "time": "17:30 - 23:00",
+      "description": "Zum 16. Mal verwandelt sich der P9-Parkplatz am Deutsche Bank Park in das größte Festzelt der Region mit rund 2.000 Plätzen unter dem organisierenden Company-Catering-Zelt. Vom 9. September bis zum 11. Oktober genießen Besucher in Dirndl und Lederhose bayerische Schmankerl, Live-Bands und eine ausgelassene Wiesn-Atmosphäre mit 23 Veranstaltungen, darunter am 16. September die 'Ladies Wiesn'.",
+      "cost_per_person": "Eintritt frei (Verzehr nach Bedarf)",
+      "location": "Deutsche Bank Park P9, Mörfelder Landstraße 362, 60528 Frankfurt am Main",
+      "image_url": "",
+      "category": "Festival & Culture",
+      "city": "Frankfurt",
+      "website": "https://frankfurter-oktoberfest.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0677,8.6444"
     },
     {
       "title": "FILMZ im Capitol: Film des Monats (Jubiläumsreihe)",
@@ -437,6 +554,19 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.102,8.684"
     },
     {
+      "title": "Traumkonzert – Felix Räuber (Frankfurter Hof Mainz)",
+      "date": "2026-09-12",
+      "time": "20:00 - 23:00",
+      "description": "Polarkreis-18-Frontmann Felix Räuber lädt mit seinem 'Traumkonzert' zu einer einzigartigen musikalischen Reise im Frankfurter Hof Mainz ein. Zwischen großen Songs, immersiven Klangwelten und intimen Momenten erwartet das Publikum der Mann hinter dem Welthit 'Allein Allein' in atmosphärischem Konzertformat.",
+      "cost_per_person": "ab ca. €30",
+      "location": "Frankfurter Hof, Augustinerstraße 55, 55116 Mainz",
+      "image_url": "",
+      "category": "Music & Opera",
+      "city": "Mainz",
+      "website": "https://www.frankfurter-hof-mainz.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=49.9989,8.2731"
+    },
+    {
       "title": "Tag des offenen Denkmals – NetzWERKE",
       "date": "2026-09-13",
       "time": "10:00 - 18:00",
@@ -476,19 +606,6 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1087,8.6745"
     },
     {
-      "title": "Städel: 'Maria Magdalena. Sin. Pray. Love.'",
-      "date": "2026-09-17",
-      "time": "10:00 - 19:00",
-      "description": "Das Städel Museum präsentiert erstmals im deutschsprachigen Raum eine umfassende Ausstellung zur faszinierenden Figur der Maria Magdalena – von Dürer über Beckmann bis Lotte Laserstein. Rund 100 Werke aus bedeutenden deutschen und internationalen Sammlungen zeigen die Sünderin und Heilige in all ihren Facetten.",
-      "cost_per_person": "€16 (Sonderausstellung)",
-      "location": "Städel Museum, Schaumainkai 63, 60596 Frankfurt am Main",
-      "image_url": "",
-      "category": "Art & Exhibitions",
-      "city": "Frankfurt",
-      "website": "https://www.staedelmuseum.de/de/maria-magdalena",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1036,8.6747"
-    },
-    {
       "title": "Liebieghaus: 'Maria Magdalena. Sin. Pray. Love.' (Skulpturen)",
       "date": "2026-09-17",
       "time": "10:00 - 18:00",
@@ -500,6 +617,19 @@
       "city": "Frankfurt",
       "website": "https://www.liebieghaus.de/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1026,8.671"
+    },
+    {
+      "title": "Städel: 'Maria Magdalena. Sin. Pray. Love.'",
+      "date": "2026-09-17",
+      "time": "10:00 - 19:00",
+      "description": "Das Städel Museum präsentiert erstmals im deutschsprachigen Raum eine umfassende Ausstellung zur faszinierenden Figur der Maria Magdalena – von Dürer über Beckmann bis Lotte Laserstein. Rund 100 Werke aus bedeutenden deutschen und internationalen Sammlungen zeigen die Sünderin und Heilige in all ihren Facetten.",
+      "cost_per_person": "€16 (Sonderausstellung)",
+      "location": "Städel Museum, Schaumainkai 63, 60596 Frankfurt am Main",
+      "image_url": "",
+      "category": "Art & Exhibitions",
+      "city": "Frankfurt",
+      "website": "https://www.staedelmuseum.de/de/maria-magdalena",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1036,8.6747"
     },
     {
       "title": "Bundesliga (Frauen): Mainz 05 vs. Eintracht Frankfurt – Rhein-Main-Duell",
@@ -515,6 +645,19 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0012,8.2712"
     },
     {
+      "title": "Die Pubertäts-Docs: 'Chill mal!' – Tour-Abstecher in Mainz",
+      "date": "2026-09-18",
+      "time": "20:00 - 22:30",
+      "description": "Dr. Jan-Uwe Rogge und Matthias Jung – die 'Pubertäts-Docs' – kommen mit ihrer Comedy-Show über das Abenteuer Pubertät in den Frankfurter Hof Mainz. Der bekannte Erziehungsratgeber-Podcast bringt Humor, Wissen und Überlebenstipps für Eltern halbwüchsiger Kinder auf die Bühne.",
+      "cost_per_person": "ab ca. €33,80",
+      "location": "Frankfurter Hof, Augustinerstraße 55, 55116 Mainz",
+      "image_url": "",
+      "category": "Family & Education",
+      "city": "Mainz",
+      "website": "https://www.frankfurter-hof-mainz.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=49.9989,8.2731"
+    },
+    {
       "title": "hr-Sinfonieorchester: 'Beethoven 200' mit Julia Fischer (Alte Oper)",
       "date": "2026-09-18",
       "time": "20:00 - 22:00",
@@ -526,19 +669,6 @@
       "city": "Frankfurt",
       "website": "https://www.hr-sinfonieorchester.de/konzerte/konzerte-26-27/beethoven-5,grosse-reihe-beethoven-5-100.html",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1087,8.6745"
-    },
-    {
-      "title": "Oper Frankfurt: 'Warten auf Heute' (Schönberg/Martin)",
-      "date": "2026-09-19",
-      "time": "19:00 - 21:30",
-      "description": "Der vierteilige Abend von Arnold Schönberg und Frank Martin in der Inszenierung von David Hermann nimmt zwei durch die Ehe verbundene Individuen in den Blick. Eine bewegende Wiederaufnahme, die 'Von Heute auf Morgen', 'Erwartung' und Martins 'Jedermann'-Monologe zu einem Abend vereint.",
-      "cost_per_person": "€30–€165",
-      "location": "Oper Frankfurt (Bockenheimer Depot/Opernhaus), Frankfurt am Main",
-      "image_url": "",
-      "category": "Music & Opera",
-      "city": "Frankfurt",
-      "website": "https://oper-frankfurt.de/de/spielplan/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1072,8.6728"
     },
     {
       "title": "Flohmarkt am Schaumainkai (Kunst- & Antiquitätentrödel)",
@@ -554,17 +684,30 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.102,8.684"
     },
     {
-      "title": "Museum Giersch der Goethe-Universität: neue Ausstellung",
-      "date": "2026-09-20",
-      "time": "11:00 - 18:00",
-      "description": "Das Museum Giersch am Museumsufer zeigt wechselnde Ausstellungen mit besonderem Fokus auf die Kunst der Rhein-Main-Region. Ab Ende September 2026 präsentiert das Haus eine neue Schau aus der Sammlung der Goethe-Universität unter dem Jahresthema, das historische und zeitgenössische Positionen verbindet.",
-      "cost_per_person": "€8",
-      "location": "Museum Giersch, Schaumainkai 83, 60596 Frankfurt am Main",
+      "title": "Oper Frankfurt: 'Warten auf Heute' (Schönberg/Martin)",
+      "date": "2026-09-19",
+      "time": "19:00 - 21:30",
+      "description": "Der vierteilige Abend von Arnold Schönberg und Frank Martin in der Inszenierung von David Hermann nimmt zwei durch die Ehe verbundene Individuen in den Blick. Eine bewegende Wiederaufnahme, die 'Von Heute auf Morgen', 'Erwartung' und Martins 'Jedermann'-Monologe zu einem Abend vereint.",
+      "cost_per_person": "€30–€165",
+      "location": "Oper Frankfurt (Bockenheimer Depot/Opernhaus), Frankfurt am Main",
       "image_url": "",
-      "category": "Art & Exhibitions",
+      "category": "Music & Opera",
       "city": "Frankfurt",
-      "website": "https://www.museum-giersch.de/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1014,8.6655"
+      "website": "https://oper-frankfurt.de/de/spielplan/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1072,8.6728"
+    },
+    {
+      "title": "34. Mainzer Kinder- und Jugendtheaterfestival",
+      "date": "2026-09-20",
+      "time": "10:00 - 18:00",
+      "description": "Das älteste Kindertheaterfestival Deutschlands lädt im Herbst 2026 in Mainz zur 34. Ausgabe: An mehreren Spielorten der Innenstadt zeigen Profi-Ensembles Theater für Kinder und Jugendliche von 2 bis 14 Jahren. Das Programm des Stadtjugendamts Mainz umfasst Aufführungen, Workshops und Begegnungen mit dem jungen Publikum.",
+      "cost_per_person": "Einzelkarten ca. €6–€10",
+      "location": "Verschiedene Spielstätten in der Mainzer Innenstadt, 55116 Mainz",
+      "image_url": "",
+      "category": "Family & Education",
+      "city": "Mainz",
+      "website": "https://www.mainz.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=49.9994,8.2698"
     },
     {
       "title": "Frankfurter Opern- und Museumsorchester: 'Edvard meets Edward'",
@@ -580,6 +723,19 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1087,8.6745"
     },
     {
+      "title": "Museum Giersch der Goethe-Universität: neue Ausstellung",
+      "date": "2026-09-20",
+      "time": "11:00 - 18:00",
+      "description": "Das Museum Giersch am Museumsufer zeigt wechselnde Ausstellungen mit besonderem Fokus auf die Kunst der Rhein-Main-Region. Ab Ende September 2026 präsentiert das Haus eine neue Schau aus der Sammlung der Goethe-Universität unter dem Jahresthema, das historische und zeitgenössische Positionen verbindet.",
+      "cost_per_person": "€8",
+      "location": "Museum Giersch, Schaumainkai 83, 60596 Frankfurt am Main",
+      "image_url": "",
+      "category": "Art & Exhibitions",
+      "city": "Frankfurt",
+      "website": "https://www.museum-giersch.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1014,8.6655"
+    },
+    {
       "title": "FRATOPIA – Festival der Entdeckungen in der Alten Oper",
       "date": "2026-09-23",
       "time": "15:00 - 00:00",
@@ -593,19 +749,6 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1087,8.6745"
     },
     {
-      "title": "Mainz leuchtet – Das Late Light Festival",
-      "date": "2026-09-24",
-      "time": "20:00 - 23:00",
-      "description": "Drei Abende lang verwandelt sich die Mainzer Innenstadt in ein Open-Air-Lichttheater: Der Dom St. Martin, das Staatstheater und die Rheingoldhalle werden durch beeindruckende Licht- und Videoprojektionen in Szene gesetzt. Das Festival ist bei freiem Eintritt zugänglich und zählt zu den schönsten Herbst-Highlights der Landeshauptstadt.",
-      "cost_per_person": "Free",
-      "location": "Mainzer Innenstadt (Dom, Staatstheater, Rheingoldhalle), 55116 Mainz",
-      "image_url": "",
-      "category": "Festival & Culture",
-      "city": "Mainz",
-      "website": "https://www.mainz-leuchtet.de/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=49.9994,8.2745"
-    },
-    {
       "title": ".festival Mainz – Inklusives Theaterfestival (28. Ausgabe)",
       "date": "2026-09-24",
       "time": "10:00 - 22:00",
@@ -617,6 +760,19 @@
       "city": "Mainz",
       "website": "https://www.staatstheater-mainz.com/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0006,8.2698"
+    },
+    {
+      "title": "Mainz leuchtet – Das Late Light Festival",
+      "date": "2026-09-24",
+      "time": "20:00 - 23:00",
+      "description": "Drei Abende lang verwandelt sich die Mainzer Innenstadt in ein Open-Air-Lichttheater: Der Dom St. Martin, das Staatstheater und die Rheingoldhalle werden durch beeindruckende Licht- und Videoprojektionen in Szene gesetzt. Das Festival ist bei freiem Eintritt zugänglich und zählt zu den schönsten Herbst-Highlights der Landeshauptstadt.",
+      "cost_per_person": "Free",
+      "location": "Mainzer Innenstadt (Dom, Staatstheater, Rheingoldhalle), 55116 Mainz",
+      "image_url": "",
+      "category": "Festival & Culture",
+      "city": "Mainz",
+      "website": "https://www.mainz-leuchtet.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=49.9994,8.2745"
     },
     {
       "title": "Oper Frankfurt: 'Turandot' (Puccini)",
@@ -658,6 +814,19 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.102,8.684"
     },
     {
+      "title": "Deutscher Buchpreis 2026 – Shortlist-Lesung im Schauspiel Frankfurt",
+      "date": "2026-09-27",
+      "time": "19:00 - 22:00",
+      "description": "Im Vorfeld der Frankfurter Buchmesse präsentieren sich die sechs Autorinnen und Autoren der Shortlist des Deutschen Buchpreises 2026 im Schauspiel Frankfurt. Die nominierten Romane werden in einer prominent moderierten Lesung vorgestellt, bevor am 5. Oktober in Mainz beziehungsweise Frankfurt der Gewinner gekürt wird.",
+      "cost_per_person": "ca. €12",
+      "location": "Schauspiel Frankfurt, Willy-Brandt-Platz 7-9, 60311 Frankfurt am Main",
+      "image_url": "",
+      "category": "Literature & Arts",
+      "city": "Frankfurt",
+      "website": "https://www.deutscher-buchpreis.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1081,8.6746"
+    },
+    {
       "title": "Oper Frankfurt: Premiere 'Zaide' (Mozart)",
       "date": "2026-09-30",
       "time": "19:00 - 20:45",
@@ -669,6 +838,32 @@
       "city": "Frankfurt",
       "website": "https://oper-frankfurt.de/de/spielplan/zaide/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1195,8.653"
+    },
+    {
+      "title": "hr-Sinfonieorchester: Konzert im Großen Saal der Alten Oper",
+      "date": "2026-09-30",
+      "time": "20:00 - 22:30",
+      "description": "Das hr-Sinfonieorchester eröffnet die Saison der 'Konzertsaal'-Reihen in der Alten Oper Frankfurt mit Constantinos Carydis am Pult. Auf dem Programm steht sinfonische Spitzenliteratur des 20. Jahrhunderts – ein Abend, der die vielfältige Programmarbeit des hr-Orchesters im Jubiläumsjahr präsentiert.",
+      "cost_per_person": "€37–€98",
+      "location": "Alte Oper Frankfurt, Opernplatz 1, 60313 Frankfurt am Main",
+      "image_url": "",
+      "category": "Music & Opera",
+      "city": "Frankfurt",
+      "website": "https://www.hr-sinfonieorchester.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1087,8.6745"
+    },
+    {
+      "title": "Eintracht Frankfurt Frauen vs. VfL Wolfsburg (Frauen-Bundesliga)",
+      "date": "2026-10-01",
+      "time": "19:00 - 21:00",
+      "description": "Im Topspiel der Frauen-Bundesliga empfängt Eintracht Frankfurt den Vizemeister VfL Wolfsburg im Deutsche Bank Park. Die Adlerinnen messen sich hier vor großer Kulisse mit dem Titelkonkurrenten – ein energiegeladener Fußballabend in der Frankfurter Arena.",
+      "cost_per_person": "Tickets ab ca. €10",
+      "location": "Deutsche Bank Park, Mörfelder Landstraße 362, 60528 Frankfurt am Main",
+      "image_url": "",
+      "category": "Sports",
+      "city": "Frankfurt",
+      "website": "https://frauen.eintracht.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.0686,8.6455"
     },
     {
       "title": "Schirn: Anna Hulačová – Erste Einzelausstellung in Deutschland",
@@ -710,6 +905,32 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1072,8.6728"
     },
     {
+      "title": "Deutscher Buchpreis 2026 – Preisverleihung & Würdigung",
+      "date": "2026-10-05",
+      "time": "18:00 - 20:30",
+      "description": "Im feierlichen Rahmen werden die sechs Shortlist-Nominierten des Deutschen Buchpreises 2026 gewürdigt und der oder die Preisträgerin des wichtigsten deutschen Literaturpreises bekannt gegeben. Die zentrale Verleihung findet traditionell am Vorabend der Frankfurter Buchmesse im Kaisersaal des Römers statt.",
+      "cost_per_person": "Einladung / ca. €15",
+      "location": "Kaisersaal im Römer, Römerberg 27, 60311 Frankfurt am Main",
+      "image_url": "",
+      "category": "Literature & Arts",
+      "city": "Frankfurt",
+      "website": "https://www.deutscher-buchpreis.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1105,8.6818"
+    },
+    {
+      "title": "DAME – Tour 2026 in der Batschkapp",
+      "date": "2026-10-07",
+      "time": "20:00 - 23:00",
+      "description": "Der Rapper DAME (bekannt aus dem Duo Zugezogen Maskulin) bringt im Oktober 2026 wieder seine Truppe für zwölf Termine nach Deutschland. In der Frankfurter Batschkapp performt er sein Programm mit scharfem Wortwitz zwischen Feuilleton-Provokation und politischem Pop.",
+      "cost_per_person": "ab ca. €35",
+      "location": "Batschkapp, Gwinnerstraße 5, 60388 Frankfurt am Main",
+      "image_url": "",
+      "category": "Music & Opera",
+      "city": "Frankfurt",
+      "website": "https://www.batschkapp.net/events/dame-frankfurt-batschkapp-2026-10-07-200000",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1286,8.745"
+    },
+    {
       "title": "Frankfurter Buchmesse 2026 – Gastland Tschechien",
       "date": "2026-10-07",
       "time": "09:00 - 18:00",
@@ -723,19 +944,6 @@
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1087,8.6525"
     },
     {
-      "title": "Top Gun: Maverick – in Concert (Alte Oper)",
-      "date": "2026-10-09",
-      "time": "20:00 - 22:30",
-      "description": "Der Kino-Blockbuster 'Top Gun: Maverick' wird im Großen Saal der Alten Oper live vom Orchester begleitet. Hans Zimmers ikonischer Soundtrack erklingt in Filmbegleitung – ein audiovisuelles Erlebnis für Film- und Musikfans auf der großen Leinwand im Konzertsaal.",
-      "cost_per_person": "€40–€95",
-      "location": "Alte Oper Frankfurt, Opernplatz 1, 60313 Frankfurt am Main",
-      "image_url": "",
-      "category": "Film & Cinema",
-      "city": "Frankfurt",
-      "website": "https://www.alteoper.de/",
-      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1087,8.6745"
-    },
-    {
       "title": "6. Frankfurt Burlesque Festival",
       "date": "2026-10-09",
       "time": "20:00 - 23:00",
@@ -747,6 +955,32 @@
       "city": "Frankfurt",
       "website": "https://frankfurt-burlesque-festival.de/",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1129,8.5983"
+    },
+    {
+      "title": "Hotlist-Preisverleihung 2026 im Literaturhaus Frankfurt",
+      "date": "2026-10-09",
+      "time": "19:00 - 21:00",
+      "description": "Während der Frankfurter Buchmesse verleiht das Kuratorennetzwerk Hotlist den Preis für die besten Bücher unabhängiger Verlage im Literaturhaus Frankfurt. Dreißig Titel gegen die Gleichförmigkeit des Buchmarkts werden geehrt – mit Lesungen und Gesprächen mit den Verlagsmacherinnen und -machern.",
+      "cost_per_person": "ca. €8",
+      "location": "Literaturhaus Frankfurt, Börsenplatz 1, 60313 Frankfurt am Main",
+      "image_url": "",
+      "category": "Literature & Arts",
+      "city": "Frankfurt",
+      "website": "https://www.literaturhaus-frankfurt.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1155,8.6787"
+    },
+    {
+      "title": "Top Gun: Maverick – in Concert (Alte Oper)",
+      "date": "2026-10-09",
+      "time": "20:00 - 22:30",
+      "description": "Der Kino-Blockbuster 'Top Gun: Maverick' wird im Großen Saal der Alten Oper live vom Orchester begleitet. Hans Zimmers ikonischer Soundtrack erklingt in Filmbegleitung – ein audiovisuelles Erlebnis für Film- und Musikfans auf der großen Leinwand im Konzertsaal.",
+      "cost_per_person": "€40–€95",
+      "location": "Alte Oper Frankfurt, Opernplatz 1, 60313 Frankfurt am Main",
+      "image_url": "",
+      "category": "Film & Cinema",
+      "city": "Frankfurt",
+      "website": "https://www.alteoper.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1087,8.6745"
     },
     {
       "title": "Flohmarkt am Schaumainkai (Kunst- & Antiquitätentrödel)",
@@ -799,6 +1033,19 @@
       "city": "Frankfurt",
       "website": "https://veranstaltungen.meinestadt.de/frankfurt-am-main/event-detail/42364962",
       "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.102,8.684"
+    },
+    {
+      "title": "Marché de Nuit – der Frankfurter Nachtmarkt",
+      "date": "2026-10-24",
+      "time": "18:00 - 00:00",
+      "description": "Der Marché de Nuit (Nachtmarkt) im historischen Zoogesellschaftshaus verwandelt die Location in einen stimmungsvollen Markt mit Handmade-Kunst, Design, Mode, Schmuck und Vintage auf über 1.000 m². Ein DJ liefert den Soundtrack beim abendlichen Stöbern und Genießen – die nächste Ausgabe ist für den 24. Oktober 2026 angesetzt, bevor im November die Winterausgabe folgt.",
+      "cost_per_person": "Free entry",
+      "location": "Zoogesellschaftshaus, Bernhard-Grzimek-Allee 1, 60316 Frankfurt am Main",
+      "image_url": "",
+      "category": "Markets & Shopping",
+      "city": "Frankfurt",
+      "website": "https://www.nachtmarkt-frankfurt.de/",
+      "google_maps_link": "https://www.google.com/maps/search/?api=1&query=50.1155,8.693"
     },
     {
       "title": "Mainova Frankfurt Marathon",
