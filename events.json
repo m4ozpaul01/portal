@@ -1,163 +1,19 @@
 {
-  "last_updated": "2026-08-09",
-  "research_date": "2026-08-09",
+  "last_updated": "2026-08-16",
+  "research_date": "2026-08-16",
   "events": [
     {
-      "date": "2026-08-09",
-      "type": "Mars",
-      "description": "<figure id=\"attachment_552848\" aria-describedby=\"caption-attachment-552848\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img fetchpriority=\"high\" decoding=\"async\" src=\"https://earthsky.org/upl/2",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "Mars",
-      "description": "<h2>August 10 and 11 mornings: Moon near twin stars and Mars</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "Meteor",
-      "description": "<figure id=\"attachment_552847\" aria-describedby=\"caption-attachment-552847\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img decoding=\"async\" src=\"https://earthsky.org/upl/2026/07/2026-Aug-10-11",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "Eclipse",
-      "description": "<h2>Solar eclipse coming! Watch a video</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "Mercury",
-      "description": "<figure id=\"attachment_552854\" aria-describedby=\"caption-attachment-552854\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/07",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-10",
-      "type": "Moon",
-      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/Fnc7YZ2xVnREAsHHvkXB6k.jpg\" alt=\"A starchart for Aug. 10 showing the crescent moon shining among the stars of the constell",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-08-11",
-      "type": "Moon",
-      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/Fnc7YZ2xVnREAsHHvkXB6k.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-08-12",
-      "type": "Eclipse",
-      "description": "<h6 class=\"post-heading-small\">Total solar eclipse to dazzle observers on August 12</h6>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-12",
-      "type": "Meteor",
-      "description": "Want to get the best view of the Perseid meteors? In 2026, the best time to watch the <a href=\"https://earthsky.org/astronomy-essentials/everything-you-need-to-know-perseid-meteor-shower/\" rel=\"noopen",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-12",
-      "type": "Mars",
-      "description": "<h2>Mornings this weekend: Moon, bright stars, Mars</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-12",
-      "type": "Jupiter",
-      "description": "<figure id=\"attachment_552858\" aria-describedby=\"caption-attachment-552858\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/07",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-12",
-      "type": "Saturn",
-      "description": "<figure id=\"attachment_402387\" aria-describedby=\"caption-attachment-402387\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2022/08",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-12",
-      "type": "Planet",
-      "description": "<h2>Sky dome map for visible planets and night sky</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-13",
-      "type": "Meteor",
-      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/EydtwcJZVQiLzE7CMFoGbj.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-08-14",
+      "date": "2026-08-16",
       "type": "Venus",
-      "description": "<h2>August 14-15: Moon visits Venus as it reaches farthest from the sun</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-14",
-      "type": "Planet",
-      "description": "<h2>August morning planets</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-14",
-      "type": "Mars",
-      "description": "<figure id=\"attachment_552866\" aria-describedby=\"caption-attachment-552866\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/07",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2026-08-14",
-      "type": "Meteor",
-      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:132,cw:3655,ch:2056,q:80/h6sU2oXNybuF7JixPnSaUk.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-08-15",
-      "type": "Jupiter",
-      "description": "<h2>August 15 morning: Close conjunction of Jupiter and Mercury</h2>",
+      "description": "<h2>August 16 and 17 evenings: Moon near Venus and Spica</h2>",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
     },
     {
       "date": "2026-08-16",
-      "type": "Venus",
-      "description": "<h2>August 16 and 17 evenings: Moon near Venus and Spica</h2>",
+      "type": "Eclipse",
+      "description": "<h2>Total solar eclipse pics here</h2>",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
@@ -169,6 +25,14 @@
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "Moon",
+      "description": "Join EarthSky&#8217;s <a href=\"https://earthsky.org/author/marcy/\" rel=\"noopener\" target=\"_blank\">Marcy Curran</a> for your skywatching best bets for the week of August 17. The rich, summer Milky Way ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
     },
     {
       "date": "2026-08-18",
@@ -228,8 +92,8 @@
     },
     {
       "date": "2026-08-20",
-      "type": "Meteor",
-      "description": "<p>Bottom line: EarthSky&#8217;s visible planets and night sky guide. The Perseid meteors are peaking this week! Watch a video with meteor-spotting tips. In the meantime, look for the crescent moon ne",
+      "type": "Venus",
+      "description": "<p>Bottom line: Look for Venus shining brightly in the west next to the waxing crescent moon. Today marks Venus&#8217; greatest elongation, or distance from the sunset.</p>",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
@@ -284,16 +148,16 @@
     },
     {
       "date": "2026-08-20",
-      "type": "Venus",
-      "description": "<a href=\"https://www.space.com/astronomy/solar-system/venus\" class=\"meganav-item__link\" data-nav-link=\"\" arial-label=\"Venus\" data-before-rewrite-localise=\"/astronomy/solar-system/venus\">",
+      "type": "Eclipse",
+      "description": "<a href=\"https://www.space.com/stargazing/eclipses\" class=\"meganav-item__title-link\" tabindex=\"0\" data-nav-title-link=\"\" arial-label=\"Eclipses\" style=\"--nav-item-font-weight: 600; --nav-item-font-size",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
     },
     {
       "date": "2026-08-20",
-      "type": "Eclipse",
-      "description": "<a href=\"https://www.space.com/stargazing/eclipses\" class=\"meganav-item__title-link\" tabindex=\"0\" data-nav-title-link=\"\" arial-label=\"Eclipses\" style=\"--nav-item-font-weight: 600; --nav-item-font-size",
+      "type": "Meteor",
+      "description": "<a href=\"#section-thursday-august-13-the-perseid-meteor-shower-peak-predawn\" id=\"nav-thursday-august-13-the-perseid-meteor-shower-peak-predawn\" class=\"content-around text-neutral-800 font-normal font-",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
@@ -349,7 +213,23 @@
     {
       "date": "2026-08-27",
       "type": "Eclipse",
-      "description": "<h2>Deep partial eclipse overnight on August 27-28</h2>",
+      "description": "<h6 class=\"post-heading-small\">Deep partial lunar eclipse on August 27-28, 2026</h6>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "Flare",
+      "description": "<!-- [if lte IE 9]><script src=\"https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js\"></script><![endif] -->",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "Saturn",
+      "description": "var embedVars = {\"disqusConfig\":{\"integration\":\"wordpress 3.1.3 6.9.7\"},\"disqusIdentifier\":\"85647 https://earthsky.org/?p=85647\",\"disqusShortname\":\"earthskyscience\",\"disqusTitle\":\"Visible planets and ",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
@@ -357,10 +237,10 @@
     {
       "date": "2026-08-27",
       "type": "Moon",
-      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:76,cw:3655,ch:2056,q:80/SiG3TtnuGTCEsSVX72djwj.jpg\" alt=\"A simulation of the moon is shown with half its surface darkened by Earth&amp;#039;s colos",
+      "description": "<script type=\"application/json\" id=\"udesly-fe-config\" data-page=\"detail_posts\" >{\"text_366ae858\":\" Sign Up for Our Amazing Newsletter!\",\"text_65545b37\":\"A daily update by email. Science news, great ph",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
     },
     {
       "date": "2026-08-28",
@@ -460,48 +340,256 @@
     },
     {
       "date": "2026-08-31",
-      "type": "Mars",
-      "description": "<a href=\"https://www.space.com/stargazing/dont-miss-the-crescent-moon-shine-close-to-the-red-light-of-mars-before-dawn-aug-9-2026\" data-recirculation-id=\"recirculation-card-1\" data-analytics-id=\"recir",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2026-08-31",
       "type": "Sun",
-      "description": "<script class=\"paywall-preact-lib\" type=\"text/javascript\">if(FUTR.Kiosq.hasBarrier){document.body.classList.add(\"hasBarrier\")};(()=>{\"use strict\";var e,n={2952(e,n,t){t.d(n,{A:()=>l});var a=t(690),i=t",
+      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/yMFDES3rrquMBkHbo6wreU.png\" alt=\"The silhouette of the ISS transiting across the sun&amp;#039;s face. \" srcset=\"https://cdn.mos.cms.futurecdn.net/yMFDES3rrq",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
     },
     {
-      "date": "2027-02-24",
-      "type": "Eclipse",
-      "description": "<a href=\"https://earthsky.org/astronomy-essentials/definition-what-is-an-eclipse-season/\" class=\"thumbnail-small post w-inline-block\">",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-02-24",
-      "type": "Flare",
-      "description": "<!-- [if lte IE 9]><script src=\"https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js\"></script><![endif] -->",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-02-24",
-      "type": "Saturn",
-      "description": "var embedVars = {\"disqusConfig\":{\"integration\":\"wordpress 3.1.3 6.9.6\"},\"disqusIdentifier\":\"85647 https://earthsky.org/?p=85647\",\"disqusShortname\":\"earthskyscience\",\"disqusTitle\":\"Visible planets and ",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-02-24",
+      "date": "2026-09-11",
       "type": "Moon",
-      "description": "<script type=\"application/json\" id=\"udesly-fe-config\" data-page=\"detail_posts\" >{\"text_366ae858\":\" Sign Up for Our Amazing Newsletter!\",\"text_65545b37\":\"A daily update by email. Science news, great ph",
+      "description": "<p><span class=\"date-text\">September 11</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "Sun",
+      "description": "<p><span class=\"date-text\">September 23</span> - <span class=\"title-text\">September Equinox.</span> The September equinox occurs at 00:06 UTC. The Sun will shine directly on the equator and there will",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-09-25",
+      "type": "Sun",
+      "description": "<p><span class=\"date-text\">September 25</span> - <span class=\"title-text\">Neptune at Opposition.</span> The blue giant planet will be at its closest approach to Earth and its face will be fully illumi",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-09-26",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">September 26</span> - <span class=\"title-text\">Full Moon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully ill",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "Saturn",
+      "description": "<p><span class=\"date-text\">October 4</span> - <span class=\"title-text\">Saturn at Opposition.</span> The ringed planet will be at its closest approach to Earth and its face will be fully illuminated by",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">October 7</span> - <span class=\"title-text\">Draconids Meteor Shower.</span> The Draconids is a minor meteor shower producing only about 10 meteors per hour. It is produced b",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-10-10",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">October 10</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This p",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "Mercury",
+      "description": "<p><span class=\"date-text\">October 12</span> - <span class=\"title-text\">Mercury at Greatest Eastern Elongation.</span> The planet Mercury reaches greatest eastern elongation of 19.6 degrees from the S",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">October 21, 22</span> - <span class=\"title-text\">Orionids Meteor Shower. </span>The Orionids is an average shower producing up to 20 meteors per hour at its peak. It is prod",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">October 26</span> - <span class=\"title-text\">Full Moon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illum",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">November 4, 5</span> - <span class=\"title-text\">Taurids Meteor Shower.</span> The Taurids is a long-running minor meteor shower producing only about 5-10 meteors per hour. I",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">November 9</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This p",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">November 17, 18</span> - <span class=\"title-text\">Leonids Meteor Shower.</span> The Leonids is an average shower, producing up to 15 meteors per hour at its peak. This showe",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-11-20",
+      "type": "Mercury",
+      "description": "<p><span class=\"date-text\">November 20</span> - <span class=\"title-text\">Mercury at Greatest Western Elongation.</span> The planet Mercury reaches greatest western elongation of 19.6 degrees from the ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">November 24</span> - <span class=\"title-text\">Full Moon, Supermoon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "Sun",
+      "description": "<p><span class=\"date-text\">November 25</span> - <span class=\"title-text\">Uranus at Opposition.</span> The blue-green planet will be at its closest approach to Earth and its face will be fully illumina",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-12-09",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">December 9</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This p",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-12-13",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">December 13, 14</span> - <span class=\"title-text\">Geminids Meteor Shower.</span> The Geminids is the  king of the meteor showers. It is considered by many to be the best sho",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-12-21",
+      "type": "Sun",
+      "description": "<p><span class=\"date-text\">December 21</span> - <span class=\"title-text\">December Solstice.</span> The December solstice occurs at 20:49 UTC. The South Pole of the earth will be tilted toward the Sun,",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-12-21",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">December 21, 22</span> - <span class=\"title-text\">Ursids Meteor Shower.</span> The Ursids is a minor meteor shower producing about 5-10 meteors per hour. It is produced by d",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-12-23",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">December 23</span> - <span class=\"title-text\">Full Moon, Supermoon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2026-12-23",
+      "type": "Flare",
+      "description": "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.1/cookieconsent.min.css\" />",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-01-03",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">January 3</span> - <span class=\"title-text\">Full Moon, Supermoon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be f",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-01-03",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">January 3, 4</span> - <span class=\"title-text\">Quadrantids Meteor Shower.</span> The Quadrantids is an above average shower, with up to 40 meteors per hour at its peak. It i",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-01-10",
+      "type": "Jupiter",
+      "description": "<p><span class=\"date-text\">January 10</span> - <span class=\"title-text\">Jupiter at Opposition.</span> The giant planet will be at its closest approach to Earth and its face will be fully illuminated b",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-01-18",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">January 18</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This p",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-02-01",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">February 1</span> - <span class=\"title-text\">Full Moon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illum",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-02-17",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">February 17 </span>- <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-02-17",
+      "type": "Eclipse",
+      "description": "<p><span class=\"date-text\">February 17 </span>- <span class=\"title-text\">Annular Solar Eclipse.</span> An annular solar eclipse occurs when the Moon is too far away from the Earth to completely cover ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-02-19",
+      "type": "Mercury",
+      "description": "<p><span class=\"date-text\">February 19</span> - <span class=\"title-text\">Mercury at Greatest Eastern Elongation.</span> The planet Mercury reaches greatest eastern elongation of 18.1 degrees from the ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-03-01",
+      "type": "Eclipse",
+      "description": "<a href=\"https://earthsky.org/astronomy-essentials/partial-lunar-eclipse-of-the-august-27-28-2026/\" class=\"thumbnail-small post w-inline-block\">",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
@@ -513,6 +601,94 @@
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-03-03",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">March 3</span> - <span class=\"title-text\">Full Moon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illumina",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-03-03",
+      "type": "Eclipse",
+      "description": "<p><span class=\"date-text\">March 3</span> - <span class=\"title-text\">Total Lunar Eclipse.</span> A total lunar eclipse occurs when the Moon passes completely through the Earth's dark shadow, or umbra.",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-03-19",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">March 19</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This pha",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-03-20",
+      "type": "Sun",
+      "description": "<p><span class=\"date-text\">March 20</span> - <span class=\"title-text\">March Equinox.</span> The March equinox occurs at 14:45 UTC. The Sun will shine directly on the equator and there will be nearly e",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-04-02",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">April 2</span> - <span class=\"title-text\">Full Moon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illumina",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-04-03",
+      "type": "Mercury",
+      "description": "<p><span class=\"date-text\">April 3</span> - <span class=\"title-text\">Mercury at Greatest Western Elongation.</span> The planet Mercury reaches greatest western elongation of 27.8 degrees from the Sun.",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-04-17",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">April 17</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This pha",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-04-22",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">April 22, 23</span> - <span class=\"title-text\">Lyrids Meteor Shower. </span>The Lyrids is an average shower, usually producing about 20 meteors per hour at its peak. It is p",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-05-01",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">May 1</span> - <span class=\"title-text\">Full Moon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illuminate",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-05-06",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">May 6, 7</span> - <span class=\"title-text\">Eta Aquarids Meteor Shower.</span> The Eta Aquarids is an above average shower, capable of producing up to 60 meteors per hour at ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-05-16",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">May 16</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This phase",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
     },
     {
       "date": "2027-05-20",
@@ -533,23 +709,7 @@
     {
       "date": "2027-05-20",
       "type": "Moon",
-      "description": "<meta property=\"og:image\" content=\"https://earthsky.org/upl/2026/07/2026-Aug-8-9-Moon-B.jpeg\" />",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-05-20",
-      "type": "Sun",
-      "description": "<a href=\"https://earthsky.org/sun/\" class=\"nav-link-mobile w-nav-link\" data-udy-fe=\"text_4c600e6\">Sun</a>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-05-20",
-      "type": "Eclipse",
-      "description": "<a href=\"https://earthsky.org/astronomy-essentials/definition-what-is-an-eclipse-season/\" class=\"thumbnail-small w-inline-block\">",
+      "description": "<meta property=\"og:image\" content=\"https://earthsky.org/upl/2026/07/2026-Aug-14-15-Moon-C.jpeg\" />",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
@@ -563,12 +723,76 @@
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
     },
     {
+      "date": "2027-05-31",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">May 31</span> - <span class=\"title-text\">Full Moon, Blue Moon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be full",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-06-15",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">June 15</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This phas",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-06-15",
+      "type": "Mercury",
+      "description": "<p><span class=\"date-text\">June 15</span> - <span class=\"title-text\">Mercury at Greatest Eastern Elongation.</span> The planet Mercury reaches greatest eastern elongation of 24.5 degrees from the Sun.",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-06-21",
+      "type": "Sun",
+      "description": "<p><span class=\"date-text\">June 21</span> - <span class=\"title-text\">June Solstice.</span> The June solstice occurs at 08:25 UTC. The North Pole of the earth will be tilted toward the Sun, which will ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-06-29",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">June 29</span> - <span class=\"title-text\">Full Moon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illumina",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
       "date": "2027-07-03",
       "type": "Eclipse",
       "description": "<a href=\"https://earthsky.org/astronomy-essentials/total-lunar-eclipse-march-2-3-2026/\" class=\"post-mini-thumbnail w-inline-block\">",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-07-14",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">July 14</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This phas",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-07-28",
+      "type": "Meteor",
+      "description": "<p><span class=\"date-text\">July 28, 29</span> - <span class=\"title-text\">Delta Aquarids Meteor Shower.</span> The Delta Aquarids is an average shower that can produce up to 20 meteors per hour at its ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-07-29",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">July 29</span> - <span class=\"title-text\">Full Moon.</span> The Moon will be located on the opposite side of the Earth as the Sun and its face will be will be fully illumina",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
     },
     {
       "date": "2027-08-01",
@@ -627,6 +851,22 @@
       "source": "https://www.space.com/16149-night-sky.html"
     },
     {
+      "date": "2027-08-02",
+      "type": "Eclipse",
+      "description": "<a href=\"https://www.space.com/stargazing/solar-eclipses/why-you-dont-need-a-perfectly-clear-sky-to-enjoy-the-total-solar-eclipse-on-aug-12\" class=\"flex gap-2 items-center no-underline text-inherit fl",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-08-02",
+      "type": "Mercury",
+      "description": "<p><span class=\"date-text\">August 2</span> - <span class=\"title-text\">Mercury at Greatest Western Elongation.</span> The planet Mercury reaches greatest western elongation of 19.5 degrees from the Sun",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
       "date": "2027-08-03",
       "type": "Comet",
       "description": "</aside><p>The bright waning gibbous moon will constitute a challenge tonight. It will wash out the faint, diffuse light of <a data-analytics-id=\"inline-link\" href=\"https://www.space.com/comets.html\" ",
@@ -652,30 +892,6 @@
     },
     {
       "date": "2027-08-05",
-      "type": "Sun",
-      "description": "<a href=\"https://earthsky.org/sun/\" class=\"nav-link w-nav-link\" data-udy-fe=\"text_3fa282a\">Sun</a>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-08-05",
-      "type": "Saturn",
-      "description": "<a href=\"https://twitter.com/intent/tweet?url=https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/&text=Visible planets and night sky guide for August\" ",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-08-05",
-      "type": "Planet",
-      "description": "<a href=\"https://earthsky.org/astronomy-essentials/\" class=\"badge\">Astronomy Essentials</a><a href=\"https://earthsky.org/tonight/\" class=\"badge\">Tonight</a>                  <h1 class=\"post-heading\">V",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-08-05",
       "type": "Mars",
       "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:81,cw:3655,ch:2056,q:80/99BvwsMKuhxpSAVJjy8Tvj.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos",
       "how_to_observe": "Check local sky conditions for best viewing.",
@@ -684,27 +900,11 @@
     },
     {
       "date": "2027-08-06",
-      "type": "Sun",
-      "description": "<a href=\"https://earthsky.org/brightest-stars/61-cygni-suns-near-neighbor/\" class=\"thumbnail-small w-inline-block\">",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-08-06",
       "type": "Planet",
       "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/bJZimTLv8FgFmPqDvCbnPj.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
-    },
-    {
-      "date": "2027-08-07",
-      "type": "Eclipse",
-      "description": "<a href=\"https://earthsky.org/astronomy-essentials/total-solar-eclipse-visible-august-12-2026/\" class=\"thumbnail-small w-inline-block\">",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
     },
     {
       "date": "2027-08-07",
@@ -724,46 +924,6 @@
     },
     {
       "date": "2027-08-08",
-      "type": "Meteor",
-      "description": "<div class=\"post-rich-text w-richtext\"><h2>Perseid meteor shower peaking soon!</h2>",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-08-08",
-      "type": "Comet",
-      "description": "<div class=\"team-member-bio post-page\">Meet Marcy Curran, our voice of the night sky on EarthSky YouTube. Check out her popular short videos in the Sky category on our YouTube channel. When she's not ",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-08-08",
-      "type": "Moon",
-      "description": "<div class=\"team-member-bio post-page\">\u201cI can sometimes see the moon in the daytime\u201d was a cosmic revelation that John Jardine Goss first discovered through personal observations at age 6. It shook hi",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-08-08",
-      "type": "Asteroid",
-      "description": "<div class=\"team-member-bio post-page\">Deborah Byrd (asteroid 3505 Byrd) helps edit EarthSky.org and is a frequent host of EarthSky videos. Deborah created the EarthSky radio series in 1991 and founde",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-08-08",
-      "type": "Eclipse",
-      "description": "<a href=\"https://earthsky.org/astronomy-essentials/total-solar-eclipse-visible-august-12-2026/\" class=\"post-mini-thumbnail w-inline-block\">",
-      "how_to_observe": "Check local sky conditions for best viewing.",
-      "image_url": "",
-      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
-    },
-    {
-      "date": "2027-08-08",
       "type": "Mercury",
       "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/QwGujyPQWsHuYWyLyvh3Xj.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
       "how_to_observe": "Check local sky conditions for best viewing.",
@@ -774,6 +934,230 @@
       "date": "2027-08-08",
       "type": "Jupiter",
       "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/ruWGbfcufn8Z3VXEcv4nUj.jpg\" alt=\"A starchart for Aug. 8 showing Mercury in a black simulated night sky with Jupiter to its",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-08-09",
+      "type": "Mars",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/ruWGbfcufn8Z3VXEcv4nUj.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-08-10",
+      "type": "Mercury",
+      "description": "<figure id=\"attachment_552854\" aria-describedby=\"caption-attachment-552854\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/07",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-10",
+      "type": "Mars",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/dJgH6yPQv7xFC9J5ih7MNk.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-08-10",
+      "type": "Moon",
+      "description": "<img src=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/Fnc7YZ2xVnREAsHHvkXB6k.jpg\" alt=\"A starchart for Aug. 10 showing the crescent moon shining among the stars of the constell",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-08-11",
+      "type": "Moon",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/Fnc7YZ2xVnREAsHHvkXB6k.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-08-12",
+      "type": "Eclipse",
+      "description": "<h6 class=\"post-heading-small\">Total solar eclipse August 12: EarthSky livestream and more</h6>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-12",
+      "type": "Sun",
+      "description": "<a href=\"https://earthsky.org/sun/\" class=\"nav-link w-nav-link\" data-udy-fe=\"text_3fa282a\">Sun</a>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-12",
+      "type": "Saturn",
+      "description": "<a href=\"https://twitter.com/intent/tweet?url=https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/&text=Visible planets and night sky guide for August\" ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-12",
+      "type": "Planet",
+      "description": "<a href=\"https://earthsky.org/astronomy-essentials/\" class=\"badge\">Astronomy Essentials</a><a href=\"https://earthsky.org/tonight/\" class=\"badge\">Tonight</a>                  <h1 class=\"post-heading\">V",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-12",
+      "type": "Jupiter",
+      "description": "<figure id=\"attachment_552858\" aria-describedby=\"caption-attachment-552858\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/07",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-12",
+      "type": "Mars",
+      "description": "<figure id=\"attachment_552861\" aria-describedby=\"caption-attachment-552861\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/07",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-12",
+      "type": "Meteor",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:92,cw:3655,ch:2056,q:80/2EA4veU8MZNbqoziyKugUk.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mos",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-08-12",
+      "type": "Moon",
+      "description": "<p><span class=\"date-text\">August 12</span> - <span class=\"title-text\">New Moon.</span> The Moon will located on the same side of the Earth as the Sun and will not be visible in the night sky. This ph",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.seasky.org/astronomy/astronomy-calendar-current.html"
+    },
+    {
+      "date": "2027-08-13",
+      "type": "Meteor",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/EydtwcJZVQiLzE7CMFoGbj.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-08-14",
+      "type": "Saturn",
+      "description": "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"Article\",\"@id\":\"https:\\/\\/earthsky.org\\/astronomy-essentials\\/visible-planets-tonight-mars-jupiter-venus-saturn-mercury\\/#article\",\"name\":\"Visibl",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-14",
+      "type": "Sun",
+      "description": "<a href=\"https://earthsky.org/sun/\" class=\"nav-link-mobile w-nav-link\" data-udy-fe=\"text_4c600e6\">Sun</a>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-14",
+      "type": "Moon",
+      "description": "<a href=\"https://earthsky.org/moon-phases/\" class=\"dropdown-sidebar-link\" data-udy-fe=\"text_-33be4ba9\">Moon Phases</a>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-14",
+      "type": "Eclipse",
+      "description": "<a href=\"https://earthsky.org/astronomy-essentials/partial-lunar-eclipse-of-the-august-27-28-2026/\" class=\"thumbnail-small w-inline-block\">",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-14",
+      "type": "Venus",
+      "description": "<figure id=\"attachment_552865\" aria-describedby=\"caption-attachment-552865\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/07",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-14",
+      "type": "Planet",
+      "description": "<h2>August morning planets</h2>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-14",
+      "type": "Mars",
+      "description": "<figure id=\"attachment_552866\" aria-describedby=\"caption-attachment-552866\" style=\"width: 800px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" src=\"https://earthsky.org/upl/2026/07",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-14",
+      "type": "Meteor",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:132,cw:3655,ch:2056,q:80/h6sU2oXNybuF7JixPnSaUk.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://www.space.com/16149-night-sky.html"
+    },
+    {
+      "date": "2027-08-15",
+      "type": "Venus",
+      "description": "<div class=\"post-rich-text w-richtext\"><h2>Venus pairs up with the moon</h2>",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-15",
+      "type": "Comet",
+      "description": "<div class=\"team-member-bio post-page\">Meet Marcy Curran, our voice of the night sky on EarthSky YouTube. Check out her popular short videos in the Sky category on our YouTube channel. When she's not ",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-15",
+      "type": "Moon",
+      "description": "<div class=\"team-member-bio post-page\">\u201cI can sometimes see the moon in the daytime\u201d was a cosmic revelation that John Jardine Goss first discovered through personal observations at age 6. It shook hi",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-15",
+      "type": "Asteroid",
+      "description": "<div class=\"team-member-bio post-page\">Deborah Byrd (asteroid 3505 Byrd) helps edit EarthSky.org and is a frequent host of EarthSky videos. Deborah created the EarthSky radio series in 1991 and founde",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-15",
+      "type": "Eclipse",
+      "description": "<a href=\"https://earthsky.org/astronomy-essentials/partial-lunar-eclipse-of-the-august-27-28-2026/\" class=\"post-mini-thumbnail w-inline-block\">",
+      "how_to_observe": "Check local sky conditions for best viewing.",
+      "image_url": "",
+      "source": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/"
+    },
+    {
+      "date": "2027-08-15",
+      "type": "Jupiter",
+      "description": "</picture><a href=\"https://cdn.mos.cms.futurecdn.net/v2/t:0,l:165,cw:3655,ch:2056,q:80/XNTjGJBByrYfyaPfRgfBhj.jpg\" target=\"_blank\" class=\"expand-button icon-expand-image icon\" data-url=\"https://cdn.mo",
       "how_to_observe": "Check local sky conditions for best viewing.",
       "image_url": "",
       "source": "https://www.space.com/16149-night-sky.html"
