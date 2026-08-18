@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-18",
   "suggestions": [
     {
-      "title": "The Big Lebowski",
-      "year": 1998,
-      "genre": "Comedy, Crime",
-      "description": "A laid-back Los Angeles slacker known as 'The Dude' gets caught up in a convoluted kidnapping plot. The Coen Brothers' cult classic turns mistaken identity and a stolen rug into cinema's most endlessly quotable shaggy-dog story. Jeff Bridges' sublime chilled-out performance anchors a surreal, hilarious, and surprisingly warm comedy about a man who just wants to bowl.",
-      "imdb_rating": 8.1,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/35/Biglebowskiposter.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=cd-go0oBF4Y",
-      "director": "Joel Coen, Ethan Coen"
+      "title": "Metropolis",
+      "year": 1927,
+      "genre": "Sci-Fi, Drama",
+      "description": "In a futuristic city sharply divided between the rich and the poor, the son of the city's mastermind meets a prophet who predicts the coming of a savior to mediate their differences. Fritz Lang's monumental German expressionist silent masterpiece is one of the most influential and visually stunning films ever made — the blueprint for virtually all dystopian sci-fi that followed, from Blade Runner to The Matrix.",
+      "imdb_rating": 8.3,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/97/Metropolis_(German_three-sheet_poster).jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7PFNr-1svDk",
+      "director": "Fritz Lang"
     },
     {
-      "title": "Downfall",
-      "year": 2004,
-      "genre": "Biography, Drama, War",
-      "description": "The final ten days of Adolf Hitler's life inside his Berlin bunker as the Third Reich crumbles. Bruno Ganz gives one of cinema's most haunting portrayals of Hitler in this claustrophobic historical drama, told largely through the eyes of his secretary Traudl Junge. A gripping, morally complex examination of the final collapse of Nazi Germany.",
-      "imdb_rating": 8.2,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Der_Untergang_Downfall_poster.png",
-      "trailer_url": "https://www.youtube.com/watch?v=htvYfe6wz_8",
-      "director": "Oliver Hirschbiegel"
-    },
-    {
-      "title": "La La Land",
-      "year": 2016,
-      "genre": "Comedy, Drama, Musical",
-      "description": "A jazz pianist and an aspiring actress fall in love while chasing their dreams in modern-day Los Angeles. Damien Chazelle's dazzling, Oscar-winning musical gave Hollywood back its sense of wonder — a swooning, bittersweet love letter to Los Angeles, jazz, and the people who dare to dream. Emma Stone and Ryan Gosling have never been more magnetic together.",
+      "title": "The Princess Bride",
+      "year": 1987,
+      "genre": "Adventure, Comedy, Fantasy",
+      "description": "A young man sets out to rescue his true love from an evil prince in this fairy tale adventure. Rob Reiner's endlessly quotable, genre-sending fairy tale is pure cinematic joy — swordsmanship, true love, giants, and 'inconceivable' wordplay. A warm, funny adventure that's as beloved by adults as it is by the kids who grew up on it.",
       "imdb_rating": 8.0,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_%28film%29.png",
-      "trailer_url": "https://www.youtube.com/watch?v=0pdqf4P9MB8",
-      "director": "Damien Chazelle"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/db/Princess_bride.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=WNNUcHRiPS8",
+      "director": "Rob Reiner"
+    },
+    {
+      "title": "Gone Girl",
+      "year": 2014,
+      "genre": "Crime, Drama, Mystery",
+      "description": "A husband becomes the prime suspect in his wife's disappearance as media frenzy exposes their troubled marriage. David Fincher's razor-sharp psychological thriller, based on Gillian Flynn's bestselling novel, is a searing dissection of modern marriage and media manipulation with one of the most jaw-dropping twists in recent cinema. Rosamund Pike is unforgettable.",
+      "imdb_rating": 8.1,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/05/Gone_Girl_Poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=mTm7CrLYTrU",
+      "director": "David Fincher"
     }
   ],
   "history": [],
@@ -87,6 +87,9 @@
     "Blade Runner 2049",
     "The Big Lebowski",
     "Downfall",
-    "La La Land"
+    "La La Land",
+    "Metropolis",
+    "The Princess Bride",
+    "Gone Girl"
   ]
 }
