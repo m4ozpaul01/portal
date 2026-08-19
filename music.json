@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-19",
   "todays_pick": {
-    "title": "Strobe",
-    "artist": "deadmau5",
-    "genre": "Progressive House, Electronic",
-    "album": "For Lack of a Better Name",
-    "year": 2009,
+    "title": "Saltwater",
+    "artist": "Chicane",
+    "genre": "Trance, Electronic",
+    "album": "Behind the Sun",
+    "year": 2000,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-18",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-08-19",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -252,6 +252,7 @@
     "Halcyon + On + On",
     "Love on a Real Train",
     "On the Beach",
-    "Strobe"
+    "Strobe",
+    "Saltwater"
   ]
 }
