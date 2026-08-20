@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-20",
   "suggestions": [
     {
-      "title": "Metropolis",
-      "year": 1927,
-      "genre": "Sci-Fi, Drama",
-      "description": "In a futuristic city sharply divided between the rich and the poor, the son of the city's mastermind meets a prophet who predicts the coming of a savior to mediate their differences. Fritz Lang's monumental German expressionist silent masterpiece is one of the most influential and visually stunning films ever made — the blueprint for virtually all dystopian sci-fi that followed, from Blade Runner to The Matrix.",
-      "imdb_rating": 8.3,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/97/Metropolis_(German_three-sheet_poster).jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=7PFNr-1svDk",
-      "director": "Fritz Lang"
-    },
-    {
-      "title": "The Princess Bride",
-      "year": 1987,
-      "genre": "Adventure, Comedy, Fantasy",
-      "description": "A young man sets out to rescue his true love from an evil prince in this fairy tale adventure. Rob Reiner's endlessly quotable, genre-sending fairy tale is pure cinematic joy — swordsmanship, true love, giants, and 'inconceivable' wordplay. A warm, funny adventure that's as beloved by adults as it is by the kids who grew up on it.",
-      "imdb_rating": 8.0,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/db/Princess_bride.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=WNNUcHRiPS8",
-      "director": "Rob Reiner"
-    },
-    {
-      "title": "Gone Girl",
-      "year": 2014,
+      "title": "Prisoners",
+      "year": 2013,
       "genre": "Crime, Drama, Mystery",
-      "description": "A husband becomes the prime suspect in his wife's disappearance as media frenzy exposes their troubled marriage. David Fincher's razor-sharp psychological thriller, based on Gillian Flynn's bestselling novel, is a searing dissection of modern marriage and media manipulation with one of the most jaw-dropping twists in recent cinema. Rosamund Pike is unforgettable.",
+      "description": "When his daughter and her friend go missing, a desperate father takes matters into his own hands against the prime suspect. Denis Villeneuve's taut, rain-soaked thriller is a masterclass in dread and moral ambiguity — anchored by powerhouse performances from Hugh Jackman and Jake Gyllenhaal, with a twisting, deeply unsettling mystery that never lets up.",
       "imdb_rating": 8.1,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/05/Gone_Girl_Poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=mTm7CrLYTrU",
-      "director": "David Fincher"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/63/Prisoners2013Poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=bpXfcTF6iVk",
+      "director": "Denis Villeneuve"
+    },
+    {
+      "title": "Before Sunrise",
+      "year": 1995,
+      "genre": "Drama, Romance",
+      "description": "A young American and a French student meet on a train and spend one magical night walking and talking through Vienna. Richard Linklater's intimate, dialogue-driven romance captures the electric thrill of a chance connection — two strangers, one unforgettable evening, and the melancholy beauty of knowing it may never happen again. Ethan Hawke and Julie Delpy are luminous.",
+      "imdb_rating": 8.1,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Before_Sunrise_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=6MUcuqbGTxc",
+      "director": "Richard Linklater"
+    },
+    {
+      "title": "Free Solo",
+      "year": 2018,
+      "genre": "Documentary, Adventure",
+      "description": "Rock climber Alex Honnold attempts the first free solo climb of El Capitan's 3000-foot vertical rock face — with no ropes and no room for error. This Oscar-winning documentary is breathtaking and deeply human, a portrait of obsession, fear, and impossible achievement that will have your palms sweating from the very first frame.",
+      "imdb_rating": 8.1,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Free_Solo.png",
+      "trailer_url": "https://www.youtube.com/watch?v=urRVZ4SW7WU",
+      "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi"
     }
   ],
   "history": [],
@@ -90,6 +90,9 @@
     "La La Land",
     "Metropolis",
     "The Princess Bride",
-    "Gone Girl"
+    "Gone Girl",
+    "Prisoners",
+    "Before Sunrise",
+    "Free Solo"
   ]
 }
