@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-21",
   "todays_pick": {
-    "title": "Midnight City",
-    "artist": "M83",
-    "genre": "Synthwave, Electronic",
-    "album": "Hurry Up, We're Dreaming",
+    "title": "Levels",
+    "artist": "Avicii",
+    "genre": "Progressive House, Electronic",
+    "album": "True",
     "year": 2011,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-20",
-    "why": "A Synthwave / Electronic track to start your day!"
+    "picked_date": "2026-08-21",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -254,6 +254,7 @@
     "On the Beach",
     "Strobe",
     "Saltwater",
-    "Midnight City"
+    "Midnight City",
+    "Levels"
   ]
 }
