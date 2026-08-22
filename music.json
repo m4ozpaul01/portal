@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-08-22",
   "todays_pick": {
-    "title": "Levels",
-    "artist": "Avicii",
-    "genre": "Progressive House, Electronic",
-    "album": "True",
-    "year": 2011,
+    "title": "Café del Mar",
+    "artist": "Energy 52",
+    "genre": "Trance, Electronic",
+    "album": "Café del Mar",
+    "year": 1993,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-21",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-08-22",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -255,6 +255,7 @@
     "Strobe",
     "Saltwater",
     "Midnight City",
-    "Levels"
+    "Levels",
+    "Café del Mar"
   ]
 }
