@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-22",
   "suggestions": [
     {
-      "title": "Prisoners",
-      "year": 2013,
-      "genre": "Crime, Drama, Mystery",
-      "description": "When his daughter and her friend go missing, a desperate father takes matters into his own hands against the prime suspect. Denis Villeneuve's taut, rain-soaked thriller is a masterclass in dread and moral ambiguity — anchored by powerhouse performances from Hugh Jackman and Jake Gyllenhaal, with a twisting, deeply unsettling mystery that never lets up.",
+      "title": "The Sound of Music",
+      "year": 1965,
+      "genre": "Biography, Drama, Musical",
+      "description": "A spirited governess brings music and joy back to a widowed naval captain's family in pre-WWII Austria. Robert Wise's timeless musical masterpiece brims with beloved songs like \"My Favorite Things\" and \"Do-Re-Mi,\" and Julie Andrews is radiant as Maria. A heartwarming classic that has charmed generations — and the hills are definitely alive.",
       "imdb_rating": 8.1,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/63/Prisoners2013Poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=bpXfcTF6iVk",
-      "director": "Denis Villeneuve"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Sound_of_music.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=uc7KLUSXh00",
+      "director": "Robert Wise"
     },
     {
-      "title": "Before Sunrise",
-      "year": 1995,
-      "genre": "Drama, Romance",
-      "description": "A young American and a French student meet on a train and spend one magical night walking and talking through Vienna. Richard Linklater's intimate, dialogue-driven romance captures the electric thrill of a chance connection — two strangers, one unforgettable evening, and the melancholy beauty of knowing it may never happen again. Ethan Hawke and Julie Delpy are luminous.",
-      "imdb_rating": 8.1,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/da/Before_Sunrise_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=6MUcuqbGTxc",
-      "director": "Richard Linklater"
+      "title": "The Imitation Game",
+      "year": 2014,
+      "genre": "Biography, Drama, Thriller",
+      "description": "Mathematician Alan Turing leads a top-secret team to crack the German Enigma code during WWII — later facing persecution for his sexuality. Benedict Cumberbatch delivers a gripping, Oscar-nominated performance in this taut and emotionally powerful biopic about the father of modern computing, whose genius helped end a war and paid a tragic personal price.",
+      "imdb_rating": 8.0,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/87/The_Imitation_Game_%282014%29.png",
+      "trailer_url": "https://www.youtube.com/watch?v=XTkSOWMlMEk",
+      "director": "Morten Tyldum"
     },
     {
-      "title": "Free Solo",
-      "year": 2018,
-      "genre": "Documentary, Adventure",
-      "description": "Rock climber Alex Honnold attempts the first free solo climb of El Capitan's 3000-foot vertical rock face — with no ropes and no room for error. This Oscar-winning documentary is breathtaking and deeply human, a portrait of obsession, fear, and impossible achievement that will have your palms sweating from the very first frame.",
+      "title": "My Octopus Teacher",
+      "year": 2020,
+      "genre": "Documentary",
+      "description": "A filmmaker forges an extraordinary bond with a wild octopus living in a South African kelp forest. This Oscar-winning documentary is a breathtaking, deeply moving portrait of nature, curiosity, and connection — a reminder of the wonder hidden just beneath the ocean's surface, and the unexpected friendship that changed one man's life.",
       "imdb_rating": 8.1,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Free_Solo.png",
-      "trailer_url": "https://www.youtube.com/watch?v=urRVZ4SW7WU",
-      "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/06/My_Octopus_Teacher_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=3s0LTDhqe5A",
+      "director": "Pippa Ehrlich, James Reed"
     }
   ],
   "history": [],
@@ -93,6 +93,9 @@
     "Gone Girl",
     "Prisoners",
     "Before Sunrise",
-    "Free Solo"
+    "Free Solo",
+    "The Sound of Music",
+    "The Imitation Game",
+    "My Octopus Teacher"
   ]
 }
