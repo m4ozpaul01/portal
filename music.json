@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-23",
   "todays_pick": {
-    "title": "Café del Mar",
-    "artist": "Energy 52",
-    "genre": "Trance, Electronic",
-    "album": "Café del Mar",
-    "year": 1993,
+    "title": "Escape",
+    "artist": "deadmau5",
+    "genre": "Progressive House, Electronic",
+    "album": "For Lack of a Better Name",
+    "year": 2009,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-22",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-08-23",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -256,6 +256,7 @@
     "Saltwater",
     "Midnight City",
     "Levels",
-    "Café del Mar"
+    "Café del Mar",
+    "Escape"
   ]
 }
