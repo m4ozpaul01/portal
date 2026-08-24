@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-23",
+  "last_updated": "2026-08-24",
   "todays_pick": {
-    "title": "Escape",
-    "artist": "deadmau5",
-    "genre": "Progressive House, Electronic",
-    "album": "For Lack of a Better Name",
-    "year": 2009,
+    "title": "Shine On You Crazy Diamond (Parts I–V)",
+    "artist": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "album": "Wish You Were Here",
+    "year": 1975,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-23",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-08-24",
+    "why": "A Progressive Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -257,6 +257,7 @@
     "Midnight City",
     "Levels",
     "Café del Mar",
-    "Escape"
+    "Escape",
+    "Shine On You Crazy Diamond (Parts I–V)"
   ]
 }
