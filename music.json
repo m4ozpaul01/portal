@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-25",
   "todays_pick": {
-    "title": "Shine On You Crazy Diamond (Parts I–V)",
-    "artist": "Pink Floyd",
-    "genre": "Progressive Rock",
-    "album": "Wish You Were Here",
-    "year": 1975,
+    "title": "Orinoco Flow",
+    "artist": "Enya",
+    "genre": "New Age, Celtic",
+    "album": "Watermark",
+    "year": 1988,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-24",
-    "why": "A Progressive Rock track to start your day!"
+    "picked_date": "2026-08-25",
+    "why": "A New Age / Celtic track to start your day!"
   },
   "suggestions": [
     {
@@ -258,6 +258,7 @@
     "Levels",
     "Café del Mar",
     "Escape",
-    "Shine On You Crazy Diamond (Parts I–V)"
+    "Shine On You Crazy Diamond (Parts I–V)",
+    "Orinoco Flow"
   ]
 }
