@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-25",
   "suggestions": [
     {
-      "title": "The Sound of Music",
-      "year": 1965,
-      "genre": "Biography, Drama, Musical",
-      "description": "A spirited governess brings music and joy back to a widowed naval captain's family in pre-WWII Austria. Robert Wise's timeless musical masterpiece brims with beloved songs like \"My Favorite Things\" and \"Do-Re-Mi,\" and Julie Andrews is radiant as Maria. A heartwarming classic that has charmed generations — and the hills are definitely alive.",
-      "imdb_rating": 8.1,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Sound_of_music.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=uc7KLUSXh00",
-      "director": "Robert Wise"
+      "title": "Monty Python and the Holy Grail",
+      "year": 1975,
+      "genre": "Comedy, Adventure, Fantasy",
+      "description": "King Arthur and his Knights of the Round Table embark on a gloriously absurd quest for the Holy Grail, battling a killer rabbit, a taunting Frenchman, and a very persistent Black Knight. Monty Python's cult classic is the ultimate absurdist comedy — endlessly quotable, endlessly rewatchable, and still one of the funniest films ever made.",
+      "imdb_rating": 8.2,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/08/Monty-Python-1975-poster.png",
+      "trailer_url": "https://www.youtube.com/watch?v=67yCrKqAPQk",
+      "director": "Terry Gilliam, Terry Jones"
     },
     {
-      "title": "The Imitation Game",
-      "year": 2014,
-      "genre": "Biography, Drama, Thriller",
-      "description": "Mathematician Alan Turing leads a top-secret team to crack the German Enigma code during WWII — later facing persecution for his sexuality. Benedict Cumberbatch delivers a gripping, Oscar-nominated performance in this taut and emotionally powerful biopic about the father of modern computing, whose genius helped end a war and paid a tragic personal price.",
+      "title": "Wings of Desire",
+      "year": 1987,
+      "genre": "Drama, Fantasy, Romance",
+      "description": "Two invisible angels drift through a divided Berlin, listening to the secret thoughts of its lonely inhabitants — until one of them falls in love with a trapeze artist and longs to become human. Wim Wenders' poetic, hauntingly beautiful masterpiece, shot in luminous black-and-white and color by Henri Alekan, is pure cinematic poetry about love, mortality, and the miracle of everyday life.",
       "imdb_rating": 8.0,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/87/The_Imitation_Game_%282014%29.png",
-      "trailer_url": "https://www.youtube.com/watch?v=XTkSOWMlMEk",
-      "director": "Morten Tyldum"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/74/Wingsofdesireposter.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=h7L4KnE_mxw",
+      "director": "Wim Wenders"
     },
     {
-      "title": "My Octopus Teacher",
-      "year": 2020,
-      "genre": "Documentary",
-      "description": "A filmmaker forges an extraordinary bond with a wild octopus living in a South African kelp forest. This Oscar-winning documentary is a breathtaking, deeply moving portrait of nature, curiosity, and connection — a reminder of the wonder hidden just beneath the ocean's surface, and the unexpected friendship that changed one man's life.",
-      "imdb_rating": 8.1,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/06/My_Octopus_Teacher_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=3s0LTDhqe5A",
-      "director": "Pippa Ehrlich, James Reed"
+      "title": "Casino Royale",
+      "year": 2006,
+      "genre": "Action, Adventure, Thriller",
+      "description": "Daniel Craig reinvents James Bond in a stunning debut — a raw, brutal, high-stakes origin story that pits the newly-minted 007 against terrorist financier Le Chiffre in a winner-takes-all poker game at Casino Royale. The Bond franchise's boldest reinvention: gritty, elegant, and crowned by one of cinema's greatest action openings.",
+      "imdb_rating": 8.0,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/82/Casino_Royale_%282006_film_poster%29.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=xK7PbujRUOk",
+      "director": "Martin Campbell"
     }
   ],
   "history": [],
@@ -96,6 +96,9 @@
     "Free Solo",
     "The Sound of Music",
     "The Imitation Game",
-    "My Octopus Teacher"
+    "My Octopus Teacher",
+    "Monty Python and the Holy Grail",
+    "Wings of Desire",
+    "Casino Royale"
   ]
 }
