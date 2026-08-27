@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-27",
   "todays_pick": {
-    "title": "Clear Air Turbulence",
-    "artist": "deadmau5",
-    "genre": "Progressive House, Electronic",
-    "album": "4×4=12",
-    "year": 2010,
+    "title": "Echoes",
+    "artist": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "album": "Meddle",
+    "year": 1971,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-26",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-08-27",
+    "why": "A Progressive Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -260,6 +260,7 @@
     "Escape",
     "Shine On You Crazy Diamond (Parts I–V)",
     "Orinoco Flow",
-    "Clear Air Turbulence"
+    "Clear Air Turbulence",
+    "Echoes"
   ]
 }
