@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-08-27",
   "suggestions": [
     {
-      "title": "Monty Python and the Holy Grail",
-      "year": 1975,
-      "genre": "Comedy, Adventure, Fantasy",
-      "description": "King Arthur and his Knights of the Round Table embark on a gloriously absurd quest for the Holy Grail, battling a killer rabbit, a taunting Frenchman, and a very persistent Black Knight. Monty Python's cult classic is the ultimate absurdist comedy — endlessly quotable, endlessly rewatchable, and still one of the funniest films ever made.",
-      "imdb_rating": 8.2,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/08/Monty-Python-1975-poster.png",
-      "trailer_url": "https://www.youtube.com/watch?v=67yCrKqAPQk",
-      "director": "Terry Gilliam, Terry Jones"
+      "title": "Arrival",
+      "year": 2016,
+      "genre": "Sci-Fi, Drama, Mystery",
+      "description": "Mysterious spacecraft touch down across the globe, and linguist Louise Banks (Amy Adams) is recruited to decipher their language before the world's militaries jump to conclusions that could trigger a war. Denis Villeneuve's haunting, deeply human sci-fi masterpiece is less about aliens and more about communication, time, and the choices we make — a quiet, cerebral stunner with one of the most moving final acts in modern cinema.",
+      "imdb_rating": 7.9,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=tFMo3UJ4B4g",
+      "director": "Denis Villeneuve"
     },
     {
-      "title": "Wings of Desire",
-      "year": 1987,
-      "genre": "Drama, Fantasy, Romance",
-      "description": "Two invisible angels drift through a divided Berlin, listening to the secret thoughts of its lonely inhabitants — until one of them falls in love with a trapeze artist and longs to become human. Wim Wenders' poetic, hauntingly beautiful masterpiece, shot in luminous black-and-white and color by Henri Alekan, is pure cinematic poetry about love, mortality, and the miracle of everyday life.",
-      "imdb_rating": 8.0,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/7/74/Wingsofdesireposter.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=h7L4KnE_mxw",
-      "director": "Wim Wenders"
+      "title": "Knives Out",
+      "year": 2019,
+      "genre": "Comedy, Crime, Mystery",
+      "description": "When renowned crime novelist Harlan Thrombey dies right after his 85th birthday party, detective Benoit Blanc (Daniel Craig, gleefully chewing the scenery) is hired to untangle a family of suspects who all have motive, means, and opportunity. Rian Johnson's razor-sharp Agatha Christie homage is a dazzling modern whodunit — funny, twisty, impeccably cast (Chris Evans, Ana de Armas, Jamie Lee Curtis), and endlessly rewatchable.",
+      "imdb_rating": 7.9,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.jpeg",
+      "trailer_url": "https://www.youtube.com/watch?v=qGqiHJTsRkQ",
+      "director": "Rian Johnson"
     },
     {
-      "title": "Casino Royale",
-      "year": 2006,
-      "genre": "Action, Adventure, Thriller",
-      "description": "Daniel Craig reinvents James Bond in a stunning debut — a raw, brutal, high-stakes origin story that pits the newly-minted 007 against terrorist financier Le Chiffre in a winner-takes-all poker game at Casino Royale. The Bond franchise's boldest reinvention: gritty, elegant, and crowned by one of cinema's greatest action openings.",
-      "imdb_rating": 8.0,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/82/Casino_Royale_%282006_film_poster%29.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=xK7PbujRUOk",
-      "director": "Martin Campbell"
+      "title": "Let the Right One In",
+      "year": 2008,
+      "genre": "Drama, Horror, Romance",
+      "description": "Twelve-year-old Oskar, a lonely boy bullied at school, befriends the strange new girl next door, Eli — who only ever appears at night and never seems to get cold. Tomas Alfredson's Swedish masterpiece quietly reinvents the vampire film as a tender, chilling story of first love and quiet violence. Frostbitten, poetic, and unforgettable — a completely different kind of horror movie.",
+      "imdb_rating": 7.9,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c9/Let_the_Right_One_In_%28Swedish%29.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=ICp4g9p_rgo",
+      "director": "Tomas Alfredson"
     }
   ],
   "history": [],
@@ -99,6 +99,9 @@
     "My Octopus Teacher",
     "Monty Python and the Holy Grail",
     "Wings of Desire",
-    "Casino Royale"
+    "Casino Royale",
+    "Arrival",
+    "Knives Out",
+    "Let the Right One In"
   ]
 }
