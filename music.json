@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-28",
   "todays_pick": {
-    "title": "Echoes",
-    "artist": "Pink Floyd",
-    "genre": "Progressive Rock",
-    "album": "Meddle",
-    "year": 1971,
+    "title": "Age of Loneliness",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "The Cross of Changes",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-27",
-    "why": "A Progressive Rock track to start your day!"
+    "picked_date": "2026-08-28",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -261,6 +261,7 @@
     "Shine On You Crazy Diamond (Parts I–V)",
     "Orinoco Flow",
     "Clear Air Turbulence",
-    "Echoes"
+    "Echoes",
+    "Age of Loneliness"
   ]
 }
