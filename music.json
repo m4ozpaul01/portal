@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-28",
+  "last_updated": "2026-08-29",
   "todays_pick": {
-    "title": "Age of Loneliness",
-    "artist": "Enigma",
-    "genre": "New Age, Electronic",
-    "album": "The Cross of Changes",
-    "year": 1994,
+    "title": "Opus",
+    "artist": "Eric Prydz",
+    "genre": "Progressive House, Electronic",
+    "album": "Opus",
+    "year": 2016,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-28",
-    "why": "A New Age / Electronic track to start your day!"
+    "picked_date": "2026-08-29",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -262,6 +262,7 @@
     "Orinoco Flow",
     "Clear Air Turbulence",
     "Echoes",
-    "Age of Loneliness"
+    "Age of Loneliness",
+    "Opus"
   ]
 }
