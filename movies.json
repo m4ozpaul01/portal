@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-29",
   "suggestions": [
     {
-      "title": "Arrival",
-      "year": 2016,
-      "genre": "Sci-Fi, Drama, Mystery",
-      "description": "Mysterious spacecraft touch down across the globe, and linguist Louise Banks (Amy Adams) is recruited to decipher their language before the world's militaries jump to conclusions that could trigger a war. Denis Villeneuve's haunting, deeply human sci-fi masterpiece is less about aliens and more about communication, time, and the choices we make — a quiet, cerebral stunner with one of the most moving final acts in modern cinema.",
-      "imdb_rating": 7.9,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=tFMo3UJ4B4g",
-      "director": "Denis Villeneuve"
+      "title": "The Social Network",
+      "year": 2010,
+      "genre": "Biography, Drama",
+      "description": "In 2003, Harvard undergrad Mark Zuckerberg hacks a campus gossip site into what will become Facebook — and a friendship turns into a legal war. David Fincher's razor-sharp origin story, scripted by Aaron Sorkin, crackles with wit, ambition, and betrayal. The definitive film about the cost of building the future: endlessly quotable, brilliantly paced, and anchored by Jesse Eisenberg's magnetic lead performance.",
+      "imdb_rating": 7.8,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png",
+      "trailer_url": "https://www.youtube.com/watch?v=lB95KLmpLR4",
+      "director": "David Fincher"
     },
     {
-      "title": "Knives Out",
-      "year": 2019,
-      "genre": "Comedy, Crime, Mystery",
-      "description": "When renowned crime novelist Harlan Thrombey dies right after his 85th birthday party, detective Benoit Blanc (Daniel Craig, gleefully chewing the scenery) is hired to untangle a family of suspects who all have motive, means, and opportunity. Rian Johnson's razor-sharp Agatha Christie homage is a dazzling modern whodunit — funny, twisty, impeccably cast (Chris Evans, Ana de Armas, Jamie Lee Curtis), and endlessly rewatchable.",
-      "imdb_rating": 7.9,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.jpeg",
-      "trailer_url": "https://www.youtube.com/watch?v=qGqiHJTsRkQ",
-      "director": "Rian Johnson"
+      "title": "Get Out",
+      "year": 2017,
+      "genre": "Horror, Mystery, Thriller",
+      "description": "When Chris (Daniel Kaluuya) meets his white girlfriend's family for the first time, the weekend getaway takes a deeply unsettling turn. Jordan Peele's modern horror landmark is a brilliant, layered social thriller — funny, terrifying, and razor-smart in equal measure. A genre masterpiece that rewired what a horror movie can say, and the debut that announced a major new voice.",
+      "imdb_rating": 7.7,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/a3/Get_Out_poster.png",
+      "trailer_url": "https://www.youtube.com/watch?v=DzfpyUB60YY",
+      "director": "Jordan Peele"
     },
     {
-      "title": "Let the Right One In",
-      "year": 2008,
-      "genre": "Drama, Horror, Romance",
-      "description": "Twelve-year-old Oskar, a lonely boy bullied at school, befriends the strange new girl next door, Eli — who only ever appears at night and never seems to get cold. Tomas Alfredson's Swedish masterpiece quietly reinvents the vampire film as a tender, chilling story of first love and quiet violence. Frostbitten, poetic, and unforgettable — a completely different kind of horror movie.",
-      "imdb_rating": 7.9,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c9/Let_the_Right_One_In_%28Swedish%29.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=ICp4g9p_rgo",
-      "director": "Tomas Alfredson"
+      "title": "Good Bye Lenin!",
+      "year": 2003,
+      "genre": "Comedy, Drama",
+      "description": "East Berlin, 1989: when Alex's devoted socialist mother wakes from a coma months after the Wall has fallen, he rebuilds a fake GDR around her to protect her fragile health — one elaborate lie at a time. Wolfgang Becker's tender, hilarious, and heartbreaking German classic captures the chaos of reunification with enormous heart and a wry smile. Perfect for fans of the German cinema streak in your collection.",
+      "imdb_rating": 7.7,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/63/Good_Bye_Lenin.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=9E7lY0mIo7I",
+      "director": "Wolfgang Becker"
     }
   ],
   "history": [],
@@ -102,6 +102,9 @@
     "Casino Royale",
     "Arrival",
     "Knives Out",
-    "Let the Right One In"
+    "Let the Right One In",
+    "The Social Network",
+    "Get Out",
+    "Good Bye Lenin!"
   ]
 }
