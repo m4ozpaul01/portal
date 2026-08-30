@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-08-29",
+  "last_updated": "2026-08-30",
   "todays_pick": {
-    "title": "Opus",
-    "artist": "Eric Prydz",
-    "genre": "Progressive House, Electronic",
-    "album": "Opus",
-    "year": 2016,
+    "title": "Oxygène (Part IV)",
+    "artist": "Jean-Michel Jarre",
+    "genre": "Electronic, Ambient",
+    "album": "Oxygène",
+    "year": 1976,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-29",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-08-30",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -263,6 +263,7 @@
     "Clear Air Turbulence",
     "Echoes",
     "Age of Loneliness",
-    "Opus"
+    "Opus",
+    "Oxygène (Part IV)"
   ]
 }
