@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-08-31",
   "todays_pick": {
-    "title": "Oxygène (Part IV)",
-    "artist": "Jean-Michel Jarre",
+    "title": "Roygbiv",
+    "artist": "Boards of Canada",
     "genre": "Electronic, Ambient",
-    "album": "Oxygène",
-    "year": 1976,
+    "album": "Music Has the Right to Children",
+    "year": 1998,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-30",
+    "picked_date": "2026-08-31",
     "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
@@ -264,6 +264,7 @@
     "Echoes",
     "Age of Loneliness",
     "Opus",
-    "Oxygène (Part IV)"
+    "Oxygène (Part IV)",
+    "Roygbiv"
   ]
 }
