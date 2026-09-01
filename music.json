@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-01",
   "todays_pick": {
-    "title": "Roygbiv",
-    "artist": "Boards of Canada",
+    "title": "Avril 14th",
+    "artist": "Aphex Twin",
     "genre": "Electronic, Ambient",
-    "album": "Music Has the Right to Children",
-    "year": 1998,
+    "album": "Drukqs",
+    "year": 2001,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-08-31",
+    "picked_date": "2026-09-01",
     "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
@@ -265,6 +265,7 @@
     "Age of Loneliness",
     "Opus",
     "Oxygène (Part IV)",
-    "Roygbiv"
+    "Roygbiv",
+    "Avril 14th"
   ]
 }
