@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-08-29",
+  "last_updated": "2026-09-01",
   "suggestions": [
     {
-      "title": "The Social Network",
-      "year": 2010,
-      "genre": "Biography, Drama",
-      "description": "In 2003, Harvard undergrad Mark Zuckerberg hacks a campus gossip site into what will become Facebook — and a friendship turns into a legal war. David Fincher's razor-sharp origin story, scripted by Aaron Sorkin, crackles with wit, ambition, and betrayal. The definitive film about the cost of building the future: endlessly quotable, brilliantly paced, and anchored by Jesse Eisenberg's magnetic lead performance.",
-      "imdb_rating": 7.8,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png",
-      "trailer_url": "https://www.youtube.com/watch?v=lB95KLmpLR4",
-      "director": "David Fincher"
+      "title": "Ex Machina",
+      "year": 2015,
+      "genre": "Sci-Fi, Drama, Thriller",
+      "description": "Caleb, a young coder at a tech giant, wins a week at his reclusive CEO's remote estate — where he's asked to administer a Turing test to Ava, a breathtakingly lifelike A.I. Alex Garland's debut is a sleek, unnerving chamber piece about consciousness, desire, and control, capped by one of the great endings in modern sci-fi. Oscar Isaac and Alicia Vikander are electric in a film that only gets sharper with every rewatch.",
+      "imdb_rating": 7.7,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=bggUmgeMCdc",
+      "director": "Alex Garland"
     },
     {
-      "title": "Get Out",
-      "year": 2017,
-      "genre": "Horror, Mystery, Thriller",
-      "description": "When Chris (Daniel Kaluuya) meets his white girlfriend's family for the first time, the weekend getaway takes a deeply unsettling turn. Jordan Peele's modern horror landmark is a brilliant, layered social thriller — funny, terrifying, and razor-smart in equal measure. A genre masterpiece that rewired what a horror movie can say, and the debut that announced a major new voice.",
-      "imdb_rating": 7.7,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/a3/Get_Out_poster.png",
-      "trailer_url": "https://www.youtube.com/watch?v=DzfpyUB60YY",
-      "director": "Jordan Peele"
+      "title": "Run Lola Run",
+      "year": 1998,
+      "genre": "Action, Crime, Thriller",
+      "description": "Lola has exactly twenty minutes to find 100,000 Deutschmarks and save her boyfriend's life — and the film plays the same frantic race three times, each with wildly different outcomes. Tom Tykwer's kinetic German cult classic is part thriller, part music video, part philosophy, all driven by Franka Potente's blazing central performance. A shot of pure cinematic adrenaline that invented a style all its own.",
+      "imdb_rating": 7.6,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/f5/Lola_Rennt_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=uz2-D4lY2qg",
+      "director": "Tom Tykwer"
     },
     {
-      "title": "Good Bye Lenin!",
-      "year": 2003,
-      "genre": "Comedy, Drama",
-      "description": "East Berlin, 1989: when Alex's devoted socialist mother wakes from a coma months after the Wall has fallen, he rebuilds a fake GDR around her to protect her fragile health — one elaborate lie at a time. Wolfgang Becker's tender, hilarious, and heartbreaking German classic captures the chaos of reunification with enormous heart and a wry smile. Perfect for fans of the German cinema streak in your collection.",
-      "imdb_rating": 7.7,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/63/Good_Bye_Lenin.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=9E7lY0mIo7I",
-      "director": "Wolfgang Becker"
+      "title": "Superbad",
+      "year": 2007,
+      "genre": "Comedy",
+      "description": "Two inseparable high-school seniors, desperate to make the most of their last party before graduation, drag their geeky friend McLovin along for one gloriously chaotic night. Seth Rogen and Evan Goldberg's script and Jonah Hill and Michael Cera's chemistry turned a raunchy teen comedy into a surprisingly tender ode to friendship. Produced by Judd Apatow — endlessly quotable, and funnier every time you watch it.",
+      "imdb_rating": 7.6,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8b/Superbad_Poster.png",
+      "trailer_url": "https://www.youtube.com/watch?v=LvKvus3vCEY",
+      "director": "Greg Mottola"
     }
   ],
   "history": [],
@@ -105,6 +105,9 @@
     "Let the Right One In",
     "The Social Network",
     "Get Out",
-    "Good Bye Lenin!"
+    "Good Bye Lenin!",
+    "Ex Machina",
+    "Run Lola Run",
+    "Superbad"
   ]
 }
