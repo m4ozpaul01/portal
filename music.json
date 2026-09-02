@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-02",
   "todays_pick": {
-    "title": "Avril 14th",
-    "artist": "Aphex Twin",
-    "genre": "Electronic, Ambient",
-    "album": "Drukqs",
-    "year": 2001,
+    "title": "Sunset Jesus",
+    "artist": "Avicii",
+    "genre": "Progressive House, Electronic",
+    "album": "Stories",
+    "year": 2015,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-01",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-09-02",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -266,6 +266,7 @@
     "Opus",
     "Oxygène (Part IV)",
     "Roygbiv",
-    "Avril 14th"
+    "Avril 14th",
+    "Sunset Jesus"
   ]
 }
