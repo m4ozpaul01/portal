@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-03",
   "todays_pick": {
-    "title": "Sunset Jesus",
-    "artist": "Avicii",
-    "genre": "Progressive House, Electronic",
-    "album": "Stories",
-    "year": 2015,
+    "title": "Adagio for Strings",
+    "artist": "Tiësto",
+    "genre": "Trance, Electronic",
+    "album": "Just Be",
+    "year": 2004,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-02",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-09-03",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -267,6 +267,7 @@
     "Oxygène (Part IV)",
     "Roygbiv",
     "Avril 14th",
-    "Sunset Jesus"
+    "Sunset Jesus",
+    "Adagio for Strings"
   ]
 }
