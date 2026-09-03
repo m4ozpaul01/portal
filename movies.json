@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-03",
   "suggestions": [
     {
-      "title": "Ex Machina",
-      "year": 2015,
-      "genre": "Sci-Fi, Drama, Thriller",
-      "description": "Caleb, a young coder at a tech giant, wins a week at his reclusive CEO's remote estate — where he's asked to administer a Turing test to Ava, a breathtakingly lifelike A.I. Alex Garland's debut is a sleek, unnerving chamber piece about consciousness, desire, and control, capped by one of the great endings in modern sci-fi. Oscar Isaac and Alicia Vikander are electric in a film that only gets sharper with every rewatch.",
-      "imdb_rating": 7.7,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=bggUmgeMCdc",
-      "director": "Alex Garland"
-    },
-    {
-      "title": "Run Lola Run",
-      "year": 1998,
+      "title": "John Wick",
+      "year": 2014,
       "genre": "Action, Crime, Thriller",
-      "description": "Lola has exactly twenty minutes to find 100,000 Deutschmarks and save her boyfriend's life — and the film plays the same frantic race three times, each with wildly different outcomes. Tom Tykwer's kinetic German cult classic is part thriller, part music video, part philosophy, all driven by Franka Potente's blazing central performance. A shot of pure cinematic adrenaline that invented a style all its own.",
-      "imdb_rating": 7.6,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/f5/Lola_Rennt_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=uz2-D4lY2qg",
-      "director": "Tom Tykwer"
+      "description": "They took his car. They killed his dog. Big mistake. Keanu Reeves' legendary hitman comes out of retirement for one relentless night of vengeance, and action cinema never looks back. Chad Stahelski and David Leitch — both former stuntmen — stage the gun-fu ballet with brutal elegance, while the film quietly builds one of the most stylish underworld mythologies ever put on screen. Pure, adrenaline-charged catharsis that rewrote the rules of the modern action movie.",
+      "imdb_rating": 7.4,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=C0BMx-qxsP4",
+      "director": "Chad Stahelski"
     },
     {
-      "title": "Superbad",
-      "year": 2007,
-      "genre": "Comedy",
-      "description": "Two inseparable high-school seniors, desperate to make the most of their last party before graduation, drag their geeky friend McLovin along for one gloriously chaotic night. Seth Rogen and Evan Goldberg's script and Jonah Hill and Michael Cera's chemistry turned a raunchy teen comedy into a surprisingly tender ode to friendship. Produced by Judd Apatow — endlessly quotable, and funnier every time you watch it.",
-      "imdb_rating": 7.6,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8b/Superbad_Poster.png",
-      "trailer_url": "https://www.youtube.com/watch?v=LvKvus3vCEY",
-      "director": "Greg Mottola"
+      "title": "The Conjuring",
+      "year": 2013,
+      "genre": "Horror, Mystery, Thriller",
+      "description": "Paranormal investigators Ed and Lorraine Warren take on their most terrifying case yet: a Rhode Island farmhouse where a family is tormented by a malevolent presence. James Wan's old-school haunted-house masterclass trades cheap gore for patience and dread, building scares with masterful craft. Anchored by Patrick Wilson and Vera Farmiga's warm, believable couple, it spawned an entire cinematic universe — and it remains the scariest chapter in it.",
+      "imdb_rating": 7.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Conjuring_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=k10ETZ41q5o",
+      "director": "James Wan"
+    },
+    {
+      "title": "Hereditary",
+      "year": 2018,
+      "genre": "Horror, Drama, Mystery",
+      "description": "After the death of her secretive mother, Annie Graham watches her family unravel in ways that feel achingly real before spiraling into full nightmare. Ari Aster's debut is a slow-burn family tragedy disguised as a horror film, anchored by Toni Collette's career-best, awards-caliber performance. Its imagery lingers long after the credits — the most unsettling horror debut of the decade, and a film that rewards patient viewers with pure dread.",
+      "imdb_rating": 7.3,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/d9/Hereditary.png",
+      "trailer_url": "https://www.youtube.com/watch?v=V6wWKNij_1M",
+      "director": "Ari Aster"
     }
   ],
   "history": [],
@@ -108,6 +108,9 @@
     "Good Bye Lenin!",
     "Ex Machina",
     "Run Lola Run",
-    "Superbad"
+    "Superbad",
+    "John Wick",
+    "The Conjuring",
+    "Hereditary"
   ]
 }
