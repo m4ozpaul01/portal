@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-05",
   "suggestions": [
     {
-      "title": "John Wick",
-      "year": 2014,
-      "genre": "Action, Crime, Thriller",
-      "description": "They took his car. They killed his dog. Big mistake. Keanu Reeves' legendary hitman comes out of retirement for one relentless night of vengeance, and action cinema never looks back. Chad Stahelski and David Leitch — both former stuntmen — stage the gun-fu ballet with brutal elegance, while the film quietly builds one of the most stylish underworld mythologies ever put on screen. Pure, adrenaline-charged catharsis that rewrote the rules of the modern action movie.",
-      "imdb_rating": 7.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=C0BMx-qxsP4",
-      "director": "Chad Stahelski"
+      "title": "12 Angry Men",
+      "year": 1957,
+      "genre": "Crime, Drama",
+      "description": "Eleven jurors are ready to convict a boy accused of murder. One man votes not guilty — not because he is sure, but because a life deserves a real conversation. Sidney Lumet's debut traps twelve strangers (and you) in one sweltering room, turning a single word — 'guilty' — into the greatest moral battleground in cinema. Shot in under three weeks on a tiny budget, it proves all you need is a sharp argument and twelve chairs. A flawless 9.0 classic that feels more urgent than ever.",
+      "imdb_rating": 9.0,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/12_Angry_Men_%281957_film_poster%29.jpg/960px-12_Angry_Men_%281957_film_poster%29.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=_13J_9B5jEk",
+      "director": "Sidney Lumet"
     },
     {
-      "title": "The Conjuring",
-      "year": 2013,
-      "genre": "Horror, Mystery, Thriller",
-      "description": "Paranormal investigators Ed and Lorraine Warren take on their most terrifying case yet: a Rhode Island farmhouse where a family is tormented by a malevolent presence. James Wan's old-school haunted-house masterclass trades cheap gore for patience and dread, building scares with masterful craft. Anchored by Patrick Wilson and Vera Farmiga's warm, believable couple, it spawned an entire cinematic universe — and it remains the scariest chapter in it.",
-      "imdb_rating": 7.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Conjuring_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=k10ETZ41q5o",
-      "director": "James Wan"
+      "title": "Back to the Future",
+      "year": 1985,
+      "genre": "Adventure, Comedy, Sci-Fi",
+      "description": "Marty McFly accidentally punches a modified DeLorean to 1955 — and must now make his own teenage parents fall in love, or he will literally erase himself from existence. Robert Zemeckis's clockwork-perfect script, Christopher Lloyd's gloriously unhinged Doc Brown, and one of the great endings in blockbuster history make this the definitive '80s adventure. Effortlessly funny, endlessly rewatchable, and 8.5-rated proof that a time-travel movie can be pure joy.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=qvsgGtivCgs",
+      "director": "Robert Zemeckis"
     },
     {
-      "title": "Hereditary",
-      "year": 2018,
-      "genre": "Horror, Drama, Mystery",
-      "description": "After the death of her secretive mother, Annie Graham watches her family unravel in ways that feel achingly real before spiraling into full nightmare. Ari Aster's debut is a slow-burn family tragedy disguised as a horror film, anchored by Toni Collette's career-best, awards-caliber performance. Its imagery lingers long after the credits — the most unsettling horror debut of the decade, and a film that rewards patient viewers with pure dread.",
-      "imdb_rating": 7.3,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/d9/Hereditary.png",
-      "trailer_url": "https://www.youtube.com/watch?v=V6wWKNij_1M",
-      "director": "Ari Aster"
+      "title": "The Prestige",
+      "year": 2006,
+      "genre": "Drama, Mystery, Sci-Fi",
+      "description": "Two rival Victorian magicians — Robert Angier and Alfred Borden — escalate a duel over the perfect illusion until obsession consumes everything in their path. Christopher Nolan builds this film like a magic trick itself: every scene a setup, every detail a sleight of hand, the final reveal landing like a thunderclap. Hugh Jackman, Christian Bale and Michael Caine at the top of their game in the most elegantly constructed thriller of the 2000s. A 8.5-rated puzzle box that begs for an immediate rewatch.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=G8ozbqgdIjY",
+      "director": "Christopher Nolan"
     }
   ],
   "history": [],
@@ -111,6 +111,9 @@
     "Superbad",
     "John Wick",
     "The Conjuring",
-    "Hereditary"
+    "Hereditary",
+    "12 Angry Men",
+    "Back to the Future",
+    "The Prestige"
   ]
 }
