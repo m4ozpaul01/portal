@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-05",
   "todays_pick": {
-    "title": "Sadeness (Part I)",
+    "title": "Nimrod",
     "artist": "Enigma",
     "genre": "New Age, Electronic",
-    "album": "MCMXC a.D.",
-    "year": 1990,
+    "album": "The Screen Behind the Mirror",
+    "year": 2000,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-04",
+    "picked_date": "2026-09-05",
     "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
@@ -269,6 +269,7 @@
     "Avril 14th",
     "Sunset Jesus",
     "Adagio for Strings",
-    "Sadeness (Part I)"
+    "Sadeness (Part I)",
+    "Nimrod"
   ]
 }
