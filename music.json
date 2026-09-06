@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-06",
   "todays_pick": {
-    "title": "Nimrod",
-    "artist": "Enigma",
-    "genre": "New Age, Electronic",
-    "album": "The Screen Behind the Mirror",
-    "year": 2000,
+    "title": "Tears in the Rain",
+    "artist": "Vangelis",
+    "genre": "Soundtrack, Ambient",
+    "album": "Blade Runner (Soundtrack)",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-05",
-    "why": "A New Age / Electronic track to start your day!"
+    "picked_date": "2026-09-06",
+    "why": "A Soundtrack / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -270,6 +270,7 @@
     "Sunset Jesus",
     "Adagio for Strings",
     "Sadeness (Part I)",
-    "Nimrod"
+    "Nimrod",
+    "Tears in the Rain"
   ]
 }
