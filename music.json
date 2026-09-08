@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "todays_pick": {
-    "title": "Sandstorm",
-    "artist": "Darude",
-    "genre": "Trance, Electronic",
-    "album": "Before the Storm",
-    "year": 1999,
+    "title": "Caribbean Blue",
+    "artist": "Enya",
+    "genre": "New Age, Celtic",
+    "album": "Shepherd Moons",
+    "year": 1991,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-07",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-09-08",
+    "why": "A New Age / Celtic track to start your day!"
   },
   "suggestions": [
     {
@@ -272,6 +272,7 @@
     "Sadeness (Part I)",
     "Nimrod",
     "Tears in the Rain",
-    "Sandstorm"
+    "Sandstorm",
+    "Caribbean Blue"
   ]
 }
