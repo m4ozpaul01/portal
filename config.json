@@ -9,8 +9,8 @@
       "password_hash": "TWFqYTIwMjYh"
     }
   ],
-  "kredyt": 9.31,
-  "tokens": 31033333,
+  "kredyt": 8.87,
+  "tokens": 29566666,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
@@ -66,6 +66,14 @@
       "name": "agent-os",
       "status": "active",
       "description": "A new project called agent-os",
+      "display": "placeholder",
+      "last_updated": "2026-09-08",
+      "notes": ""
+    },
+    {
+      "name": "ai-code-factory",
+      "status": "active",
+      "description": "A new project called ai-code-factory",
       "display": "placeholder",
       "last_updated": "2026-09-08",
       "notes": ""
