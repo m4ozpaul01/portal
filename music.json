@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-09",
   "todays_pick": {
-    "title": "Caribbean Blue",
-    "artist": "Enya",
-    "genre": "New Age, Celtic",
-    "album": "Shepherd Moons",
-    "year": 1991,
+    "title": "Children",
+    "artist": "Robert Miles",
+    "genre": "Dream Trance, Electronic",
+    "album": "Dreamland",
+    "year": 1995,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-08",
-    "why": "A New Age / Celtic track to start your day!"
+    "picked_date": "2026-09-09",
+    "why": "A Dream Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -273,6 +273,7 @@
     "Nimrod",
     "Tears in the Rain",
     "Sandstorm",
-    "Caribbean Blue"
+    "Caribbean Blue",
+    "Children"
   ]
 }
