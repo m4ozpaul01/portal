@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-10",
   "suggestions": [
     {
-      "title": "One Flew Over the Cuckoo's Nest",
-      "year": 1975,
-      "genre": "Drama",
-      "description": "Randle McMurphy fakes insanity to escape a prison work farm and lands in a psychiatric ward ruled by the iron-willed Nurse Ratched. Jack Nicholson delivers one of cinema's most electric performances as the free spirit who rallies his fellow patients into open rebellion against quiet tyranny. Milos Forman's masterpiece swept all five major Oscars — the last film ever to do so — and stands as a roaring, heartbreaking anthem about freedom, friendship, and the cost of staying yourself. A towering 8.7 classic of 1970s New Hollywood.",
+      "title": "The Empire Strikes Back",
+      "year": 1980,
+      "genre": "Action, Adventure, Fantasy",
+      "description": "The sequel that turned a space adventure into a myth. Luke Skywalker trains with Yoda in the swamps of Dagobah while Han Solo and Princess Leia flee the Empire across the galaxy — and Darth Vader waits on Cloud City with a revelation that detonated cinema history. Irvin Kershner deepened every character, staged the breathtaking Hoth battle, and landed the most quoted plot twist ever filmed. 8.7 on IMDb, and still the high-water mark of the Star Wars saga — widely called the greatest sequel ever made.",
       "imdb_rating": 8.7,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/2/26/One_Flew_Over_the_Cuckoo%27s_Nest_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=OXrcDonY-B8",
-      "director": "Milos Forman"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/3f/The_Empire_Strikes_Back_%281980_film%29.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=JNwNXF9Y6kY",
+      "director": "Irvin Kershner"
     },
     {
-      "title": "Terminator 2: Judgment Day",
-      "year": 1991,
-      "genre": "Action, Sci-Fi",
-      "description": "James Cameron reinvents his own monster: the Terminator is back — but this time as protector, reprogrammed to guard young John Connor from the T-1000, a liquid-metal shape-shifter that made 1991 audiences' jaws drop. A landmark of practical effects, relentless set pieces and Linda Hamilton's iconic warrior-woman turn, T2 is the rare sequel that outguns its predecessor at every level — and rewrote what a blockbuster could be. An 8.6-rated adrenaline monument that still defines big-budget filmmaking.",
-      "imdb_rating": 8.6,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/5/5e/Terminator_2-Judgment_Day.png",
-      "trailer_url": "https://www.youtube.com/watch?v=CRRlbK5w8AE",
-      "director": "James Cameron"
+      "title": "The Usual Suspects",
+      "year": 1995,
+      "genre": "Crime, Drama, Mystery",
+      "description": "Five career criminals are hauled into a New York lineup and walk out as a crew, pulling a job that ends in a burning boat and twenty-seven dead bodies. The lone survivor, the limping Verbal Kint, spins the story for a federal agent — and Kevin Spacey's Oscar-winning turn is the calm at the centre of the best con in 1990s cinema. Roger Ebert called the ending a magic trick, and it still holds up: a labyrinth of a screenplay by Christopher McQuarrie that rewards a second viewing. 8.5 on IMDb.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=oiXdPolca5w",
+      "director": "Bryan Singer"
     },
     {
-      "title": "Inglourious Basterds",
-      "year": 2009,
-      "genre": "Adventure, Drama, War",
-      "description": "Quentin Tarantino rewrites WWII history with a wink: a squad of Jewish-American soldiers scalps Nazis behind enemy lines while a Jewish cinema owner plots a fiery reckoning in occupied Paris. Christoph Waltz's Oscar-winning Hans Landa — the 'Jew Hunter' — delivers one of the great villain introductions in film history, and the basement-bar scene is pure suspense perfection. Witty, vicious and endlessly quotable, it is an 8.4-rated revenge fantasy built like a powder keg with a film projector for a fuse.",
-      "imdb_rating": 8.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=KnrRy6kSFF0",
-      "director": "Quentin Tarantino"
+      "title": "The Pianist",
+      "year": 2002,
+      "genre": "Biography, Drama, Music",
+      "description": "Wladyslaw Szpilman was playing Chopin live on Warsaw radio when the first shells hit. Based on his memoir, Roman Polanski's film follows the pianist through the ghetto, the transports and the ruins of a flattened city — surviving on luck, silence and a German officer's mercy. Adrien Brody won a Best Actor Oscar for a performance of almost unbearable restraint, and Polanski took Best Director and the Palme d'Or. A quiet, devastating counterpart to Schindler's List. 8.5 on IMDb.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/a6/The_Pianist_movie.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=BFwGqLa_oAo",
+      "director": "Roman Polanski"
     }
   ],
   "history": [],
@@ -117,6 +117,9 @@
     "The Prestige",
     "One Flew Over the Cuckoo's Nest",
     "Terminator 2: Judgment Day",
-    "Inglourious Basterds"
+    "Inglourious Basterds",
+    "The Empire Strikes Back",
+    "The Usual Suspects",
+    "The Pianist"
   ]
 }
