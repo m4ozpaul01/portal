@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-10",
   "todays_pick": {
-    "title": "Children",
-    "artist": "Robert Miles",
-    "genre": "Dream Trance, Electronic",
-    "album": "Dreamland",
-    "year": 1995,
+    "title": "Shivers",
+    "artist": "Armin van Buuren",
+    "genre": "Trance, Electronic",
+    "album": "Shivers",
+    "year": 2005,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-09",
-    "why": "A Dream Trance / Electronic track to start your day!"
+    "picked_date": "2026-09-10",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -274,6 +274,7 @@
     "Tears in the Rain",
     "Sandstorm",
     "Caribbean Blue",
-    "Children"
+    "Children",
+    "Shivers"
   ]
 }
