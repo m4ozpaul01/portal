@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-11",
   "todays_pick": {
-    "title": "Shivers",
-    "artist": "Armin van Buuren",
-    "genre": "Trance, Electronic",
-    "album": "Shivers",
-    "year": 2005,
+    "title": "Boadicea",
+    "artist": "Enya",
+    "genre": "New Age, Celtic",
+    "album": "Enya",
+    "year": 1986,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-10",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-09-11",
+    "why": "A New Age / Celtic track to start your day!"
   },
   "suggestions": [
     {
@@ -275,6 +275,7 @@
     "Sandstorm",
     "Caribbean Blue",
     "Children",
-    "Shivers"
+    "Shivers",
+    "Boadicea"
   ]
 }
