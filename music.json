@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-12",
   "todays_pick": {
-    "title": "Boadicea",
-    "artist": "Enya",
-    "genre": "New Age, Celtic",
-    "album": "Enya",
-    "year": 1986,
+    "title": "Return to Innocence",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "The Cross of Changes",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-11",
-    "why": "A New Age / Celtic track to start your day!"
+    "picked_date": "2026-09-12",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -276,6 +276,7 @@
     "Caribbean Blue",
     "Children",
     "Shivers",
-    "Boadicea"
+    "Boadicea",
+    "Return to Innocence"
   ]
 }
