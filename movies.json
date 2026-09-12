@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-12",
   "suggestions": [
     {
-      "title": "The Empire Strikes Back",
-      "year": 1980,
-      "genre": "Action, Adventure, Fantasy",
-      "description": "The sequel that turned a space adventure into a myth. Luke Skywalker trains with Yoda in the swamps of Dagobah while Han Solo and Princess Leia flee the Empire across the galaxy — and Darth Vader waits on Cloud City with a revelation that detonated cinema history. Irvin Kershner deepened every character, staged the breathtaking Hoth battle, and landed the most quoted plot twist ever filmed. 8.7 on IMDb, and still the high-water mark of the Star Wars saga — widely called the greatest sequel ever made.",
-      "imdb_rating": 8.7,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/3/3f/The_Empire_Strikes_Back_%281980_film%29.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=JNwNXF9Y6kY",
-      "director": "Irvin Kershner"
+      "title": "Alien",
+      "year": 1979,
+      "genre": "Horror, Sci-Fi",
+      "description": "The last unshown film in your own database — and a hell of a way to close it out. The crew of the commercial towing vessel Nostromo answers a distress call from a derelict ship and brings something back aboard. Ridley Scott builds dread out of pure industrial texture: steam, chains, strobes and H.R. Giger's biomechanical nightmare, with almost no music and long stretches of silence where most horror films would be screaming. Sigourney Weaver's Ellen Ripley became the template for the action heroine, and the chestburster scene still lands 45+ years on because Scott never shows you the thing until you have already imagined something worse. A haunted-house movie wearing a spacesuit. 8.5 on IMDb, Best Visual Effects Oscar, and the start of a franchise that never quite matched this one.",
+      "imdb_rating": 8.5,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Alien_movie_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=4lRNBd8Vook",
+      "director": "Ridley Scott"
     },
     {
-      "title": "The Usual Suspects",
-      "year": 1995,
-      "genre": "Crime, Drama, Mystery",
-      "description": "Five career criminals are hauled into a New York lineup and walk out as a crew, pulling a job that ends in a burning boat and twenty-seven dead bodies. The lone survivor, the limping Verbal Kint, spins the story for a federal agent — and Kevin Spacey's Oscar-winning turn is the calm at the centre of the best con in 1990s cinema. Roger Ebert called the ending a magic trick, and it still holds up: a labyrinth of a screenplay by Christopher McQuarrie that rewards a second viewing. 8.5 on IMDb.",
-      "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=oiXdPolca5w",
-      "director": "Bryan Singer"
+      "title": "Seven Samurai",
+      "year": 1954,
+      "genre": "Action, Adventure, Drama",
+      "description": "Sixteenth-century Japan: a harvest-threatened village hires seven masterless samurai to defend it from bandits. What sounds like a simple action premise becomes the blueprint for an entire century of cinema — the team-assembly structure that The Magnificent Seven, Ocean's Eleven and every heist film since has copied wholesale. Akira Kurosawa shoots rain, mud, dust and mass movement like nobody before or since; the final battle in a flooded field is one of the great set pieces in film history. Toshiro Mifune's wild-man Kikuchiyo is the emotional centre, and the ending lands on a quiet, bitter class note that most adventure films never dare. Three and a half hours that never drags. 8.6 on IMDb, 4K-restored for its 70th anniversary, and a permanent fixture on Sight &amp; Sound's greatest-films poll.",
+      "imdb_rating": 8.6,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/c/c8/Seven_Samurai_Poster.png",
+      "trailer_url": "https://www.youtube.com/watch?v=1XMJY0hYJEw",
+      "director": "Akira Kurosawa"
     },
     {
-      "title": "The Pianist",
-      "year": 2002,
-      "genre": "Biography, Drama, Music",
-      "description": "Wladyslaw Szpilman was playing Chopin live on Warsaw radio when the first shells hit. Based on his memoir, Roman Polanski's film follows the pianist through the ghetto, the transports and the ruins of a flattened city — surviving on luck, silence and a German officer's mercy. Adrien Brody won a Best Actor Oscar for a performance of almost unbearable restraint, and Polanski took Best Director and the Palme d'Or. A quiet, devastating counterpart to Schindler's List. 8.5 on IMDb.",
+      "title": "Casablanca",
+      "year": 1942,
+      "genre": "Drama, Romance, War",
+      "description": "Your list has romance-adjacent picks (Before Sunrise, Amélie, La La Land) but nothing from the golden age — this fixes that. Rick Blaine runs a nightclub in Vichy-controlled Morocco where refugees wait for exit visas; the woman who once left him walks back in with her resistance-hero husband. Almost everything about the production was accidental — the cast was assembled from contract players, the script was being written as they shot, and the famous ending was decided late — yet it produced the most quoted dialogue in Hollywood history. What makes it endure is that it is really a film about choosing a cause over a person, and the cost of that choice. 8.5 on IMDb, three Oscars including Best Picture, and a Warner Bros. 4K restoration that finally does justice to the fog and the shadows.",
       "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/a6/The_Pianist_movie.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=BFwGqLa_oAo",
-      "director": "Roman Polanski"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/CasablancaPoster-Gold.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=MF7JH_54d8c",
+      "director": "Michael Curtiz"
     }
   ],
   "history": [],
@@ -120,6 +120,9 @@
     "Inglourious Basterds",
     "The Empire Strikes Back",
     "The Usual Suspects",
-    "The Pianist"
+    "The Pianist",
+    "Alien",
+    "Seven Samurai",
+    "Casablanca"
   ]
 }
