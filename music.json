@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-12",
+  "last_updated": "2026-09-13",
   "todays_pick": {
-    "title": "Return to Innocence",
-    "artist": "Enigma",
-    "genre": "New Age, Electronic",
-    "album": "The Cross of Changes",
-    "year": 1994,
+    "title": "The Great Gig in the Sky",
+    "artist": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "album": "The Dark Side of the Moon",
+    "year": 1973,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-12",
-    "why": "A New Age / Electronic track to start your day!"
+    "picked_date": "2026-09-13",
+    "why": "A Progressive Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -277,6 +277,7 @@
     "Children",
     "Shivers",
     "Boadicea",
-    "Return to Innocence"
+    "Return to Innocence",
+    "The Great Gig in the Sky"
   ]
 }
