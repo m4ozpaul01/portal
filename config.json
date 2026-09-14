@@ -9,8 +9,8 @@
       "password_hash": "TWFqYTIwMjYh"
     }
   ],
-  "kredyt": 14.71,
-  "tokens": 49033333,
+  "kredyt": 14.23,
+  "tokens": 47433333,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
@@ -82,6 +82,14 @@
       "name": "APPLICATION SPHERE",
       "status": "active",
       "description": "A new project called APPLICATION SPHERE",
+      "display": "placeholder",
+      "last_updated": "2026-09-14",
+      "notes": ""
+    },
+    {
+      "name": "USER-DEVICE-SIM",
+      "status": "active",
+      "description": "A new project called USER-DEVICE-SIM",
       "display": "placeholder",
       "last_updated": "2026-09-14",
       "notes": ""
