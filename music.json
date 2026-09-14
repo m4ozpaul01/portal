@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-13",
+  "last_updated": "2026-09-14",
   "todays_pick": {
-    "title": "The Great Gig in the Sky",
-    "artist": "Pink Floyd",
-    "genre": "Progressive Rock",
-    "album": "The Dark Side of the Moon",
-    "year": 1973,
+    "title": "Windowlicker",
+    "artist": "Aphex Twin",
+    "genre": "Electronic, IDM",
+    "album": "Windowlicker",
+    "year": 1999,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-13",
-    "why": "A Progressive Rock track to start your day!"
+    "picked_date": "2026-09-14",
+    "why": "A Electronic / IDM track to start your day!"
   },
   "suggestions": [
     {
@@ -278,6 +278,7 @@
     "Shivers",
     "Boadicea",
     "Return to Innocence",
-    "The Great Gig in the Sky"
+    "The Great Gig in the Sky",
+    "Windowlicker"
   ]
 }
