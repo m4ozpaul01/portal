@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-15",
   "todays_pick": {
-    "title": "Windowlicker",
-    "artist": "Aphex Twin",
-    "genre": "Electronic, IDM",
-    "album": "Windowlicker",
-    "year": 1999,
+    "title": "Dayvan Cowboy",
+    "artist": "Boards of Canada",
+    "genre": "Electronic, Ambient",
+    "album": "The Campfire Headphase",
+    "year": 2005,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-14",
-    "why": "A Electronic / IDM track to start your day!"
+    "picked_date": "2026-09-15",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -279,6 +279,7 @@
     "Boadicea",
     "Return to Innocence",
     "The Great Gig in the Sky",
-    "Windowlicker"
+    "Windowlicker",
+    "Dayvan Cowboy"
   ]
 }
