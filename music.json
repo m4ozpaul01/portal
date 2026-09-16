@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-16",
   "todays_pick": {
-    "title": "Dayvan Cowboy",
-    "artist": "Boards of Canada",
-    "genre": "Electronic, Ambient",
-    "album": "The Campfire Headphase",
-    "year": 2005,
+    "title": "Tears in the Rain",
+    "artist": "Vangelis",
+    "genre": "Soundtrack, Ambient",
+    "album": "Blade Runner (Soundtrack)",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-15",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-09-16",
+    "why": "A Soundtrack / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -248,38 +248,7 @@
   ],
   "ratings": {},
   "picked_titles": [
-    "Giorgio by Moroder",
-    "Halcyon + On + On",
-    "Love on a Real Train",
-    "On the Beach",
-    "Strobe",
-    "Saltwater",
-    "Midnight City",
-    "Levels",
-    "Café del Mar",
-    "Escape",
-    "Shine On You Crazy Diamond (Parts I–V)",
-    "Orinoco Flow",
-    "Clear Air Turbulence",
-    "Echoes",
-    "Age of Loneliness",
-    "Opus",
-    "Oxygène (Part IV)",
-    "Roygbiv",
-    "Avril 14th",
-    "Sunset Jesus",
-    "Adagio for Strings",
-    "Sadeness (Part I)",
-    "Nimrod",
-    "Tears in the Rain",
-    "Sandstorm",
-    "Caribbean Blue",
-    "Children",
-    "Shivers",
-    "Boadicea",
-    "Return to Innocence",
-    "The Great Gig in the Sky",
-    "Windowlicker",
-    "Dayvan Cowboy"
+    "Dayvan Cowboy",
+    "Tears in the Rain"
   ]
 }
