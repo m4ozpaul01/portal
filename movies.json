@@ -1,35 +1,35 @@
 {
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-17",
   "suggestions": [
     {
-      "title": "The Sting",
-      "year": 1973,
-      "genre": "Comedy, Crime, Drama",
-      "description": "1936, Depression-era Chicago: two grifters — Robert Redford's cocky young Johnny Hooker and Paul Newman's retired legend Henry Gondorff — assemble an entire fake betting parlour to take down a mob boss who ordered a friend's murder. The joy of it is the construction: nothing is what it looks like, every minor character is a plant, and the film teaches you the rules of the long con early so it can break them late. Marvin Hamlisch's ragtime score (built around Scott Joplin's 'The Entertainer') made a 70s hit out of 1902 piano music, and the production design is a gorgeously grubby sepia. Seven Oscars including Best Picture, Best Director and Best Original Screenplay — the last time a straight-up crowd-pleasing caper won the top prize, and still the best argument that a heist film can be built on charm rather than bodies. 8.3 on IMDb.",
-      "imdb_rating": 8.3,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/The_Sting_%281973_alt_poster%29.jpeg",
-      "trailer_url": "https://www.youtube.com/watch?v=_nAIb_J9T5M",
-      "director": "George Roy Hill"
+      "title": "The Godfather Part II",
+      "year": 1974,
+      "genre": "Crime, Drama",
+      "description": "The highest-rated film you have never been shown — 9.0 on IMDb, and the only sequel until Return of the King to win Best Picture. Coppola cuts between two timelines: Robert De Niro's young Vito Corleone arriving in a crowded 1901 New York and building the family's power from nothing, and Al Pacino's Michael in 1958 - colder, greyer, more alone with every scene — expanding the empire into Las Vegas, Hollywood and pre-revolutionary Cuba, and slowly discovering which of his own family is working against him. The structure is the point: every time you warm to the immigrant father, the film cuts back to the son he would not recognise. Gordon Willis shot the two eras in deliberately different registers — warm amber and sepia for Vito, cool desaturated blues and shadows for Michael — and Nino Rota's score carries it. De Niro won an Oscar for a performance that is roughly 60% Sicilian dialogue, Pacino gives the most tightly coiled work of his career, and the Fredo confrontation on the dock at Lake Tahoe is the moment the film stops being a crime epic and becomes a study of how power eats a family from the inside. You have seen Part I (Godfather, 1972); this is 202 minutes that pay it off.",
+      "imdb_rating": 9.0,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/03/Godfather_part_ii.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=9O1Iy9od7-A",
+      "director": "Francis Ford Coppola"
     },
     {
-      "title": "Amadeus",
-      "year": 1984,
-      "genre": "Biography, Drama, Music",
-      "description": "Vienna, 1780s, told through the bitter unreliable memory of court composer Antonio Salieri: the story of a competent, devout mediocrity who watches a vulgar, giggling, obscenely gifted boy write music he knows he could never conceive. Miloš Forman's film is not really a biography — it is a film about professional envy, divine unfairness and the terror of recognising true genius in your own rival, which is why it plays as sharply to anyone who has ever had a talented colleague as it does to classical music fans. F. Murray Abraham's Salieri and Tom Hulce's cackling Mozart are both extraordinary, the Prague locations double convincingly for Vienna, and the finale — Salieri transcribing the Requiem dictation — is one of cinema's great depictions of creative process. Eight Oscars including Best Picture, Best Director and Best Actor. 8.4 on IMDb.",
-      "imdb_rating": 8.4,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/2/2f/Amadeusmov.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=ZQV9yySOmhs",
-      "director": "Miloš Forman"
-    },
-    {
-      "title": "Cinema Paradiso",
-      "year": 1988,
-      "genre": "Drama, Romance",
-      "description": "A famous Italian film director gets the news that Alfredo, the projectionist who raised him in a Sicilian village after the war, has died — and the memories come back: the parish cinema, the censored kisses snipped out by the priest, the town watching its own dreams flicker on a wall. Giuseppe Tornatore's film is an unabashed love letter to movie-going as a collective act, and it earns the sentimentality because it is honest about the trade: the boy who leaves the village for a real life can never come back to it. Ennio Morricone's love theme is one of the most recognisable in film, and the final montage of spliced-together cut kisses lands like a punch. Best Foreign Language Film Oscar, Palme d'Or at Cannes, and the highest-rated film still unwatched on your own database. 8.5 on IMDb — the version to watch is the 155-minute original cut, not the shortened one.",
+      "title": "Psycho",
+      "year": 1960,
+      "genre": "Horror, Mystery, Thriller",
+      "description": "Of the 93 films in your history you have never been shown a single Hitchcock — and this is the one that rewrote the rules. Hitchcock financed it himself for around $800,000, shot it in black and white with the crew from his TV show to keep it cheap, and then did the thing nobody expected: he killed his biggest star (Janet Leigh) about a third of the way in and let the audience watch the film collapse into a completely different story about a shy young man named Norman Bates. Bernard Herrmann's score is strings only, and the 45-second shower scene — 78 camera setups, roughly 52 cuts, a knife that never actually touches skin — remains the most analysed sequence in the medium; the shower scene is not shocking because of gore, it is shocking because of editing. Watch it as the ancestor of everything you have already seen: the dread in The Shining, the silence before the reveal in Get Out, the family rot in Hereditary. The staged psychiatrist monologue at the end is the one piece that has aged, and it is worth forgiving to see the source. Anthony Perkins' performance holds the whole thing together — a man doing a perfect impression of normality while you slowly realise he is the film's only real monster.",
       "imdb_rating": 8.5,
-      "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/86/CinemaParadiso.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=JMyVSD6OvO8",
-      "director": "Giuseppe Tornatore"
+      "poster_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg/960px-Psycho_%281960%29_theatrical_poster_%28retouched%29.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=BwVKSGu8wEA",
+      "director": "Alfred Hitchcock"
+    },
+    {
+      "title": "Toy Story 3",
+      "year": 2010,
+      "genre": "Animation, Adventure, Comedy",
+      "description": "The payoff to the 1995 film you have already been shown — and a genuine heist-and-escape picture wearing a family-film costume. Andy is leaving for college, the toys face the bin or the attic, a mix-up lands them at Sunnyside Daycare, and Pixar quietly rebuilds The Great Escape in a room full of toddlers: census-taking prisoners, a corrupt warden (Ned Beatty's strawberry-scented Lotso), a rec room that becomes a cell block, and an escape plan that hinges on knowing which toy is the one who reports on everyone else. It is the only Toy Story film with real stakes, and the staging of the incinerator sequence — the gang holding hands and going still, then the claw — is Pixar's single best moment of pure cinema, played without dialogue at all. The ending, which I will not spoil, is the reason adults cry at this one: it is a film about being outgrown, told from the perspective of the people who get outgrown. Academically it is also the first animated film to gross over $1 billion and it won two Oscars (Best Animated Feature, Best Original Song). Genre shift from the last two rounds: this one is fun.",
+      "imdb_rating": 8.3,
+      "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=2BlMNH1QTeE",
+      "director": "Lee Unkrich"
     }
   ],
   "history": [],
@@ -126,6 +126,9 @@
     "Casablanca",
     "The Sting",
     "Amadeus",
-    "Cinema Paradiso"
+    "Cinema Paradiso",
+    "The Godfather Part II",
+    "Psycho",
+    "Toy Story 3"
   ]
 }
