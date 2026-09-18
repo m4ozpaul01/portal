@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-18",
   "todays_pick": {
-    "title": "Orinoco Flow",
-    "artist": "Enya",
-    "genre": "New Age, Celtic",
-    "album": "Watermark",
-    "year": 1988,
+    "title": "Levels",
+    "artist": "Avicii",
+    "genre": "Progressive House, Electronic",
+    "album": "True",
+    "year": 2011,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-17",
-    "why": "A New Age / Celtic track to start your day!"
+    "picked_date": "2026-09-18",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -250,6 +250,7 @@
   "picked_titles": [
     "Dayvan Cowboy",
     "Tears in the Rain",
-    "Orinoco Flow"
+    "Orinoco Flow",
+    "Levels"
   ]
 }
