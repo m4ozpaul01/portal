@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-21",
   "todays_pick": {
-    "title": "Children",
-    "artist": "Robert Miles",
-    "genre": "Dream Trance, Electronic",
-    "album": "Dreamland",
-    "year": 1995,
+    "title": "Roygbiv",
+    "artist": "Boards of Canada",
+    "genre": "Electronic, Ambient",
+    "album": "Music Has the Right to Children",
+    "year": 1998,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-20",
-    "why": "A Dream Trance / Electronic track to start your day!"
+    "picked_date": "2026-09-21",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -253,6 +253,7 @@
     "Orinoco Flow",
     "Levels",
     "Midnight City",
-    "Children"
+    "Children",
+    "Roygbiv"
   ]
 }
