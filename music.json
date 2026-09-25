@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-25",
   "todays_pick": {
-    "title": "Strobe",
-    "artist": "deadmau5",
-    "genre": "Progressive House, Electronic",
-    "album": "For Lack of a Better Name",
-    "year": 2009,
+    "title": "Sandstorm",
+    "artist": "Darude",
+    "genre": "Trance, Electronic",
+    "album": "Before the Storm",
+    "year": 1999,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-24",
-    "why": "A Progressive House / Electronic track to start your day!"
+    "picked_date": "2026-09-25",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -257,6 +257,7 @@
     "Roygbiv",
     "Shivers",
     "Nimrod",
-    "Strobe"
+    "Strobe",
+    "Sandstorm"
   ]
 }
