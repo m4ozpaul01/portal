@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-26",
   "todays_pick": {
-    "title": "Sandstorm",
-    "artist": "Darude",
-    "genre": "Trance, Electronic",
-    "album": "Before the Storm",
-    "year": 1999,
+    "title": "Return to Innocence",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "The Cross of Changes",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-25",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-09-26",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -258,6 +258,7 @@
     "Shivers",
     "Nimrod",
     "Strobe",
-    "Sandstorm"
+    "Sandstorm",
+    "Return to Innocence"
   ]
 }
