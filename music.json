@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-09-27",
   "todays_pick": {
-    "title": "Return to Innocence",
-    "artist": "Enigma",
-    "genre": "New Age, Electronic",
-    "album": "The Cross of Changes",
-    "year": 1994,
+    "title": "Avril 14th",
+    "artist": "Aphex Twin",
+    "genre": "Electronic, Ambient",
+    "album": "Drukqs",
+    "year": 2001,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-26",
-    "why": "A New Age / Electronic track to start your day!"
+    "picked_date": "2026-09-27",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -259,6 +259,7 @@
     "Nimrod",
     "Strobe",
     "Sandstorm",
-    "Return to Innocence"
+    "Return to Innocence",
+    "Avril 14th"
   ]
 }
