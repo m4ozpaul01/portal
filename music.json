@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-28",
   "todays_pick": {
-    "title": "Avril 14th",
-    "artist": "Aphex Twin",
-    "genre": "Electronic, Ambient",
-    "album": "Drukqs",
-    "year": 2001,
+    "title": "Saltwater",
+    "artist": "Chicane",
+    "genre": "Trance, Electronic",
+    "album": "Behind the Sun",
+    "year": 2000,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-27",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-09-28",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -260,6 +260,7 @@
     "Strobe",
     "Sandstorm",
     "Return to Innocence",
-    "Avril 14th"
+    "Avril 14th",
+    "Saltwater"
   ]
 }
