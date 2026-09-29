@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-29",
   "todays_pick": {
-    "title": "Saltwater",
-    "artist": "Chicane",
-    "genre": "Trance, Electronic",
-    "album": "Behind the Sun",
-    "year": 2000,
+    "title": "Giorgio by Moroder",
+    "artist": "Daft Punk",
+    "genre": "Electronic, Disco",
+    "album": "Random Access Memories",
+    "year": 2013,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-28",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-09-29",
+    "why": "A Electronic / Disco track to start your day!"
   },
   "suggestions": [
     {
@@ -261,6 +261,7 @@
     "Sandstorm",
     "Return to Innocence",
     "Avril 14th",
-    "Saltwater"
+    "Saltwater",
+    "Giorgio by Moroder"
   ]
 }
