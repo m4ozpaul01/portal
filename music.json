@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "todays_pick": {
-    "title": "Halcyon + On + On",
-    "artist": "Orbital",
-    "genre": "Electronic, Ambient",
-    "album": "Orbital 2",
+    "title": "Café del Mar",
+    "artist": "Energy 52",
+    "genre": "Trance, Electronic",
+    "album": "Café del Mar",
     "year": 1993,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-09-30",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-10-01",
+    "why": "A Trance / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -263,6 +263,7 @@
     "Avril 14th",
     "Saltwater",
     "Giorgio by Moroder",
-    "Halcyon + On + On"
+    "Halcyon + On + On",
+    "Café del Mar"
   ]
 }
