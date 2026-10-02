@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "todays_pick": {
-    "title": "Café del Mar",
-    "artist": "Energy 52",
-    "genre": "Trance, Electronic",
-    "album": "Café del Mar",
-    "year": 1993,
+    "title": "Shine On You Crazy Diamond (Parts I–V)",
+    "artist": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "album": "Wish You Were Here",
+    "year": 1975,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-10-01",
-    "why": "A Trance / Electronic track to start your day!"
+    "picked_date": "2026-10-02",
+    "why": "A Progressive Rock track to start your day!"
   },
   "suggestions": [
     {
@@ -264,6 +264,7 @@
     "Saltwater",
     "Giorgio by Moroder",
     "Halcyon + On + On",
-    "Café del Mar"
+    "Café del Mar",
+    "Shine On You Crazy Diamond (Parts I–V)"
   ]
 }
