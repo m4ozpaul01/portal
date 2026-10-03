@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-03",
   "todays_pick": {
-    "title": "Shine On You Crazy Diamond (Parts I–V)",
-    "artist": "Pink Floyd",
-    "genre": "Progressive Rock",
-    "album": "Wish You Were Here",
-    "year": 1975,
+    "title": "Age of Loneliness",
+    "artist": "Enigma",
+    "genre": "New Age, Electronic",
+    "album": "The Cross of Changes",
+    "year": 1994,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-10-02",
-    "why": "A Progressive Rock track to start your day!"
+    "picked_date": "2026-10-03",
+    "why": "A New Age / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -265,6 +265,7 @@
     "Giorgio by Moroder",
     "Halcyon + On + On",
     "Café del Mar",
-    "Shine On You Crazy Diamond (Parts I–V)"
+    "Shine On You Crazy Diamond (Parts I–V)",
+    "Age of Loneliness"
   ]
 }
