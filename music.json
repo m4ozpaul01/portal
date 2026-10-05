@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "todays_pick": {
-    "title": "Sunset Jesus",
-    "artist": "Avicii",
+    "title": "Clear Air Turbulence",
+    "artist": "deadmau5",
     "genre": "Progressive House, Electronic",
-    "album": "Stories",
-    "year": 2015,
+    "album": "4×4=12",
+    "year": 2010,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-10-04",
+    "picked_date": "2026-10-05",
     "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
@@ -267,6 +267,7 @@
     "Café del Mar",
     "Shine On You Crazy Diamond (Parts I–V)",
     "Age of Loneliness",
-    "Sunset Jesus"
+    "Sunset Jesus",
+    "Clear Air Turbulence"
   ]
 }
