@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-09",
   "todays_pick": {
-    "title": "On the Beach",
-    "artist": "Yanni",
-    "genre": "New Age, Instrumental",
-    "album": "In My Time",
-    "year": 1993,
+    "title": "Love on a Real Train",
+    "artist": "Tangerine Dream",
+    "genre": "Electronic, Ambient",
+    "album": "Risky Business (Soundtrack)",
+    "year": 1983,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-10-08",
-    "why": "A New Age / Instrumental track to start your day!"
+    "picked_date": "2026-10-09",
+    "why": "A Electronic / Ambient track to start your day!"
   },
   "suggestions": [
     {
@@ -271,6 +271,7 @@
     "Clear Air Turbulence",
     "The Great Gig in the Sky",
     "Sadeness (Part I)",
-    "On the Beach"
+    "On the Beach",
+    "Love on a Real Train"
   ]
 }
