@@ -9,8 +9,8 @@
       "password_hash": "TWFqYTIwMjYh"
     }
   ],
-  "kredyt": 10.14,
-  "tokens": 33800000,
+  "kredyt": 10.1,
+  "tokens": 33666666,
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
   "projects": [
