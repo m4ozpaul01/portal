@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-10-10",
   "todays_pick": {
-    "title": "Love on a Real Train",
-    "artist": "Tangerine Dream",
-    "genre": "Electronic, Ambient",
-    "album": "Risky Business (Soundtrack)",
-    "year": 1983,
+    "title": "Escape",
+    "artist": "deadmau5",
+    "genre": "Progressive House, Electronic",
+    "album": "For Lack of a Better Name",
+    "year": 2009,
     "spotify_id": "",
     "album_cover": "",
     "preview_url": "",
     "duration_ms": 0,
-    "picked_date": "2026-10-09",
-    "why": "A Electronic / Ambient track to start your day!"
+    "picked_date": "2026-10-10",
+    "why": "A Progressive House / Electronic track to start your day!"
   },
   "suggestions": [
     {
@@ -272,6 +272,7 @@
     "The Great Gig in the Sky",
     "Sadeness (Part I)",
     "On the Beach",
-    "Love on a Real Train"
+    "Love on a Real Train",
+    "Escape"
   ]
 }
